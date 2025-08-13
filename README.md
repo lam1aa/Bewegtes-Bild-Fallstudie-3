@@ -2,7 +2,7 @@
 
 ## QUADRIGA OER
 
-Dieses interaktive Lehrbuch (OER) ist im Rahmen des Projekts <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> als 3. Fallstudie des Datentyps Bewegtes Bild entstanden..
+Dieses interaktive Lehrbuch (OER) ist im Rahmen des Projekts <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> als 3. Fallstudie des Datentyps Bewegtes Bild entstanden.
 
 ## Datenkompetenzzentrum QUADRIGA
 

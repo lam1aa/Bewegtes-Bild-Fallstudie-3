@@ -1,7 +1,6 @@
 name: Update Metadata
 
 on:
-  push:
   workflow_dispatch:
 
 # Prevent infinite loops when workflow commits changes
