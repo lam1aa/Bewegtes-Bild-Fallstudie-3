@@ -1,33 +1,22 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-title: 'QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational
-  Resources: Template'
-abstract: Dieses Buch ist einerseits ein Template für die Erstellung von OERs nach
-  den Empfehlungen von QUADRIGA (https://quadriga-dk.de) und andererseits eine OER
-  für die Entwicklung von OERs entsprechend der QUADRIGA Empfehlungen.
+title: 'Anreicherung und Publikation von Annotationsdatensets auf Repositorien'
+abstract: Dieses interaktive Lehrbuch ist das Outcome der 1. Fallstudie des Datentyps
+  Bewegtes Bild des Projekts [QUADRIGA](https://quadriga-dk.de).
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
 authors: &id001
-- given-names: Hannes
-  family-names: Schnaitter
-  orcid: https://orcid.org/0000-0002-1602-6032
-  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-- given-names: Evgenia
-  family-names: Samoilova
-  orcid: https://orcid.org/0000-0003-3858-901X
-  affiliation: Universität Potsdam
-- given-names: Lamia
-  family-names: Islam
-  affiliation: Universität Potsdam
-identifiers:
-- type: doi
-  value: 10.5281/zenodo.14970672
-  description: Zenodo
-repository-code: https://github.com/quadriga-dk/Book_Template
-url: https://quadriga-dk.github.io/Book_Template/
+- given-names: Derya
+  family-names: Demir
+  affiliation: Freie Universität Berlin
+- given-names: Matthias
+  family-names: Grotkopp
+  orcid: https://orcid.org/0000-0002-0954-3111
+  affiliation: Freie Universität Berlin
 keywords:
 - open educational resource
+- Filmwissenschaft
 license: CC-BY-SA-4.0
 references:
 - title: Jupyter Book
@@ -36,17 +25,12 @@ references:
   - name: The Jupyter Book Community
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
-  year: 2024
+  year: 2025
   authors: *id001
-  title: 'QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational
-    Resources: Template'
+  title: 'Anreicherung und Publikation von Annotationsdatensets auf Repositorien'
   type: book
-  doi: 10.5281/zenodo.14970672
-  url: https://quadriga-dk.github.io/Book_Template/
-  repository-code: https://github.com/quadriga-dk/Book_Template
+  repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3
   license: CC-BY-SA-4.0
   languages:
   - deu
   copyright: CC-BY-SA-4.0
-  keywords:
-  - Open Educational Resource
