@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-title: 'Anreicherung und Publikation von Annotationsdatensets auf Repositorien'
+title: Anreicherung und Publikation von Annotationsdatensets auf Repositorien
 abstract: Dieses interaktive Lehrbuch ist das Outcome der 1. Fallstudie des Datentyps
   Bewegtes Bild des Projekts [QUADRIGA](https://quadriga-dk.de).
 type: software
@@ -27,10 +27,13 @@ references:
 preferred-citation:
   year: 2025
   authors: *id001
-  title: 'Anreicherung und Publikation von Annotationsdatensets auf Repositorien'
+  title: Anreicherung und Publikation von Annotationsdatensets auf Repositorien
   type: book
-  repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3
+  repository-code: TODO
   license: CC-BY-SA-4.0
   languages:
   - deu
   copyright: CC-BY-SA-4.0
+  url: TODO
+url: TODO
+repository-code: TODO
