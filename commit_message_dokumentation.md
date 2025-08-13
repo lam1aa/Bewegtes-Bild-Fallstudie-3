@@ -1,9 +1,12 @@
 # Commit Guidelines für Bewegtes-Bild-Fallstudie-3
 
-Dieses Dokument definiert die Standards für Commit-Message, die konkret in unserem Repositorium genutzt werden. Died Verwendung konsistenter Commit-Messages verbesset die Lesbarkeit der Git-Historie und erleichtert das Verständnis von Änderungen.
+Dieses Dokument definiert die Standards für Commit-Message, die konkret in unserem Repositorium genutzt werden. Die Verwendung konsistenter Commit-Messages verbessert die Lesbarkeit der Git-Historie und erleichtert das Verständnis von Änderungen.
 
 Für allgemeine Commit-Standards besuchen Sie bitte: <a href="https://www.conventionalcommits.org/en/v1.0.0/" class="external-link" target="_blank">conventionalcommits.org</a>
 
+## Format
+
+Alle Commit-Messages folgen folgendem Format:
 
 ```none
 <typ>: <kurze beschreibung>
@@ -20,6 +23,7 @@ Für allgemeine Commit-Standards besuchen Sie bitte: <a href="https://www.conven
 feat: implement search functionality
 feat: add support for dark mode
 ```
+***
 
 `fix`
 **Verwendung**: Behebung von technischen Fehlern und Bugs
@@ -30,6 +34,7 @@ feat: add support for dark mode
 fix: resolve overwritten files
 fix: also commit CITATION.cff if changed
 ```
+***
 
 `docs`
 
@@ -41,6 +46,7 @@ fix: also commit CITATION.cff if changed
 docs: fix typo in README.md
 docs: exchange cross-target link in 'epilog'
 ```
+***
 
 `add`
 
@@ -52,6 +58,7 @@ docs: exchange cross-target link in 'epilog'
 add: new logo image
 add: orcid-image link as button
 ```
+***
 
 `update`
 
