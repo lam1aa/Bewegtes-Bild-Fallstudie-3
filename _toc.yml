@@ -9,7 +9,7 @@ chapters:
   - file: präambel/toc
     sections:
       - file: präambel/lernziele
-      - file: präambel/technische_voraussetzungen
+      - file: präambel/zielgruppe_voraussetzungen
   - file: epilog/toc
     sections:
       - file: epilog/fragen_und_feedback
