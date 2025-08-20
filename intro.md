@@ -25,7 +25,7 @@ Ergänzend soll gezeigt werden, wie diese Annotationsdatensets noch angereichert
 
 Die folgende Übersicht zeigt die vier Schritte bzw. **Lernmodule** unserer OER zur Publikation filmwissenschaftlicher Datensätze:
 
-```{figure} ./assets/intro/intro_aufbau_fallstudie_v01.png
+```{figure} ./assets/intro/intro_aufbau_fallstudie_v001.png
 :name: aufbau-fallstudie
 
 Übersicht der OER-Lernmodule
