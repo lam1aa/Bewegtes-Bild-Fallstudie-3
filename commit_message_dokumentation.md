@@ -1,8 +1,8 @@
 # Commit Guidelines für Bewegtes-Bild-Fallstudie-3
 
-Dieses Dokument definiert die Standards für Commit-Message, die konkret in unserem Repositorium genutzt werden. Die Verwendung konsistenter Commit-Messages verbessert die Lesbarkeit der Git-Historie und erleichtert das Verständnis von Änderungen.
+Dieses Dokument definiert die Standards für Commit-Messages, die konkret in unserem Repositorium genutzt werden. Die Verwendung konsistenter Commit-Messages verbessert die Lesbarkeit der Git-Historie und erleichtert das Verständnis von Änderungen.
 
-Für allgemeine Commit-Standards besuchen Sie bitte: <a href="https://www.conventionalcommits.org/en/v1.0.0/" class="external-link" target="_blank">conventionalcommits.org</a>
+Für allgemeine Commit-Standards besuchen Sie bitte: [conventionalcommits.org](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ## Format
 
