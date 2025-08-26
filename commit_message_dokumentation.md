@@ -26,6 +26,7 @@ feat: add support for dark mode
 ***
 
 `fix`
+
 **Verwendung**: Behebung von technischen Fehlern und Bugs
 
 **Beispiele**:
