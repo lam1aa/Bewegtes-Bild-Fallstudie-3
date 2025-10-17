@@ -32,7 +32,7 @@ Datentyp Bewegtes Bild Fallstudie II: <a href="https://quadriga-dk.github.io/Tex
 
 Datentyp Text Fallstudie II: <a href="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/intro.html" class="external-link" target="_blank">"Quantitative Analyse der kommunikativen Barrierearmut des Berliner Senats (2011-2024). Eine Fallstudie"</a>
 
-Des weiteren hat Lisa Poggel von der Freien Universität Berlin eine seminarbegleitende umfangreiche OER zum Thema <a href="https://lipogg.github.io/webscraping-mit-python/intro.html" class="external-link" target="_blank">"Webscraping mit Python für Geisteswissenschaften"</a> erstellt. Diese ist besonders für den Einstieg in das Thema der Datenextraktion geeignet. 
+Des weiteren hat Lisa Poggel von der Freien Universität Berlin eine seminarbegleitende umfangreiche OER zum Thema <a href="https://webscraping-sose25.netlify.app/intro.html" class="external-link" target="_blank">"Webscraping mit Python für Geisteswissenschaften"</a> erstellt. Diese ist besonders für den Einstieg in das Thema der Datenextraktion geeignet. 
 ```
 
 ### Technische Voraussetzungen
