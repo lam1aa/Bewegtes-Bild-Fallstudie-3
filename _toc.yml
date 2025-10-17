@@ -10,6 +10,9 @@ chapters:
     sections:
       - file: präambel/lernziele
       - file: präambel/zielgruppe_voraussetzungen
+  - file: 01_forschungsdaten_fdm/toc_01
+    sections: 
+      - file: 01_forschungsdaten_fdm/einführung_forschungsdaten
   - file: epilog/toc
     sections:
       - file: epilog/fragen_und_feedback
