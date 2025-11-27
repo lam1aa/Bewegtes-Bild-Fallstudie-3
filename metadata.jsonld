@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "@vocab": "http://schema.org/"
+  },
+  "@type": [
+    "Book",
+    "LearningResource"
+  ],
+  "name": "Anreicherung und Publikation von Annotationsdatensets auf Repositorien",
+  "description": {
+    "introduction": "TODO",
+    "table-of-contents": "- Präambel\n- Forschungsdaten & Datenmanagement in der Filmwissenschaft\n- Epilog"
+  },
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "TODO",
+    "url": "TODO"
+  },
+  "schemaVersion": "1.1-beta2",
+  "url": "TODO",
+  "workExample": {
+    "@type": "SoftwareSourceCode",
+    "name": "Source Code Repository",
+    "codeRepository": "TODO"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Derya",
+      "familyName": "Demir",
+      "name": "Derya Demir",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Freie Universität Berlin"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Matthias",
+      "familyName": "Grotkopp",
+      "name": "Matthias Grotkopp",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-0954-3111",
+        "url": "https://orcid.org/0000-0002-0954-3111"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Freie Universität Berlin"
+      }
+    }
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "übergreifend"
+    }
+  ],
+  "audience": [
+    {
+      "@type": "Audience",
+      "audienceType": "Forschende (PostDoc)"
+    },
+    {
+      "@type": "Audience",
+      "audienceType": "Forschende (Projektleitung)"
+    },
+    {
+      "@type": "Audience",
+      "audienceType": "Promovierende"
+    }
+  ],
+  "license": [
+    {
+      "@type": "CreativeWork",
+      "name": "Source Code",
+      "license": "https://opensource.org/licenses/AGPL-3.0"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Content",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "LearningResource",
+      "name": "TODO",
+      "description": "TODO",
+      "teaches": "TODO",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "TODO",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 1 Basiskompetenz | Bloom's: 2 Verstehen | Data Flow: Grundlagen"
+        }
+      ]
+    }
+  ],
+  "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\nFörderkennzeichen: 16DKZ1034"
+}

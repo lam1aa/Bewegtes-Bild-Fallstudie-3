@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=quadriga-schema.json
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
 schema-version: 1.1-beta2
 book-version: 1.0.0
 title: Anreicherung und Publikation von Annotationsdatensets auf Repositorien

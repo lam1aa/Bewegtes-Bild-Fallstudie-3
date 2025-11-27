@@ -1,0 +1,31 @@
+{
+  "upload_type": "lesson",
+  "title": "Anreicherung und Publikation von Annotationsdatensets auf Repositorien",
+  "creators": [
+    {
+      "name": "Demir, Derya",
+      "affiliation": "Freie Universität Berlin"
+    },
+    {
+      "name": "Grotkopp, Matthias",
+      "affiliation": "Freie Universität Berlin",
+      "orcid": "0000-0002-0954-3111"
+    }
+  ],
+  "description": "Dieses interaktive Lehrbuch ist das Outcome der 1. Fallstudie des Datentyps Bewegtes Bild des Projekts [QUADRIGA](https://quadriga-dk.de).",
+  "publication_date": "2025-01-01",
+  "license": "CC-BY-SA-4.0",
+  "language": "deu",
+  "related_identifiers": [
+    {
+      "identifier": "TODO",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "quadriga"
+    }
+  ]
+}

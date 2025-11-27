@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:schema1="http://schema.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <schema1:Book rdf:about="http://example.org/TODO">
+    <schema1:about>
+      <schema1:Thing rdf:about="http://example.org/TODO#discipline_0">
+        <schema1:name>übergreifend</schema1:name>
+      </schema1:Thing>
+    </schema1:about>
+    <schema1:audience>
+      <schema1:Audience rdf:about="http://example.org/TODO#audience_0">
+        <schema1:audienceType>Forschende (PostDoc)</schema1:audienceType>
+      </schema1:Audience>
+    </schema1:audience>
+    <schema1:audience>
+      <schema1:Audience rdf:about="http://example.org/TODO#audience_1">
+        <schema1:audienceType>Forschende (Projektleitung)</schema1:audienceType>
+      </schema1:Audience>
+    </schema1:audience>
+    <schema1:audience>
+      <schema1:Audience rdf:about="http://example.org/TODO#audience_2">
+        <schema1:audienceType>Promovierende</schema1:audienceType>
+      </schema1:Audience>
+    </schema1:audience>
+    <schema1:author>
+      <schema1:Person rdf:about="http://example.org/TODO#author_0">
+        <schema1:affiliation rdf:resource="http://example.org/TODO#author_0_org"/>
+        <schema1:familyName>Demir</schema1:familyName>
+        <schema1:givenName>Derya</schema1:givenName>
+        <schema1:name>Derya Demir</schema1:name>
+      </schema1:Person>
+    </schema1:author>
+    <schema1:author>
+      <schema1:Person rdf:about="http://example.org/TODO#author_1">
+        <schema1:affiliation rdf:resource="http://example.org/TODO#author_1_org"/>
+        <schema1:familyName>Grotkopp</schema1:familyName>
+        <schema1:givenName>Matthias</schema1:givenName>
+        <schema1:identifier rdf:resource="http://example.org/TODO#author_1_orcid"/>
+        <schema1:name>Matthias Grotkopp</schema1:name>
+      </schema1:Person>
+    </schema1:author>
+    <schema1:description>{'introduction': 'TODO', 'table-of-contents': '- Präambel\n- Forschungsdaten &amp; Datenmanagement in der Filmwissenschaft\n- Epilog'}</schema1:description>
+    <schema1:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
+Förderkennzeichen: 16DKZ1034</schema1:funding>
+    <schema1:hasPart>
+      <schema1:LearningResource rdf:about="http://example.org/TODO#chapter_0">
+        <schema1:description>TODO</schema1:description>
+        <schema1:educationalAlignment rdf:resource="http://example.org/TODO#chapter_0_objective_0"/>
+        <schema1:name>TODO</schema1:name>
+        <schema1:teaches>TODO</schema1:teaches>
+      </schema1:LearningResource>
+    </schema1:hasPart>
+    <schema1:identifier>
+      <schema1:PropertyValue rdf:about="http://example.org/TODO#doi">
+        <schema1:propertyID>DOI</schema1:propertyID>
+        <schema1:url rdf:resource="TODO"/>
+        <schema1:value>TODO</schema1:value>
+      </schema1:PropertyValue>
+    </schema1:identifier>
+    <schema1:license>
+      <schema1:CreativeWork rdf:about="http://example.org/TODO#license_code">
+        <schema1:license rdf:resource="https://opensource.org/licenses/AGPL-3.0"/>
+        <schema1:name>Source Code</schema1:name>
+      </schema1:CreativeWork>
+    </schema1:license>
+    <schema1:license>
+      <schema1:CreativeWork rdf:about="http://example.org/TODO#license_content">
+        <schema1:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <schema1:name>Content</schema1:name>
+      </schema1:CreativeWork>
+    </schema1:license>
+    <schema1:name>Anreicherung und Publikation von Annotationsdatensets auf Repositorien</schema1:name>
+    <schema1:schemaVersion>1.1-beta2</schema1:schemaVersion>
+    <schema1:url rdf:resource="TODO"/>
+    <schema1:workExample>
+      <schema1:SoftwareSourceCode rdf:about="http://example.org/TODO#repository">
+        <schema1:codeRepository rdf:resource="TODO"/>
+        <schema1:name>Source Code Repository</schema1:name>
+      </schema1:SoftwareSourceCode>
+    </schema1:workExample>
+    <rdf:type rdf:resource="http://schema.org/LearningResource"/>
+  </schema1:Book>
+  <schema1:Organization rdf:about="http://example.org/TODO#author_0_org">
+    <schema1:name>Freie Universität Berlin</schema1:name>
+  </schema1:Organization>
+  <schema1:Organization rdf:about="http://example.org/TODO#author_1_org">
+    <schema1:name>Freie Universität Berlin</schema1:name>
+  </schema1:Organization>
+  <schema1:PropertyValue rdf:about="http://example.org/TODO#author_1_orcid">
+    <schema1:propertyID>ORCID</schema1:propertyID>
+    <schema1:url rdf:resource="https://orcid.org/0000-0002-0954-3111"/>
+    <schema1:value>0000-0002-0954-3111</schema1:value>
+  </schema1:PropertyValue>
+  <schema1:AlignmentObject rdf:about="http://example.org/TODO#chapter_0_objective_0">
+    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
+    <schema1:targetDescription>Competency: 1 Basiskompetenz | Bloom's: 2 Verstehen | Data Flow: Grundlagen</schema1:targetDescription>
+    <schema1:targetName>TODO</schema1:targetName>
+  </schema1:AlignmentObject>
+</rdf:RDF>
