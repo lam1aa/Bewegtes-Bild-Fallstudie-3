@@ -13,6 +13,12 @@ chapters:
   - file: 02_forschungsdaten_fdm/toc_02
     sections: 
       - file: 02_forschungsdaten_fdm/einführung_forschungsdaten
+      - file: 02_forschungsdaten_fdm/teilprojektbeschreibung
+      - file: 02_forschungsdaten_fdm/forschungsdaten
+      - file: 02_forschungsdaten_fdm/erhebung_nachnutzung
+      - file: 02_forschungsdaten_fdm/forschungsdatenmanagement
+      - file: 02_forschungsdaten_fdm/resümee_02
+      - file: 02_forschungsdaten_fdm/selbsttest_wissen_02
   - file: epilog/toc
     sections:
       - file: epilog/fragen_und_feedback
