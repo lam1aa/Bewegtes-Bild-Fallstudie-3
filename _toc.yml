@@ -19,6 +19,13 @@ chapters:
       - file: 02_forschungsdaten_fdm/forschungsdatenmanagement
       - file: 02_forschungsdaten_fdm/resümee_02
       - file: 02_forschungsdaten_fdm/selbsttest_wissen_02
+  - file: 03_metadaten/toc_03
+    sections: 
+      - file: 03_metadaten/einführung_metadaten
+      - file: 03_metadaten/metadaten_filmwissenschaft
+      - file: 03_metadaten/diskriminierungssensible_metadaten
+      - file: 03_metadaten/resümee_03
+      - file: 03_metadaten/selbsttest_wissen_03
   - file: epilog/toc
     sections:
       - file: epilog/fragen_und_feedback
