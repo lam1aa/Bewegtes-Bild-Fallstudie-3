@@ -1,1 +1,1 @@
-# Aufbereitung und Anreicherung filmwissenschaftlicher Daten
+# Aufbereitung & Anreicherung filmwissenschaftlicher Daten

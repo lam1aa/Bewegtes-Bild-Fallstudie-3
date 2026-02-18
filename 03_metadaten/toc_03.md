@@ -1,1 +1,1 @@
-# Metadaten und Metadatenstandards 
+# Metadaten & Metadatenstandards 
