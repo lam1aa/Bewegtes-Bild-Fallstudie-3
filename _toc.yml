@@ -33,6 +33,15 @@ chapters:
       - file: 04_einführung_publikation/ressourcen_entscheidungshilfen
       - file: 04_einführung_publikation/resümee_04
       - file: 04_einführung_publikation/selbsttest_wissen_04
+  - file: 05_aufbereitung_anreicherung/toc_05
+    sections:
+      - file: 05_aufbereitung_anreicherung/informationen_datenset
+      - file: 05_aufbereitung_anreicherung/moviebarcodes
+      - file: 05_aufbereitung_anreicherung/systematische_aufbereitung
+      - file: 05_aufbereitung_anreicherung/formatierung_anpassung
+      - file: 05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung
+      - file: 05_aufbereitung_anreicherung/resümee_05
+      - file: 05_aufbereitung_anreicherung/selbsttest_wissen_05
   - file: epilog/toc
     sections:
       - file: epilog/fragen_und_feedback
