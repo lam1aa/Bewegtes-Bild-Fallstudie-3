@@ -2,7 +2,7 @@
 lang: de-DE
 ---
 
-# Zielgruppe und Voraussetzungen
+# Zielgruppe & Voraussetzungen
 
 ## Zielgruppe
 
