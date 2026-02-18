@@ -49,6 +49,12 @@ chapters:
       - file: 06_publikation_repositorien/dateninfrastrukturen
       - file: 06_publikation_repositorien/resümee_06
       - file: 06_publikation_repositorien/selbststest_wissen_06
+  - file: reflexion_resümee/toc
+    sections:
+      - file: reflexion_resümee/reflexion_zusammenfassung
+      - file: reflexion_resümee/workflow_checkliste
+      - file: reflexion_resümee/ausblick_nachnutzung
+      - file: reflexion_resümee/summatives_assessment
   - file: epilog/toc
     sections:
       - file: epilog/fragen_und_feedback
