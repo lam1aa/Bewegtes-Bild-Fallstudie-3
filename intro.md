@@ -3,7 +3,7 @@ lang: de-DE
 ---
 # Anreicherung und Publikation von Annotationsdatensets auf Repositorien
 
-```{figure} ./assets/intro/intro_abbildung_mb_e110t_0.png 
+```{figure} ./assets/intro/abb_intro_mb_e110t_0.png
 :name: moviebarcode-blue-planet-seasonal-seas
 
 Moviebarcode aus der Naturdokuserie *The Blue Planet*, Staffel 5/Episode 1: Seasonal Seas (BBC Earth)
@@ -25,15 +25,17 @@ Ergänzend soll gezeigt werden, wie diese Annotationsdatensets noch angereichert
 
 Die folgende Übersicht zeigt die vier Schritte bzw. **Lernmodule** unserer OER zur Publikation filmwissenschaftlicher Datensätze:
 
-```{figure} ./assets/intro/intro_aufbau_fallstudie_v001.png
-:name: aufbau-fallstudie
-
+```{figure} ./assets/intro/abb_intro_aufbau_fallstudie.png
+---
+name: aufbau-fallstudie
+---
 Übersicht der OER-Lernmodule
 ```
-* Im **ersten Lernmodul** geht es um das Thema Forschungsdaten und Metadaten in der Filmwissenschaft. Ebenso führt das Kapitel in praxisorientierte Konzepte des Forschungsdatenmanagements und der Datenorganisation ein. 
-* Das **zweite Lernmodul** vermittelt Grundlagen der Datenpublikation mit Schwerpunkt Filmwissenschaft. Es werden Strategien, Perspektiven und Publikationswege beleuchet sowie Beispiele aus der Praxis herangezogen.
-* Das **dritte Lernmodul** widmet sich der systematischen Aufbereitung, Bereinigung und Anreicherung der filmwissenschaftlichen Datensätze aus dem SFB-Projekt. Die Daten werden also für die Publikation aufbereitet, formatiert und organisiert.
-* Im **vierten Lernmodul** geht es schließlich um die konkrete Publikation der aufbereiteten Forschungsdaten und ihre Implementierung in geeignete Dateninfrastrukturen.
+* Im **ersten Lernmodul** geht es um das Thema Forschungsdaten und Forschungsdatenmanagement in der Filmwissenschaft. Das Kapitel führt in praxisorientierte Konzepte des Forschungsdatenmanagements und der Datenorganisation ein. 
+* Das **zweite Lernmodul** beschäftigt sich mit Metadaten und Metadatenstandards in der Filmwissenschaft. In einem kurzen Exkurs sollen ebenfalls diskriminierungssensible Perspektiven auf Metadaten beleuchtet werden.
+* Das **dritte Lernmodul** vermittelt Grundlagen der Datenpublikation mit Schwerpunkt Filmwissenschaft. Es werden Strategien, Perspektiven und Publikationswege beleuchet sowie Beispiele aus der Praxis herangezogen.
+* Das **vierte Lernmodul** widmet sich der systematischen Aufbereitung, Bereinigung und Anreicherung der filmwissenschaftlichen Datensätze aus dem SFB-Projekt. Die Daten werden also für die Publikation aufbereitet, formatiert und organisiert.
+* Im **fünften Lernmodul** geht es schließlich um die konkrete Publikation der aufbereiteten Forschungsdaten und ihre Implementierung in geeignete Dateninfrastrukturen.
 
 ## Zugangsweg und Bearbeitungszeit
 
