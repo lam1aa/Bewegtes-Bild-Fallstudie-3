@@ -42,6 +42,13 @@ chapters:
       - file: 05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung
       - file: 05_aufbereitung_anreicherung/resümee_05
       - file: 05_aufbereitung_anreicherung/selbsttest_wissen_05
+  - file: 06_publikation_repositorien/toc_06
+    sections: 
+      - file: 06_publikation_repositorien/versionierung_lizenzierung
+      - file: 06_publikation_repositorien/kuratierung_organisation
+      - file: 06_publikation_repositorien/dateninfrastrukturen
+      - file: 06_publikation_repositorien/resümee_06
+      - file: 06_publikation_repositorien/selbststest_wissen_06
   - file: epilog/toc
     sections:
       - file: epilog/fragen_und_feedback
