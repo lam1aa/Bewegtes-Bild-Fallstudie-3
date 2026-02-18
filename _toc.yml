@@ -26,6 +26,13 @@ chapters:
       - file: 03_metadaten/diskriminierungssensible_metadaten
       - file: 03_metadaten/resümee_03
       - file: 03_metadaten/selbsttest_wissen_03
+  - file: 04_einführung_publikation/toc_04
+    sections:
+      - file: 04_einführung_publikation/strategien_perspektiven
+      - file: 04_einführung_publikation/publikationswege_formate
+      - file: 04_einführung_publikation/ressourcen_entscheidungshilfen
+      - file: 04_einführung_publikation/resümee_04
+      - file: 04_einführung_publikation/selbsttest_wissen_04
   - file: epilog/toc
     sections:
       - file: epilog/fragen_und_feedback
