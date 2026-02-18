@@ -1,1 +1,1 @@
-# 🏆 Selbsttest: Wissen und Praxis
+# 🏆 Selbsttest: Wissen & Praxis

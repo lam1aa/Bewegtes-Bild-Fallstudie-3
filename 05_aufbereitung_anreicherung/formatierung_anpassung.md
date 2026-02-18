@@ -1,1 +1,1 @@
-# Formatierung und Anpassung
+# Formatierung & Anpassung

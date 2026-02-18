@@ -1,1 +1,1 @@
-# Exkurs: Erhebung und Nachnutzung
+# Exkurs: Erhebung & Nachnutzung
