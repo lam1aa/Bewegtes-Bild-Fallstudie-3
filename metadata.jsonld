@@ -12,23 +12,23 @@
     "LearningResource"
   ],
   "name": "Anreicherung und Publikation von Annotationsdatensets auf Repositorien",
-  "description": {
-    "introduction": "TODO",
-    "table-of-contents": "- Präambel\n- Forschungsdaten & Datenmanagement in der Filmwissenschaft\n- Epilog"
-  },
+  "description": "TODO",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",
     "value": "TODO",
-    "url": "TODO"
+    "url": "https://doi.org/TODO"
   },
-  "schemaVersion": "1.1-beta2",
-  "url": "TODO",
+  "version": "1.0.0",
+  "schemaVersion": "1.0.0",
+  "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3",
   "workExample": {
     "@type": "SoftwareSourceCode",
     "name": "Source Code Repository",
-    "codeRepository": "TODO"
+    "codeRepository": "https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3"
   },
+  "datePublished": "2026-11-14",
+  "dateModified": "2026-02-19",
   "author": [
     {
       "@type": "Person",
@@ -57,7 +57,32 @@
       }
     }
   ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "givenName": "TO",
+      "familyName": "DO",
+      "name": "TO DO"
+    }
+  ],
+  "inLanguage": "de",
+  "keywords": [
+    "Datenpublikation",
+    "TODO"
+  ],
   "about": [
+    {
+      "@type": "Thing",
+      "name": "Datenpublikation"
+    },
+    {
+      "@type": "Thing",
+      "name": "TODO"
+    },
+    {
+      "@type": "Thing",
+      "name": "übergreifend"
+    },
     {
       "@type": "Thing",
       "name": "übergreifend"
@@ -77,6 +102,7 @@
       "audienceType": "Promovierende"
     }
   ],
+  "timeRequired": "PT1H",
   "license": [
     {
       "@type": "CreativeWork",
@@ -94,16 +120,23 @@
       "@type": "LearningResource",
       "name": "TODO",
       "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/TODO",
+      "timeRequired": "PT1H",
       "teaches": "TODO",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
           "targetName": "TODO",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 1 Basiskompetenz | Bloom's: 2 Verstehen | Data Flow: Grundlagen"
+          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend"
         }
       ]
     }
   ],
-  "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\nFörderkennzeichen: 16DKZ1034"
+  "dcterms:tableOfContents": "- Präambel\n- Forschungsdaten & Datenmanagement in der Filmwissenschaft\n- Metadaten & Metadatenstandards\n- Datenpublikation in der Filmwissenschaft\n- Aufbereitung & Anreicherung filmwissenschaftlicher Daten\n- Publikation von Datensets in einem Repositorium\n- Reflexion & Resümee\n- Epilog",
+  "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034",
+  "learningResourceType": "Jupyter Book",
+  "lrmi:learningResourceType": "Jupyter Book",
+  "dcterms:type": "Jupyter Book",
+  "dc:type": "Jupyter Book"
 }

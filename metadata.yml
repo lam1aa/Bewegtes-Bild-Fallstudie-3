@@ -1,58 +1,81 @@
 # yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
-schema-version: 1.1-beta2
-book-version: 1.0.0
 title: Anreicherung und Publikation von Annotationsdatensets auf Repositorien
-description:
-  introduction: TODO
-  table-of-contents: '- Präambel
-
-    - Forschungsdaten & Datenmanagement in der Filmwissenschaft
-
-    - Epilog'
-discipline:
-- übergreifend
-duration: xxh
-type-of-research-object:
-- übergreifend
-identifier: TODO
-url: TODO
-git: TODO
-license:
-  code: https://opensource.org/licenses/AGPL-3.0
-  content:
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-    name: CC BY-SA 4.0
-date-of-last-change: '2025-08-13'
-publication-date: 2025-08-13
-target-group:
-- Forschende (PostDoc)
-- Forschende (Projektleitung)
-- Promovierende
 authors:
 - given-names: Derya
   family-names: Demir
   affiliation: Freie Universität Berlin
   credit:
-  - Writing
+  - Writing – original draft
+  - Writing – review & editing
   - Software
 - given-names: Matthias
   family-names: Grotkopp
   affiliation: Freie Universität Berlin
   credit:
-  - Writing
+  - Writing – original draft
+  - Writing – review & editing
   orcid: https://orcid.org/0000-0002-0954-3111
+keywords:
+- Datenpublikation
+- TODO
+description: TODO
+table-of-contents: '- Präambel
+
+  - Forschungsdaten & Datenmanagement in der Filmwissenschaft
+
+  - Metadaten & Metadatenstandards
+
+  - Datenpublikation in der Filmwissenschaft
+
+  - Aufbereitung & Anreicherung filmwissenschaftlicher Daten
+
+  - Publikation von Datensets in einem Repositorium
+
+  - Reflexion & Resümee
+
+  - Epilog'
+discipline:
+- übergreifend
+research-object-type:
+- übergreifend
+target-group:
+- Forschende (PostDoc)
+- Forschende (Projektleitung)
+- Promovierende
+time-required: PT1H
+language: de
+contributors:
+- family-names: DO
+  given-names: TO
+identifier: https://doi.org/TODO
+git: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3
+url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3
 chapters:
-- description: TODO
+- title: TODO
+  description: TODO
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/TODO
   learning-goal: TODO
-  duration: 1h
+  time-required: PT1H
   learning-objectives:
   - learning-objective: TODO
-    competency: 1 Basiskompetenz
-    data-flow: Grundlagen
-    focus: Wissen
+    competency: Orientierungswissen
+    data-flow: übergreifend
     blooms-category: 2 Verstehen
-  title: TODO
+date-issued: '2026-11-14'
+date-modified: '2026-02-19'
+version: 1.0.0
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt.
 
-  Förderkennzeichen: 16DKZ1034'
+
+  Förderkennzeichen: 16DKZ2034'
+quality-assurance:
+  description: https://doi.org/TODO
+  date: '2026-11-14'
+learning-resource-type: Jupyter Book
+schema-version: 1.0.0
+license:
+  code: https://opensource.org/licenses/AGPL-3.0
+  content:
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+    name: CC BY-SA 4.0
