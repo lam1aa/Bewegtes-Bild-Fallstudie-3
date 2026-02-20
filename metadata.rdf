@@ -1,101 +1,142 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:schema1="http://schema.org/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <schema1:Book rdf:about="http://example.org/TODO">
-    <schema1:about>
-      <schema1:Thing rdf:about="http://example.org/TODO#discipline_0">
-        <schema1:name>übergreifend</schema1:name>
-      </schema1:Thing>
-    </schema1:about>
-    <schema1:audience>
-      <schema1:Audience rdf:about="http://example.org/TODO#audience_0">
-        <schema1:audienceType>Forschende (PostDoc)</schema1:audienceType>
-      </schema1:Audience>
-    </schema1:audience>
-    <schema1:audience>
-      <schema1:Audience rdf:about="http://example.org/TODO#audience_1">
-        <schema1:audienceType>Forschende (Projektleitung)</schema1:audienceType>
-      </schema1:Audience>
-    </schema1:audience>
-    <schema1:audience>
-      <schema1:Audience rdf:about="http://example.org/TODO#audience_2">
-        <schema1:audienceType>Promovierende</schema1:audienceType>
-      </schema1:Audience>
-    </schema1:audience>
-    <schema1:author>
-      <schema1:Person rdf:about="http://example.org/TODO#author_0">
-        <schema1:affiliation rdf:resource="http://example.org/TODO#author_0_org"/>
-        <schema1:familyName>Demir</schema1:familyName>
-        <schema1:givenName>Derya</schema1:givenName>
-        <schema1:name>Derya Demir</schema1:name>
-      </schema1:Person>
-    </schema1:author>
-    <schema1:author>
-      <schema1:Person rdf:about="http://example.org/TODO#author_1">
-        <schema1:affiliation rdf:resource="http://example.org/TODO#author_1_org"/>
-        <schema1:familyName>Grotkopp</schema1:familyName>
-        <schema1:givenName>Matthias</schema1:givenName>
-        <schema1:identifier rdf:resource="http://example.org/TODO#author_1_orcid"/>
-        <schema1:name>Matthias Grotkopp</schema1:name>
-      </schema1:Person>
-    </schema1:author>
-    <schema1:description>{'introduction': 'TODO', 'table-of-contents': '- Präambel\n- Forschungsdaten &amp; Datenmanagement in der Filmwissenschaft\n- Epilog'}</schema1:description>
-    <schema1:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
-Förderkennzeichen: 16DKZ1034</schema1:funding>
-    <schema1:hasPart>
-      <schema1:LearningResource rdf:about="http://example.org/TODO#chapter_0">
-        <schema1:description>TODO</schema1:description>
-        <schema1:educationalAlignment rdf:resource="http://example.org/TODO#chapter_0_objective_0"/>
-        <schema1:name>TODO</schema1:name>
-        <schema1:teaches>TODO</schema1:teaches>
-      </schema1:LearningResource>
-    </schema1:hasPart>
-    <schema1:identifier>
-      <schema1:PropertyValue rdf:about="http://example.org/TODO#doi">
-        <schema1:propertyID>DOI</schema1:propertyID>
-        <schema1:url rdf:resource="TODO"/>
-        <schema1:value>TODO</schema1:value>
-      </schema1:PropertyValue>
-    </schema1:identifier>
-    <schema1:license>
-      <schema1:CreativeWork rdf:about="http://example.org/TODO#license_code">
-        <schema1:license rdf:resource="https://opensource.org/licenses/AGPL-3.0"/>
-        <schema1:name>Source Code</schema1:name>
-      </schema1:CreativeWork>
-    </schema1:license>
-    <schema1:license>
-      <schema1:CreativeWork rdf:about="http://example.org/TODO#license_content">
-        <schema1:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
-        <schema1:name>Content</schema1:name>
-      </schema1:CreativeWork>
-    </schema1:license>
-    <schema1:name>Anreicherung und Publikation von Annotationsdatensets auf Repositorien</schema1:name>
-    <schema1:schemaVersion>1.1-beta2</schema1:schemaVersion>
-    <schema1:url rdf:resource="TODO"/>
-    <schema1:workExample>
-      <schema1:SoftwareSourceCode rdf:about="http://example.org/TODO#repository">
-        <schema1:codeRepository rdf:resource="TODO"/>
-        <schema1:name>Source Code Repository</schema1:name>
-      </schema1:SoftwareSourceCode>
-    </schema1:workExample>
-    <rdf:type rdf:resource="http://schema.org/LearningResource"/>
-  </schema1:Book>
-  <schema1:Organization rdf:about="http://example.org/TODO#author_0_org">
-    <schema1:name>Freie Universität Berlin</schema1:name>
-  </schema1:Organization>
-  <schema1:Organization rdf:about="http://example.org/TODO#author_1_org">
-    <schema1:name>Freie Universität Berlin</schema1:name>
-  </schema1:Organization>
-  <schema1:PropertyValue rdf:about="http://example.org/TODO#author_1_orcid">
-    <schema1:propertyID>ORCID</schema1:propertyID>
-    <schema1:url rdf:resource="https://orcid.org/0000-0002-0954-3111"/>
-    <schema1:value>0000-0002-0954-3111</schema1:value>
-  </schema1:PropertyValue>
-  <schema1:AlignmentObject rdf:about="http://example.org/TODO#chapter_0_objective_0">
-    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: 1 Basiskompetenz | Bloom's: 2 Verstehen | Data Flow: Grundlagen</schema1:targetDescription>
-    <schema1:targetName>TODO</schema1:targetName>
-  </schema1:AlignmentObject>
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:lrmi="http://purl.org/dcx/lrmi-terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_0_objective_0">
+    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
+    <schema:targetDescription>Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend</schema:targetDescription>
+    <schema:targetName>TODO</schema:targetName>
+  </schema:AlignmentObject>
+  <schema:Book rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3">
+    <dc:type>Jupyter Book</dc:type>
+    <dcterms:tableOfContents>- Präambel
+- Forschungsdaten &amp; Datenmanagement in der Filmwissenschaft
+- Metadaten &amp; Metadatenstandards
+- Datenpublikation in der Filmwissenschaft
+- Aufbereitung &amp; Anreicherung filmwissenschaftlicher Daten
+- Publikation von Datensets in einem Repositorium
+- Reflexion &amp; Resümee
+- Epilog</dcterms:tableOfContents>
+    <dcterms:type>Jupyter Book</dcterms:type>
+    <lrmi:learningResourceType>Jupyter Book</lrmi:learningResourceType>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#keyword_0">
+        <schema:name>Datenpublikation</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#keyword_1">
+        <schema:name>TODO</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#discipline_0">
+        <schema:name>übergreifend</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:about>
+      <schema:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#research_object_0">
+        <schema:name>übergreifend</schema:name>
+      </schema:Thing>
+    </schema:about>
+    <schema:audience>
+      <schema:Audience rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#audience_0">
+        <schema:audienceType>Forschende (PostDoc)</schema:audienceType>
+      </schema:Audience>
+    </schema:audience>
+    <schema:audience>
+      <schema:Audience rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#audience_1">
+        <schema:audienceType>Forschende (Projektleitung)</schema:audienceType>
+      </schema:Audience>
+    </schema:audience>
+    <schema:audience>
+      <schema:Audience rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#audience_2">
+        <schema:audienceType>Promovierende</schema:audienceType>
+      </schema:Audience>
+    </schema:audience>
+    <schema:author>
+      <schema:Person rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#author_0">
+        <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#author_0_org" />
+        <schema:familyName>Demir</schema:familyName>
+        <schema:givenName>Derya</schema:givenName>
+        <schema:name>Derya Demir</schema:name>
+      </schema:Person>
+    </schema:author>
+    <schema:author>
+      <schema:Person rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#author_1">
+        <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#author_1_org" />
+        <schema:familyName>Grotkopp</schema:familyName>
+        <schema:givenName>Matthias</schema:givenName>
+        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#author_1_orcid" />
+        <schema:name>Matthias Grotkopp</schema:name>
+      </schema:Person>
+    </schema:author>
+    <schema:contributor>
+      <schema:Person rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#contributor_0">
+        <schema:familyName>DO</schema:familyName>
+        <schema:givenName>TO</schema:givenName>
+        <schema:name>TO DO</schema:name>
+      </schema:Person>
+    </schema:contributor>
+    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-19</schema:dateModified>
+    <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-11-14</schema:datePublished>
+    <schema:description>TODO</schema:description>
+    <schema:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
+
+Förderkennzeichen: 16DKZ2034</schema:funding>
+    <schema:hasPart>
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_0">
+        <schema:description>TODO</schema:description>
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#chapter_0_objective_0" />
+        <schema:name>TODO</schema:name>
+        <schema:teaches>TODO</schema:teaches>
+        <schema:timeRequired>PT1H</schema:timeRequired>
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/TODO" />
+      </schema:LearningResource>
+    </schema:hasPart>
+    <schema:identifier>
+      <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#doi">
+        <schema:propertyID>DOI</schema:propertyID>
+        <schema:url rdf:resource="https://doi.org/TODO" />
+        <schema:value>TODO</schema:value>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:inLanguage>de</schema:inLanguage>
+    <schema:keywords>Datenpublikation</schema:keywords>
+    <schema:keywords>TODO</schema:keywords>
+    <schema:learningResourceType>Jupyter Book</schema:learningResourceType>
+    <schema:license>
+      <schema:CreativeWork rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#license_code">
+        <schema:license rdf:resource="https://opensource.org/licenses/AGPL-3.0" />
+        <schema:name>Source Code</schema:name>
+      </schema:CreativeWork>
+    </schema:license>
+    <schema:license>
+      <schema:CreativeWork rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#license_content">
+        <schema:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/" />
+        <schema:name>Content</schema:name>
+      </schema:CreativeWork>
+    </schema:license>
+    <schema:name>Anreicherung und Publikation von Annotationsdatensets auf Repositorien</schema:name>
+    <schema:schemaVersion>1.0.0</schema:schemaVersion>
+    <schema:timeRequired>PT1H</schema:timeRequired>
+    <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3" />
+    <schema:version>1.0.0</schema:version>
+    <schema:workExample>
+      <schema:SoftwareSourceCode rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#repository">
+        <schema:codeRepository rdf:resource="https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3" />
+        <schema:name>Source Code Repository</schema:name>
+      </schema:SoftwareSourceCode>
+    </schema:workExample>
+    <rdf:type rdf:resource="http://schema.org/LearningResource" />
+  </schema:Book>
+  <schema:Organization rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#author_0_org">
+    <schema:name>Freie Universität Berlin</schema:name>
+  </schema:Organization>
+  <schema:Organization rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#author_1_org">
+    <schema:name>Freie Universität Berlin</schema:name>
+  </schema:Organization>
+  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3#author_1_orcid">
+    <schema:propertyID>ORCID</schema:propertyID>
+    <schema:url rdf:resource="https://orcid.org/0000-0002-0954-3111" />
+    <schema:value>0000-0002-0954-3111</schema:value>
+  </schema:PropertyValue>
 </rdf:RDF>

@@ -1,8 +1,7 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 title: Anreicherung und Publikation von Annotationsdatensets auf Repositorien
-abstract: Dieses interaktive Lehrbuch ist das Outcome der 1. Fallstudie des Datentyps
-  Bewegtes Bild des Projekts [QUADRIGA](https://quadriga-dk.de).
+abstract: TODO
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
@@ -14,9 +13,9 @@ authors: &id001
   family-names: Grotkopp
   orcid: https://orcid.org/0000-0002-0954-3111
   affiliation: Freie Universität Berlin
-keywords:
-- open educational resource
-- Filmwissenschaft
+keywords: &id002
+- Datenpublikation
+- TODO
 license: CC-BY-SA-4.0
 references:
 - title: Jupyter Book
@@ -25,15 +24,18 @@ references:
   - name: The Jupyter Book Community
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
-  year: 2025
+  year: '2026'
   authors: *id001
   title: Anreicherung und Publikation von Annotationsdatensets auf Repositorien
   type: book
-  repository-code: TODO
+  repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3
   license: CC-BY-SA-4.0
   languages:
   - deu
   copyright: CC-BY-SA-4.0
-  url: TODO
-url: TODO
-repository-code: TODO
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3
+  version: 1.0.0
+  keywords: *id002
+url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3
+repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3
+version: 1.0.0
