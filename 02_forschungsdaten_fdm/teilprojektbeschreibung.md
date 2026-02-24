@@ -2,7 +2,7 @@
 
 Das Teilprojekt <a href="https://www.sfb-intervenierende-kuenste.de/teilprojekte/C/C05/index.html" class="external-link" target="_blank">"C05 Intervenierende Weltentwürfe: Audiovisualität des Klimawandels"</a> des <a href="https://www.sfb-intervenierende-kuenste.de/" class="external-link" target="_blank">"Sonderforschungsbereichs 1512 "Intervenierende Künste"</a> der Freien Universität Berlin beschäftigt sich mit der Frage, wie Filme und andere Bewegtbildmedien auf Entwürfe aber auch Revisionen möglicher Zukünfte hin wirken. Was für eine Rolle werden filmischen Interventionen zuteil, wenn es um den menschengemachten Klimawandel geht? Und wie schaffen es bestimmte audiovisuelle Gestaltungsweisen, also das Zusammenkommen verschiedener filmischer Ausdruckselemente wie z.B. Sound, Montage, Farbe usw., neue Weltzugänge zu entwerfen, zu imaginieren, aber auch gleichzeitig zu verwerfen? 
 
-Drei Unterprojekte setzen sich mit der These auseinander, dass Spielfilme (Unterprojekt 1), Dokumentarfilme (Unterprojekt 2) und Webvideos (Unterprojekt 3) über den Klimawandel nicht nur Informationen und Haltungen vermitteln, sondern diese gezielt mit emotionalen Strategien verbinden. Dabei schaffen sie Teilhabe, entwerfen Zukunftsszenarien und zeigen neue Sichtweisen auf unsere planetarische Umwelt.
+Drei Unterprojekte setzen sich mit der These auseinander, dass audiovisuelle Medien über den Klimawandel nicht nur Informationen und Haltungen vermitteln, sondern diese gezielt mit emotionalen Strategien verbinden. Im Fokus stehen dabei *aktivistische Kinodokumentationen und Genres des Unterhaltungskinos* (UP 1), der polarisierende Widerstreit in den *sozialen Medien* (Up 2) sowie poetologische Verschiebungen innerhalb von *Naturdokumentationen* (UP 3). Dabei schaffen sie Teilhabe, entwerfen Zukunftsszenarien und zeigen neue Sichtweisen auf unsere planetarische Umwelt.
 
 Um diesen Fragen nachzugehen und die These am Filmmaterial zu rekonstruieren, nutzt das Teilprojekt C05 digital gestützte Methoden und Verfahren zur filmischen Analyse und Visualisierung von Ausdrucks- und Bewegungsmustern. Konkret wurden Annotationen sowie Visualisierungen erstellt, die auf einer spezifisch entwickelten Analysesystematik beruhen.
 
@@ -24,7 +24,7 @@ Da der Analyseparameter **Farbe** für bestimmte Untersuchungszwecke sehr nützl
 ---
 name: moviebarcodes-exemplare
 ---
-Exemplarische Ansicht von Moviebarcodes
+Exemplarische Ansicht von Moviebarcodes aus dem Datenset des TPs
 ```
 Die dabei entstehenden Daten sollen auch nach Projektende öffentlich verfügbar bzw. nachnutzbar sein. **Welche notwendigen Schritte braucht es für die Umsetzung zur Publikation filmwissenschaftlicher Forschungsdaten?** Das vorliegende Jupyter Notebook zeigt exemplarisch, wie diese Projektdaten organisiert, aufbereitet und veröffentlicht werden können – praxisnah und reproduzierbar.
 
