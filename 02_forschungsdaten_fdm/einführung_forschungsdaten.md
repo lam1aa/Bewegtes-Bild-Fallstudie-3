@@ -1,7 +1,5 @@
 # Einführung
 
-Die Digitalisierung hat auch die Film- und Medienwissenschaften grundlegend verändert. Das Medium Bewegtbild selbst – in all seinen Formen und Erscheinungsweisen, seinen Produktions- und Zirkulationsverfahren – unterliegt historisch wie gegenwärtig einem ständigen Wandel und lässt sich als Ausdruckssystem gesellschaftlicher Bedingungen und Möglichkeiten verstehen. Diese zunehmende Digitalisierung betrifft dabei nicht nur die Filmproduktion, sondern ebenso ihre Rezeption: Digitalfilm, Streamingdienste, Social Media und der Einsatz künstlicher Intelligenz (KI) prägen maßgeblich, wie wir Filme und andere Bewegtbildmedien heute wahrnehmen und verstehen.
-__________
 ```{image} ../assets/02_forschungsdaten_fdm/abb_k02_digital_turn.png
 ---
 align: center
@@ -10,6 +8,8 @@ name: digital-turn
 ---
 ```
 __________
+Die Digitalisierung hat auch die Film- und Medienwissenschaften grundlegend verändert. Das Medium Bewegtbild selbst – in all seinen Formen und Erscheinungsweisen, seinen Produktions- und Zirkulationsverfahren – unterliegt historisch wie gegenwärtig einem ständigen Wandel und lässt sich als Ausdruckssystem gesellschaftlicher Bedingungen und Möglichkeiten verstehen. Diese zunehmende Digitalisierung betrifft dabei nicht nur die Filmproduktion, sondern ebenso ihre Rezeption: Digitalfilm, Streamingdienste, Social Media und der Einsatz künstlicher Intelligenz (KI) prägen maßgeblich, wie wir Filme und andere Bewegtbildmedien heute wahrnehmen und verstehen.
+
 Dieser "digital turn" und die damit einhergehende "migration of cultural materials into networked environments" eröffnen und erfordern neue Herangehensweisen aus geisteswissenschaftlicher Perspektive, wie Johanna Drucker betont. Mit der Verfügbarkeit von Filmen als Digitalisate erschließen sich demnach auch neue Untersuchungsmethoden und Verfahren der filmischen Analyse.
 So ermöglicht beispielsweise die Verwendung digitaler Annotationswerkzeuge, wie <a href="https://archive.mpi.nl/tla/elan" class="external-link" target="_blank">ELAN</a> oder <a href="https://www.advene.org/" class="external-link" target="_blank">Advene</a>, auf Basis der Erhebung von Annotationsdaten detaillierte Film- und Videoanalysen.
 

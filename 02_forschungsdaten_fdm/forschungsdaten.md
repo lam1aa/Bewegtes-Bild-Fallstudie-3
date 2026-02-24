@@ -119,7 +119,7 @@ Neben der Unterscheidung verschiedener Datentypen werden Forschungsdaten in Prim
 ````{margin}
 ```{admonition} Metadaten
 :class: hinweis
-Mehr zum Thema Metadaten gibt es in Kapitel 3 [Metadaten & Metadatenstandards](../03_metadaten/einführung_metadaten.md)
+Mehr zum Thema Metadaten gibt es in Kapitel [Metadaten & Metadatenstandards](../03_metadaten/einführung_metadaten.md)
 ```
 ````
 2. Sekundärdaten hingegen sind Daten, die auf Basis vorhandener Primärdaten und Quellen analysiert und aggregiert werden, d.h. prozessiert werden. Typische Beispiele sind Transkriptionen von Audio- oder Videomaterial, Film- und Textkorpora oder Metadaten.
