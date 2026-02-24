@@ -26,6 +26,12 @@ name: moviebarcodes-exemplare
 ---
 Exemplarische Ansicht von Moviebarcodes aus dem Datenset des TPs
 ```
+
+```{admonition} Was sind Moviebarcodes?
+:class: hinweis, dropdown
+Moviebarcodes sind algorithmisch generierte Visualisierungen, aus denen systematisch Farbinformationen eines Films, in verdichteter Form, extrahiert werden. Dabei werden Einzelbilder (Frames) durch die digitale Extrahierung als aggregrierte Farbwerte in eine ganzheitliche Bildkomposition zusammengefasst – sichtbar als lineare Farbsequenzen in vertikaler Aneinanderreihung. Mehr Informationen gibt es im Kapitel [5.2. Annotationsdaten anreichern: Moviebarcodes](../05_aufbereitung_anreicherung/moviebarcodes.md).
+```
+
 Die dabei entstehenden Daten sollen auch nach Projektende öffentlich verfügbar bzw. nachnutzbar sein. **Welche notwendigen Schritte braucht es für die Umsetzung zur Publikation filmwissenschaftlicher Forschungsdaten?** Das vorliegende Jupyter Notebook zeigt exemplarisch, wie diese Projektdaten organisiert, aufbereitet und veröffentlicht werden können – praxisnah und reproduzierbar.
 
 ## Umsetzung und Organisation
