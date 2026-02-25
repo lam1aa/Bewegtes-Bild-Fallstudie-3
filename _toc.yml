@@ -18,6 +18,8 @@ chapters:
         sections:
           - file: 02_forschungsdaten_fdm/forschungsdaten_fiwi
       - file: 02_forschungsdaten_fdm/erhebung_nachnutzung
+        sections: 
+          - file: 02_forschungsdaten_fdm/nachnutzung_ethik
       - file: 02_forschungsdaten_fdm/forschungsdatenmanagement
       - file: 02_forschungsdaten_fdm/resümee_02
       - file: 02_forschungsdaten_fdm/selbsttest_wissen_02
