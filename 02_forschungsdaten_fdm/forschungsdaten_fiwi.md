@@ -17,7 +17,7 @@ Die folgende Übersicht bietet eine grundlegende Einordnung filmwissenschaftlich
 ```{image} ../assets/02_forschungsdaten_fdm/abb_k02_primär_sekundärdaten.png
 ---
 align: center
-width: 75%
+width: 90%
 name: primär-sekundärdaten
 ---
 ```
