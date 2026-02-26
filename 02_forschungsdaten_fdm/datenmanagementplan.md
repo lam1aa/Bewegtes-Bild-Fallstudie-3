@@ -91,9 +91,26 @@ Datenmanagementplan
 Das Erstellen eines DMPs hilft dabei, im Vorfeld systematisch über Erzeugung, Nutzung und Einbindung von Forschungsdaten zu reflektieren. Gleichzeitig wird Transparenz über Datenerzeugung und -verwendung geschaffen – einerseits für die Planung innerhalb des Projekts, andererseits ebenso für die Kommunikation mit der Forschungseinrichtung oder Förderinstitution 
 (z.B. <a href="https://www.dfg.de/de" class="external-link" target="_blank">DFG</a> oder <a href="https://www.bmftr.bund.de/DE/Home/home_node.html" class="external-link" target="_blank">BMFTR</a>). 
 
-Was sind Datenmanagmentpläne? Die HU Berlin hat hierzu ein kurzes Online-Video erstellt und die wichtigsten Punkte zusammengefasst.
+Um den Einstieg zu erleichtern, hat die die HU Berlin hierzu ein kurzes Online-Video erstellt und die wichtigsten Punkte zusammengefasst.
 
-VIDEO-HU
+<div style="max-width:500px; margin:2rem 0;">
+
+  <video id="ref_91"
+         controls
+         preload="none"
+         style="width:100%; height:auto;"
+         poster="https://rs.cms.hu-berlin.de/dataman/plugins/api_resource/?ref=91&amp;key=3QUcTW8DyUNYbF_08xZQ-Q93zH0IHkE-STHwTP3S32mS2l1ZWuyPviKuHFv4tTHiZtIXZg,,&amp;preview=1&amp;skey=430ebe346ff118895412774462694765">
+  </video>
+
+  <div style="margin-top:0.6rem; font-size:0.85rem; text-align:center;">
+    <a href="https://rs.cms.hu-berlin.de/dataman/pages/view.php?ref=91#"
+       target="_blank" rel="noopener">
+       Was sind Datenmanagementpläne?
+    </a>
+    von Kerstin Helbig et&nbsp;al. (HU Berlin), © CC BY 4.0
+  </div>
+
+</div>
 
 Ein Beispiel dafür, wie ein ausgearbeiteter DMP aussehen kann, findet sich im Kapitel [Aufbereitung & Anreicherung filmwissenschaftlicher Daten](../05_aufbereitung_anreicherung/informationen_datenset.md) - exemplarisch dargestellt anhand der Daten des SFB-Teilprojekts.
 
