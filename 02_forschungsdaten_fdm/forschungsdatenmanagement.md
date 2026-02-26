@@ -77,8 +77,8 @@ Die drei Kernpunkte fassen wir hier kurz zusammen:
 
 **FAIR**
 * <a href="https://zenodo.org/records/6247015" class="external-link" target="_blank">Mark D. Wilkinson et al.</a>
-* <a href="https://forschungsdaten-thueringen.de/fair-assessment-tool/articles/fair-assessment-tool.html" class="external-link" target="_blank">FAIR Assessment Tool TKFDM.</a>
-* <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">QUADRIGA Fallstudie: "Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht"</a>.
+* <a href="https://forschungsdaten-thueringen.de/fair-assessment-tool/articles/fair-assessment-tool.html" class="external-link" target="_blank">FAIR Assessment Tool TKFDM</a>
+* <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">QUADRIGA Fallstudie: "Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht"</a>
 ```
 
 

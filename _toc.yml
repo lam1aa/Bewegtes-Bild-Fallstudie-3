@@ -21,6 +21,8 @@ chapters:
         sections: 
           - file: 02_forschungsdaten_fdm/nachnutzung_ethik
       - file: 02_forschungsdaten_fdm/forschungsdatenmanagement
+        sections: 
+          - file: 02_forschungsdaten_fdm/datenmanagementplan
       - file: 02_forschungsdaten_fdm/resümee_02
       - file: 02_forschungsdaten_fdm/selbsttest_wissen_02
   - file: 03_metadaten/toc_03
