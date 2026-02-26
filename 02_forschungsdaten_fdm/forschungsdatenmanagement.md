@@ -1,4 +1,4 @@
-# Forschungsdatenmanagement
+# Management von Forschungsdaten
 
 Um die Anforderungen guter wissenschaftlicher Praxis zu erfüllen, ist ein "planvoller Umgang" mit Forschungsdaten entscheidend. Im Sinne der Projektumsetzung beinhaltet dies ein umfassend dokumentiertes und nachvollziehbares Forschungsdatenmanagement (FDM). Doch was beinhaltet das **FDM**? 
 Laut dem RatSWD umfasst das FDM 

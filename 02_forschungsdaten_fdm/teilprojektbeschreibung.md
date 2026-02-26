@@ -1,4 +1,4 @@
-# Teilprojektbeschreibung
+# Teilprojekt
 
 Das Teilprojekt <a href="https://www.sfb-intervenierende-kuenste.de/teilprojekte/C/C05/index.html" class="external-link" target="_blank">"C05 Intervenierende Weltentwürfe: Audiovisualität des Klimawandels"</a> des <a href="https://www.sfb-intervenierende-kuenste.de/" class="external-link" target="_blank">"Sonderforschungsbereichs 1512 "Intervenierende Künste"</a> der Freien Universität Berlin beschäftigt sich mit der Frage, wie Filme und andere Bewegtbildmedien auf Entwürfe aber auch Revisionen möglicher Zukünfte hin wirken. Was für eine Rolle werden filmischen Interventionen zuteil, wenn es um den menschengemachten Klimawandel geht? Und wie schaffen es bestimmte audiovisuelle Gestaltungsweisen, also das Zusammenkommen verschiedener filmischer Ausdruckselemente wie z.B. Sound, Montage, Farbe usw., neue Weltzugänge zu entwerfen, zu imaginieren, aber auch gleichzeitig zu verwerfen? 
 

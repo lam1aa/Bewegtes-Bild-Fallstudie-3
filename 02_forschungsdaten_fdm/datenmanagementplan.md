@@ -12,7 +12,7 @@ Die konkreten Inhalte eines DMPs sind nicht normiert, es gibt sowohl eine Reihe 
 ---
 align: center
 width: 65%
-name: Datenmanagementplan
+name: datenmanagementplan
 ---
 Datenmanagementplan
 ```
