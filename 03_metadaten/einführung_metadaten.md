@@ -100,3 +100,34 @@ Es gibt verschiedene Typen von Metadaten, die hinsichtlich ihrer Art und Funktio
 Nicht immer sind die einzelnen Metadaten-Kategorien klar voneinander zu trennen. So kann es beispielsweise Überlappungen zwischen Prozessmetadaten und administrativen Metadaten geben, wenn es um technische Beschreibungen wie Dateiformat, Erstellungsdatum oder Migration geht. Nichtsdestotrotz ist eine grundlegende Charakterisierung der Funktionen und Eigenschaften verschiedener Metadatentypen im Forschungsprozess sehr hilfreich.
 
 ## Exkurs: Markup-Sprachen
+
+Metadaten liegen oft in maschinenlesbarer Form vor - in sogenannten Markup-Sprachen. Dies unterstützt die Interoperabilität der Daten hinsichtlich Weiterverwendung und Austausch. 
+
+```{admonition} Was sind Markup-Sprachen?
+:class: hinweis
+Markup-Sprachen (dt. Auszeichnungssprache) sind maschinenlesbare Sprachen. Sie strukturieren und formatieren Texte und Dateien, indem sie ihnen Eigenschaften - sogenannte `tags` - hinzufügen. Die bekannteste Markup-Sprache ist `HTML`.
+```
+Am häufigsten wird dabei die Markup-Sprache `XML` verwendet. Metadaten liegen dann als Datensatz in einem `XML`-Dokument vor.
+
+```{figure} ../assets/03_metadaten/abb_k03_xml_beispiel.png
+---
+align: center
+width: 90%
+name: xml-beispiel
+---
+XML-Beispiel, © NISO
+```
+
+```{admonition} Wie funktioniert XML?
+:class: hinweis, dropdown
+XML nutzt definierte Elemente bzw. Tags, um anzugeben, welche Bedeutung den jeweils enthaltenen Werten zukommt. Elemente können auch andere Elemente enthalten. Ein XML-Dokument ist ähnlich aufgebaut wie eine Baumstruktur, beginnend mit einem Stammelement.
+```
+In den Digital Humanities hat sich die auf `XML` basierte Markup-Sprache `TEI`als gängiger Standard etabliert. `TEI` wurde gezielt an die Bedürfnisse geisteswissenschaftlicher Forschung angepasst.
+
+```{admonition} Mehr Informationen zu XML & TEI
+:class: seealso
+* <a href="https://docs.nfdi4culture.de/lido-schulung/modul-xml-grundlagen" class="external-link" target="_blank">NFDI4Culture</a>
+* <a href="https://libguides.exeter.ac.uk/digitalhumanities/tei" class="external-link" target="_blank">University of Exeter LibGuides</a>
+* <a href="https://programminghistorian.org/en/lessons/encoding-texts-tei-1" class="external-link" target="_blank">Programming Historian</a>
+```
+Neben solchen spezifischen, auf Markup-Sprachen basierenden Strukturierungen von Metadaten, die in erster Linie für die Auszeichnung von Texten genutzt werden, spielen auch **allgemeine Metadatenstandards** eine wichtige Rolle. Im nächsten Kapitel gehen wir auf zwei gängige Standards ein. 
