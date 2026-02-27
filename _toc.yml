@@ -29,6 +29,8 @@ chapters:
   - file: 03_metadaten/toc_03
     sections: 
       - file: 03_metadaten/einführung_metadaten
+        sections:
+          - file: 03_metadaten/allgemeine_standards
       - file: 03_metadaten/metadaten_filmwissenschaft
       - file: 03_metadaten/diskriminierungssensible_metadaten
       - file: 03_metadaten/resümee_03

@@ -99,6 +99,7 @@ Es gibt verschiedene Typen von Metadaten, die hinsichtlich ihrer Art und Funktio
 
 Nicht immer sind die einzelnen Metadaten-Kategorien klar voneinander zu trennen. So kann es beispielsweise Überlappungen zwischen Prozessmetadaten und administrativen Metadaten geben, wenn es um technische Beschreibungen wie Dateiformat, Erstellungsdatum oder Migration geht. Nichtsdestotrotz ist eine grundlegende Charakterisierung der Funktionen und Eigenschaften verschiedener Metadatentypen im Forschungsprozess sehr hilfreich.
 
+(markup-sprachen)=
 ## Exkurs: Markup-Sprachen
 
 Metadaten liegen oft in maschinenlesbarer Form vor - in sogenannten Markup-Sprachen. Dies unterstützt die Interoperabilität der Daten hinsichtlich Weiterverwendung und Austausch. 
