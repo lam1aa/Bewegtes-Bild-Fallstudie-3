@@ -140,4 +140,89 @@ Dublin Core und die 15 Elemente
 
 ## DataCite 
 
+Das <a href="https://schema.datacite.org/" class="external-link" target="_blank">DataCite</a> Schema ist eine strukturierte Liste bestehend aus Kern-Metadaten und ihren Eigenschaften. Es wird insbesondere für die bibliographische Beschreibung von Forschungsdaten, für Publikation, Zitation sowie die Registrierung von DOIs genutzt. Bestimmte Elemente, wie z.B. `Autor`oder `Titel`, sind verpflichtende Bestandteile, andere Elemente, wie z.B. `Fachbereich` oder `Beschreibung`, werden empfohlen oder sind optional. Das Metadatenschema sowie praxisnahe <a href="https://schema.datacite.org/meta/kernel-4.6/" class="external-link" target="_blank">Anwendungsbeispiele </a> werden in `XML` und `JSON` zur Verfügung gestellt. 
+Ein DataCite <a href="https://dhvlab.gwi.uni-muenchen.de/datacite-generator/" class="external-link" target="_blank">Metadatengenerator </a> (aktuell für die Schema Version 4.6.) der Ludwig-Maximilians-Universität München generiert durch Eingabe der Metadatenfelder automatisch ein DataCite-`XML` Schema. Dieses kann heruntergeladen und in einem Repositorium der Wahl den Forschungsdaten beigefügt werden. Mehr Informationen zur Anwendung gibt es auf der 
+<a href="https://github.com/UB-LMU/datacite-metadata-generator" class="external-link" target="_blank">Github-Page</a>.
 
+```{figure} ../assets/03_metadaten/abb_k03_data_cite.png
+---
+align: center
+width: 85%
+name: data-cite
+---
+Elemente des DataCite Schemas - *notwendig* (links) & *empfohlen* (rechts)
+```
+### Vor- und Nachteile des DataCite-Metadatenschemas
+
+✅ **Vorteile**
+* Enge Verknüpfung mit DOIs
+* Zitierbare Referenzierung von Daten in Publikationen
+* International etablierter Standard in Forschungsdateninfrastrukturen
+* Interoperabel
+
+❌ **Nachteile**
+* Komplexer und voraussetzungsreich
+* Weniger geeignet als universeller Minimalstandard
+* Fokus liegt auf Zitation und Publikation, weniger auf inhaltliche Beschreibungen
+
+Beide Metadatenstandards sind auch in den Digital Humanities etabliert und bieten einen guten Einstieg. Welcher am Ende für das eigene Projekt genutzt werden soll, hängt von verschiedenen Variablen der jeweiligen Datensätze ab. Für eigene Projekte ist es daher ratsam, sich frühzeitig über geeignete Metadatenschemata zu informieren. Der folgende Fragenkatalog soll dabei helfen, eine passende Auswahl zu treffen.
+
+## Praxisnaher Fragenkatalog für die Auswahl des Metadatenschemas
+
+<div style="
+  border: 1px solid #E5E5E5;
+  padding: 1.4rem 1.6rem;
+  margin: 2rem 0;
+  border-radius: 6px;
+">
+
+<details style="margin-bottom:1rem;">
+  <summary style="font-weight:600; cursor:pointer;">
+    1. Umfang und Komplexität der Daten
+  </summary>
+  <ul style="margin-top:0.6rem;">
+    <li>Handelt es sich um komplexe oder überschaubare Daten?</li>
+    <li>Gibt es verschiedene Datentypen (z.B. Texte, Audio, Video, Bilder usw.) oder ist der Datenbestand homogen?</li>
+  </ul>
+</details>
+
+<details style="margin-bottom:1rem;">
+  <summary style="font-weight:600; cursor:pointer;">
+    2. Inhaltliche Aspekte
+  </summary>
+  <ul style="margin-top:0.6rem;">
+    <li>Welche Bestandteile der Datensätze sollen in den Metadatendokumentationen beschrieben werden (z. B. Inhalt, Struktur, Entstehungskontext, Methoden, Rechte)?</li>
+    <li>Werden grundlegende bibliographische Angaben benötigt oder fachspezifische?</li>
+  </ul>
+</details>
+
+<details style="margin-bottom:1rem;">
+  <summary style="font-weight:600; cursor:pointer;">
+    3. Publikation und Zitation
+  </summary>
+  <ul style="margin-top:0.6rem;">
+    <li>Soll das Schema insbesondere für die Publikation und Zitation genutzt werden (DOIs)?</li>
+    <li>Sollen die Forschungsdaten langfristig referenzierbar sein?</li>
+  </ul>
+</details>
+
+<details style="margin-bottom:1rem;">
+  <summary style="font-weight:600; cursor:pointer;">
+    4. Ressourcen und Kompetenzniveau
+  </summary>
+  <ul style="margin-top:0.6rem;">
+    <li>Welche zeitlichen und technischen Ressourcen bzw. Kapazitäten gibt es im Projekt, um sich ggf. auch in komplexere Schemata einzuarbeiten?</li>
+    <li>Stehen Personen mit Vorwissen zu Metadatenstandards oder technischen Formaten (z. B. XML, TEI, RDF) zur Verfügung?</li>
+  </ul>
+</details>
+
+<details>
+  <summary style="font-weight:600; cursor:pointer;">
+    5. Minimalstandard oder mehr?
+  </summary>
+  <ul style="margin-top:0.6rem;">
+    <li>Reicht für den Zweck des Projektes ein Minimalstandard (z. B. wenige, generische Felder), oder sind detaillierte, fachlich spezialisierte Metadaten erforderlich?</li>
+  </ul>
+</details>
+
+</div>
