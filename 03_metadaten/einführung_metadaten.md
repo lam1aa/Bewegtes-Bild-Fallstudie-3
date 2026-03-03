@@ -132,3 +132,8 @@ In den Digital Humanities hat sich die auf `XML` basierte Markup-Sprache `TEI`al
 * <a href="https://programminghistorian.org/en/lessons/encoding-texts-tei-1" class="external-link" target="_blank">Programming Historian</a>
 ```
 Neben solchen spezifischen, auf Markup-Sprachen basierenden Strukturierungen von Metadaten, die in erster Linie für die Auszeichnung von Texten genutzt werden, spielen auch **allgemeine Metadatenstandards** eine wichtige Rolle. Im nächsten Kapitel gehen wir auf zwei gängige Standards ein. 
+
+
+
+
+
