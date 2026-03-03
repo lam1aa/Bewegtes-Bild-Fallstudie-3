@@ -226,3 +226,5 @@ Beide Metadatenstandards sind auch in den Digital Humanities etabliert und biete
 </details>
 
 </div>
+
+Allgemeine, generische Schemata sind ein guter Einstieg für Projektanfänge. Häufig decken sie jedoch die Erfordernisse des jeweiligen Fachs nicht genügend ab. In der Praxis werden Metadatenschemata daher konfiguriert oder angepasst, um die Fach- bzw. Projektspezifika zu adressieren. Daran anknüpfend rückt im nächsten Kapitel die Filmwissenschaft in den Fokus, um fachspezifische Metadatenstandards exemplarisch zu vertiefen.

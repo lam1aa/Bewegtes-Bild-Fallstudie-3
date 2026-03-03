@@ -64,7 +64,7 @@ Es gibt verschiedene Typen von Metadaten, die hinsichtlich ihrer Art und Funktio
   </tr>
 
   <tr>
-    <td><strong>Deskriptive (inhaltiche) bzw. bibliographische Metadaten</strong></td>
+    <td><strong>Deskriptive (inhaltliche) bzw. bibliographische Metadaten</strong></td>
     <td>Helfen beim Auffinden oder Verstehen einer Ressource und bieten inhaltliche Eingrenzung </td>
     <td>Titel, Autor, Beschreibung, Keywords, Publikationsdatum uvm. </td>
   </tr>
