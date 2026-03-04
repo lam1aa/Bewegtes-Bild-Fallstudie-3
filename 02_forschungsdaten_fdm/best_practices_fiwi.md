@@ -23,6 +23,7 @@ Illustrative Visualisierung eines Arbeitsprozesses, © @lucifurification via Uns
 ```
 Trotz eines Mangels an etablierten Standards gibt es in jüngster Zeit zahlreiche Bestrebungen, solche zu entwickeln. So arbeitet beispielsweise das Konsortium <a href="https://nfdi4culture.de/index.html" class="external-link" target="_blank">NFDI4Culture</a> – eine Infrastruktur für Forschungsdaten des materiellen und immateriellen Kulturerbes (darunter auch Film- und Medienwissenschaft) – an fachspezifischen Empfehlungen und Handreichungen. Speziell für die Geistes- und Kulturwissenschaften hat NFDI4Culture im September 2025 eine <a href="https://liascript.github.io/course/?https://api.allorigins.win/raw?url=https://basiskurs-fdm.nfdi4culture.de/content.md#1" class="external-link" target="_blank">Open Educational Resource</a> zum Thema Forschungsdaten und Forschungsdatenmanagement bereitgestellt. 
 
+(fiwi-best-practices)=
 ## 🎞️ Konkrete Best-Practice-Hinweise 
 
 Neben den im Vorfeld thematisierten allgemeinen Standards, haben wir nachfolgend praxisnahe Empfehlungen ergänzt und zusammengefasst:

@@ -22,6 +22,7 @@ Sophie Einwächter weist darauf hin, dass eine Orientierung des FDMs an diesem Z
 ```
  Wichtig ist also die kontextbezogene Auslegung und das Miteinbeziehen der projekteigenen Beschaffenheiten der Daten. Grundsätzlich bietet der Zyklus aber eine gute erste Basis für die Planung, da die Phasenhaftigkeit bzw. Prozesshaftigkeit der Arbeitsschritte adressiert wird.
 
+(leitlinien-fair)=
  ## Leitlinien und FAIR-Prinzipien
 
  ````{margin}
