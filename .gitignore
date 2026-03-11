@@ -7,3 +7,4 @@ venv/
 **/.DS_Store
 .vscode
 **/.ipynb_checkpoints
+**/.schema_cache/
