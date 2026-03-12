@@ -324,7 +324,34 @@ Ausschnitt aus dem <a href="https://necsus-ejms.org/how-to-capture-the-festival-
 
 <div class="accordion-content">
 
-Inhalte einfügen
+```{admonition} Wofür steht die Abkürzung GLAM?
+:class: hinweis
+GLAM steht für **G**alleries, **L**ibraries, **A**rchives, **M**useums und ist ein Sammelbegriff für kulturelle Gedächtnisorganisationen.
+```
+
+Neben niedrigschwelligen Einstiegen in die Datenpublikation, wie etwa über Repositorien und Data Papers, können Forschungsdaten ebenfalls auf eigens entwickelten Plattformen oder Webseiten bereitgestellt und kuratiert werden. Je nach Erfahrungslevel ist damit  jedoch ein höherer technischer wie auch zeitlicher Aufwand verbunden. Solche Publikationsformate empfehlen sich für größere und langfristig geförderte Projekte mit entsprechenden Ressourcen. Sind in kleineren Projekten die notwendigen technischen Skills vorhanden, können dort auch solche Lösungen kreativ umgesetzt und entwickelt werden.
+
+Klassische Beispiele kommen aus dem GLAM-Kontext und sind kuratierte Datenbanken wie das <a href="https://www.europeanfilmgateway.eu/de" class="external-link" target="_blank">European Film Gateway</a>. Das EFG ist ein Portal mit zahlreichen filmhistorischen Materialien sowie den dazugehörigen Metadaten und Beschreibungen  (u.a. Fotos, Plakate, Programme, Zensurdokumente usw.).
+
+```{figure} ../assets/04_einführung_publikation/abb_k04_efg_portal.png
+---
+align: center
+width: 90%
+name: efg-portal
+---
+Ergebnisansicht eines <a href="https://www.europeanfilmgateway.eu/de/detail/Der%2028.%20August%201909:%20Unter%20brausendem%20Jubel%20der%20Berliner%20Bev%C3%B6lkerung%20kreuzte%20der%20erste%20Zeppelin%20%C3%BCber%20Berlin/barch::62d0bbc15f9024a86072f2670c7d3e4b " class="external-link" target="_blank">Beitrags</a> aus dem Bundesarchiv auf dem EFG-Portal, © Public Domain
+```
+
+Neben klassischen GLAM-Portalen gibt es auch Forschungsprojekte mit umfangreichen Datenmengen, die zur Exploration und Nutzung ihrer Daten eigens dafür entwickelte interaktive Webseiten konzipiert und umgesetzt haben. So beispielsweise der <a href="https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/" class="external-link" target="_blank">Women Film Pioneers Explorer</a> unter der Leitung von Dr. Sarah-Mai Dang und Prof. Dr. Thorsten Thormählen. Der Explorer ermöglicht anhand interaktiver Visualisierungen die Erkundung biografischer Datenmengen von Frauen der frühen Filmgeschichte (1890-1920).
+
+```{figure} ../assets/04_einführung_publikation/abb_k04_women_film_pioneer.png
+---
+align: center
+width: 90%
+name: women-film-pioneer
+---
+Visualisierung des transnationalen Netzwerkes von Filmpionierinnen aus den Daten des <a href="https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/" class="external-link" target="_blank">Women Film Pioneers Projektes</a>, © CC BY-SA 4.0
+```
 
 </div>
 </details>
@@ -378,7 +405,27 @@ Inhalte einfügen
 
 <div class="accordion-content">
 
-Inhalte einfügen
+```{admonition} Wichtiger Hinweis
+:class: important
+Sowohl die Bereitstellung als auch die Nutzung von APIs erfordern (fortgeschrittene) Programmierkenntnisse.
+```
+Ergänzend zu den bisher genannten Publikationswegen und -formaten gibt es für technisch versierte Forschende und Projekte auch die Option, Forschungsdaten über API-Schnittstellen zugänglich zu machen. D.h., dass die Daten primär als ein Abfragedienst bereitgestellt werden. Dies ist allerdings nur dann sinnvoll, wenn es sich um komplexe, relationale und dynamische Datenstrukturen handelt (z.B. große Korpora, Distributionsnetzwerke oder Filmografien). 
+
+```{admonition} Was sind API-Schnittstellen?
+:class: hinweis, dropdown
+Eine API (Application Programming Interface) ist eine Programmierschnittstelle zwischen verschiedenen Softwareanwendungen. Sie ermöglicht die automatisierte Kommunikation zwischen Programmen, um Daten oder Funktionen auszutauschen, also eine Form der „Maschine-zu-Maschine“– Kommunikation. Über APIs können Entwickler:innen auf Inhalte, Daten oder Dienste anderer Systeme zugreifen und diese in eigene Anwendungen integrieren.
+```
+
+Im Bereich der Digital Humanities ist das <a href="https://dracor.org/" class="external-link" target="_blank">DraCor-Projekt</a> unter der Leitung von Prof. Dr. Frank Fischer (FU Berlin) ein gutes Beispiel dafür, wie Forschungsdaten über eine API-Schnittstelle <a href="https://dracor.org/doc/api" class="external-link" target="_blank">(DraCor-API)</a> bereitgestellt werden können. DraCor (drama corpora) ist eine offene digitale Infrastruktur, die für die computergestützte Untersuchung (vorwiegend) europäischer Dramatik von der griechisch-römischen Antike bis zum 20. Jahrhundert entwickelt wurde.
+
+```{figure} ../assets/04_einführung_publikation/abb_k04_dracor_api.png
+---
+align: center
+width: 100%
+name: dracor-api
+---
+Dokumentation der DraCor API zur programmgesteuerten Abfrage europäischer Dramatik (<a href="https://dracor.org/doc/api" class="external-link" target="_blank">(DraCor-API)</a>)
+```
 
 </div>
 </details>
