@@ -2,6 +2,8 @@
 
 Es gibt zahlreiche Möglichkeiten, Forschungsdaten zu publizieren und sie für die Wissenschaftscommunity zugänglich sowie nachnutzbar zu machen. Im Folgenden stellen wir die relevantesten Publikationswege und -formate praxisnah vor und kennzeichnen jeweils das erforderliche technische Niveau. 
 
+__________
+
 ## Repositorien
 *→ Niveau: Basis / Fortgeschritten*
 <style>
@@ -187,6 +189,8 @@ Das AdA-Projekt ist ein gutes Beispiel dafür, wie ein Repositorium nicht einzig
 </div>
 </details>
 
+__________
+
 ## Data Paper / Data Jounal
 *→ Niveau: Basis*
 <style>
@@ -273,9 +277,10 @@ Ausschnitt aus dem <a href="https://necsus-ejms.org/how-to-capture-the-festival-
 * <a href="https://zenodo.org/records/7082126" class="external-link" target="_blank">List of data journals re3data</a>
 ```
 
-
 </div>
 </details>
+
+__________
 
 ## GLAM und interaktive Websiten
 *→ Niveau: Fortgeschritten / Expert:in*
@@ -352,10 +357,11 @@ name: women-film-pioneer
 ---
 Visualisierung des transnationalen Netzwerkes von Filmpionierinnen aus den Daten des <a href="https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/" class="external-link" target="_blank">Women Film Pioneers Projektes</a>, © CC BY-SA 4.0
 ```
-
+Weitere Beispiele bzw. Auflistungen für GLAM-Datenbanken/Portale sowie (interaktive) Webseiten in der Film- und Medienwissenschaft gibt es im nächsten Kapitel [Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md).
 </div>
 </details>
 
+__________
 
 ## APIs
 *→ Niveau: Expert:in*
@@ -427,6 +433,20 @@ name: dracor-api
 Dokumentation der DraCor API zur programmgesteuerten Abfrage europäischer Dramatik (<a href="https://dracor.org/doc/api" class="external-link" target="_blank">(DraCor-API)</a>)
 ```
 
+```{admonition} Weiterführende Links
+:class: seealso 
+Für eine vertiefende Auseinandersetzung mit API-Schnittstellen haben wir eine kleine Auswahl ergänzender Links zusammengestellt:
+
+* <a href="https://programminghistorian.org/en/lessons/introduction-to-populating-a-website-with-api-data" class="external-link" target="_blank">Programming Historian: Introduction to Populating a Website with API Data</a>
+* <a href="https://lipogg.github.io/webscraping-mit-python/chapters/08/subchapters/01_apis.html" class="external-link" target="_blank">Lisa Poggel, Freie Universität Berlin, APIs (Exkurs)</a>
+* <a href="https://www.fh-muenster.de/de/ipd/glossar/glossar/api-application-programming-interface" class="external-link" target="_blank">FH Münster: API - Application Programming Interface</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction" class="external-link" target="_blank">MDN Contributers: Introduction to web APIs</a>
+* <a href="https://www.youtube.com/watch?v=-mN3VyJuCjM" class="external-link" target="_blank">Alex Xu und Sahn Lam: What Is REST API? Examples And How To Use It</a>
+```
+
 </div>
 </details>
 
+__________
+
+Aufbauend auf den zuvor eingeführten Grundlagen zur Datenpublikation in der Filmwissenschaft stellt das nächste Kapitel zentrale Ressourcen und Entscheidungshilfen zur Verfüung, um geeignete Infrastrukturen zu identifizieren, den Publikationsprozess zu strukturieren sowie sich über rechtliche Rahmenbedinungen zu informieren.
