@@ -15,7 +15,7 @@ Kontextualisierte Visualisierung der Annotationsdaten
 ```
 ```{admonition} Was sind Annotationen und auf welcher Systematik beruhen die Annotationen?
 :class: hinweis, dropdown
-...
+[TODO: Beschreibung]
 ```
 
 Da der Analyseparameter **Farbe** für bestimmte Untersuchungszwecke sehr nützlich und relevant ist, wurden die Annotationsdaten um sogenannte Moviebarcodes angereichert.
