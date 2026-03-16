@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Zeichensatz: UTF-8 unterstützt Sonderzeichen -->
+  <meta charset="utf-8" />
+
+  <!-- Titel der Browser-Registerkarte -->
+  <title>QUADRIGA Bewegtes Bild, Fallstudie 3: "Anreicherung und Publikation von Annotationsdatensets auf Repositorien"</title>
+
+  <style>
+    /* Grundlayout der Seite */
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 30px; 
+      font-size: 14px; 
+    }
+
+    /* Container für die Tabelle mit Scrollbars */
+    #tableContainer {
+      overflow-x: auto;       /* horizontales Scrollen erlauben */
+      overflow-y: auto;       /* vertikales Scrollen erlauben */
+      max-height: 75vh;       /* maximale Höhe (75% der Fensterhöhe) */
+      margin: 20px auto;
+      width: 90%;
+      border: 1px solid #ccc;
+    }
+
+    /* Tabellen-Grundlayout */
+    table {
+      border-collapse: collapse; /* Darsellung des Gitternetzes */
+      width: 100%;
+      border-radius: 8px;
+      background-color: white;
+      white-space: nowrap; /* kein automatischer Zeilenumbruch (default) */
+    }
+
+    /* Tabellenkopf */
+    th {
+      background-color: #00796b;
+      color: white;
+      font-weight: bold;
+      padding: 8px 10px;
+      text-align: left;
+      cursor: pointer; /* Spalten sind klickbar */
+      position: sticky; /* Kopf bleibt beim Scrollen sichtbar */
+      top: 0;
+      z-index: 2;
+    }
+
+    /* Tabellenzellen */
+    td { 
+      padding: 6px 10px;
+      white-space: nowrap; 
+    }
+
+    /* Zellen, in denen Zeilenumbrüche erlaubt sind */
+    td.breakable {
+      white-space: pre;  /* keine automatischen Zeilenumbrüche */
+      word-break: keep-all;  /* keine Worttrennungen */
+    }
+
+    /* Jede zweite Zeile leicht einfärben */
+    tr:nth-child(even) { background-color: #f9f9f9; }
+
+    /* Hover-Effekt */
+    tr:hover { background-color: #e0f7fa; }
+
+    /* Suchbereich */
+    #searchContainer {
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    /* Suchfeld & Dropdown */
+    #searchInput, #columnSelect {
+      padding: 8px;
+      font-size: 14px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hauptüberschrift -->
+  <h1>Ressourcenübersicht</title>
+</h1>
+
+  <!-- Such- und Filterbereich -->
+  <div id="searchContainer">
+    <input type="text" id="searchInput" placeholder="Search...">
+    <select id="columnSelect"></select>
+
+    <!-- Anzeige der Eintragsanzahl -->
+    <span id="entryCount" style="
+      display: inline-block;
+      margin-left: 15px;
+      padding: 6px 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #f9f9f9;
+      font-size: 14px;
+    ">Entries: 0</span>
+  </div>
+
+  <!-- Tabellencontainer -->
+  <div id="tableContainer">
+    <table id="csvTable"></table>
+  </div>
+
+  <script>
+    /*
+      CSV-Daten als mehrzeiliger String.
+      Trennzeichen: Semikolon (;) wegen CSV aus Excel-Export
+      URL ist im Feld "titel_der_resource" nach '=' gespeichert
+    */
+    const csvText = `
+  titel_der_resource;typ;kategorie;beschreibung;institution_publisher;land_region;sprache;hinweise
+Archiv DFFB=https://dffb-archiv.de/editorial/ueber-projekt;Archiv;Ressourcensammlung, Filmgeschichte;Online-Filmarchiv der DFFB (1966–2015);Stiftung Deutsche Kinemathek;Deutschland;DE;Archiv der DFFB, umfasst Filme, Fotos und zahlreiche andere Dokumente
+BFI National Archive=https://www.bfi.org.uk/bfi-national-archive;Archiv;Filmwissenschaft, Ressourcensammlung, Filmgeschichte;Eines der größen Film- und Fernseharchive der Welt mit Schwerpunkt auf britische Film- und Medienkultur;British Film Institute;UK;EN;Öffentich zugänglich, teilweise Open Access von Archivmaterial, Rechercheoptionen digital und vor Ort
+Deutsche Kinemathek=https://www.deutsche-kinemathek.de/de/recherche/bibliothek;Datenbank;Ressourcensammlung, Filmwissenschaft;Online-Katalog und Bestandsrecherche der Deutschen Kinemathek;Stiftung Deutsche Kinemathek;Deutschland;DE;Analoge und digitale Sammlungen
+Dokumentarfilmgeschichte von 1945 bis 2005=https://www.dokumentarfilmgeschichte.org/projektprofil;Datenbank;Filmgeschichte;Datenbank für Bestandsaufnahme deutscher Dokumentarfilme (1945–2005);Uni Hamburg, Filmuniversität Babelsberg, Haus des Dokumentarfilms;Deutschland;DE;15.000 Filmdatensätze
+European Film Gateway=https://europeanfilmgateway.eu/de;Archiv, Datenbank;Ressourcensammlung, Filmgeschichte;Portal für den Zugriff auf Datenbanken aus europäischen Archiven;DIF e.V;Europa;verschiedene;Archivalien aus über 30 europäischen Filmarchiven und Kinematheken
+Europeana=https://figshare.com/;Archiv, Datenbank;Ressourcensammlung;Digitales Portal des europäischen Kulturerbes;Europeana Foundation;Europa;verschiedene;Digitale Objekte verschiedener Medientypen, EU-gefördert
+Figshare=https://figshare.com/;Repositorium;Forschungsdaten, Ressourcensammlung;Repositorium für verschiedene Forschungsoutputs;Digital Science;International;verschiedene;DOI-Vergabe und Open-Access
+Filmdatenbank DEFA=https://www.defa-stiftung.de/filme/filme-suchen/;Archiv, Datenbank;Ressourcensammlung, Filmgeschichte;Online-Filmdatenbank der DEFA;DEFA-Stiftung;Deutschland;DE;Erschließung und Veröffentlichung des Filmbestands der DEFA 
+Filmdatenbank DFFB=https://www.dffb.de/filme-und-festivals/filmdatenbank-2/;Datenbank;Ressourcensammlung, Institutionell, Filmwissenschaft;Online-Filmdatenbank der DFFB;Deutsche Film- und Fernsehakademie Berlin;Deutschland;DE;Filmdatenbank mit Informationen und Metadaten zu ausgewählten Produktionen DFFB (ab 2002)
+Filmdatenbank Filmuniversität Babelsberg=https://www.filmuniversitaet.de/film/filmdatenbank;Datenbank;Ressourcensammlung, Institutionell, Filmwissenschaft;Online-Filmdatenbank der Filmunversität Babelsberg;Filmuniversität Babelsberg;Deutschland;DE;Filmdatenbank mit Informationen und Metadaten zu ausgewählten Produktionen der Filmuniversität Babelsberg
+Filmportal.de=https://www.filmportal.de/ ;Datenbank;Ressourcensammlung, Filmwissenschaft;Online-Filmdatenbank zum deutschen Film;DFF;Deutschland;DE EN;Filmdatenbank mit Informationen und Metadaten zum deutschen Film
+GenderOpen=https://www.genderopen.de/;Repositorium;Genderstudies, Ressourcensammlung;Repositorium für Publikationen aus der Geschlechterforschung;FU Berlin, HU Berlin;Deutschland;DE EN;Open-Access
+German Early Cinema Database=https://earlycinema.dch.phil-fak.uni-koeln.de/;Archiv, Datenbank;Ressourcensammlung, Filmgeschichte;Datenbank zur Erschließung von Stummfilmen (1985–1926) und deren Rezeption;Universität zu Köln;Deutschland;DE;Umfangreiche Datenbank zu historischen Quellen deutscher Filme zur Stimmfilmzeit
+Github=https://github.com/;Repositorium;Code und Daten;Plattform für Versionskontrolle, Code Sharing;Microsoft;International;verschiedene;Auch nutzbar für Forschungsdaten und Publikation von Datasets
+Internet Movie Database (IMDb)=https://www.imdb.com/de/;Datenbank;Ressourcensammlung, Filmwissenschaft;Kommerzielle Online-Filmdatenbank;Amazon;International;verschiedene;Weltweit größte Filmdatenbank, kommerziell betrieben und kein kostenfreier API-Zugang
+Kameradatenbank Deutsche Kinemathek=https://www.kameradatenbank.de/index.php;Datenbank;Ressourcensammlung, Filmwissenschaft;Online-Kameradatenbank der Deutschen Kinemathek;Stiftung Deutsche Kinemathek;Deutschland;DE;Verzeichnis historischer Filmkameras der Bestände verschiedener Museen Deutschlands
+Media History Digital Library (MHDL)=https://mediahist.org/;Archiv, Datenbank;Ressourcensammlung, Filmgeschichte, Medienwissenschaft;Digitales Archiv zur Mediengeschichte;University of Wisconsin–Madison;USA;EN;Open-Access und begrenzte API-Schnittstelle
+mediarep=https://mediarep.org/home;Repositorium;Ressourcensammlung, Filmwissenschaft, Medienwissenschaft;Repositorium für medienwissenschaftliche Publikationen;Philipps-Universität Marburg;Deutschland;DE EN;DOI-Vergabe und Open-Access, Publikation von Datasets
+MHDL Lantern=https://lantern.mediahist.org/;Archiv, Datenbank;Ressourcensammlung, Filmwissenschaft, Medienwissenschaft;Digitales Archiv zur Mediengeschichte;University of Wisconsin–Madison;USA;EN;Such- und Interfaceebene der MHDL
+Open Media Database (omdb)=https://www.omdb.org/en/us;Datenbank;Ressourcensammlung, Filmwissenschaft;Community-based offene Filmdatenbank;Community-based und unabhängig;International;verschiedene;Verfügt über API RESTful Web Service und bietet Data Dump, Webscraping unter Einhaltung der robots.txt möglich
+Refubium=https://refubium.fu-berlin.de/handle/fub188/45855;Repositorium;Forschungsdaten, Ressourcensammlung, Institutionell;Institutionelles Repositorium für elektronisches Publizieren von Forschungsmaterial;FU Berlin;Deutschland;DE EN;DOI-Vergabe und Open-Access der Metadaten, kostenfreie Publikation für FU-Angehörige
+Repositorium Leibniz Universität=https://repo.uni-hannover.de/home;Repositorium;Forschungsdaten, Ressourcensammlung, Institutionell;Institutionelles Repositorium für elektronisches Publizieren von Forschungsmaterial;Leibniz Universität Hannover;Deutschland;DE EN;DOI-Vergabe und Open-Access, kostenfreie Publikation für Uni-Angehörige
+The Movie Database (TMDb)=https://www.themoviedb.org/?language=de;Datenbank;Ressourcensammlung, Filmwissenschaft;Community-based offene Filmdatenbank;Community-based und unabhängig;International;verschiedene;Kostenfreier API-Zugang für nicht-kommerzielle Zwecke, kein Webscraping
+Zenodo=https://zenodo.org/;Repositorium;Forschungsdaten, Ressourcensammlung;Offenes Repositorium für wissenschaftliche Daten und Publikationen;CERN;International;verschiedene;DOI-Vergabe und Open-Access
+Advene=https://www.advene.org/;Tool;Annotation, Visualisierung;Kostenfreie Open-Source Videoannotationssoftware;Olivier Aubert;Frankreich;EN;Automatische Erkenner, nutzbar mit der AdA-Ontologie
+ANVIL=https://www.anvil-software.de/;Tool;Annotation;Kostenfreie Videoannotationssoftware für die Forschung;Michael Kipp;Deutschland;EN;Keine neuen Versionen seit 2017
+DaSCH=https://dasch.swiss/;Tool;Webpublishing;Webpublishing und Archivinfrastruktur für Forschungsdaten in den Digital Humanities;Swiss National Data and Service Center for the Humanities;Schweiz;verschiedene;FDM und Archivierung von Forschungs- und Projektdaten, kostenpflichtung für Projekte ohne Schweiter Beteiligung
+Data Stewardship Wizard=https://ds-wizard.org/;Tool;DMP;Open-Source DMP-Werkzeug für kollaboratives Arbeiten;Data Stewardship Wizard, ELIXIR;Europa;EN;Kollaboratives Werkzeug zur Erstellung von DMPs
+Data to Viz=https://www.data-to-viz.com/;Tool;Visualisierung;Kostenfreies Open-Source-Tool für Datenvisualisierung;Yan Holtz;Frankreich;EN;Interaktive Auswahl von Diagrammtypen basierend auf dem Inputformat der Daten
+ELAN=https://archive.mpi.nl/tla/elan;Tool;Annotation;Kostenfreie Open-Source Video- und Audioannotationssoftware;Max Planck Insitut;Niederlande;verschiedene;Mit Fokus auf linguistische Annotation
+Frametail=https://frametrail.org/;Tool;Annotation;Webbasierte Open-Source-Software für Videoannotation;Merz Akademie;Deutschland;EN;Interaktive Overlays und Möglichkeit kollaborativer Vergleiche mit anderen Usern
+Omeka=https://omeka.org/;Tool;Webpublishing;Open-Source-Web-Plattform für Webpublishing digitaler Sammlungen ;Digital Scholar;USA;EN;Open-Source Plattform für Veröffentlichung geisteswissenschaftlicher Inhalte, CMS
+OpenRefine=https://openrefine.org/;Tool;Bereinigung;Kostenfreies Open-Source-Tool für Datenanreicherung- und bereinigung;Google, community-based;USA;verschiedene;Unterstützung verschiedener Dateiformate wie CSV, XLS, XLM und JSON
+RAWGraphs=https://www.rawgraphs.io/;Tool;Visualisierung;Kostenfreies Open-Source-Tool für Datenvisualisierung;DensityDesign Lab;Italien;EN;Unterstützung verschiedener Dateiformate wie CSV, TSV, Excel und JSON
+Research Data Management Organiser (RMDO)=https://rdmorganiser.github.io/;Tool;DMP;Webbasierte Open-Source-Software zur Erstellung von DMPs;RDMO Arbeitsgemeinschaft;Deutschland;DE;Kooperative RDMO-Community für Unterstützung 
+TIB AV-Analytics=https://service.tib.eu/tibava;Tool;Annotation;Webbasierte Software zur Erstellung von Videoannotationen basierend auf machine learning und automatische Erkenner;TIB Hannover;Deutschland;DE EN;Im Aufbau
+VIAN=https://www.vian.app/;Tool;Annotation;Kostenfreie Open-Source Videoannotationssoftware;Universität Zürich;Schweiz;EN;Automatischer Erkenner, webbasiert und lokal nutzbar
+Voyan Tools=https://voyant-tools.org/?lang=de;Tool;Visualisierung;Kostenfreie webbasiertes Open-Source Visualisierungstool für Textanalyse;Stéfan Sinclair, Geoffrey Rockwell;USA;verschiedene;Analyse von Textkorpora, Literatur, historischen Dokumenten und digitalen Archiven
+DINI=https://dini.de/dienste-projekte/publikationsdienste;Infrastruktur;Sammelregister;Förderung und Entwicklung der Informationsinfrastrukturen im Austausch verschiedener wissenschaftlicher Institutionen in Deutschland;Deutsche Initiative für Netzwerkinformation e. V.;Deutschland;DE;Entwicklung von Standards und Empfehlungen
+FIAF=https://www.fiafnet.org/;Infrastruktur;Infrastruktur;Vereinigung von bedeutenden Non-Profit Filmarchiven weltweit zur Förderung des Sammelns und Restaurierens des Filmerbes;International Federation of Film Archives;Belgien;verschiedene;Förderung und Etablierung von Standards zur Erschließung von filmarchivarischem Material
+NFDI4Culture=https://nfdi4culture.de/de/index.html;Infrastruktur;Infrastruktur;Infrastruktur für Forschungsdaten des materiellen und immateriellen Kulturerbes;NFDI, Akademie der Wissenschaften und der Literatur ;Deutschland;DE EN;Repositorien und Standards für Kultur- und Geisteswissenschaften
+re3data=https://www.re3data.org/;Infrastruktur;Sammelregister;Globales Register für Forschungsdatenrepositorien aller Forschungsdisziplinen ;Karlsruhe Institute of Technology;Deutschland, USA;verschiedene;Open Data ohne Restriktionen mit Creative Commons Zero und offener API
+RIsources=https://risources.dfg.de/;Infrastruktur;Sammelregister;Informationsportal und Sammelkatalog für wissenschaftliche Forschungsinfrastrukturen;DFG;Deutschland;DE EN;Erschließung von Forschungsinfrastrukturen für  Ressourcen und Dienstleistungen zur Planung und Durchführung von Forschungsvorhaben
+DARIAH-DE=https://de.dariah.eu/;Infrastruktur;Infrastruktur;Initiative zur Schaffung einer digitalen Forschungsinfrastruktur für Geistes- und Kulturwissenschaften;DARIAH-DE  – Digital Research Infrastructure for the Arts and Humanities;Deutschland, Europa;DE EN;Unterstützung der digitalen Geisteswissenschafte in Forschung und Lehre, Werkzeuge, Schulungsmaterial uvm.
+ROAR – Registry of Open Access Repositories=https://roar.eprints.org/;Infrastruktur;Sammelregister;Globales Register für Forschungsdatenrepositorien aller Forschungsdisziplinen ;University of Southampton;UK, International;EN;Durchsuchbare Indexierung (Einrichtung, Standort, Entwicklung) von Open-Access-Institutsrepositorien
+OpenDOAR=https://opendoar.ac.uk/;Infrastruktur;Sammelregister;Globales Register für Forschungsdatenrepositorien aller Forschungsdisziplinen ; University of Nottingham;UK, International;EN;Open Data und offene API-Dokumentation
+AdA Filmontology=https://zenodo.org/records/8328663;Publikationen/Datensätze/Forschungsprojekte;Forschungsprojekt, Dataset;Datenset beinhaltet filmanalytische Annotationen zu einem projektspezifischen Filmkorpus zur Finanzkrise;Freie Universität Berlin, Hasso-Plattner-Institut;Deutschland;DE EN;Annotationen erstellt mit Advene mit der projektspezifisch entwickelten Analysesemantik AdA-Filmontologie und einem Annotation Explorer
+Cinemetrics=http://cinemetrics.fredericbrodbeck.de/old.html;Publikationen/Datensätze/Forschungsprojekte;Forschungsprojekt, Visualisierung;Extraktion filmanalytischer Elemente (z.B. Schnittstruktur, Farben, Sprache oder Bewegung) zur Umwandlung in grafische Darstellungen;Frederic Brodbeck;Niederlande;EN;Code zugänglich auf der Github-Dokumentationsseite
+Cinevis=https://jgoodall.me/cinevis/web/;Publikationen/Datensätze/Forschungsprojekte;Dataset, Visualisierung;Datenvisualisierung aus einem Datenset zu Filmdaten (Budget, Rating, Einnahmen);John Goodall;USA;EN;Umsetzung mit D3.js, jQuery, Bootstrap, HTML5, Daten als JSON verfügbar
+ConvoKit=https://convokit.cornell.edu/;Publikationen/Datensätze/Forschungsprojekte;Forschungsprojekt, Dataset;Toolkit zum Extrahieren und Analysieren von Konversationen ;The ConvoKit Developers, Cornell University;USA;EN;Konversationsdatensätze verfügbar (API), Open Source Software, Projekt-Code unter MIT-Lizenz verfügbar
+Digital Cinema-Hub=https://www.uni-marburg.de/en/fb09/institutes/media-studies/research/research-projects/dici-hub;Publikationen/Datensätze/Forschungsprojekte;Forschungsprojekt;Neue digitale Methoden der Filmanalyse mit Ausrichtung auf Netzwerke, Formate und Märkte bewegter Bilder im digitalen Zeitalter;Philipps-Universität Marburg,;Deutschland;EN;Projektlaufzeit bis 2027, Open Access
+Early African-American Film Database, 1909-1930=https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.7;Publikationen/Datensätze/Forschungsprojekte;Dataset;Datensatz zu Filmen mit afroamerikanischen Darsteller*innen für ein primär afroamerikanisches Publikum (auch: race films);University of California, Los Angeles;USA;EN;Datenrepositorium auf Zenodo und Airtable, CSV-Metadatentabellen, Lizenz: CC-BY 4.0, GitHub: https://github.com/miriamposner/af-am-film-data. 
+GEP-Analysis Project: Film industry affiliation and adjacency matrices (Germany)=https://figshare.com/articles/dataset/GEP-Analysis_Project_Film_industry_affiliation_and_adjacency_matrices_Germany_/25194254/1?utm_source=chatgpt.com&file=44498834;Publikationen/Datensätze/Forschungsprojekte;Forschungsprojekt;Netzwerkdatensatz zur deutschen Filmindustrie;Filmuniversität Babelsberg Konrad Wolf;Deutschland;EN;CSV-Tabelle, nummerische Datensätze
+i Media Cities=https://www.imediacities.eu/;Publikationen/Datensätze/Forschungsprojekte;Forschungsprojekt;Digitale Plattform bzw. Infrastruktur zu historischen Filmen und Bildern europäischer Städte aus filmarchivaischen Beständen;Cinematek Brussels, kollaborativ;Belgien;EN;Open Source Software, Projekt-Code unter MIT-Lizenz verfügbar
+Moviebarcode=https://moviebarcode.tumblr.com/;Publikationen/Datensätze/Forschungsprojekte;Visualisierung;Tumblr-Blog mit großer Sammlung von Farbbarcodes verschiedener Filme und Serien;unbekannt;unbekannt;EN;Öffentlich einsehbar und freier Zugang, keine Lizenzangabe, keine Weiterverwendung
+Sound & Vision Data=https://data.beeldengeluid.nl/;Publikationen/Datensätze/Forschungsprojekte;Dataset, Visualisierung;Zusammenstellung unterschiedlicher Metadatensätze zu audiovisuellen Inhalten;Nederlands Instituut voor Beeld en Geluid;Niederlande;EN NL;Verschiedene Datensätze mit Zugriff über API, Data Dumps, Linked Open Data
+Timeline of Historical Colors in Photography and Film=https://filmcolors.org/;Publikationen/Datensätze/Forschungsprojekte;Forschungsprojekt, Dataset, Visualisierung;Interaktive Webplattform und Datenset zu historischen Farbfilmprozessen ;Barabara Flückiger, Universität Zürich;Schweiz;EN;Mehr als 444 Einzeleinträge und mehr als 24.000 Fotografien und Scans von historischen Farbfilmmaterialien aus Archiven in Europa, den USA und Japan
+Woman Film Pioneers Explorer=https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/Cluster.html;Publikationen/Datensätze/Forschungsprojekte;Visualisierung, Forschungsprojekt;Interaktive Datenvisualisierung zur Exploration biografischer Daten von Frauen der frühen Filmgeschichte (1890-1920);Philipps-Universität Marburg;International;EN;Dokumentation auf GitHub, Lizenz: CC BY-SA 4.0
+    `;
+
+    /*
+      Hauptfunktion:
+      - liest CSV
+      - erzeugt Tabelle
+      - baut Spaltenüberschriften
+      - füllt Dropdown
+    */
+    function showCSV(csv) {
+
+      /*
+      teilt die CSV in Zeilen und Spalten auf
+      ';' als Trennzeichen festlegen
+      */
+      const rows = csv.trim().split('\n').map(r => r.split(';'));
+
+      // Tabelle leeren, um sie je nach Suchbegriff neu zu bauen
+      const table = document.getElementById('csvTable');
+      table.innerHTML = '';
+
+      /* ## Tabellenkopf ## */
+      const headerRow = document.createElement('tr');
+      rows[0].forEach((h, index) => {
+        const th = document.createElement('th');
+        th.textContent = h;
+
+        // Ermöglicht sortieren durch Klick auf den Tabellenkopf
+        th.addEventListener('click', () => sortTable(index));
+
+        headerRow.appendChild(th);
+      });
+      table.appendChild(headerRow);
+
+      const headerNames = rows[0];
+
+      /* ## Dropdown mit Spaltennamen ## */
+      const select = document.getElementById('columnSelect');
+      select.innerHTML = '';
+
+      // Erstellt das Dropdown-Menü für die Suchfilter
+      const allOption = document.createElement('option');
+      allOption.value = 'all';
+      allOption.textContent = 'All Columns';
+      select.appendChild(allOption);
+
+      // Fügt die eizelnen Spalten als Suchfilter hinzu
+      headerNames.forEach(name => {
+        const opt = document.createElement('option');
+        opt.value = name;
+        opt.textContent = name;
+        select.appendChild(opt);
+      });
+
+      /* Definiert Spalten, in denen Zeilenumbrüche erlaubt sind */
+      const breakableColumns = ['title_der_resource','url','typ','kategorie','beschreibung','institution_publisher','hinweise'];
+
+      /* ## Tabelleninhalt ##*/
+      rows.slice(1).forEach(r => {
+        const tr = document.createElement('tr');
+
+        r.forEach((cell, index) => {
+          const td = document.createElement('td');
+
+          // Für normale Spalten: Zeilenumbrüche entfernen
+          if (!breakableColumns.includes(headerNames[index])) {
+            cell = cell.replace(/\n/g, ' ');
+          } else {
+            td.classList.add('breakable');
+
+            /*
+              Prüfen, ob Text zu breit ist.
+              Nur dann wird ein manueller Zeilenumbruch eingefügt.
+            */
+            const tempSpan = document.createElement('span');
+            tempSpan.style.visibility = 'hidden';
+            tempSpan.style.whiteSpace = 'nowrap';
+            tempSpan.textContent = cell;
+            document.body.appendChild(tempSpan);
+
+            const textWidth = tempSpan.offsetWidth;
+            const columnWidth = td.offsetWidth || 200;
+
+            document.body.removeChild(tempSpan);
+
+            if (textWidth > columnWidth * 1.1) {
+              const midpoint = Math.floor(cell.length / 2);
+              const breakPos = cell.indexOf(' ', midpoint);
+              if (breakPos !== -1) {
+                cell = cell.slice(0, breakPos) + '\n' + cell.slice(breakPos + 1);
+              }
+            }
+          }
+
+          // Spezialfall: 'titel_der_resource'
+          if (headerNames[index] === 'titel_der_resource') {
+            const a = document.createElement('a');
+            let b = cell;
+            let c = b.substring(b.indexOf('=')+1);  // URL befindet sich hinter '='
+            b = b.substring(0, b.indexOf('=')); // sichtbarer Text ist vor dem '='
+            a.href = c;
+            a.textContent = b;
+            a.target = '_blank'; // öffnet den Link in neuem Tab
+            td.appendChild(a);
+          } else {
+            td.textContent = cell;
+          }
+
+          tr.appendChild(td);
+        });
+
+        table.appendChild(tr);
+      });
+
+      updateEntryCount(); // Eintragszähler aktualisieren
+    }
+
+    // CSV anzeigen
+    showCSV(csvText);
+
+    /* ## Tabellen-Sortierung ## */
+    function sortTable(colIndex) {
+      const tableEl = document.getElementById('csvTable');
+      const rowsArray = Array.from(tableEl.querySelectorAll('tr:not(:first-child)'));
+
+      // Prüfen, ob aktuell aufsteigend sortiert ist
+      const isAsc = tableEl.getAttribute('data-sort-col') == colIndex &&
+                    tableEl.getAttribute('data-sort-order') == 'asc';
+
+      rowsArray.sort((a, b) => {
+        const aText = a.children[colIndex].textContent;
+        const bText = b.children[colIndex].textContent;
+
+        /* 
+        Numerische Tabellenwerte werden von String in Float umgewandelt, 
+        um sie für die Sortierung vergleichbar zu machen
+        */
+        const aNum = parseFloat(aText.replace(',', '.'));
+        const bNum = parseFloat(bText.replace(',', '.'));
+
+        /* Prüft, ob die zu sortierende Spalte Zahlen oder Text enthält */
+        if (!isNaN(aNum) && !isNaN(bNum)) {
+          return isAsc ? bNum - aNum : aNum - bNum;
+        } else {
+          return isAsc ? bText.localeCompare(aText) : aText.localeCompare(bText);
+        }
+      });
+
+      // Neue Reihenfolge ins DOM schreiben
+      rowsArray.forEach(row => tableEl.appendChild(row));
+
+      // Sortierstatus speichern
+      tableEl.setAttribute('data-sort-col', colIndex);
+      tableEl.setAttribute('data-sort-order', isAsc ? 'desc' : 'asc');
+    }
+
+    /* ## Filtern ## */
+    const searchInput = document.getElementById('searchInput');
+    const columnSelect = document.getElementById('columnSelect');
+
+    searchInput.addEventListener('input', filterTable);
+    columnSelect.addEventListener('change', filterTable);
+
+    function filterTable() {
+      const filter = searchInput.value.toLowerCase();
+      const selectedColumn = columnSelect.value;
+      const table = document.getElementById('csvTable');
+      const rows = table.querySelectorAll('tr:not(:first-child)');
+
+      rows.forEach(tr => {
+        if (!filter) { /* Bei leerer Suchzeile wird die gesamte Tabelle angezeigt */
+          tr.style.display = '';
+          return;
+        }
+
+        let textToCheck = '';
+        if (selectedColumn === 'all') { /* Alle Spalten werden durchsucht */
+          textToCheck = tr.textContent.toLowerCase();
+        } else { /* Ansonsten: Macht ein Array aus allen Spaltenüberschriften und ermittelt die zu dursuchende Spalte */
+          const header = Array.from(table.querySelectorAll('tr:first-child th'))
+          .findIndex(th => th.textContent === selectedColumn);
+          /* Jetzt wird der Zeileninhalt der jeweiligen Spalte durchsucht */
+          textToCheck = tr.children[header].textContent.toLowerCase();
+        }
+        /* Bestimmt ob die Zeile angezeigt wird oder nicht */
+        tr.style.display = textToCheck.includes(filter) ? '' : 'none';
+      });
+      /* Passt den Eintragszähler an */
+      updateEntryCount();
+    }
+
+    /* ## Eintragszähler ## */
+    function updateEntryCount() {
+      const table = document.getElementById('csvTable');
+      const rows = table.querySelectorAll('tr:not(:first-child)');
+      const totalCount = rows.length;
+      const visibleCount = Array.from(rows).filter(r => r.style.display !== 'none').length;
+
+      document.getElementById('entryCount').textContent = 
+        `Entries: ${visibleCount} / ${totalCount} total`;  // Anzeige aktualisieren
+    }
+
+  </script>
+</body>
+</html>
