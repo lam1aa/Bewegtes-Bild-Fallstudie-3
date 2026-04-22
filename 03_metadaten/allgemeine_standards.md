@@ -16,7 +16,7 @@ Mehr Infos zum Thema `XML` gibt es im {ref}`vorigem Kapitel <markup-sprachen>`.
 ````
 <br>
 
-Das System der Strukturierung von Metadaten wird als **Metadatenstandard** bezeichnet. Metadatenstandards sind also Klassifizierungssysteme. Häufig liegen diese Standards in `XML` vor und geben bereits eine Struktur vor, wobei der Einsatz von kontrolliertem Vokabular bei der Standardisierung der Inhalte hilft (z.B. <a href="https://www.getty.edu/research/tools/vocabularies/" class="external-link" target="_blank">Getty Thesaurus</a>).
+Das System der Strukturierung von Metadaten wird als **Metadatenstandard** bezeichnet. Metadatenstandards sind also Klassifizierungssysteme. Häufig liegen diese Standards in `XML` vor und geben bereits eine Struktur vor, wobei der Einsatz von kontrolliertem Vokabular bei der Standardisierung der Inhalte hilft (z. B. <a href="https://www.getty.edu/research/tools/vocabularies/" class="external-link" target="_blank">Getty Thesaurus</a>).
 
 > "Dies reicht von kontrollierten Wortlisten, die fehlerhafte oder unterschiedliche Schreibweisen von Konzepten vereinheitlichen, über Taxonomien und Thesauri, die Über- und Unterbegriffe wie auch Synonyme zu Konzepten enthalten, bis hin zu Ontologien, die Eigenschaften und Relationen zwischen Konzepten modellieren."
 
@@ -93,15 +93,15 @@ Dublin Core und die 15 Elemente
   </tr>
   <tr>
     <td><strong>dc:type</strong></td>
-    <td>Art bzw. Typ der Ressource (z.B. Text, Bild, Dataset)</td>
+    <td>Art bzw. Typ der Ressource (z. B. Text, Bild, Dataset)</td>
   </tr>
   <tr>
     <td><strong>dc:format</strong></td>
-    <td>Format/Medium der Ressource (z.B. PDF, PNG, audio/mpeg, txt/xml)</td>
+    <td>Format/Medium der Ressource (z. B. PDF, PNG, audio/mpeg, txt/xml)</td>
   </tr>
   <tr>
     <td><strong>dc:identifier</strong></td>
-    <td>Eindeutige Kennung/Identifikator der Ressource (z.B. DOI, URN, ISBN, URL)</td>
+    <td>Eindeutige Kennung/Identifikator der Ressource (z. B. DOI, URN, ISBN, URL)</td>
   </tr>
   <tr>
     <td><strong>dc:source</strong></td>
@@ -109,11 +109,11 @@ Dublin Core und die 15 Elemente
   </tr>
   <tr>
     <td><strong>dc:language</strong></td>
-    <td>Sprache der Ressource (z.B. ISO-639-Code)</td>
+    <td>Sprache der Ressource (z. B. ISO-639-Code)</td>
   </tr>
   <tr>
     <td><strong>dc:relation</strong></td>
-    <td>Beziehungen zu anderen Ressourcen (z.B. Teil-von, Version, Referenz)</td>
+    <td>Beziehungen zu anderen Ressourcen (z. B. Teil-von, Version, Referenz)</td>
   </tr>
   <tr>
     <td><strong>dc:coverage</strong></td>
@@ -140,7 +140,7 @@ Dublin Core und die 15 Elemente
 
 ## DataCite 
 
-Das <a href="https://schema.datacite.org/" class="external-link" target="_blank">DataCite</a> Schema ist eine strukturierte Liste bestehend aus Kern-Metadaten und ihren Eigenschaften. Es wird insbesondere für die bibliographische Beschreibung von Forschungsdaten, für Publikation, Zitation sowie die Registrierung von DOIs genutzt. Bestimmte Elemente, wie z.B. `Autor`oder `Titel`, sind verpflichtende Bestandteile, andere Elemente, wie z.B. `Fachbereich` oder `Beschreibung`, werden empfohlen oder sind optional. Das Metadatenschema sowie praxisnahe <a href="https://schema.datacite.org/meta/kernel-4.6/" class="external-link" target="_blank">Anwendungsbeispiele </a> werden in `XML` und `JSON` zur Verfügung gestellt. 
+Das <a href="https://schema.datacite.org/" class="external-link" target="_blank">DataCite</a> Schema ist eine strukturierte Liste bestehend aus Kern-Metadaten und ihren Eigenschaften. Es wird insbesondere für die bibliographische Beschreibung von Forschungsdaten, für Publikation, Zitation sowie die Registrierung von DOIs genutzt. Bestimmte Elemente, wie z. B. `Autor`oder `Titel`, sind verpflichtende Bestandteile, andere Elemente, wie z. B. `Fachbereich` oder `Beschreibung`, werden empfohlen oder sind optional. Das Metadatenschema sowie praxisnahe <a href="https://schema.datacite.org/meta/kernel-4.6/" class="external-link" target="_blank">Anwendungsbeispiele </a> werden in `XML` und `JSON` zur Verfügung gestellt. 
 Ein DataCite <a href="https://dhvlab.gwi.uni-muenchen.de/datacite-generator/" class="external-link" target="_blank">Metadatengenerator </a> (aktuell für die Schema Version 4.6.) der Ludwig-Maximilians-Universität München generiert durch Eingabe der Metadatenfelder automatisch ein DataCite-`XML` Schema. Dieses kann heruntergeladen und in einem Repositorium der Wahl den Forschungsdaten beigefügt werden. Mehr Informationen zur Anwendung gibt es auf der 
 <a href="https://github.com/UB-LMU/datacite-metadata-generator" class="external-link" target="_blank">Github-Page</a>.
 
@@ -182,7 +182,7 @@ Beide Metadatenstandards sind auch in den Digital Humanities etabliert und biete
   </summary>
   <ul style="margin-top:0.6rem;">
     <li>Handelt es sich um komplexe oder überschaubare Daten?</li>
-    <li>Gibt es verschiedene Datentypen (z.B. Texte, Audio, Video, Bilder usw.) oder ist der Datenbestand homogen?</li>
+    <li>Gibt es verschiedene Datentypen (z. B. Texte, Audio, Video, Bilder usw.) oder ist der Datenbestand homogen?</li>
   </ul>
 </details>
 

@@ -19,7 +19,7 @@ name: bandbreite-metadaten
 ```
 <br>
 
-Als Bestandteil von Dateien und Dokumenten geben Metadaten im Kern zusätzliche, strukturierte Informationen an, die den eigentlichen (Forschungs-)Daten, Ressourcen oder Objekten, die sie beschreiben, beigefügt werden.  Häufig stehen die Metadaten aber auch als Platzhalter für das Objekt selbst, wie es beispielsweise in Bibliothekskatalogen der Fall ist. Hier wird das ursprüngliche Objekt (z.B. ein Buch oder Film) über Metadaten definiert und identifiziert, um Materialien zu lokalisieren und Informationen einzugrenzen. Auf diese Weise ermöglichen Metadaten die Beschreibung, Identifizierung und Klassifizierung von (digitalen) Objekten und kulturellen Artefakten.
+Als Bestandteil von Dateien und Dokumenten geben Metadaten im Kern zusätzliche, strukturierte Informationen an, die den eigentlichen (Forschungs-)Daten, Ressourcen oder Objekten, die sie beschreiben, beigefügt werden.  Häufig stehen die Metadaten aber auch als Platzhalter für das Objekt selbst, wie es beispielsweise in Bibliothekskatalogen der Fall ist. Hier wird das ursprüngliche Objekt (z. B. ein Buch oder Film) über Metadaten definiert und identifiziert, um Materialien zu lokalisieren und Informationen einzugrenzen. Auf diese Weise ermöglichen Metadaten die Beschreibung, Identifizierung und Klassifizierung von (digitalen) Objekten und kulturellen Artefakten.
 
 ```{figure} ../assets/03_metadaten/abb_k03_kinemathek_katalog.png
 ---

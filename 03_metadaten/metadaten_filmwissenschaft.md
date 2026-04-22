@@ -16,7 +16,7 @@ Wie ein Filmkorpus und zugehörige Datensätze am konkreten Projektbeispiel durc
 ```
 ````
 
-Metadatenstandards in der Filmwissenschaft werden vor allem von Filmarchiven, Kinematheken, Fernsehanstalten und Bibliotheken genutzt, um Filme, Fassungen und Materialien (dazu zählen auch die physischen Trägermedien wie z.B. DVD oder Blu Ray) beschreibbar und auffindbar zu machen. Aber auch Forschungsprojekte greifen auf die Fachstandards zurück, um beispielsweise Filmkorpora durch Metadaten zu charakterisieren.
+Metadatenstandards in der Filmwissenschaft werden vor allem von Filmarchiven, Kinematheken, Fernsehanstalten und Bibliotheken genutzt, um Filme, Fassungen und Materialien (dazu zählen auch die physischen Trägermedien wie z. B. DVD oder Blu Ray) beschreibbar und auffindbar zu machen. Aber auch Forschungsprojekte greifen auf die Fachstandards zurück, um beispielsweise Filmkorpora durch Metadaten zu charakterisieren.
 
 Gleichzeitig sind Metadateninformationen zu Filmen auch für die Filmrecherche nicht unerheblich. Dabei können die Recherchegründe variieren – von der Suche nach filmbegleitendem Material, Angaben zu beteiligten Personen und Gewerken bis zur Suche nach Aufführungsrechten, historischen Informationen oder Nutzungsrechten. Online-Kataloge und Filmdatenbanken, wie beispielsweise die der <a href="https://www.deutsche-kinemathek.de/de" class="external-link" target="_blank">Deutschen Kinemathek</a> oder dem <a href="https://www.bfi.org.uk/" class="external-link" target="_blank">BFI</a> (British Film Institute), ermöglichen einen mehrdimensionalen Zugriff auf diese Informationen.
 
@@ -105,7 +105,7 @@ Für forschungsorientierte Projekte ist das Manual ein guter Referenzrahmen, um 
 
 ```{admonition} Filmbezogene Materialien
 :class: seealso
-Für sogenannte "film related materials" (z.B. Poster, PR Material, Stills) hat die FIAF ebenfalls <a href="https://fiaf.github.io/film-related-materials/" class="external-link" target="_blank">Best Practices</a> zusammengestellt.
+Für sogenannte "film related materials" (z. B. Poster, PR Material, Stills) hat die FIAF ebenfalls <a href="https://fiaf.github.io/film-related-materials/" class="external-link" target="_blank">Best Practices</a> zusammengestellt.
 ```
 
 ## Praxisbeispiel: DFFB-Archiv 

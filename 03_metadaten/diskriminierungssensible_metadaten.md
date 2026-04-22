@@ -65,7 +65,7 @@ Es gibt diverse Methoden und Umgangsweisen, um diskriminierungssensible Praktike
     * Bereitstellung weiterführender Informationen und Feedback-Optionen
 
 2. **Verfremdungsvarianten**
-    * Abweichung der konventionellen Darstellungsweise (z.B. durch Sternen, durchgestrichen, gespiegelt, Begriffe auf den Kopf stellen usw.) 
+    * Abweichung der konventionellen Darstellungsweise (z. B. durch Sternen, durchgestrichen, gespiegelt, Begriffe auf den Kopf stellen usw.) 
     * Umschreibung von ursprünglichen (veralteten) Synopsen und Beschreibungstexten oder ihre diskursive Kontextualisierung
 
 3. **Mehrfachbenennung** bzw. parallele Benennung (historischer Titel / bevorzugte Bezeichnung)
@@ -198,7 +198,7 @@ D: Datenquellen
 </summary>
 
 <ul style="margin-top:0.6rem;">
-<li>Werden Daten von Datenbanken, Webseiten oder Plattformen gescraped oder via API übernommen (z.B. TMDB, Letterboxd, OMDb)?
+<li>Werden Daten von Datenbanken, Webseiten oder Plattformen gescraped oder via API übernommen (z. B. TMDB, Letterboxd, OMDb)?
 <ul>
 <li>Gibt es problematische Kategorisierungen, Tags oder Genres?</li>
 <li>Wer betreibt die Plattform (größere Konzerne, Archive, Communities)?</li>
