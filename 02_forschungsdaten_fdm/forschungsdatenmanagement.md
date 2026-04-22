@@ -18,7 +18,7 @@ Dieser Zyklus orientiert sich vorrangig am Management quantitativer Daten. Eine 
 
 ```{admonition} Anpassung des Zyklus-Modells
 :class: important
-Sophie Einwächter weist darauf hin, dass eine Orientierung des FDMs an diesem Zyklus-Modell auch nicht bei jedem Projekt sinnvoll sein mag; es gibt beispielsweise auch Projekte, die mit der planmäßigen Löschung der Daten enden. Ebenso muss der Umgang mit personenbezogenen Daten hinsichtlich der Archivierung und Nachnutzung der Daten mitgedacht werden.
+Sophie Einwächter weist darauf hin, dass eine Orientierung des FDMs an diesem Zyklus-Modell auch nicht bei jedem Projekt sinnvoll sein muss; es gibt beispielsweise auch Projekte, die mit der planmäßigen Löschung der Daten enden. Ebenso muss der Umgang mit personenbezogenen Daten hinsichtlich der Archivierung und Nachnutzung der Daten mitgedacht werden.
 ```
  Wichtig ist also die kontextbezogene Auslegung und das Miteinbeziehen der projekteigenen Beschaffenheiten der Daten. Grundsätzlich bietet der Zyklus aber eine gute erste Basis für die Planung, da die Phasenhaftigkeit bzw. Prozesshaftigkeit der Arbeitsschritte adressiert wird.
 
@@ -58,13 +58,13 @@ Gleichsam sollten auch immer Validität und Reliabilität der Daten gewährleist
 Die Leitlinien richten sich insbesondere an Antragstellende für Forschungsprojekte.
 ```
 ````
-Neben der Berücksichtigung der FAIR-Prinzipien hat die DFG disziplinärübergreifende [Leitlinien](../assets/02_forschungsdaten_fdm/doc_k02_dfg_leitlinien.pdf) zum Umgang mit Forschungsdaten formuliert. Kernpunkte dieser Empfehlungen sind die langfristige Sicherung und Bereitstellung der Forschungsdaten. Indem die Transparenz und Qualität wissenschaftlicher Arbeit gestärkt werden, können wichtige Anschlussmöglichkeiten (ganz im Sinne des wissenschaftlichen Austauschs und der Nachnutzung) geschaffen werden.
+Neben der Berücksichtigung der FAIR-Prinzipien hat die DFG disziplinübergreifende [Leitlinien](../assets/02_forschungsdaten_fdm/doc_k02_dfg_leitlinien.pdf) zum Umgang mit Forschungsdaten formuliert. Kernpunkte dieser Empfehlungen sind die langfristige Sicherung und Bereitstellung der Forschungsdaten. Indem die Transparenz und Qualität wissenschaftlicher Arbeit gestärkt werden, können wichtige Anschlussmöglichkeiten (ganz im Sinne des wissenschaftlichen Austauschs und der Nachnutzung) geschaffen werden.
 
 Die drei Kernpunkte fassen wir hier kurz zusammen:
 
 1. In der **Projektplanung** sollen frühzeitig Überlegungen dazu festgehalten werden, welche Daten aus dem Forschungsvorhaben resultieren, wie sie generiert und ausgewertet werden, welche Konzepte für die Qualitätssicherung relevant sind, welche Datentypen anfallen, wie die langfristige Sicherung erfolgt und welche Publikationswege in Betracht komme. 
-2. Bei der **Bereitstellung** wird angestrebt, die Forschungsdaten zeitnah und in einer nutzbaren Form (als Rohdaten oder bereits strukturiert) zugänglich zu machen und den Zugang auch bei übertragenen Verwertungsrechten (z.B. an Verlage) sicherzustellen.
-3. Für die **langfristige Sicherung** sollten klare Archivierungsstrategien formuliert werden, wobei die Daten mindestens zehn Jahre in institutionellen (d.h. hochschuleigene Repositorien wie z.B. das <a href="https://refubium.fu-berlin.de/" class="external-link" target="_blank">Refubium der FU</a>) oder fachbezogenen überregionalen Infrastrukturen aufbewahrt werden sollen (z.B. <a href="https://mediarep.org/home" class="external-link" target="_blank">media/rep/</a>, <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">Github</a>).
+2. Bei der **Bereitstellung** wird angestrebt, die Forschungsdaten zeitnah und in einer nutzbaren Form (als Rohdaten oder bereits strukturiert) zugänglich zu machen und den Zugang auch bei übertragenen Verwertungsrechten (z. B. an Verlage) sicherzustellen.
+3. Für die **langfristige Sicherung** sollten klare Archivierungsstrategien formuliert werden, wobei die Daten mindestens zehn Jahre in institutionellen (d.h. hochschuleigene Repositorien wie z. B. das <a href="https://refubium.fu-berlin.de/" class="external-link" target="_blank">Refubium der FU</a>) oder fachbezogenen überregionalen Infrastrukturen aufbewahrt werden sollen (z. B. <a href="https://mediarep.org/home" class="external-link" target="_blank">media/rep/</a>, <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">Github</a>).
 
 ```{admonition} Weiterführende Links zum Thema Forschungsdatenmanagement & FAIR-Prinzipien
 :class: seealso

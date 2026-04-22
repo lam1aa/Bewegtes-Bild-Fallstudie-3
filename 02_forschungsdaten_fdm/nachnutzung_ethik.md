@@ -9,10 +9,10 @@ So können etwa vergleichende Analysen durchgeführt werden, Annotationspraktike
 
 Je nach Forschungsziel kann die Nachnutzung sehr unterschiedlich ausfallen:
 
-1. **Analytisch**: Annotations- oder Transkriptionsdaten können nachgenutzt werden, um neue Fragestellungen, z.B. zu Bewegungsmustern oder Farbkompositionen, zu prüfen.
+1. **Analytisch**: Annotations- oder Transkriptionsdaten können nachgenutzt werden, um neue Fragestellungen, z. B. zu Bewegungsmustern oder Farbkompositionen, zu prüfen.
 2. **Vergleichend**: Datensätze können, unter der Einbeziehung einer spezifischen wissenschaftlichen Fragestellung oder These, miteinander verglichen werden; ebenso können Lücken aufgedeckt und diskutiert werden.
-3. **Kuratierend**: Daten aus offenen Registern und Repositorien können in die eigene Forschung eingebunden werden, um bestehende Datensammlungen anzureichern oder neue Zugangswege zu schaffen (z.B. Datenaggregation von Metadaten aus Filmdatenbanken).
-4. **Didaktisch**: Forschungsdaten können für Lehrzwecke, z.B. als Übungsmaterial in Seminaren, genutzt werden (z.B. Nachnutzung von bestehenden OERs oder Tutorials).
+3. **Kuratierend**: Daten aus offenen Registern und Repositorien können in die eigene Forschung eingebunden werden, um bestehende Datensammlungen anzureichern oder neue Zugangswege zu schaffen (z. B. Datenaggregation von Metadaten aus Filmdatenbanken).
+4. **Didaktisch**: Forschungsdaten können für Lehrzwecke, z. B. als Übungsmaterial in Seminaren, genutzt werden (z. B. Nachnutzung von bestehenden OERs oder Tutorials).
 
 Für die Nachnutzung bietet es sich an, zunächst nach offenen Repositorien und Infrastrukturen zu suchen, in denen Forschungsdaten der Film- und Medienwissenschaft publiziert und verfügbar gemacht werden, wie etwa: 
 
@@ -34,7 +34,7 @@ Im Kapitel [Ressourcen und Entscheidungshilfen](../04_einführung_publikation/re
 Mehr Informationen zur **Datenzitierung** gibt es in unserer  <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/5_1_Datenzitierung.html" class="external-link" target="_blank">QUADRIGA Fallstudie: "Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht"</a>.
 ```
 ````
-Wichtig ist, die Nachnutzung transparent zu kommunizieren und ordnungsgemäß zu zitieren, sodass Herkunft, Kontext und Lizenzbedingungen nachvollziehbar bleiben. Nachgenutzte Datensätze sollten also ähnlich wie wissenschaftliche Publikationen behandelt werden, d.h. mit vollständiger Quellenangabe, [persistenten Identifikatoren](../06_publikation_repositorien/versionierung_lizenzierung.md) (z.B. DOI falls vorhanden) und Verweis auf [Lizenzbedingungen](../06_publikation_repositorien/versionierung_lizenzierung.md).
+Wichtig ist, die Nachnutzung transparent zu kommunizieren und ordnungsgemäß zu zitieren, sodass Herkunft, Kontext und Lizenzbedingungen nachvollziehbar bleiben. Nachgenutzte Datensätze sollten also ähnlich wie wissenschaftliche Publikationen behandelt werden, d.h. mit vollständiger Quellenangabe, [persistenten Identifikatoren](../06_publikation_repositorien/versionierung_lizenzierung.md) (z. B. DOI falls vorhanden) und Verweis auf [Lizenzbedingungen](../06_publikation_repositorien/versionierung_lizenzierung.md).
 
 ```{admonition} Was ist eine DOI?
 :class: hinweis

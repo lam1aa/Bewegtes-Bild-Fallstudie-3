@@ -122,6 +122,6 @@ Neben der Unterscheidung verschiedener Datentypen werden Forschungsdaten in Prim
 Mehr zum Thema Metadaten gibt es in Kapitel [Metadaten & Metadatenstandards](../03_metadaten/einführung_metadaten.md)
 ```
 ````
-2. **Sekundärdaten** hingegen sind Daten, die auf Basis vorhandener Primärdaten und Quellen analysiert und aggregiert werden, d.h. prozessiert werden. Typische Beispiele sind Transkriptionen von Audio- oder Videomaterial, Film- und Textkorpora oder Metadaten.
+2. **Sekundärdaten** hingegen sind Daten, die auf Basis vorhandener Primärdaten und Quellen analysiert und aggregiert, d.h. prozessiert werden. Typische Beispiele sind Transkriptionen von Audio- oder Videomaterial, Film- und Textkorpora oder Metadaten.
 
 Doch wie sieht es mit dieser Unterscheidung in der Film- und Medienwissenschaft aus? Welche fachspezifischen Datentypen und Kategorisierungen können hier ausgemacht werden? Und wie kann die Frage nach der Erhebung oder Nachnutzung bereits bestehender Daten unter kritischen Gesichtspunkten beleuchtet werden?

@@ -6,7 +6,7 @@ Im Wesentlichen sind DMPs von Menschen lesbare Dokumente, wobei es mittlerweile 
 
 ## Inhalte eines DMPs
 
-Die konkreten Inhalte eines DMPs sind nicht normiert, es gibt sowohl eine Reihe institutioneller Handreichungen und Vorlagen als auch digitale Werkzeuge, mit denen DMPs erstellt werden können. Für einen ersten Überblick fassen wir die wichtigsten Inhalte hier kurz zusammen:
+Die konkreten Inhalte eines DMPs sind nicht normiert. Es gibt sowohl eine Reihe institutioneller Handreichungen und Vorlagen als auch digitale Werkzeuge, mit denen DMPs erstellt werden können. Für einen ersten Überblick fassen wir die wichtigsten Inhalte hier kurz zusammen:
 
 ```{figure} ../assets/02_forschungsdaten_fdm/abb_k02_dmp.png
 ---
@@ -43,7 +43,7 @@ Datenmanagementplan
   </tr>
   <tr>
     <td><strong>Art der Daten</strong></td>
-    <td>Welche Forschungsdaten fallen an (Primär- oder Sekundärdaten, Annotationen, Transkriptionen? Metadaten, Visualisierungen uvm.); werden Daten nachgenutzt? Und wenn ja: welche Lizenzen und Bedingungen gelten dafür?</td>
+    <td>Welche Forschungsdaten fallen an (Primär- oder Sekundärdaten, Annotationen, Transkriptionen? Metadaten, Visualisierungen uvm.); werden Daten nachgenutzt? Und wenn ja: Welche Lizenzen und Bedingungen gelten dafür?</td>
   </tr>
   <tr>
     <td><strong>Datengewinnung</strong></td>
@@ -59,7 +59,7 @@ Datenmanagementplan
   </tr>
   <tr>
     <td><strong>Datensicherheit</strong></td>
-    <td>Verschlüsselung von Dateien und Speichersystemen, sichere Passwörter, Festlegung von Speicherfristen und ggf. Löschung von nicht mehr benötigter Daten, Zugangsbeschränkungen und -kontrollen,Verteilung von Zugriffsrollen, Einhaltung des Datenschutzes, Speicherung personenbezogener Daten innerhalb der EU</td>
+    <td>Verschlüsselung von Dateien und Speichersystemen, sichere Passwörter, Festlegung von Speicherfristen und ggf. Löschung nicht mehr benötigter Daten, Zugangsbeschränkungen und -kontrollen, Verteilung von Zugriffsrollen, Einhaltung des Datenschutzes, Speicherung personenbezogener Daten innerhalb der EU</td>
   </tr>
   <tr>
     <td><strong>Qualitätssicherung</strong></td>
@@ -75,7 +75,7 @@ Datenmanagementplan
   </tr>
   <tr>
     <td><strong>Datenorganisation</strong></td>
-    <td>Ordnerstrukturen, Benennungskonventionen für Dateien und Ordner, Versionierung (z.B. Semantic Versioning), Konsistenzregeln</td>
+    <td>Ordnerstrukturen, Benennungskonventionen für Dateien und Ordner, Versionierung (z. B. Semantic Versioning), Konsistenzregeln</td>
   </tr>
   <tr>
     <td><strong>Nachnutzungsszenarien/Umgang nach Projektende</strong></td>
@@ -83,15 +83,15 @@ Datenmanagementplan
   </tr>
   <tr>
     <td><strong>Rechtliche Aspekte</strong></td>
-    <td>Einhaltung des Datenschutzes, Umgang mit personenbezogenen Daten, Lizenzbedingungen nachgenutzter Daten, Materialrechte (z.B. von Bildern, Videos oder Audiofiles) bzw. urheberrechtliche Aspekte, Einwilligungen für (z.B. für Interviews)</td>
+    <td>Einhaltung des Datenschutzes, Umgang mit personenbezogenen Daten, Lizenzbedingungen nachgenutzter Daten, Materialrechte (z. B. von Bildern, Videos oder Audiofiles) bzw. urheberrechtliche Aspekte, Einwilligungen für (z. B. für Interviews)</td>
   </tr>
 </table>
 <br>
 
 Das Erstellen eines DMPs hilft dabei, im Vorfeld systematisch über Erzeugung, Nutzung und Einbindung von Forschungsdaten zu reflektieren. Gleichzeitig wird Transparenz über Datenerzeugung und -verwendung geschaffen – einerseits für die Planung innerhalb des Projekts, andererseits ebenso für die Kommunikation mit der Forschungseinrichtung oder Förderinstitution 
-(z.B. <a href="https://www.dfg.de/de" class="external-link" target="_blank">DFG</a> oder <a href="https://www.bmftr.bund.de/DE/Home/home_node.html" class="external-link" target="_blank">BMFTR</a>). 
+(z. B. <a href="https://www.dfg.de/de" class="external-link" target="_blank">DFG</a> oder <a href="https://www.bmftr.bund.de/DE/Home/home_node.html" class="external-link" target="_blank">BMFTR</a>). 
 
-Um den Einstieg zu erleichtern, hat die die HU Berlin hierzu ein kurzes Online-Video erstellt und die wichtigsten Punkte zusammengefasst.
+Um den Einstieg zu erleichtern, hat die HU Berlin hierzu ein kurzes Online-Video erstellt und die wichtigsten Punkte zusammengefasst.
 
 <div style="max-width:500px; margin:2rem 0;">
 
