@@ -1,7 +1,7 @@
 # Exkurs: Diskriminierungssensible Metadaten
 
 Klassifizierungssysteme wie Metadatenstandards, Taxonomien oder Ontologien sind, wie zuvor erwähnt, zur Identifizierung und Organisation von Daten essentiell. Gleichsam sind sie aber auch immer Wissensmodelle, d. h., dass Wissen über festgelegte Strukturen und Beschreibungspraktiken modelliert wird. Dazu gehören die Auswahl eines kontrollierten Vokabulars sowie bereits die Auswahl der zu beschreibenden Elemente selbst. 
-Klassifizierungssysteme sind dahingehend weder wertneutral oder "objektiv", noch selbsterklärend. Sie sind historisch situiert und stellen eine spezifische Sichtweise von Welt- und Wissensordnungen her. Hierzu schreibt Drucker: 
+Klassifizierungssysteme sind dahingehend weder wertneutral oder "objektiv" noch selbsterklärend. Sie sind historisch situiert und stellen eine spezifische Sichtweise von Welt- und Wissensordnungen her. Hierzu schreibt Drucker: 
 > "All classification systems bear within the ideological imprint of their production."
 
 Sichtbar wird solche Kritik an häufig vorzufindenden Begriffen wie beispielsweise "creator". Kunstproduktion ist nicht zwangsweise in jeder Community an eine konkrete "schöpfende" Person gebunden. Oft entstehen Werke und Arbeiten in kollektiven Herstellungsdynamiken, die explizit versuchen gesellschaftlich verfestigte Hierarchien zu überwinden. Kollektive Arbeitsweisen können so im schlimmsten Fall ungenannt und entsprechend ungewürdigt bleiben ("uncredited").
@@ -46,10 +46,10 @@ align: center
 width: 90%
 name: dnb-buchtitel-einstein
 ---
-Screenshot aus dem Eintrag des <a href="https://d-nb.info/1022343017" class="external-link" target="_blank">Datensatz </a> zum Buchtitel "N*plastik" von Carl Einstein
+Screenshot aus dem Eintrag des <a href="https://d-nb.info/1022343017" class="external-link" target="_blank">Datensatzes</a> zum Buchtitel "N*plastik" von Carl Einstein
 ```
 
-Für Dogtas et. al. führt die Ausschreibung des N-Wortes zur kontinuierlichen Fortschreibung seiner rassistischen Implikationen sowie zur Verfestigung der dem Begriff immanenten “komplementären Fiktion der Überlegenheit *weisser*” (Herv. i. O).
+Für Dogtas et. al. führt die Ausschreibung des N-Wortes zur kontinuierlichen Fortschreibung seiner rassistischen Implikationen sowie zur Verfestigung der dem Begriff immanenten “komplementären Fiktion der Überlegenheit *weisser*” (Herv. i. O.).
 Die unhinterfragte Übernahme diskriminierender Praktiken und Sprache führe also dazu, dass exklusive und diskriminierende Seiten der Gesellschaft weiter Einzug in unsere Systeme und Strukturen erhalten – so das Argument.
 Das Sammeln, Bewahren und Erforschen von Ressourcen ist jedoch darauf ausgelegt, die Entstehungsmerkmale zu erhalten und sie so abzubilden, wie sie sich in ihren historischen und gesellschaftlichen Kontexten präsentierten/präsentieren. 
 
@@ -65,16 +65,16 @@ Es gibt diverse Methoden und Umgangsweisen, um diskriminierungssensible Praktike
     * Bereitstellung weiterführender Informationen und Feedback-Optionen
 
 2. **Verfremdungsvarianten**
-    * Abweichung der konventionellen Darstellungsweise (z. B. durch Sternen, durchgestrichen, gespiegelt, Begriffe auf den Kopf stellen usw.) 
+    * Abweichung der konventionellen Darstellungsweise (z. B. durch Sternchen, durchgestrichen, gespiegelt, Begriffe auf den Kopf stellen) 
     * Umschreibung von ursprünglichen (veralteten) Synopsen und Beschreibungstexten oder ihre diskursive Kontextualisierung
 
 3. **Mehrfachbenennung** bzw. parallele Benennung (historischer Titel / bevorzugte Bezeichnung)
 
-4. Alternative, inklusive **kontrollierte Vokabulare** oder Glossare (siehe [unten](#weiterführende-links-1))
+4. Alternative, inklusive **kontrollierter Vokabulare** oder Glossare (siehe [unten](#weiterführende-links-1))
 
 Wie solche Strategien in der Praxis umgesetzt werden, möchten wir anhand von zwei Beispielen exemplarisch veranschaulichen:
 
-Zum einen an der kontextualisierten Beschreibung (`Kurzinhalt`) des NS-Propagandafilms *J\*d Süß*[^2] (1940) von Veit Harlan in der Datenbank der Murnau Stiftung. In der hier vorliegenden <a href="https://www.murnau-stiftung.de/movie/454" class="external-link" target="_blank">Beschreibung</a> wird der Inhalt filmnah eingeordnet ohne jedoch antisemitische und propagandistische Sprache zu übernehmen – im Gegenteil; der Text kontextualisiert die historischen Umstände und markiert den Text ausdrücklich als propagandistisch-ideologisches Werk.
+Zum einen an der kontextualisierten Beschreibung (`Kurzinhalt`) des NS-Propagandafilms *J\*d Süß*[^2] (1940) von Veit Harlan in der Datenbank der Murnau Stiftung. In der hier vorliegenden <a href="https://www.murnau-stiftung.de/movie/454" class="external-link" target="_blank">Beschreibung</a> wird der Inhalt filmnah eingeordnet ohne jedoch antisemitische und propagandistische Sprache zu übernehmen – im Gegenteil: Der Text kontextualisiert die historischen Umstände und markiert den Film ausdrücklich als propagandistisch-ideologisches Werk.
 
 ```{figure} ../assets/03_metadaten/abb_k03_murnau_stiftung.png
 ---
@@ -117,7 +117,7 @@ A: Korpus
 <ul style="margin-top:0.6rem;">
 <li>Wie ist der Korpus geprägt?
 <ul>
-<li>Welche Schwerpunkte hat er (zeitlich, räumlich, sprachlich/kulturell?)</li>
+<li>Welche Schwerpunkte hat er (zeitlich, räumlich, sprachlich/kulturell)?</li>
 <li>Enthält die Auswahl des Korpus bereits strukturelle Ausschlüsse (westl. Produktionen, Kanon, Mainstream)?</li>
 <li>Welche Perspektiven fehlen?</li>
 </ul>
@@ -224,7 +224,7 @@ E: Historische Kontexte
 </summary>
 
 <ul style="margin-top:0.6rem;">
-<li>Sind die Ressourcen bzw. Werke historisch situiert (z. B. Kolonialfilme, NS-Propagandafilme)?
+<li>Gibt es aufgrund der historischen Situiertheit der Werke gewisse diskriminierende oder marginalisierende Elemente in den Metadaten (z. B. Kolonialfilme, NS-Propagandafilme)?
 <ul>
 <li>Sind historisch situierte diskriminierende Elemente identifizierbar?</li>
 <li>Wie können historische Angaben erhalten bleiben, ohne diskriminierende Beschreibungen zu reproduzieren?</li>

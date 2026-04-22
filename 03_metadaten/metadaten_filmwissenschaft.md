@@ -73,7 +73,7 @@ Für eine klare Identifizierung filmischer Werke sind [persistente Identifikator
 ```
 ```{admonition} Exkurs: Werk – Variante – Manifestation – Exemplar
 :class: hinweis
-Die vier Begriffe `Werk`, `Variante`, `Manifestation` und `Exemplar` stammen aus dem <a href="https://repository.ifla.org/items/ffb50f46-46ab-4ec4-8970-b00e2b0d2811" class="external-link" target="_blank">FRBR-Modell </a> (Functional Requirements for Bibliographic Records) und wurden für die Filmarchivierung im EN 15907-Standard übernommen. Sie ermöglichen Filmarchiven, Kinematheken und Mediatheken die komplexen und mehrschichtigen Ebenen zwischen dem künstlerischen bzw. schöpferischen Idee (Werk), seinen verschiedenen inhaltlichen Fassungen (Variante), den technischen Ausgabeformaten (Manifestation) und physischen und digitalen Kopien (Exemplar) zu erfassen.
+Die vier Begriffe `Werk`, `Variante`, `Manifestation` und `Exemplar` stammen aus dem <a href="https://repository.ifla.org/items/ffb50f46-46ab-4ec4-8970-b00e2b0d2811" class="external-link" target="_blank">FRBR-Modell </a> (Functional Requirements for Bibliographic Records) und wurden für die Filmarchivierung im EN 15907-Standard übernommen. Sie ermöglichen Filmarchiven, Kinematheken und Mediatheken die komplexen und mehrschichtigen Ebenen zwischen der künstlerischen bzw. schöpferischen Idee (Werk), seinen verschiedenen inhaltlichen Fassungen (Variante), den technischen Ausgabeformaten (Manifestation) und physischen und digitalen Kopien (Exemplar) zu erfassen.
 
 **Beispiel**:
 

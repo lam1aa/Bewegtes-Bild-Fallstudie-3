@@ -8,7 +8,7 @@ name: metadata
 ---
 Metadata, © @Markus Winkler via Unsplash
 ```
-Metadaten sind Daten über Daten. Oder, wie Johanna Drucker es treffend formuliert: "Think of metadata as the information about a resource or digital asset". Die Bandbreite der Erscheinungsformen von Metadaten reicht von sehr einfachen Beschreibungen, wie etwa den grundlegenden "Get Info" -Angaben zu einem digitalen Objekt, bis hin zu hochkomplexen Metadatenstrukturen mit mehreren Ebenen, Feldern und Hierarchien, wie sie insbesondere in Museen, kulturellen Einrichtungen und Archiven zur Erschließung und Verwaltung von Beständen genutzt werden.
+Metadaten sind Daten über Daten. Oder wie Johanna Drucker es treffend formuliert: "Think of metadata as the information about a resource or digital asset". Die Bandbreite der Erscheinungsformen von Metadaten reicht von sehr einfachen Beschreibungen, wie etwa den grundlegenden "Get Info"-Angaben zu einem digitalen Objekt, bis hin zu hochkomplexen Metadatenstrukturen mit mehreren Ebenen, Feldern und Hierarchien, wie sie insbesondere in Museen, kulturellen Einrichtungen und Archiven zur Erschließung und Verwaltung von Beständen genutzt werden.
 
 ```{image} ../assets/03_metadaten/abb_k03_bandbreite_metadaten.png
 ---
@@ -102,7 +102,7 @@ Nicht immer sind die einzelnen Metadaten-Kategorien klar voneinander zu trennen.
 (markup-sprachen)=
 ## Exkurs: Markup-Sprachen
 
-Metadaten liegen oft in maschinenlesbarer Form vor - in sogenannten Markup-Sprachen. Dies unterstützt die Interoperabilität der Daten hinsichtlich Weiterverwendung und Austausch. 
+Metadaten liegen oft in maschinenlesbarer Form vor – in sogenannten Markup-Sprachen. Dies unterstützt die Interoperabilität der Daten hinsichtlich Weiterverwendung und Austausch. 
 
 ```{admonition} Was sind Markup-Sprachen?
 :class: hinweis
@@ -123,7 +123,7 @@ XML-Beispiel, © NISO
 :class: hinweis, dropdown
 XML nutzt definierte Elemente bzw. Tags, um anzugeben, welche Bedeutung den jeweils enthaltenen Werten zukommt. Elemente können auch andere Elemente enthalten. Ein XML-Dokument ist ähnlich aufgebaut wie eine Baumstruktur, beginnend mit einem Stammelement.
 ```
-In den Digital Humanities hat sich die auf `XML` basierte Markup-Sprache `TEI`als gängiger Standard etabliert. `TEI` wurde gezielt an die Bedürfnisse geisteswissenschaftlicher Forschung angepasst.
+In den Digital Humanities hat sich die auf `XML` basierte Markup-Sprache `TEI` als gängiger Standard etabliert. `TEI` wurde gezielt an die Bedürfnisse geisteswissenschaftlicher Forschung angepasst.
 
 ```{admonition} Mehr Informationen zu XML & TEI
 :class: seealso
