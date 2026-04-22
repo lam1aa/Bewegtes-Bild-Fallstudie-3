@@ -59,9 +59,9 @@ Darunter zählen beispielsweise:
       <td><strong>1. Messdaten und quantitative Daten</strong></td>
       <td>
         <ul>
-          <li>Experimentelle Ergebnisse (z.B. Labormessungen, statistische Erhebungen)</li>
-          <li>Simulationsergebnisse (z.B. Computermodelle, Klimasimulationen)</li>
-          <li>Sensorische Daten (z.B. Temperaturmessungen, Licht, chemische Messwerte)</li>
+          <li>Experimentelle Ergebnisse (z. B. Labormessungen, statistische Erhebungen)</li>
+          <li>Simulationsergebnisse (z. B. Computermodelle, Klimasimulationen)</li>
+          <li>Sensorische Daten (z. B. Temperaturmessungen, Licht, chemische Messwerte)</li>
         </ul>
       </td>
     </tr>
@@ -101,7 +101,7 @@ Darunter zählen beispielsweise:
       <td>
         <ul>
           <li>Softwareoutputs, Logfiles, Datenbanken</li>
-          <li>Statistikoutputs (z.B. aus R oder Python)</li>
+          <li>Statistikoutputs (z. B. aus R oder Python)</li>
           <li>Linked Data Tripel, Datenvisualisierungen</li>
         </ul>
       </td>
@@ -115,13 +115,13 @@ Diese Daten können bereits von Grund auf, also in ihrem Ursprung, digital sein.
 
 Neben der Unterscheidung verschiedener Datentypen werden Forschungsdaten in Primär- oder Sekundärdaten unterteilt. Hier kann allgemein festgehalten werden: 
 
-1. **Primärdaten** sind "Rohdaten oder Urdaten", die in direktem Bezug zum Untersuchungsgegenstand erhoben werden und unverarbeitet vorliegen, d.h. noch unprozessiert sind. Beispiele wären Messwerte oder Fotografien aus eigenen Erhebungen. 
+1. **Primärdaten** sind "Rohdaten oder Urdaten", die in direktem Bezug zum Untersuchungsgegenstand erhoben werden und unverarbeitet vorliegen, d. h. noch unprozessiert sind. Beispiele wären Messwerte oder Fotografien aus eigenen Erhebungen. 
 ````{margin}
 ```{admonition} Metadaten
 :class: hinweis
 Mehr zum Thema Metadaten gibt es in Kapitel [Metadaten & Metadatenstandards](../03_metadaten/einführung_metadaten.md)
 ```
 ````
-2. **Sekundärdaten** hingegen sind Daten, die auf Basis vorhandener Primärdaten und Quellen analysiert und aggregiert, d.h. prozessiert werden. Typische Beispiele sind Transkriptionen von Audio- oder Videomaterial, Film- und Textkorpora oder Metadaten.
+2. **Sekundärdaten** hingegen sind Daten, die auf Basis vorhandener Primärdaten und Quellen analysiert und aggregiert, d. h. prozessiert werden. Typische Beispiele sind Transkriptionen von Audio- oder Videomaterial, Film- und Textkorpora oder Metadaten.
 
 Doch wie sieht es mit dieser Unterscheidung in der Film- und Medienwissenschaft aus? Welche fachspezifischen Datentypen und Kategorisierungen können hier ausgemacht werden? Und wie kann die Frage nach der Erhebung oder Nachnutzung bereits bestehender Daten unter kritischen Gesichtspunkten beleuchtet werden?

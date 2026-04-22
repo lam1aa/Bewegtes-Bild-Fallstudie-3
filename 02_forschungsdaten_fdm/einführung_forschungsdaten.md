@@ -46,6 +46,6 @@ Mehr Infos zum Thema **Datenvisualisierung** gibt es in unserer <a href="https:/
 ````
 Das Projekt veranschaulicht anhand digitalisierter Materialien die historische Entwicklung analoger Farbfilmverfahren. Es werden zu spezifischen Filmen Farbräume erfasst, anhand derer Materialität und Ästhetik filmischer Bilder rekonstruiert werden können. Die Abbildung zeigt, wie verschiedene analoge Farbfilmverfahren über die Zeit verteilt auftreten.
 
-Wie diese Einblicke bereits zeigen, werden in diesen Forschungsprozessen Daten einerseits herangezogen, andererseits entstehen aber auch immer wieder neue. Doch was sind Forschungsdaten in der Filmwissenschaft überhaupt? Und wie lässt sich damit im konkreten Forschungsalltag umgehen – d.h., wie können diese Daten sowohl organisiert als auch im Anschluss für eine Nachnutzung aufbereitet werden?
+Wie diese Einblicke bereits zeigen, werden in diesen Forschungsprozessen Daten einerseits herangezogen, andererseits entstehen aber auch immer wieder neue. Doch was sind Forschungsdaten in der Filmwissenschaft überhaupt? Und wie lässt sich damit im konkreten Forschungsalltag umgehen – d. h., wie können diese Daten sowohl organisiert als auch im Anschluss für eine Nachnutzung aufbereitet werden?
 
 Mit unserem Fallbeispiel aus einem filmwissenschaftlichen Forschungsprojekt wollen wir uns Schritt für Schritt dem Thema Forschungsdaten, ihrem Management und ihrer Publikation auseinandersetzen. 
