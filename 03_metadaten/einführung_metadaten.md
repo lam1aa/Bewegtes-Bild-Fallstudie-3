@@ -85,7 +85,7 @@ Es gibt verschiedene Typen von Metadaten, die hinsichtlich ihrer Art und Funktio
 
   <tr>
     <td><strong>Strukturelle Metadaten</strong></td>
-    <td>Beschreiben die Anordnung  und Hierarchie eines Objekts oder einer Sammlung, d.h. die Beziehung der einzelnen Teile zueinander </td>
+    <td>Beschreiben die Anordnung  und Hierarchie eines Objekts oder einer Sammlung, d. h. die Beziehung der einzelnen Teile zueinander </td>
     <td>Kapitelstruktur eines Buchs, sequentielle Abfolge eines Films, Verlinkungsstrukturen einer Website, Codelisten uvm.</td>
   </tr>
 

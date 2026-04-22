@@ -1,6 +1,6 @@
 # Exkurs: Diskriminierungssensible Metadaten
 
-Klassifizierungssysteme wie Metadatenstandards, Taxonomien oder Ontologien sind, wie zuvor erwähnt, zur Identifizierung und Organisation von Daten essentiell. Gleichsam sind sie aber auch immer Wissensmodelle, d.h., dass Wissen über festgelegte Strukturen und Beschreibungspraktiken modelliert wird. Dazu gehören die Auswahl eines kontrollierten Vokabulars sowie bereits die Auswahl der zu beschreibenden Elemente selbst. 
+Klassifizierungssysteme wie Metadatenstandards, Taxonomien oder Ontologien sind, wie zuvor erwähnt, zur Identifizierung und Organisation von Daten essentiell. Gleichsam sind sie aber auch immer Wissensmodelle, d. h., dass Wissen über festgelegte Strukturen und Beschreibungspraktiken modelliert wird. Dazu gehören die Auswahl eines kontrollierten Vokabulars sowie bereits die Auswahl der zu beschreibenden Elemente selbst. 
 Klassifizierungssysteme sind dahingehend weder wertneutral oder "objektiv", noch selbsterklärend. Sie sind historisch situiert und stellen eine spezifische Sichtweise von Welt- und Wissensordnungen her. Hierzu schreibt Drucker: 
 > "All classification systems bear within the ideological imprint of their production."
 
