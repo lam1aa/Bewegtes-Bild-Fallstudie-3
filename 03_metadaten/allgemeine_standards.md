@@ -233,7 +233,7 @@ Allgemeine, generische Schemata sind ein guter Einstieg für Projektanfänge. H�
 :class: seealso
 * <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/" class="external-link" target="_blank">forschungsdaten.info</a>
 * <a href="https://rdamsc.bath.ac.uk/" class="external-link" target="_blank">Metadata Standards Catalog</a>
-* <a href="https://www.fu-berlin.de/sites/forschungsdatenmanagement/in-der-praxis/durchfuehrung/metadaten.html" class="external-link" target="_blank">Metadaten (FU Berlin)g</a>
+* <a href="https://www.fu-berlin.de/sites/forschungsdatenmanagement/in-der-praxis/durchfuehrung/metadaten.html" class="external-link" target="_blank">Metadaten (FU Berlin)</a>
 * <a href="https://www.cms.hu-berlin.de/de/dl/dataman/teilen/dokumentation" class="external-link" target="_blank">Dokumentation und Metadaten (HU Berlin)</a>
 * <a href="https://www.zedif.uni-jena.de/en/210/metadata-and-metadata-standards" class="external-link" target="_blank">Metadata and Metadata Standards (Friedrich-Schiller-Universität Jena)</a>
 ```

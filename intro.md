@@ -23,7 +23,7 @@ Ergänzend soll gezeigt werden, wie diese Annotationsdatensets noch angereichert
 
 ## Aufbau der Lerninhalte 
 
-Die folgende Übersicht zeigt die fünf Schritte bzw. **Lernmodule** (Kap. 2–6) unserer OER zur Publikation filmwissenschaftlicher Datensätze. Die ersten drei Module vermitteln **Grundlagenwissen**. Die OER ist kleinteilig konzipiert und besteht aus mehreren Unterkapiteln eines Lernmoduls. Dadurch können bestimmte Lerneinheiten/Unterkapitel – mit entsprechenden Vorwissen – auch übersprungen werden.
+Die folgende Übersicht zeigt die fünf Schritte bzw. **Lernmodule** (Kap. 2–6) unserer OER zur Publikation filmwissenschaftlicher Datensätze. Die ersten drei Module vermitteln **Grundlagenwissen**. Die OER ist kleinteilig konzipiert und besteht aus mehreren Unterkapiteln eines Lernmoduls. Dadurch können bestimmte Lerneinheiten/Unterkapitel – mit entsprechendem Vorwissen – auch übersprungen werden.
 
 ```{figure} ./assets/intro/abb_intro_aufbau_fallstudie_v004.png
 ---
