@@ -25,7 +25,7 @@ Ergänzend soll gezeigt werden, wie diese Annotationsdatensets noch angereichert
 
 Die folgende Übersicht zeigt die fünf Schritte bzw. **Lernmodule** (Kap. 2–6) unserer OER zur Publikation filmwissenschaftlicher Datensätze:
 
-```{figure} ./assets/intro/abb_intro_aufbau_fallstudie_v003.png
+```{figure} ./assets/intro/abb_intro_aufbau_fallstudie_v004.png
 ---
 align: center
 width: 100%
