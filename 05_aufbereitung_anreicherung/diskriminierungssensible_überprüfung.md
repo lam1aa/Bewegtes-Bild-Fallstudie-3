@@ -1,1 +1,1 @@
-# Exkurs: Diskriminierungssensible Überprüfung 
+# Diskriminierungssensible Überprüfung 

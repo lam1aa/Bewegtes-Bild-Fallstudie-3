@@ -1,4 +1,4 @@
-# Exkurs: Erhebung & Nachnutzung
+# Erhebung & Nachnutzung
 
 *Da diese Fallstudie sich auf die **Organisation, Aufbereitung und Publikation** von Daten entlang des filmwissenschaftlichen SFB-Teilprojekts der FU konzentriert, werden hier lediglich einige gängige Methoden, Beispiele und Hinweise für die Datenerhebung vorgestellt - es besteht kein Anspruch auf Vollständigkeit.*
 
