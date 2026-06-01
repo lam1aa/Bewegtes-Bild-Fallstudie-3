@@ -7,14 +7,14 @@
   </schema:AlignmentObject>
   <schema:Book rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3">
     <dc:type>Jupyter Book</dc:type>
-    <dcterms:tableOfContents>- Präambel
+    <dcterms:tableOfContents>- Einstieg
 - Forschungsdaten &amp; Datenmanagement in der Filmwissenschaft
 - Metadaten &amp; Metadatenstandards
 - Datenpublikation in der Filmwissenschaft
 - Aufbereitung &amp; Anreicherung filmwissenschaftlicher Daten
 - Publikation von Datensets in einem Repositorium
 - Reflexion &amp; Resümee
-- Epilog</dcterms:tableOfContents>
+- Abschluss</dcterms:tableOfContents>
     <dcterms:type>Jupyter Book</dcterms:type>
     <lrmi:learningResourceType>Jupyter Book</lrmi:learningResourceType>
     <schema:about>
