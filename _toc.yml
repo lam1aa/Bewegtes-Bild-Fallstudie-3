@@ -46,6 +46,8 @@ chapters:
     sections:
       - file: 05_aufbereitung_anreicherung/informationen_datenset
       - file: 05_aufbereitung_anreicherung/moviebarcodes
+        sections:
+          - file: 05_aufbereitung_anreicherung/moviebarcodes_guide
       - file: 05_aufbereitung_anreicherung/systematische_aufbereitung
       - file: 05_aufbereitung_anreicherung/formatierung_anpassung
       - file: 05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung
