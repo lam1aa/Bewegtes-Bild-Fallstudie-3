@@ -30,7 +30,7 @@ Das Ergebnis der Datenaufbereitung, Bereinigung sowie Anreicherung ist ein öffe
 > Grotkopp, M., Pfeilschifter, Y., & Demir, D. (2026). Intervening World Projections: Audiovisuality of Climate Change – Dataset (Version 1.0.0) [Data set]. https://github.com/SFB1512-C05-climate-film
 `````
 
-```{figure} ../assets/05_aufbereitung_anreicherung/abb_k06_sfb_repository_github.png
+```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_sfb_repository_github.png
 ---
 align: center
 width: 100%

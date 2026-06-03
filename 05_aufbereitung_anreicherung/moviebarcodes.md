@@ -2,7 +2,7 @@
 
 ## Was sind Moviebarcodes?
 
-```{figure} ../assets/05_aufbereitung_anreicherung/abb_k06_mb_e158p_0.png
+```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_mb_e158p_0.png
 :name: moviebarcode planet earth
 
 Moviebarcode aus der Naturdokuserie *Planet Earth: The Future*, Staffel 1/Episode 3: *Living Together*
@@ -53,4 +53,4 @@ Dokumentation des <a href="https://github.com/SFB1512-C05-climate-film/interveni
 
 1. [Windows](../assets/05_aufbereitung_anreicherung/doc_windows_moviebarcode_guide_v001.md)
 2. [Linux](../assets/05_aufbereitung_anreicherung/doc_linux_moviebarcode_guide_v001.md)
-3. [Mac](../assets/05_aufbereitung_anreicherung/doc_mac_moviebarcode_guide_v001.md)
+3. [MacOS](../assets/05_aufbereitung_anreicherung/doc_mac_moviebarcode_guide_v001.md)
