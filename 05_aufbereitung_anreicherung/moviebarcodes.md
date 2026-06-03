@@ -46,3 +46,11 @@ Ergänzend sei darauf verwiesen, dass § 60d UrhG Text- und Data Mining zu wisse
 
 Da Moviebarcodes keinen Werkcharakter im urheberrechtlichen Sinne aufweisen, sind sie auch nicht lizenzierungspflichtig. Dies bedeutet streng genommen, dass es keine explizite Lizenz geben muss. Wie die konkrete Lizenzierung für Moviebarcodes aussehen kann, wird im Kapitel Lizenzierung [TODO: Verlinkung] besprochen.
 
+## Moviebarcodes selbst erstellen: Guides
+
+Nachfolgend haben wir Code-Guides erstellt, die Schritt für Schritt den Prozess der Erzeugung von Moviebarcodes aus einer Filmdatei dokumentieren und selbstständig reproduziert werden können. Die Guides sind hier in der deutschen Version für Windows, MacOS und Linux verfügbar. Die englischen Versionen sind in der 
+Dokumentation des <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/documentation/moviebarcodes_documentation" class="external-link" target="_blank">Projektrepositorys </a> hinterlegt. 
+
+1. [Windows](../assets/05_aufbereitung_anreicherung/doc_windows_moviebarcode_guide_v001.md)
+2. [Linux](../assets/05_aufbereitung_anreicherung/doc_linux_moviebarcode_guide_v001.md)
+3. [Mac](../assets/05_aufbereitung_anreicherung/doc_mac_moviebarcode_guide_v001.md)
