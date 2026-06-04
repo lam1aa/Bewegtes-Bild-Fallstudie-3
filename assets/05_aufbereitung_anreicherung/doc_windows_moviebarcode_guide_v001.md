@@ -8,7 +8,7 @@ orphan: true
 
 Chocolatey ist ein Paketmanager für Windows-Betriebssysteme. Im Rahmen dieses Guides benutzen wir Chocolatey, um FFmpeg und ImageMagick zu installieren. Wenn Sie FFmpeg und ImageMagick bereits installiert haben oder manuell installieren möchten, können Sie diesen Schritt überspringen.
 
-Öffnen Sie die PowerShell als Administrator (Windowstaste + X, dann "Windows PowerShell (Admin)" auswählen).  
+Öffnen Sie die PowerShell als Administrator (Windows-Taste + X, dann "Windows PowerShell (Admin)" auswählen).  
 Setzen Sie dort folgenden Befehl ab:
 
 ```Shell
@@ -50,7 +50,7 @@ Beide Befehle sollten Ihnen ohne Fehlermeldungen die Versionen des jeweiligen Pr
 
 ## 1.2. Erstellen des Barcodes
 
-Legen Sie nun ein Arbeitsverzeichnis an und navigieren Sie in der PowerShell in das Arbeitsverzeichnis. Beispielsweise so, um ein Verzeichnis unter `C:\moviebarcodes` anzulegen:
+Legen Sie nun ein Arbeitsverzeichnis an und navigieren Sie in der PowerShell in das Arbeitsverzeichnis. Beispielsweise so, um ein Verzeichnis unter `C:\moviebarcode` anzulegen:
 
 ```Bash
 mkdir C:\moviebarcode
@@ -65,7 +65,7 @@ Setzen Sie alle folgenden Befehle direkt im Arbeitsverzeichnis ab.
 
 ### 1.2.1. Konzeption des finalen Barcodes
 
-Um die Parameter für die Extraktion der Frames zu ermitteln, müssen wir zunächst dessen finale Abmessungen festlegen. Im Zuge dieses Guides werden wir einen Barcode erstellen, der die Maße `2520 × 1080 px` hat, sowie eine kleinere Version mit `1680 × 720 px`. Die Maße orientieren sich dabei an der Auflösung des Quellvideos, aus dem der Barcode erzeugt werden soll, wobei hier die Höhe ausschlaggebend ist:
+Um die Parameter für die Extraktion der Frames zu ermitteln, müssen wir zunächst die finalen Abmessungen des Barcodes festlegen. Im Zuge dieses Guides werden wir einen Barcode erstellen, der die Maße `2520 × 1080 px` hat, sowie eine kleinere Version mit `1680 × 720 px`. Die Maße orientieren sich dabei an der Auflösung des Quellvideos, aus dem der Barcode erzeugt werden soll, wobei hier die Höhe ausschlaggebend ist:
 
 ```Shell
 ffprobe -v error -select_streams v:0 -show_entries stream=width,height "barcode_test.mkv"

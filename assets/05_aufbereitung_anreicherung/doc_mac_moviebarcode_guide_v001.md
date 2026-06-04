@@ -46,7 +46,7 @@ Setzen Sie alle folgenden Befehle direkt im Arbeitsverzeichnis ab.
 
 ### 3.2.1. Konzeption des finalen Barcodes
 
-Um die Parameter für die Extraktion der Frames zu ermitteln, müssen wir zunächst dessen finale Abmessungen festlegen. Im Zuge dieses Guides werden wir einen Barcode erstellen, der die Maße `2520 × 1080 px` hat, sowie eine kleinere Version mit `1680 × 720 px`. Die Maße orientieren sich dabei an der Auflösung des Quellvideos, aus dem der Barcode erzeugt werden soll, wobei hier die Höhe ausschlaggebend ist:
+Um die Parameter für die Extraktion der Frames zu ermitteln, müssen wir zunächst die finalen Abmessungen des Barcodes festlegen. Im Zuge dieses Guides werden wir einen Barcode erstellen, der die Maße `2520 × 1080 px` hat, sowie eine kleinere Version mit `1680 × 720 px`. Die Maße orientieren sich dabei an der Auflösung des Quellvideos, aus dem der Barcode erzeugt werden soll, wobei hier die Höhe ausschlaggebend ist:
 
 ```Bash
 ffprobe -v error -select_streams v:0 -show_entries stream=width,height barcode_test.mkv
