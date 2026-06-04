@@ -70,7 +70,7 @@ Um die Breite von `2520 px` zu füllen, benötigen wir 2520 Einzelframes aus d
 ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 .\barcode_test.mkv
 ```
 
-Die Ausgabe ist die Dauer des Videos in Sekunden. In diesem Fall `297.708`. Hieraus lässt sich die Anzahl der nötigen Frames pro Sekunde Laufzeit (FPS) berechnen:
+Die Ausgabe ist die Dauer des Videos in Sekunden. In diesem Fall `297.708`. Hieraus lässt sich die Anzahl der nötigen Frames pro Sekunde (FPS) für die Laufzeit berechnen:
 
 ```Bash
 awk 'BEGIN { print sprintf("%.3f", <Finale-Breite> / <Dauer-in-Sekunden>) }'

@@ -94,7 +94,7 @@ Um die Breite von `2520 px` zu füllen, benötigen wir 2520 Einzelframes aus d
 ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 .\barcode_test.mkv
 ```
 
-Aus der Ausgabe lässt sich in der PowerShell die Anzahl der benötigten Frames pro Sekunde Laufzeit (FPS) berechnen:
+Aus der Ausgabe lässt sich in der PowerShell die Anzahl der benötigten Frames pro Sekunde (FPS) für die Laufzeit berechnen:
 
 ```Shell
 [math]::Round(<Finale-Breite> / <Dauer-in-Sekunden>, 3)
