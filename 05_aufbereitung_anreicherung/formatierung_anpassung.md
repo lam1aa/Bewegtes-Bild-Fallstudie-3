@@ -122,6 +122,11 @@ Im Projekt wird `json` als ein alternatives Publikationsformat zur Verfügung ge
 
 Als viertes Format wird ein interaktives, durchsuchbares `html`-Dokument bereitgestellt. Dies erlaubt Nutzenden, die Metadaten direkt im Browser zu durchsuchen und zu filtern – ohne zusätzliche Software- oder Programmierkenntnisse. Die `html`-Variante richtet sich also vornehmlich an Nutzende, die unkomplizierte Recherchen am Datensatz vornehmen wollen. 
 
+```{admonition} Hinweis
+:class: hinweis
+`html` ist kein typisches Forschungsdatenformat, erfüllt hier aber eine Vermittlungsfunktion zwischen Rohdaten und menschenlesbarer Darstellung.
+```
+
 Was ist `html`? `html` ist eine Auszeichnungssprache (Markup-Language) zur Strukturierung und Darstellung von Inhalten im Web. Anders als `csv` oder `json` dient `html` nicht primär dem Datenaustausch, sondern der Beschreibung von Inhalten wie Texte mit Hyperlinks, Bildern, Überschriften, Absätzen usw. 
 `html` basiert auf sogenannten Tags, die den Inhalt eines Dokuments (semantisch) gliedern. Jedes Element besteht aus einem öffnenden Tag, dem Inhalt und einem schließenden Tag:
 
@@ -194,3 +199,66 @@ Dabei steht `<table>` für die Tabelle, `<tr>` für eine Tabellenzeile, `<th>` f
 * <a href="https://wiki.selfhtml.org/wiki/HTML/Tutorials/Grundger%C3%BCst" class="external-link" target="_blank">SELFHTML</a>
 * <a href="https://www.theodinproject.com/lessons/foundations-introduction-to-html-and-css" class="external-link" target="_blank">The Odin Project</a>
 ```
+Die folgende Tabelle fasst alle wichtigsten Informationen der bereitgestellten Dateiformate zusammen und gibt einen Überblick über die wichtigsten Eigenschaften, Einsatzszenarien und Softwareabhängigkeiten:
+
+<style>
+.table-clean {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+}
+
+.table-clean th {
+    text-align: left;
+    padding: 8px 6px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.table-clean td {
+    padding: 8px 6px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+
+.table-clean code {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1px 5px;
+    font-size: 0.9em;
+}
+</style>
+
+<table class="table-clean">
+  <tr>
+    <th>Format</th>
+    <th>Typ</th>
+    <th>Verwendungszweck</th>
+    <th>Toolabhängigkeit</th>
+  </tr>
+  <tr>
+    <td><code>xlsx</code></td>
+    <td>Proprietär</td>
+    <td>Arbeitsformat, einfache Datenpflege</td>
+    <td>Hoch (Microsoft Excel oder kompatible Software)</td>
+  </tr>
+  <tr>
+    <td><code>csv</code></td>
+    <td>Nicht-proprietär</td>
+    <td>Publikation, Langzeitsicherung, maschinelle Verarbeitung, Nachnutzung</td>
+    <td>Keine</td>
+  </tr>
+  <tr>
+    <td><code>json</code></td>
+    <td>Nicht-proprietär</td>
+    <td>Publikation, Webanwendungen, APIs</td>
+    <td>Keine</td>
+  </tr>
+  <tr>
+    <td><code>html</code></td>
+    <td>Nicht-proprietär</td>
+    <td>Browserbasierte Ansicht und Suche</td>
+    <td>Bedingt (Webbrowser)</td>
+  </tr>
+</table>
