@@ -17,7 +17,7 @@ Mehr Informationen darüber, was unter filmwissenschaftlichen Daten und Datensä
 ```
 ````
 
-Für die Bearbeitung der OER werden vertiefte Kenntnisse in der Film- und Medienwissenschaft (Praedoc/Postdoc) vorausgesetzt. Da hier Kompetenzen im Bereich der **Publikation filmwissenschaftlicher Daten** vermittelt werden, bauen die Lerninhalte darauf auf, dass Nutzer:innen bereits Projekte betreuen, in denen entsprechende Datensätze vorliegen. Das bedeutet, dass Kenntnisse in der **Erhebung und Bereinigung filmwissenschaftlicher Daten** bereits vorhanden sein sollten – etwa beispielsweise in der Handhabung digitaler Annotationstools oder der Datenerhebung über Webscraping-Verfahren.
+Die Fallstudie richtet sich an Geisteswissenschaftler:innen auf fortgeschrittener Qualifikationsstufe. Für die Bearbeitung der OER werden vertiefte Kenntnisse in der Film- und Medienwissenschaft (Praedoc/Postdoc) vorausgesetzt. Da hier Kompetenzen im Bereich der **Publikation filmwissenschaftlicher Daten** vermittelt werden, bauen die Lerninhalte darauf auf, dass Nutzer:innen bereits Projekte betreuen, in denen entsprechende Datensätze vorliegen. Das bedeutet, dass Kenntnisse in der **Erhebung und Bereinigung filmwissenschaftlicher Daten** bereits vorhanden sein sollten – etwa beispielsweise in der Handhabung digitaler Annotationstools oder der Datenerhebung über Webscraping-Verfahren. 
 
 Grundkenntnisse im Forschungsdatenmanagment sind hilfreich, aber keine Voraussetzung. 
 

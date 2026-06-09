@@ -22,7 +22,7 @@ Von den Rohdaten zur Systematisierung (KI-generiert)
 ## Das Projekt-Metadatenschema: Beschreibungen und DC/EN-Mapping
 
 ````{margin}
-```{admonition} Metadatenstandards
+```{admonition} Was sind Metadatenstandards?
 :class: hinweis
 Mehr Informationen zu Metadatenstandards gibt es im Kapitel [Metadaten & Metadatenstandards](../03_metadaten/toc_03.md)
 ```
@@ -339,7 +339,7 @@ auf Github.
 
 Für zwei Felder werden sogenannte **ISO-Standards** als kontrollierte Vokabulare eingesetzt. 
 
-```{admonition} : Was sind ISO-Standards bzw. Normen?
+```{admonition} Was sind ISO-Standards bzw. Normen?
 :class: hinweis
 ISO Normen sind weltweit anerkannte, konsensbasierte, schriftlich festgelegte Standards zur Definition für Materialien, Produkte, Dienstleistungen oder Verfahren. Sie werden von der <a href="https://www.iso.org/home.html" class="external-link" target="_blank">International Organization for Standardization</a> herausgebracht und sind nicht bindend, jedoch aber in vielen Kontexten zur Qualitätssteigerung, Sicherung und Effizienz etabliert.
 ```
@@ -370,7 +370,6 @@ Je nach Disziplin und Anwendungsfall gibt es unterschiedliche Quellen:
 ## Relationale Verknüpfung des Datensets
 
 Neben den Korpusmetadaten, die das Kernelement der Referenzierbarkeit und Dokumentation des Datensatzes bilden, gibt es noch zwei weitere Metadaten-Files:
-
 1. `annotation_medadata` für die <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/data/annotations" class="external-link" target="_blank">Annotationsdatensätze</a>
 2. `moviebarcode_metadata` für die <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/data/moviebarcodes" class="external-link" target="_blank">Moviebarcodes</a>
 
@@ -403,7 +402,6 @@ Zum Öffnen und Bearbeiten der YAML-Datei kann ein kostenloser Code-Editor wie b
 
 Die `YAML`-Datei ist maschinenlesbar und dokumentiert alle Felder mit Typ, Pflichtangaben, DC/EN-Mapping, Validierungsregeln (Pattern), kontrollierten Vokabularen und Beschreibungen.
 
-````{dropdown} YAML-Schema anzeigen
 
 ```yaml
 schema:
