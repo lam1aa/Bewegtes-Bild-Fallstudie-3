@@ -197,7 +197,7 @@ Ein beispielhafter Metadatensatz für eine audiovisuelle Ressource im `JSON`-For
 
 ```{admonition} Was ist JSON?
 :class: hinweis
-**JavaScript Object Notation** ist ein kompaktes Dateiformat in einfacher Textform, das den Datenaustausch zwischen verschiedenen Anwendungen ermöglicht. Informationen werden dabei in Form von Schlüssel-Wert-Paaren organisiert und können zu Objekten und Listen zusammengefasst werden. Ausführlichere Informationen zum Nachlesen gibt es im Kapitel Formate, Konvertierung, Dokumentation [TODO:CROSS_TARGET_LINK]
+**JavaScript Object Notation** ist ein kompaktes Dateiformat in einfacher Textform, das den Datenaustausch zwischen verschiedenen Anwendungen ermöglicht. Informationen werden dabei in Form von Schlüssel-Wert-Paaren organisiert und können zu Objekten und Listen zusammengefasst werden. Ausführlichere Informationen zum Nachlesen gibt es {ref}`hier <json-format>`.
 ```
 
 ## Identifier, ISO-Standards und kontrollierte Vokabulare 
