@@ -173,12 +173,6 @@ Felder ohne Mapping sind projektspezifische Erweiterungen ohne direkte Entsprech
 :class: important
 Nicht jedes Element lässt sich sauber auf die Standards beziehen. Das Feld `classification` beispielsweise kombiniert Werktyp und Darstellungsmodi (fiktional, dokumentarisch) bzw. Filmgattung und bildet die korpusinternen Aufteilungen ab.
 ```
-````{margin}
-```{admonition} Was ist JSON?
-:class: hinweis
-**JavaScript Object Notation** ist ein kompaktes Dateiformat in einfacher Textform, das den Datenaustausch zwischen verschiedenen Anwendungen ermöglicht. Mehr Infos gibt es im Kapitel Formate, Konvertierung, Dokumentation [TODO:LINK]
-```
-````
 
 Ein beispielhafter Metadatensatz für eine audiovisuelle Ressource im `JSON`-Format sieht so aus:
 
@@ -199,6 +193,11 @@ Ein beispielhafter Metadatensatz für eine audiovisuelle Ressource im `JSON`-For
   "annotation_data": true,
   "moviebarcode": true
 }
+```
+
+```{admonition} Was ist JSON?
+:class: hinweis
+**JavaScript Object Notation** ist ein kompaktes Dateiformat in einfacher Textform, das den Datenaustausch zwischen verschiedenen Anwendungen ermöglicht. Informationen werden dabei in Form von Schlüssel-Wert-Paaren organisiert und können zu Objekten und Listen zusammengefasst werden. Ausführlichere Informationen zum Nachlesen gibt es im Kapitel Formate, Konvertierung, Dokumentation [TODO:CROSS_TARGET_LINK]
 ```
 
 ## Identifier, ISO-Standards und kontrollierte Vokabulare 
