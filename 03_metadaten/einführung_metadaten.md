@@ -106,9 +106,9 @@ Metadaten liegen oft in maschinenlesbarer Form vor – in sogenannten Markup-Spr
 
 ```{admonition} Was sind Markup-Sprachen?
 :class: hinweis
-Markup-Sprachen (dt. Auszeichnungssprache) sind maschinenlesbare Sprachen. Sie strukturieren und formatieren Texte und Dateien, indem sie ihnen Eigenschaften - sogenannte `tags` - hinzufügen. Die bekannteste Markup-Sprache ist `HTML`.
+Markup-Sprachen (dt. Auszeichnungssprache) sind maschinenlesbare Sprachen. Sie strukturieren und formatieren Texte und Dateien, indem sie ihnen Eigenschaften - sogenannte `tags` - hinzufügen. Die bekannteste Markup-Sprache ist `html`.
 ```
-Am häufigsten wird dabei die Markup-Sprache `XML` verwendet. Metadaten liegen dann als Datensatz in einem `XML`-Dokument vor.
+Am häufigsten wird dabei die Markup-Sprache `xml` verwendet. Metadaten liegen dann als Datensatz in einem `xml`-Dokument vor.
 
 ```{figure} ../assets/03_metadaten/abb_k03_xml_beispiel.png
 ---
@@ -116,14 +116,14 @@ align: center
 width: 90%
 name: xml-beispiel
 ---
-XML-Beispiel, © NISO
+`xml`-Beispiel, © NISO
 ```
 
-```{admonition} Wie funktioniert XML?
+```{admonition} Wie funktioniert `xml`?
 :class: hinweis, dropdown
-XML nutzt definierte Elemente bzw. Tags, um anzugeben, welche Bedeutung den jeweils enthaltenen Werten zukommt. Elemente können auch andere Elemente enthalten. Ein XML-Dokument ist ähnlich aufgebaut wie eine Baumstruktur, beginnend mit einem Stammelement.
+`xml` nutzt definierte Elemente bzw. Tags, um anzugeben, welche Bedeutung den jeweils enthaltenen Werten zukommt. Elemente können auch andere Elemente enthalten. Ein `xml`-Dokument ist ähnlich aufgebaut wie eine Baumstruktur, beginnend mit einem Stammelement.
 ```
-In den Digital Humanities hat sich die auf `XML` basierte Markup-Sprache `TEI` als gängiger Standard etabliert. `TEI` wurde gezielt an die Bedürfnisse geisteswissenschaftlicher Forschung angepasst.
+In den Digital Humanities hat sich die auf `xml` basierte Markup-Sprache `tei` als gängiger Standard etabliert. `tei` wurde gezielt an die Bedürfnisse geisteswissenschaftlicher Forschung angepasst.
 
 ```{admonition} Mehr Informationen zu XML & TEI
 :class: seealso

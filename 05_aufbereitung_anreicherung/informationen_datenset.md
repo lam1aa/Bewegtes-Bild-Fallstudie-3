@@ -44,14 +44,14 @@ Das Datenset umfasst vier zentrale Datentypen, wobei aufgrund urheberrechtlicher
 
 `Primärdaten` ➡️ werden **nicht** publiziert: 
 
-* Film- und Videomaterial (`.mp4` und `.mkv`) 
+* Film- und Videomaterial (`mp4` und `mkv`) 
 
 `Sekundärdaten` ➡️ werden publiziert: 
 
-* Annotationsdaten: 78 Annotationspakete in den Formaten `.azp` und `.json`
-* Moviebarcodes: 303 Visualisierungen im Format `.png`
-* Metadaten: tabellarische Beschreibungen des Korpus in den Formaten `.xlsx`, `.csv`, `.html` und `.json`
-* Metadatenschema im `.yml` Format
+* Annotationsdaten: 78 Annotationspakete in den Formaten `azp` und `json`
+* Moviebarcodes: 303 Visualisierungen im Format `png`
+* Metadaten: tabellarische Beschreibungen des Korpus in den Formaten `xlsx`, `csv`, `html` und `json`
+* Metadatenschema im `yml`-Format
 
 Die Metadaten dienen einerseits der Dokumentation und Beschreibung und andererseits der Strukturierung und Verknüpfung der einzelnen Datensätze. 
 

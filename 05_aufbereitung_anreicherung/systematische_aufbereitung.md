@@ -174,7 +174,7 @@ Felder ohne Mapping sind projektspezifische Erweiterungen ohne direkte Entsprech
 Nicht jedes Element lässt sich sauber auf die Standards beziehen. Das Feld `classification` beispielsweise kombiniert Werktyp und Darstellungsmodi (fiktional, dokumentarisch) bzw. Filmgattung und bildet die korpusinternen Aufteilungen ab.
 ```
 
-Ein beispielhafter Metadatensatz für eine audiovisuelle Ressource im `JSON`-Format sieht so aus:
+Ein beispielhafter Metadatensatz für eine audiovisuelle Ressource im `json`-Format sieht so aus:
 
 ```json
 {

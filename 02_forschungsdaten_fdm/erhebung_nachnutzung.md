@@ -60,7 +60,7 @@ SPARQL ist eine "graphenbasierte Abfragesprache", durch die Daten aus der webbas
 ⟶ <span style="background-color:#FF7F7F;">**Niveau: Expert:in**</span> <br>
 **Webscraping für fortgeschrittene Nutzer:innen mit Programmierkenntnissen (Python, R, JavaScript)**
 
-Webscraping ist ein Verfahren der automatisierten Extraktion von Daten aus Webseiten. Scraper - das sind Codeskripte - analysieren die HTML-Struktur einer Website und filtern bestimmte vorgegebene Informationen raus, die dann in einer Tabelle oder Datenbank (`dataframe`) strukturiert gespeichert werden können.
+Webscraping ist ein Verfahren der automatisierten Extraktion von Daten aus Webseiten. Scraper - das sind Codeskripte - analysieren die `html`-Struktur einer Website und filtern bestimmte vorgegebene Informationen raus, die dann in einer Tabelle (`dataframe`) strukturiert gespeichert werden können.
 Unter Berücksichtigung rechtlicher Vorgaben und der jeweiligen `robots.txt` kann Webscraping als digitales Verfahren eingesetzt werden, um beispielsweise Filmdaten zu extrahieren, die nicht über Schnittstellen oder offene Data Dumps zugänglich sind.
 In jedem Fall sind **Lizenzbedingungen**, **Nutzungsrechte** und **Datenschutz** zu prüfen, insbesondere wenn Daten kommerzieller Anbieter (z. B. IMDb, TMDb) nachgenutzt werden sollen.
 
