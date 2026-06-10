@@ -119,7 +119,7 @@ name: xml-beispiel
 `xml`-Beispiel, © NISO
 ```
 
-```{admonition} Wie funktioniert `xml`?
+```{admonition} Wie funktioniert XML?
 :class: hinweis, dropdown
 `xml` nutzt definierte Elemente bzw. Tags, um anzugeben, welche Bedeutung den jeweils enthaltenen Werten zukommt. Elemente können auch andere Elemente enthalten. Ein `xml`-Dokument ist ähnlich aufgebaut wie eine Baumstruktur, beginnend mit einem Stammelement.
 ```
