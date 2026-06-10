@@ -374,32 +374,25 @@ Neben den Korpusmetadaten, die das Kernelement der Referenzierbarkeit und Dokume
 
 Wie in den [Informationen zum Datenset](../05_aufbereitung_anreicherung/informationen_datenset.md) ausgeführt, handelt es sich hier um ein relationales Prinzip der Datenverknüpfung. Hauptverknüpfungselement ist dabei der projektinterne Identifier, die `object_id`. Jedes `azp` File sowie jede `png` hat einen einzigen, eindeutigen Identifier, der sich aus der `object_id` ableitet und somit den einzelnen audiovisuellen Ressourcen zugeordnet werden kann. In den Metadaten finden sich zudem zusätzliche Informationen, wie beispielsweise das Datum der Erstellung oder technische Komponenten. 
 
-Alle hier beschriebenen Metadaten-Dateien stehen auf <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/data/metadata" class="external-link" target="_blank">Github </a> in den Exportformaten (XLSX, CSV, JSON, HTML) zur Verfügung. Einzelheiten zu den einzelnen Formaten gibt es im nächsten Kapitel.
+Alle hier beschriebenen Metadaten-Dateien stehen auf <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/data/metadata" class="external-link" target="_blank">Github </a> in den Exportformaten (`xlsx`, `csv`, `html`, `json`) zur Verfügung. Einzelheiten zu den einzelnen Formaten gibt es im nächsten Kapitel.
 
 ## Das Metadatenschema als Template
 
-Das im Rahmen des Projekts entwickelte Metadatenschema steht als downloadbares [Template](../assets/05_aufbereitung_anreicherung/doc_k05_corpus_metadata_schema_climate_film_c05.yml) im sogenannten `YAML`-Format zur Verfügung. Das Template dient als nachnutzbare Vorlage für die strukturierte Beschreibung von filmographischen Metadatensätzen und definiert die relevanten Metadatenelemente in einem maschinenlesbaren Format. Somit kann es als Ausgangspunkt für eigene Metadatenschemata aber auch zur Dokumentation, Validierung oder zur automatisierten Weiterverarbeitung in andere Formate genutzt werden. Selbstverständlich kann die Vorlage an die Bedürfnisse des eigenen Forschungskontext angepasst werden.
+Das im Rahmen des Projekts entwickelte Metadatenschema steht als downloadbares [Template](../assets/05_aufbereitung_anreicherung/doc_k05_corpus_metadata_schema_climate_film_c05.yml) im sogenannten `yaml`-Format zur Verfügung. Das Template dient als nachnutzbare Vorlage für die strukturierte Beschreibung von filmographischen Metadatensätzen und definiert die relevanten Metadatenelemente in einem maschinenlesbaren Format. Somit kann es als Ausgangspunkt für eigene Metadatenschemata aber auch zur Dokumentation, Validierung oder zur automatisierten Weiterverarbeitung in andere Formate genutzt werden. Selbstverständlich kann die Vorlage an die Bedürfnisse des eigenen Forschungskontext angepasst werden. Im Abschnit Datenbereinigung [TODO:LINK] wird gezeigt, wie die Metadaten anhand des `yaml`-Schemas validiert werden.
 
 ````{admonition} Was ist eine YAML-Datei und wie kann sie genutzt werden?
 :class: hinweis
-`YAML` ist ein menschenlesbares Datenformat zur strukturierten Speicherung von Informationen. Es ist besonders kompakt und gut lesbar, da es auf Einrückungen statt auf Klammern oder Tags setzt. Im Kontext von Forschungsdaten werden YAML-Dateien häufig für die Dokumentation von Metadatenschemata genutzt, da Felder, Datentypen aber auch Regeln für eine Nachnutzung beschrieben werden können.
-Ein kurzes Beispiel eines YAML-Eintrags sieht so aus:
-```yaml
-fields:
-  - name: year
-    type: string
-    required: true
-    dc-mapping: "dcterms:issued"
-    en15744-mapping: "Year of Reference"
-    pattern: "^[0-9]{4}$"  # Four digits
-    description: "Year of initial release in the country of origin"
-    example: "2018"
-```
+`yaml` ist ein menschenlesbares Datenformat zur strukturierten Speicherung von Informationen. Es ist besonders kompakt und gut lesbar, da es auf Einrückungen statt auf Klammern oder Tags setzt. Im Kontext von Forschungsdaten werden YAML-Dateien häufig für die Dokumentation von Metadatenschemata genutzt, da Felder, Datentypen aber auch Regeln für eine Nachnutzung beschrieben werden können.
 
-Zum Öffnen und Bearbeiten der YAML-Datei kann ein kostenloser Code-Editor wie beispielsweise VS Code/VS Codium genutzt werden.
+Zum Öffnen und Bearbeiten der `yaml`-Datei kann ein kostenloser Code-Editor genutzt werden. In dieser OER nutzen wir für alle Beispiele <a href="https://code.visualstudio.com/" class="external-link" target="_blank">Visual Studio Code (VS Code)</a> von Microsoft, da die Software kostenfrei verfügbar ist und auch für Einsteiger:innen leicht zugänglich. Alternativ können ebenso andere, auch nicht kommerziell betriebene Text- oder Code-Editoren verwendet werden.
 ````
+`````{dropdown} YAML im Detail erklärt
 
-Die `YAML`-Datei ist maschinenlesbar und dokumentiert alle Felder mit Typ, Pflichtangaben, DC/EN-Mapping, Validierungsregeln (Pattern), kontrollierten Vokabularen und Beschreibungen.
+
+
+`````
+
+Die `yaml`-Datei ist maschinenlesbar und dokumentiert alle Felder mit Typ, Pflichtangaben, DC/EN-Mapping, Validierungsregeln (Pattern), kontrollierten Vokabularen und Beschreibungen.
 
 
 ```yaml
