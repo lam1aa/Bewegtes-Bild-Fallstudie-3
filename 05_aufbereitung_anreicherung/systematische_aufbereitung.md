@@ -382,13 +382,43 @@ Das im Rahmen des Projekts entwickelte Metadatenschema steht als downloadbares [
 
 ````{admonition} Was ist eine YAML-Datei und wie kann sie genutzt werden?
 :class: hinweis
-`yaml` ist ein menschenlesbares Datenformat zur strukturierten Speicherung von Informationen. Es ist besonders kompakt und gut lesbar, da es auf Einrückungen statt auf Klammern oder Tags setzt. Im Kontext von Forschungsdaten werden YAML-Dateien häufig für die Dokumentation von Metadatenschemata genutzt, da Felder, Datentypen aber auch Regeln für eine Nachnutzung beschrieben werden können.
+`yaml` (YAML Ain't Markup Language) ist ein menschenlesbares Datenformat zur strukturierten Speicherung von Informationen. Es ist besonders kompakt und gut lesbar, da es auf Einrückungen statt auf Klammern oder Tags setzt. Im Kontext von Forschungsdaten werden `yaml`-Dateien häufig für die Dokumentation von Metadatenschemata genutzt, da Felder, Datentypen aber auch Regeln für eine Nachnutzung beschrieben werden können.
 
 Zum Öffnen und Bearbeiten der `yaml`-Datei kann ein kostenloser Code-Editor genutzt werden. In dieser OER nutzen wir für alle Beispiele <a href="https://code.visualstudio.com/" class="external-link" target="_blank">Visual Studio Code (VS Code)</a> von Microsoft, da die Software kostenfrei verfügbar ist und auch für Einsteiger:innen leicht zugänglich. Alternativ können ebenso andere, auch nicht kommerziell betriebene Text- oder Code-Editoren verwendet werden.
 ````
 `````{dropdown} YAML im Detail erklärt
+Eine `yaml` besteht aus drei Grundbausteinen. 
+
+**1. Schlüssel-Wert-Paare (Mappings)** 
+
+Sie sind das häufigste Element und können mit einem Formularfeld verglichen werden:
+
+```yaml
+title: "Anthropocene"
+year: "2018"
+```
+
+**2. Listen (Sequenzen)**
+
+Hier stehen mehrere Werte unter einem Schlüssel, eingeleitet mit einem Bindestrich `-`:
 
 
+```yaml
+vocabulary:
+  - documentary
+  - feature film
+  - episode
+```
+
+**3. Mehrzeilige Texte**
+
+Mit `>` (Zeilenumbrüche werden zu Leerzeichen) oder `|` (Zeilenumbrüche bleiben erhalten):
+
+```yaml
+description: >
+  Ein langer Text der über
+  mehrere Zeilen geht.
+```
 
 `````
 

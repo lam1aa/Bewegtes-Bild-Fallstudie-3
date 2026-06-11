@@ -32,7 +32,7 @@ Im Folgenden werden die (Export-)Formate kurz vorgestellt.
 `csv` ist ein einfaches, textbasiertes Format für tabellarische Daten. Gespeichert werden die Werte üblicherweise durch ein Komma `,` als Trennzeichen. Es ist das am weitesten verbreitete offene Formate für strukturierte Daten und kann von nahezu jeder Software gelesen werden (Texteditor, Python, R).
 `csv` eignet sich gut für den Datenaustausch und maschinelle Verwertbarkeit, hat aber auch einige Nachteile. Es unterstützt beispielsweise keine komplexeren oder verschachtelten Datenstrukturen.
 
-Ein generischer Beispieldatensatz eines CSV-Eintrags kann so aussehen: 
+Für eine bessere Übersichtlichkeit wird hier zur Demonstrierung ein (verkürzter) generischer Beispieldatensatz mit Filmmetadaten verwendet:
 
 ```text
 title;year;country;director;genre
