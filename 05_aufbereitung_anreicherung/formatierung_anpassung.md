@@ -262,3 +262,5 @@ Die folgende Tabelle fasst alle wichtigsten Informationen der bereitgestellten D
     <td>Bedingt (Webbrowser)</td>
   </tr>
 </table>
+
+Im nachfolgenden Abschnitt wird Schritt für Schritt demonstriert, wie die Metadaten aus dem primären Arbeitsformat `xlsx` in die anderen Formate überführt werden können.  
