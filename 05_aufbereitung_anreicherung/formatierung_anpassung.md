@@ -105,12 +105,12 @@ Mehrere Objekte können in einer Liste zusammengefasst werden:
 
 Die eckigen Klammern markieren Listenanfang und -ende. Eine Liste kann mehrere Objekte enthalten. Dies entspricht mehreren Zeilen einer Tabelle.
 
-`json` kennt nur wenige grundlegende Datentypen, die in vielen Programmiersprachen ebenfalls zum Einsatz kommen (z. B. Python):
+`json` kennt nur wenige grundlegende Datentypen, die in vielen Programmiersprachen ebenfalls zum Einsatz kommen (z.B. Python). Datentypen in Programmiersprachen legen fest, welche Art von Wert in einem Feld steht und wie der Wert verarbeitet werden kann:
 
 * String (Text): `"title": "Anthropocene"`
 * Number (Zahl): `"year": 2018`
-* Boolean: `true`, `false`
-* Null: `"episode": null`
+* Boolean (Wahrheitswert): `true`, `false`
+* Null (kein Wert): `"episode": null`
 * Object:`{ ... }`
 * Array: `[ ... ]`
 

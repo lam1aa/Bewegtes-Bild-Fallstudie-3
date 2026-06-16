@@ -500,3 +500,169 @@ Annihilation;f049a;tt2798920;feature film;"US;GB";2018;Alex Garland;115 Min.;PT1
 Die vier aufeinanderfolgenden Semikolons (`;;;;`) sichern, dass `annotation_data` und `moviebarcode` in den richtigen Spalten stehen.
 
 Alternativ gibt es auch die Möglichkeit, sich mit Generativen-KI-Tools `html`-Skripte generieren zu lassen und diese dann zu bearbeiten oder anzupassen. Dies ist in den Digital Humanities aus heutiger Perspektive gängige Praxis und erleichtert die Arbeitsprozesse. Grundlegende `html`- und `JavaScript`-Kenntnisse (bzw. auch `css`) sind dafür sehr hilfreich, um den Code zu verstehen und entsprechend bearbeiten zu können.
+
+## CSV zu JSON
+
+`json` wird häufig für den Datenaustausch genutzt und kann, im Gegensatz zu `csv`, **Datentypen** abbilden. Das macht `json` maschinenlesbarer und für viele Weiterverarbeitungsszenarien attraktiver. 
+
+```{admonition} Welche grundlegenden Datentypen gibt es?
+:class: hinweis
+Datentypen in Programmiersprachen legen fest, welche Art von Wert in einem Feld steht und wie der Wert verarbeitet werden kann. Die Grundtypen sind:
+
+* String (Text) – z.B. `"Anthropocene"`, immer in Anführungszeichen
+* Integer (Ganzzahl) – z.B. `2018`, ohne Anführungszeichen und ohne Nachkommastellen
+* Float (Gleitkommazahl) – z.B. `1.5`, für Werte mit Nachkommastellen
+* Boolean (Wahrheitswert) – nur `true` oder `false`, z.B. ob eine Annotation vorhanden ist
+
+`csv` kennt diese Unterscheidung nicht. Rein technisch gesehen ist dort alles Text – auch Zahlen oder Wahrheitswerte. 
+```
+
+Um den Beispieldatensatz, der als `csv`-Datei voliegt, auch in `json` zu konvertieren, wird ein Python-Skript verwendet. Der folgende Code arbeitet mit einigen zentralen Python-Konzepten, kann jedoch auch ohne Vorwissen ausgeführt werden. Wer noch keine Python-Erfahrung hat, findet hier kurze Erklärungen sowie Tutorials zum Vertiefen. Zum Schreiben eines eigenen Python-Skript werden allerdings vertiefende Kenntnisse benötigt.
+
+`````{dropdown} Python-Grundkonzepte im Detail und weiterführende Links
+Neben den oben genannten Datentypen gibt es noch folgende Grundkonzepte, die für das Verständnis des Codes hilfreich sein können:
+* Bibliotheken (`import`): Python selbst stellt in der Standardinstallation nur wenige Funktionen zur Verfügung; zusätzliche Funktionen werden beispielsweise über Bibliotheken wie `pandas` (Tabellenverarbeitung) oder `json` (`json`-Verarbeitung) eingebunden
+* Funktionen (`def`): Funktionen sind wiederverwendbare Codeblöcke, die eine bestimmte Aufgabe erfüllen. `def konvertiere_wert(wert):` definiert eine Funktion, die einen Wert entgegennimmt und einen umgewandelten Wert zurückgibt (`return`)
+* Bedingungen (`if`): Prüfen, ob etwas zutrifft, und führen je nach Ergebnis unterschiedlichen Code aus. Im Beispiel: "Wenn der Wert `TRUE` ist, gib `True` zurück."
+* DataFrame: `DataFrame` ist die zentrale Datenstruktur der `pandas`-Bibliothek, vergleichbar mit einer Tabelle aus Zeilen und Spalten, mit der programmatisch gearbeitet werden kann
+
+```{admonition} Tutorials: Python für Anfänger 
+:class: seealso
+* <a href="https://www.python.org/about/gettingstarted/" class="external-link" target="_blank">Offizielle Python-Seite</a>
+* <a href="https://www.w3schools.com/python/python_intro.asp" class="external-link" target="_blank">W3Schools Python Tutorial</a>
+* <a href="https://en.wikibooks.org/wiki/Non-Programmer's_Tutorial_for_Python_3" class="external-link" target="_blank">Wikibooks Non-Programmer's Tutorial for Python 3</a>
+```
+`````
+### Schritt-für-Schritt: CSV zu JSON
+
+#### Python-Umgebung einrichten
+
+Um das folgende Skript auszuführen, wird eine funktionierende Python-Umgebung mit der Bibliothek `pandas` benötigt. Nachfolgend wird die Variante vorgestellt, die für Einsteiger:innen am freundlichsten ist. Denn es gibt die Möglichkeit Python (und alle benötigten Bibliotheken und Editoren) über die Distribution (Zusammenstellung verschiedener Pakete und Software) <a href="https://www.anaconda.com/download" class="external-link" target="_blank">Anaconda</a> herunterzuladen. Für den Download bitte den Anweisungen auf der Seite folgen.
+
+1. Anaconda Distribution herunterladen und installieren (**Achtung: die Installation benötigt mehrere GB Speicherplatz!**)
+2. Anaconda Navigator öffnen
+3. Bei → `Jupyter Notebook` auf → `Launch` klicken – es öffnet sich ein neuer Tab im Browser
+
+```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_anaconda_launch_notebook.png
+---
+align: center
+width: 85%
+name: anaconda-launch-jb
+---
+Anaconda-Interface
+```
+
+4. Im Dateibrowser zu dem Ordner navigieren, in dem die `csv`-Datei liegt (durch Klicken auf die Ordnersymbole)
+
+```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_notebook_ordner.png
+---
+align: center
+width: 90%
+name: ordnernavigation
+---
+Ordnernavigation
+```
+
+5. Über `New` → `Notebook` ein neues Notebook in diesem Ordner erstellen; der Python-Kernel wird automatisch ausgewählt, es sollte der Kernel `Python 3` erscheinen
+
+```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_notebook_kernel_python.png
+---
+align: center
+width: 90%
+name: select-python-kernel
+---
+Python-Kernel wählen
+```
+
+6. Jetzt öffnet sich ein neues Notebook und die Umgebung ist eingerichtet; das neue Notebook wird in dem Ordnerverzeichnis gespeichert
+
+#### Python-Skript ausführen
+
+```{admonition} Installation der Pandas-Bibliothek
+:class: danger
+In der Regel ist `pandas` über Anaconda bereits vorinstalliert. Sollte beim Ausführen des Codes ein Fehler wie `ModuleNotFoundError: No module named 'pandas'` erscheinen, dann direkt in der Notebook-Zelle folgenden Befehl ausführen: `!pip install pandas`
+```
+Dieses Skript kann in dem geöffneten Notebook ausgeführt werden, die mit `#` gekennzeichneten Kommentare beeinträchtigen die Code-Funktionen nicht:
+
+```python
+import pandas as pd
+import json
+import re
+
+# 1) Dateinamen festlegen
+input_datei = "annotation_metadata.csv"   # 1. Name der Eingabedatei anpassen
+output_datei = "annotation_metadata.json" # 2. Name der Ausgabedatei anpassen
+
+# 2) CSV einlesen
+# sep=";" ist wichtig, weil die Datei semikolon-getrennt ist
+# dtype=str sorgt dafür, dass alle Werte zunächst als Text eingelesen werden
+# die Typkonvertierung erfolgt erst im nächsten Schritt kontrolliert
+df = pd.read_csv(input_datei, sep=";", dtype=str)
+
+# 3) Leere Zellen als leere Strings statt NaN behandeln
+# pandas füllt leere Felder standardmäßig mit NaN (Not a Number),
+# was in JSON zu "null"-Werten führen würde – hier werden sie als "" gesetzt
+df = df.fillna("")
+
+# 4) Funktion zum Umwandeln einzelner Werte
+def konvertiere_wert(wert):
+    # Falls der Wert kein String ist, direkt zurückgeben
+    if not isinstance(wert, str):
+        return wert
+    # Leerzeichen am Anfang und Ende entfernen
+    wert = wert.strip()
+    # TRUE / FALSE in echte JSON-Booleans umwandeln
+    # (in CSV sind das Strings, in JSON sollten es true/false sein)
+    if wert == "TRUE":
+        return True
+    if wert == "FALSE":
+        return False
+    # Reine Ganzzahlen in int umwandeln (z.B. Jahreszahlen, Laufzeiten)
+    if re.fullmatch(r"-?\d+", wert):
+        return int(wert)
+    # Alles andere bleibt Text
+    return wert
+
+# 5) Alle Zellen der Tabelle durch die Funktion laufen lassen
+df = df.map(konvertiere_wert)
+
+# 6) Tabelle in eine Liste von Datensätzen (Dictionaries) umwandeln
+# orient="records" bedeutet: jede Zeile wird ein eigenes JSON-Objekt
+daten = df.to_dict(orient="records")
+
+# 7) Als JSON-Datei speichern
+# ensure_ascii=False → Sonderzeichen (Umlaute etc.) bleiben lesbar
+# indent=2 → eingerücktes, menschenlesbares Format
+with open(output_datei, "w", encoding="utf-8") as f:
+    json.dump(daten, f, ensure_ascii=False, indent=2)
+
+print(f"Fertig. JSON gespeichert als: {output_datei}")
+```
+Es müssen lediglich die Dateinamen, wie oben angemerkt, unter `input_datei = "annotation_metadata.csv"` (Eingabedatei), 
+`output_datei = "annotation_metadata.json"` (Ausgabedatei) für den eigenen Datensatz angepasst werden. Der Rest des Codes funktioniert für jeden semikolon-getrennten CSV-Datensatz mit `TRUE`/`FALSE`-Werten und numerischen Feldern. Nach dem Ausführen sollte in dem gewählten Ordnerverzeichnis ein `json`-Export der `csv`-Datei vorliegen.
+
+
+### Das Ergebnis
+
+Die `json`-Datei enthält eine Liste von Objekten, eines pro Zeile der ursprünglichen `csv`. Ein einzelner Eintrag sieht beispielsweise so aus:
+
+```json
+{
+  "title": "2040",
+  "object_id": "f0162",
+  "imdb_id": "tt7150512",
+  "classification": "documentary",
+  "country": "AU",
+  "year": 2018,
+  "director": "Damon Gameau",
+  "runtime_min": "92 Min.",
+  "duration_iso8601": "PT1H32M",
+  "season_episode": "",
+  "episode_title": "",
+  "modes_intervention": "Escalation / de-escalation",
+  "annotation_data": true,
+  "moviebarcode": true
+}
+```
+
+Leere Felder wurden beim Export bewusst als leere Zeichenketten ("") beibehalten und nicht als `null`-Werte, um die tabellarische Struktur der Metadaten zu erhalten. Wahrheitswerte wie `TRUE` und `FALSE` wurden dagegen in die `json`-Booleans `true` und `false` überführt. `year` wird ebenfalls als Ganzzahl `2018` gespeichert und nicht als String `"2018"`. Der Beispieldatensatz kann zum Abgleich [hier](../assets/05_aufbereitung_anreicherung/doc_k05_beispieldatensatz.json) gespeichert werden.
