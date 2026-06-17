@@ -594,14 +594,14 @@ input_datei = "annotation_metadata.csv"   # 1. Name der Eingabedatei anpassen
 output_datei = "annotation_metadata.json" # 2. Name der Ausgabedatei anpassen
 
 # 2) CSV einlesen
-# sep=";" ist wichtig, weil die Datei semikolon-getrennt ist
-# dtype=str sorgt dafür, dass alle Werte zunächst als Text eingelesen werden
+# sep=";" → wichtig, weil Datei semikolon-getrennt ist
+# dtype=str Hiermit werden alle Werte erstmal als Text eingelesen 
 # die Typkonvertierung erfolgt erst im nächsten Schritt kontrolliert
 df = pd.read_csv(input_datei, sep=";", dtype=str)
 
 # 3) Leere Zellen als leere Strings statt NaN behandeln
 # pandas füllt leere Felder standardmäßig mit NaN (Not a Number),
-# was in JSON zu "null"-Werten führen würde – hier werden sie als "" gesetzt
+# in JSON wird das zu "null"-Werten, daher werden sie als "" gesetzt
 df = df.fillna("")
 
 # 4) Funktion zum Umwandeln einzelner Werte
@@ -617,7 +617,7 @@ def konvertiere_wert(wert):
         return True
     if wert == "FALSE":
         return False
-    # Reine Ganzzahlen in int umwandeln (z.B. Jahreszahlen, Laufzeiten)
+    # Ganzzahlen in int umwandeln (z.B. Jahreszahlen, Laufzeiten)
     if re.fullmatch(r"-?\d+", wert):
         return int(wert)
     # Alles andere bleibt Text
@@ -631,8 +631,8 @@ df = df.map(konvertiere_wert)
 daten = df.to_dict(orient="records")
 
 # 7) Als JSON-Datei speichern
-# ensure_ascii=False → Sonderzeichen (Umlaute etc.) bleiben lesbar
-# indent=2 → eingerücktes, menschenlesbares Format
+# ensure_ascii=False bedeutet: Sonderzeichen (Umlaute etc.) bleiben lesbar
+# indent=2 sorgt für ein eingerücktes, menschenlesbares Format
 with open(output_datei, "w", encoding="utf-8") as f:
     json.dump(daten, f, ensure_ascii=False, indent=2)
 
