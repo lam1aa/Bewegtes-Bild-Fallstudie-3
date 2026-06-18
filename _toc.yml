@@ -50,6 +50,7 @@ chapters:
       - file: 05_aufbereitung_anreicherung/formatierung_anpassung
         sections:
           - file: 05_aufbereitung_anreicherung/konvertierung_export
+          - file: 05_aufbereitung_anreicherung/bereinigung_dokumentation
       - file: 05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung
       - file: 05_aufbereitung_anreicherung/resümee_05
       - file: 05_aufbereitung_anreicherung/selbsttest_wissen_05

@@ -376,6 +376,7 @@ Wie in den [Informationen zum Datenset](../05_aufbereitung_anreicherung/informat
 
 Alle hier beschriebenen Metadaten-Dateien stehen auf <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/data/metadata" class="external-link" target="_blank">Github </a> in den Exportformaten (`xlsx`, `csv`, `html`, `json`) zur Verfügung. Einzelheiten zu den einzelnen Formaten gibt es im nächsten Kapitel.
 
+(metadatenschema-template)=
 ## Das Metadatenschema als Template
 
 Das im Rahmen des Projekts entwickelte Metadatenschema steht als downloadbares [Template](../assets/05_aufbereitung_anreicherung/doc_k05_corpus_metadata_schema_climate_film_c05.yml) im sogenannten `yaml`-Format zur Verfügung. Das Template dient als nachnutzbare Vorlage für die strukturierte Beschreibung von filmographischen Metadatensätzen und definiert die relevanten Metadatenelemente in einem maschinenlesbaren Format. Somit kann es als Ausgangspunkt für eigene Metadatenschemata aber auch zur Dokumentation, Validierung oder zur automatisierten Weiterverarbeitung in andere Formate genutzt werden. Selbstverständlich kann die Vorlage an die Bedürfnisse des eigenen Forschungskontext angepasst werden. Im Abschnit Datenbereinigung [TODO:LINK] wird gezeigt, wie die Metadaten anhand des `yaml`-Schemas validiert werden.
@@ -422,7 +423,17 @@ description: >
 
 `````
 
-Die `yaml`-Datei ist maschinenlesbar und dokumentiert alle Felder mit Typ, Pflichtangaben, DC/EN-Mapping, Validierungsregeln (Pattern), kontrollierten Vokabularen und Beschreibungen.
+Die `yaml`-Datei ist maschinenlesbar und dokumentiert alle Felder mit Typ, Pflichtangaben, DC/EN-Mapping, Validierungsregeln (Pattern/Muster), kontrollierten Vokabularen und Beschreibungen. Die Pattern folgen einer bestimmten Logik und basieren auf sogenannten "regulären Ausdrücken" (*Regular Expressions*, kurz: Regex). Sie regeln, in welchem Format ein Wert vorliegen soll, beispielsweise für `year`:
+
+```text
+"^[0-9]{4}$"
+
+^ = Anfang des Wertes
+$ = Ende des Wertes
+[0-9] = Ziffer von 0 bis 9
++ = beliebig oft
+{4} = genau viermal
+```
 
 
 ```yaml

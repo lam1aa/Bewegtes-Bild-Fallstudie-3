@@ -535,6 +535,7 @@ Neben den oben genannten Datentypen gibt es noch folgende Grundkonzepte, die fü
 `````
 ### Schritt-für-Schritt: CSV zu JSON
 
+(python-umgebung)=
 #### Python-Umgebung einrichten
 
 Um das folgende Skript auszuführen, wird eine funktionierende Python-Umgebung mit der Bibliothek `pandas` benötigt. Nachfolgend wird die Variante vorgestellt, die für Einsteiger:innen am freundlichsten ist. Denn es gibt die Möglichkeit Python (und alle benötigten Bibliotheken und Editoren) über die Distribution (Zusammenstellung verschiedener Pakete und Software) <a href="https://www.anaconda.com/download" class="external-link" target="_blank">Anaconda</a> herunterzuladen. Für den Download bitte den Anweisungen auf der Seite folgen.
