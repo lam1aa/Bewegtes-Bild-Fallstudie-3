@@ -40,7 +40,7 @@ Beim `csv`-Export aus Excel wird nur das aktuell aktive Tabellenblatt exportiert
 
 ```{admonition} Leerzeichen zwischen Spaltenüberschriften
 :class: caution
-Beim Export aus Excel kann es vorkommen, dass sich Leerzeichen unbemerkt in Spaltenüberschriften einschleichen. Dies passiert insbesondere, wenn Felder bzw. Spalten nachträglich hinzugefügt werden. Im Tabellenblatt selbst bleiben diese Leerzeichen unsichtbar, führen aber beim Einlesen der `csv`-Datei in anderen Tools zu Problemen. Es empfiehlt sich daher, die exportierte `csv`-Datei in einem Texteditor wie VS Code zu öffnen und die Kopfzeile manuell auf unerwünschte Leerzeichen zu überprüfen.
+Beim Export aus Excel kann es vorkommen, dass sich Leerzeichen unbemerkt in Spaltenüberschriften einschleichen. Dies passiert insbesondere, wenn Felder bzw. Spalten nachträglich hinzugefügt werden. Im Tabellenblatt selbst bleiben diese Leerzeichen unsichtbar, führen aber beim Einlesen der `csv`-Datei in anderen Tools zu Problemen. Es empfiehlt sich daher, die exportierte `csv`-Datei in einem Text-Editor wie VS Code zu öffnen und die Kopfzeile manuell auf unerwünschte Leerzeichen zu überprüfen.
 ```
 
 ### Ergebnis
@@ -478,7 +478,7 @@ function updateEntryCount() {
 
 ### Nachnutzung und Anpassung
 
-Für das eigene Projekt sind folgende Stellen anzupassen, dafür muss die Datei in einem Text- und Codeeditor (z.B. VS Code) geöffnet werden. 
+Für das eigene Projekt sind folgende Stellen anzupassen, dafür muss die Datei in einem Text- und Code-Editor (z.B. VS Code) geöffnet werden. 
 
 1. Seitentitel (Browser-Tab): **Zeile 8**
 
@@ -516,7 +516,7 @@ Falls der eigene `csv`-Datensatz ein anderes Trennzeichen verwendet (z.B. Komma)
 `````
 4. Leerzeichen in Spaltenüberschriften prüfen
 
-Wenn die `html`-Tabelle nach dem Anpassen der `csv`-Daten nicht korrekt dargestellt wird oder Spalten falsch zugeordnet sind, liegt der Fehler sehr häufig an **führenden oder nachgestellten Leerzeichen in den Spaltenüberschriften** der `csv`. Diese entstehen leicht beim Export aus Excel. Die Kopfzeile der eingebetteten `csv` im `csvText`-String sollte deshalb manuell überprüft werden – am einfachsten in einem Texteditor wie VS Code.
+Wenn die `html`-Tabelle nach dem Anpassen der `csv`-Daten nicht korrekt dargestellt wird oder Spalten falsch zugeordnet sind, liegt der Fehler sehr häufig an **führenden oder nachgestellten Leerzeichen in den Spaltenüberschriften** der `csv`. Diese entstehen leicht beim Export aus Excel. Die Kopfzeile der eingebetteten `csv` im `csvText`-String sollte deshalb manuell überprüft werden – am einfachsten in einem Text-Editor wie VS Code.
 
 5. Semikolons in leeren Feldern erhalten
 

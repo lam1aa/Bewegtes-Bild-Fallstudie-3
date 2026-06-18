@@ -263,4 +263,5 @@ Die folgende Tabelle fasst alle wichtigsten Informationen der bereitgestellten D
   </tr>
 </table>
 
+<br>
 Im nachfolgenden Abschnitt wird Schritt für Schritt demonstriert, wie die Metadaten aus dem primären Arbeitsformat `xlsx` in die anderen Formate überführt werden können.  

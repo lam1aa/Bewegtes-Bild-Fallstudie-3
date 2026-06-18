@@ -22,7 +22,7 @@ Neben der Formatkonvertierung ist auch eine Bereinigung und Vereinheitlichung de
     * Klare Klassifikationen zur Vermeidung von Fehlern (`feature film`, `documentary` usw.); keine Mischformen (`doc`oder `Doku`)
 
 4. Einheitliche Benennung von Spalten und Feldern: 
-    * `snake_case` für maximale Kompatibilität mit anderen Datensystemen (`object_id`, `runtime_iso`)
+    * `snake_case` für maximale Kompatibilität mit anderen Datensystemen (`object_id`, `duration_iso8601`)
 
 5. Vergabe stabiler IDs
 
@@ -41,7 +41,7 @@ Ein gängiges und bewährtes Open-Source-Tool für die Datenbereinigung ist <a h
 (metadaten-validierung)=
 ## Metadatenvalidierung
 
-Im Kapitel zur systematischen Aufbereitung der Korpusmetadaten wird {ref}`ein Metadatenschema als Template <metadatenschema-template>` im `yaml`-Format vorgestellt, das genutzt wird, um die filmographischen Projektmetadaten durch kontrolliertes Vokabular, ISO-Standards und feste Muster für Schreibweisen von Werten (z.B: für `year` das pattern `"^[0-9]{4}$"` = `2018`) zu definieren, es werden also **Regeln** festgelegt. Über dieses `yaml`-Schema lassen sich mit einem Python-Skript die erfassten Metadaten im `csv`-Format auf Abweichungen oder Fehler überprüfen bzw. validieren. Das Ergebnis des Skripts ist ein Validation-Report, also eine Datei, die die gefundenen Probleme und Fehler dokumentiert. 
+Im Kapitel zur systematischen Aufbereitung der Korpusmetadaten wird {ref}`ein Metadatenschema als Template <metadatenschema-template>` im `yaml`-Format vorgestellt, das genutzt wird, um die filmografischen Projektmetadaten durch kontrolliertes Vokabular, ISO-Standards und feste Muster für Schreibweisen von Werten (z.B: für `year` das pattern `"^[0-9]{4}$"` = `2018`) zu definieren, es werden also **Regeln** festgelegt. Über dieses `yaml`-Schema lassen sich mit einem Python-Skript die erfassten Metadaten im `csv`-Format auf Abweichungen oder Fehler überprüfen bzw. validieren. Das Ergebnis des Skripts ist ein Validation-Report, also eine Datei, die die gefundenen Probleme und Fehler dokumentiert. 
 
 Das `yaml`-Schema beschreibt:
 
@@ -180,7 +180,7 @@ else:
 
 ### Das Ergebnis interpretieren
 
-Im gewählten Ordnerverzeichnis sollte nun ein sogenanntes Markdown-Dokument mit der Endung `.md` gespeichert sein. Dieses Markdown-Dokument kann mit einem Code- und Texteditor wie VS Code geöffnet werden (im Abschnitt Dokumentation kommen wir auf das Markdown-Format zurück.)
+Im gewählten Ordnerverzeichnis sollte nun ein sogenanntes Markdown-Dokument mit der Endung `.md` gespeichert sein. Dieses Markdown-Dokument kann mit einem Code- und Text-Editor wie VS Code geöffnet werden (im Abschnitt {ref}`Dokumentation <dokumentation>` kommen wir auf das Markdown-Format zurück.)
 
 ```{admonition} Was ist Markdown?
 :class: hinweis
@@ -214,9 +214,11 @@ schema:
 Ebenso müssen entsprechend bei Abweichungen die Dateipfade und -namen angepasst werden.
 `````
 
+(dokumentation)=
 ## Dokumentation
 
 Gut dokumentierte Forschungsdaten sind sowohl ein wichtiger interner Bestandteil des Forschungsprozesses als auch für die Publikation unerlässlich. In den Kapiteln zum [Forschungsdatenmanagement](../02_forschungsdaten_fdm/toc_02.md) sowie zum Thema [Datenmanagementpläne](../02_forschungsdaten_fdm/datenmanagementplan.md) haben wir bereits alle grundlegenden Aspekte hierfür zusammengefasst. 
+
 Um die Daten jedoch auch für Nutzende verständlich zu machen, braucht es offene Dokumentationsformate, die gemeinsam mit den eigentlichen Daten veröffentlicht werden.
 
 In diesem Projekt haben `README`-Dateien und Tutorials diese Funktion übernommen.
@@ -243,6 +245,13 @@ Markdown verwendet einfache Zeichen zur Formatierung von Text:
     padding: 8px 6px;
     border-bottom: 1px solid #eee;
     vertical-align: top;
+}
+.table-clean code {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1px 5px;
+    font-size: 0.9em;
 }
 </style>
 
