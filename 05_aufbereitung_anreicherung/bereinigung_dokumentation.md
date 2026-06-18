@@ -38,6 +38,7 @@ Ein gängiges und bewährtes Open-Source-Tool für die Datenbereinigung ist <a h
 * <a href="https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine " class="external-link" target="_blank">Tutorial Programming Historian zu OpenRefine und Data Cleaning</a>
 ```
 
+(metadaten-validierung)=
 ## Metadatenvalidierung
 
 Im Kapitel zur systematischen Aufbereitung der Korpusmetadaten wird {ref}`ein Metadatenschema als Template <metadatenschema-template>` im `yaml`-Format vorgestellt, das genutzt wird, um die filmographischen Projektmetadaten durch kontrolliertes Vokabular, ISO-Standards und feste Muster für Schreibweisen von Werten (z.B: für `year` das pattern `"^[0-9]{4}$"` = `2018`) zu definieren, es werden also **Regeln** festgelegt. Über dieses `yaml`-Schema lassen sich mit einem Python-Skript die erfassten Metadaten im `csv`-Format auf Abweichungen oder Fehler überprüfen bzw. validieren. Das Ergebnis des Skripts ist ein Validation-Report, also eine Datei, die die gefundenen Probleme und Fehler dokumentiert. 
@@ -179,6 +180,13 @@ else:
 
 ### Das Ergebnis interpretieren
 
+Im gewählten Ordnerverzeichnis sollte nun ein sogenanntes Markdown-Dokument mit der Endung `.md` gespeichert sein. Dieses Markdown-Dokument kann mit einem Code- und Texteditor wie VS Code geöffnet werden (im Abschnitt Dokumentation kommen wir auf das Markdown-Format zurück.)
+
+```{admonition} Was ist Markdown?
+:class: hinweis
+Markdown ist eine leichte Auszeichnungssprache, die mit einfachen Zeichen (bzw. einer schnell lesbaren und lernbaren Syntax) Formatierungen ausdrückt: *kursiv* oder **fett** zeigen Betonungen an, Listen sehen wie tatsächliche Listen aus. Markdown-Dateien sind also im Klartext geschrieben und werden beispielsweise von Plattformen wie GitHub, Zenodo oder Jupyter Book gerendered, es wird also eine menschenfreundliche Darstellung erzeugt.
+```
+
 Wenn in der Ausgabedatei alles korrekt ist und mit dem Schema übereinstimmt, dann steht im Report:
 
 ```text
@@ -191,3 +199,144 @@ ZEILE 181: Wert '124 Min' in 'runtime_min' passt nicht zum erwarteten Muster: "^
 ```
 
 In diesem Beispiel weicht das Muster beispielsweise ab, weil ein erwarteter Punkt `.` am Ende nach `Min.` fehlt. 
+
+`````{admonition} Validierungs-Skript nachnutzen
+:class: keypoint
+Das Validierungs-Skript selbst ist nicht an ein bestimmtes Metadatenschema gebunden. Es liest die zu prüfenden Felder, Pflichtangaben, Pattern-Regeln und kontrollierte Vokabulare direkt aus dem eingebundenen `yaml`-Schema. Derselbe Workflow kann dadurch auch für angepasste Schemata genutzt werden. Wichtig ist, dass das Schema in der Grundstruktur folgendes enthalten muss:
+```yaml
+schema:
+  fields:
+    - name:
+      required:
+      pattern:
+      vocabulary:
+```
+Ebenso müssen entsprechend bei Abweichungen die Dateipfade und -namen angepasst werden.
+`````
+
+## Dokumentation
+
+Gut dokumentierte Forschungsdaten sind sowohl ein wichtiger interner Bestandteil des Forschungsprozesses als auch für die Publikation unerlässlich. In den Kapiteln zum [Forschungsdatenmanagement](../02_forschungsdaten_fdm/toc_02.md) sowie zum Thema [Datenmanagementpläne](../02_forschungsdaten_fdm/datenmanagementplan.md) haben wir bereits alle grundlegenden Aspekte hierfür zusammengefasst. 
+Um die Daten jedoch auch für Nutzende verständlich zu machen, braucht es offene Dokumentationsformate, die gemeinsam mit den eigentlichen Daten veröffentlicht werden.
+
+In diesem Projekt haben `README`-Dateien und Tutorials diese Funktion übernommen.
+
+### Was ist eine README-Datei?
+
+Eine `README` ist eine einfache Textdatei, üblicherweise im Markdown-Format, die Informationen zu einem Datensatz, einem Repository oder einem Ordner enthält. 
+
+Markdown verwendet einfache Zeichen zur Formatierung von Text: 
+
+<style>
+.table-clean {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+}
+.table-clean th {
+    text-align: left;
+    padding: 8px 6px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+.table-clean td {
+    padding: 8px 6px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+</style>
+
+<table class="table-clean">
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Syntax</th>
+      <th>Ergebnis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kursiv</td>
+      <td><code>*Text*</code></td>
+      <td><em>Text</em></td>
+    </tr>
+    <tr>
+      <td>Fett</td>
+      <td><code>**Text**</code></td>
+      <td><strong>Text</strong></td>
+    </tr>
+    <tr>
+      <td>Überschrift</td>
+      <td><code>## Überschrift</code></td>
+      <td>Abschnittsüberschrift</td>
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td><code>[Linktext](URL)</code></td>
+      <td>Klickbarer Link</td>
+    </tr>
+    <tr>
+      <td>Liste</td>
+      <td><code>- Punkt</code></td>
+      <td>Aufzählung</td>
+    </tr>
+    <tr>
+      <td>Nummerierte Liste</td>
+      <td><code>1. Punkt</code></td>
+      <td>Nummerierte Liste</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td><code>`code`</code></td>
+      <td><code>code</code></td>
+    </tr>
+    <tr>
+      <td>Bild</td>
+      <td><code>![Alternativtext](bild.png)</code></td>
+      <td>Bild</td>
+    </tr>
+    <tr>
+      <td>Zitat</td>
+      <td><code>&gt; Zitat</code></td>
+      <td>Zitatblock</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+Weitere Details zur Syntax können im offiziellen <a href="https://www.markdownguide.org/getting-started/" class="external-link" target="_blank">Markdown Guide</a> oder auf <a href="https://markdown.de/" class="external-link" target="_blank">markdown.de</a> nachgelesen werden. 
+
+### Beispielhafter Aufbau einer README-Datei
+
+```markdown
+# [Titel des Datensatzes oder des Repositoriums]
+
+Informationen zum Projekt, Institution, Fördergeber, ggf. Verweis auf DMP
+
+Kurze Beschreibung: Worum geht es, aus welchem Projekt stammen die Daten, was sind zentrale Forschungsfragen?
+
+## Methoden und Tools
+
+Welche Methoden liegen der Datenerhebung zu Grunde? Welche Tools oder Skripte wurden verwendet?
+
+## Inhalte des Datensets / Repositoriums
+
+- Kurze Übersicht der enthaltenen Dateien und Ordner (ggf. als Liste).
+- Welche Dateiformate liegen vor, warum wurden sie gewählt?
+- Beschreibung der enthaltenen Tabellen/Dateien, ihrer Spalten und Datentypen.
+- Ggf. Verweis auf ein separates Datenschema oder Codebook.
+→ Empfehlung: damit die README nicht zu lang wird, sollten mehrere Dokumentationsdateien anlegt werden
+
+## Lizenz
+
+Unter welcher Lizenz stehen die Daten? Verweis auf LICENSE-Datei.
+
+## Autor:innen, Zitation, Kontakt
+
+Verweis auf CITATION.cff
+
+Auflistung der beteiligten Autor:innen und Contributor 
+```
+
+Mehr zum Thema Zitation `CITATION.cff` und Lizenzen `LICENSE.MD` gibt es im Kapitel [TODO:LINK].

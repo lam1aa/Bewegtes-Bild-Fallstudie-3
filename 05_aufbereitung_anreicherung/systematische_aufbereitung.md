@@ -379,7 +379,7 @@ Alle hier beschriebenen Metadaten-Dateien stehen auf <a href="https://github.com
 (metadatenschema-template)=
 ## Das Metadatenschema als Template
 
-Das im Rahmen des Projekts entwickelte Metadatenschema steht als downloadbares [Template](../assets/05_aufbereitung_anreicherung/doc_k05_corpus_metadata_schema_climate_film_c05.yml) im sogenannten `yaml`-Format zur Verfügung. Das Template dient als nachnutzbare Vorlage für die strukturierte Beschreibung von filmographischen Metadatensätzen und definiert die relevanten Metadatenelemente in einem maschinenlesbaren Format. Somit kann es als Ausgangspunkt für eigene Metadatenschemata aber auch zur Dokumentation, Validierung oder zur automatisierten Weiterverarbeitung in andere Formate genutzt werden. Selbstverständlich kann die Vorlage an die Bedürfnisse des eigenen Forschungskontext angepasst werden. Im Abschnit Datenbereinigung [TODO:LINK] wird gezeigt, wie die Metadaten anhand des `yaml`-Schemas validiert werden.
+Das im Rahmen des Projekts entwickelte Metadatenschema steht als downloadbares [Template](../assets/05_aufbereitung_anreicherung/doc_k05_corpus_metadata_schema_climate_film_c05.yml) im sogenannten `yaml`-Format zur Verfügung. Das Template dient als nachnutzbare Vorlage für die strukturierte Beschreibung von filmographischen Metadatensätzen und definiert die relevanten Metadatenelemente in einem maschinenlesbaren Format. Somit kann es als Ausgangspunkt für eigene Metadatenschemata aber auch zur Dokumentation, Validierung oder zur automatisierten Weiterverarbeitung in andere Formate genutzt werden. Selbstverständlich kann die Vorlage an die Bedürfnisse des eigenen Forschungskontext angepasst werden. Im Abschnitt {ref}`Metadatenvalidierung <metadaten-validierung>` wird gezeigt, wie die Metadaten anhand des `yaml`-Schemas validiert werden.
 
 ````{admonition} Was ist eine YAML-Datei und wie kann sie genutzt werden?
 :class: hinweis
@@ -435,6 +435,9 @@ $ = Ende des Wertes
 {4} = genau viermal
 ```
 
+Werden eigene, abweichende Felder, verwendet, deren Werte ebenfalls einem bestimmten Muster folgen, kann mit Unterstützung von KI eine passende Regex-Regel erstellt werden. Hierfür genügt es, die gewünschte Pattern-Logik im Prompt zu beschreiben. Die KI kann diese Anforderungen anschließend in einen Regex-Ausdruck übersetzen.
+
+### Das YAML-SCHEMA 
 
 ```yaml
 schema:
