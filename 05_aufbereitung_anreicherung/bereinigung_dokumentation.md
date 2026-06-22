@@ -178,6 +178,7 @@ else:
     print("\nKeine Probleme gefunden.")
 ```
 
+(ergebnis-interpretieren)=
 ### Das Ergebnis interpretieren
 
 Im gewählten Ordnerverzeichnis sollte nun ein sogenanntes Markdown-Dokument mit der Endung `.md` gespeichert sein. Dieses Markdown-Dokument kann mit einem Code- und Text-Editor wie VS Code geöffnet werden (im Abschnitt {ref}`Dokumentation <dokumentation>` kommen wir auf das Markdown-Format zurück.)
@@ -225,9 +226,9 @@ In diesem Projekt haben `README`-Dateien und Tutorials diese Funktion übernomme
 
 ### Was ist eine README-Datei?
 
-Eine `README` ist eine einfache Textdatei, üblicherweise im Markdown-Format, die Informationen zu einem Datensatz, einem Repository oder einem Ordner enthält. 
+Eine `README` ist eine einfache Textdatei, üblicherweise im {ref}`Markdown-Format <ergebnis-interpretieren>`, die Informationen zu einem Datensatz, einem Repository oder einem Ordner enthält. 
 
-Markdown verwendet einfache Zeichen zur Formatierung von Text: 
+Markdown ist sehr beutzerfreundlich und kann schnell erlernt werden. Es werden dabei einfache Zeichen zur Formatierung von Text verwendet, die gängisten listen wir hier auf:
 
 <style>
 .table-clean {
@@ -318,6 +319,18 @@ Weitere Details zur Syntax können im offiziellen <a href="https://www.markdowng
 
 ### Beispielhafter Aufbau einer README-Datei
 
+Um eine eigene `README` zu schreiben, wird lediglich ein Text-Editor wie beispielsweise VS Code oder <a href=" https://obsidian.md/ " class="external-link" target="_blank">Obsidian</a> benötigt. Hierzu ein neues Dokument erstellen und mit der Endung `.md` speichern.
+
+Wie eine finale `README`-Datei für publizierte Forschungsdaten aussehen kann, zeigt das Datenset des <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset" class="external-link" target="_blank">Projektrepositorys</a>. Desweiteren steht eine entsprechende Vorlage hier zur Verfügung:
+
+````{margin}
+```{admonition} Lizenz- und Zitationshinweis
+:class: hinweis
+Mehr zum Thema Zitation `CITATION.cff` und Lizenzen `LICENSE.MD` gibt es im Kapitel [TODO:LINK].
+```
+````
+
+
 ```markdown
 # [Titel des Datensatzes oder des Repositoriums]
 
@@ -343,9 +356,11 @@ Unter welcher Lizenz stehen die Daten? Verweis auf LICENSE-Datei.
 
 ## Autor:innen, Zitation, Kontakt
 
-Verweis auf CITATION.cff
+Verweis auf Zitationshinweis, zum Beispiel durch eine CITATION.cff
 
 Auflistung der beteiligten Autor:innen und Contributor 
 ```
 
-Mehr zum Thema Zitation `CITATION.cff` und Lizenzen `LICENSE.MD` gibt es im Kapitel [TODO:LINK].
+Neben der `README` kann es - je nach Projektkontext - auch sinnvoll sein weitere Anleitungen, Guides, Codebooks oder Dokumentationen bereitzustellen. Dies erleichtert die Nachnutzung der Daten und schafft mehr Transparenz für Nutzende.
+
+Mit der Aufbereitung, Bereinigung und Dokumentation der Forschungsdaten sind die wesentlichen Voraussetzungen für die Publikation geschaffen. Bevor im sechsten Lernmodul [Publikation von Datensets in einem Repositorium](../06_publikation_repositorien/toc_06.md) die konkreten Schritte der Veröffentlichung behandelt werden, greift der folgende Exkurs die vorgestellten Überlegungen und Impulse zu [diskriminierungssensiblen Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md) wieder auf und führt eine punktuelle exemplarische Überprüfung anhand der Korpusmetadaten des Projektes durch.
