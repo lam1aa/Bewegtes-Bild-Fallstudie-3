@@ -6,7 +6,7 @@
 Ausführliche Infos zur Projektbeschreibung und den Forschungsinhalten finden sich im Kapitel [Teilprojekt](../02_forschungsdaten_fdm/teilprojektbeschreibung.md) sowie auf der SFB-Projektseite.
 ````
 
-`````{admonition} Projektdaten und Publikation –  Teilprojekt C05
+`````{admonition} Story
 :class: story
 
 Das filmwissenschaftliche Teilprojekt <a href="https://www.sfb-intervenierende-kuenste.de/teilprojekte/C/C05/index.html" class="external-link" target="_blank">"C05 Intervenierende Weltentwürfe: Audiovisualität des Klimawandels"</a> des <a href="https://www.sfb-intervenierende-kuenste.de/" class="external-link" target="_blank">"Sonderforschungsbereichs 1512 "Intervenierende Künste"</a> der Freien Universität Berlin forscht zur Audiovisualität des Klimawandels. 
