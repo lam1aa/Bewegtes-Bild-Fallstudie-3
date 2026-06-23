@@ -29,7 +29,7 @@ Neben der Formatkonvertierung ist auch eine Bereinigung und Vereinheitlichung de
 6. Entfernung von Formatierungen (Farben, Kommentare, Formeln usw.)
 ```
 
-Ein gängiges und bewährtes Open-Source-Tool für die Datenbereinigung ist <a href="https://openrefine.org/" class="external-link" target="_blank">OpenRefine</a>, das ohne Programmierkenntnisse genutzt werden kann. 
+Ein gängiges und bewährtes Open-Source-Tool für die Datenbereinigung ist <a href="https://openrefine.org/" class="external-link" target="_blank">OpenRefine</a>, das ohne Programmierkenntnisse genutzt werden kann. Wie OpenRefine funktioniert und für die Datenbereinigung genutzt werden kann, kann in den hier aufgeführten weiterführenden Ressourcen eingesehen werden. 
 
 ```{admonition} Weiterführende Ressourcen zur Datenbereinigung
 :class: seealso
@@ -361,6 +361,15 @@ Verweis auf Zitationshinweis, zum Beispiel durch eine CITATION.cff
 Auflistung der beteiligten Autor:innen und Contributor 
 ```
 
-Neben der `README` kann es - je nach Projektkontext - auch sinnvoll sein weitere Anleitungen, Guides, Codebooks oder Dokumentationen bereitzustellen. Dies erleichtert die Nachnutzung der Daten und schafft mehr Transparenz für Nutzende.
+Neben der `README` kann es - je nach Projektkontext - auch sinnvoll sein weitere Anleitungen, Guides, Codebooks oder Dokumentationen bereitzustellen. Dies erleichtert die Nachnutzung der Daten und schafft mehr Transparenz für Nutzende. Die folgende Übersicht veranschaulicht klassische Dokumentationsebenen eines publizierten Datensets. `README`-Dateien sind dabei nur ein Bestandteil einer umfassenden Dokumentationsstruktur.
 
-Mit der Aufbereitung, Bereinigung und Dokumentation der Forschungsdaten sind die wesentlichen Voraussetzungen für die Publikation geschaffen. Bevor im sechsten Lernmodul [Publikation von Datensets in einem Repositorium](../06_publikation_repositorien/toc_06.md) die konkreten Schritte der Veröffentlichung behandelt werden, greift der folgende Exkurs die vorgestellten Überlegungen und Impulse zu [diskriminierungssensiblen Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md) wieder auf und führt eine punktuelle exemplarische Überprüfung anhand der Korpusmetadaten des Projektes durch.
+```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_datendokumentation.png
+---
+align: center
+width: 70%
+name: daten-dokumentation
+---
+Dokumentationsebenen für die Datenpublikation
+```
+
+Mit der Aufbereitung, Bereinigung und Dokumentation der Forschungsdaten sind die wesentlichen Voraussetzungen für die Publikation geschaffen. Bevor im sechsten Lernmodul [Publikation von Datensets in einem Repositorium](../06_publikation_repositorien/toc_06.md) die konkreten Schritte der Veröffentlichung behandelt werden, greift der folgende Exkurs die vorgestellten Überlegungen und Impulse aus dem zweiten Lernmodul zu [diskriminierungssensiblen Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md) wieder auf und führt eine punktuelle exemplarische Überprüfung anhand der Korpusmetadaten des Projektes durch.
