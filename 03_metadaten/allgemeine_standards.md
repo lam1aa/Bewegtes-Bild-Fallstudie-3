@@ -26,6 +26,7 @@ Taxonomien sind Benennungssysteme, bestehend aus kontrolliertem Vokabular, um Di
 ```
 Es gibt eine Vielzahl von fächerübergreifenden, generischen Metadatenstandards. Zwei der bekanntesten stellen wir kurz vor. 
 
+(dublin-core-header)=
 ## Dublin Core
 
 Ein weit verbreiteter, generischer Standard zur Beschreibung von Dokumenten und anderen Objekten ist der sogenannte <a href="https://www.dublincore.org/" class="external-link" target="_blank">Dublin Core</a>. Er besteht aus einem Set aus 15 allgemeinen, weit verbreiteten <a href="https://www.dublincore.org/specifications/dublin-core/usageguide/elements/" class="external-link" target="_blank">Elementen </a> (siehe auch <a href="https://www.ietf.org/rfc/rfc2413.txt" class="external-link" target="_blank">hier</a>), darunter beispielsweise `title`, `creator`, `subject` oder `description`, und wird vielseitig für verschiedenste Ressourcen eingesetzt  – von digitalen Objekten in Repositorien über Webseiten bis hin zu Bibliotheksbeständen.
@@ -138,6 +139,7 @@ Dublin Core und die 15 Elemente
 * Keine spezifische Struktur für für Versionierung oder Zitation von Forschungsdaten
 * Uneinheitliche Nutzungsmöglichkeiten
 
+(data-cite-header)=
 ## DataCite 
 
 Das <a href="https://schema.datacite.org/" class="external-link" target="_blank">DataCite</a> Schema ist eine strukturierte Liste bestehend aus Kern-Metadaten und ihren Eigenschaften. Es wird insbesondere für die bibliographische Beschreibung von Forschungsdaten, für Publikation, Zitation sowie die Registrierung von DOIs genutzt. Bestimmte Elemente, wie z. B. `Autor` oder `Titel`, sind verpflichtende Bestandteile, andere Elemente, wie z. B. `Fachbereich` oder `Beschreibung`, werden empfohlen oder sind optional. Das Metadatenschema sowie praxisnahe <a href="https://schema.datacite.org/meta/kernel-4.6/" class="external-link" target="_blank">Anwendungsbeispiele </a> werden in `xml` und `json` zur Verfügung gestellt. 

@@ -25,6 +25,7 @@ Die Erstellung eines Moviebarcodes erfolgt in mehreren klar definierten Schritte
 
 Für die Erstellung der Movierbarcodes wurden die frei verfügbaren und quelloffenen Werkzeuge <a href="https://www.ffmpeg.org/" class="external-link" target="_blank">ffmpeg</a> und <a href="https://imagemagick.org/#gsc.tab=0" class="external-link" target="_blank">ImageMagick</a> verwendet. Andere Methoden oder Tools sind grundsätzlich möglich, können aber ggf. zu leicht abweichenden Ergebnissen führen. Der Ansatz wurde gewählt, um die Schritte zur Extrahierung der Farbwerte reproduzierbar, methodisch nachvollziehbar und technisch transparent zu halten. Detaillierte Anleitungen zum Workflow sowie begleitende Tutorials finden sich im Kapitel xxx.
 
+(rechtliche-einordnung)=
 ## Rechtliche Einordnung
 
 Um eine reibungslose Veröffentlichung der Moviebarcodes zu gewährleisten, ist es wichtig, eine rechtliche Einordnung vorzunehmen. Denn die Frage, ob Moviebarcodes als eine urheberrechtliche relevante "Bearbeitung" im Sinne eines abgeleiteten Werks ("derivative work") einzustufen sind, wurde im Rahmen des SFB-Projekts unverbindlich durch den <a href="https://nfdi4culture.de/de/dienste/details/nfdi4culture-helpdesk.html" class="external-link" target="_blank">NFDI4Culture Legal Helpdesk</a> juristisch bewertet.

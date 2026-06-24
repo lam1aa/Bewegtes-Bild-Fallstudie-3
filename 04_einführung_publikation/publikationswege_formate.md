@@ -100,6 +100,7 @@ Startseite der etablierten generischen Repositorien <a href="https://zenodo.org/
 Im Kapitel [Dateninfrastrukturen](../06_publikation_repositorien/dateninfrastrukturen.md) werden die Schritte zur Publikation auf Github und Zenodo im Detail erläutert.
 ```
 
+(repositorien-doivergabe)=
 ### Übersicht für Repositorien mit DOI-Vergabe
 <table style="border-collapse: collapse; width: 100%; font-size: 1em;">
   <thead>
