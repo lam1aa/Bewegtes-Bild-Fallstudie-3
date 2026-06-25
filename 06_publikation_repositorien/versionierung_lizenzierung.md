@@ -383,7 +383,8 @@ Mehr Informationen zu **persistenten Identifikatoren** gibt es in unserer  <a hr
 ```
 ````
 
-Wichtig für die Zitierfähigkeit der Daten ist in jedem Fall ein **persistenter Identifikator** (kurz: PID). Dies ist für Forschungsdaten häufig eine DOI (**D**igital **O**bject **I**dentifier), also ein eindeutiger und permanenter Identifikator für digitale Objekte wie beispielsweise wissenschaftliche Aufsätze, Publikationen, Forschungsdaten oder Videos. Ähnlich wie eine ISBN-Nummer, dienen DOI's dazu, Objekte im Internet dauerhaft auffindbar und zitierbar zu machen. Die DOI sollte in der `CITATION.cff` angegeben werden. Viele Repositorien vergeben DOIs bei einer Publikation automatisch. Eine Übersicht für Repositorien mit DOI-Vergabe findet sich {ref}`hier <repositorien-doivergabe>`. 
+Wichtig für die Zitierfähigkeit der Daten ist in jedem Fall ein **persistenter Identifikator** (kurz: PID). Dies ist für Forschungsdaten häufig eine DOI (**D**igital **O**bject **I**dentifier), also ein eindeutiger und permanenter Identifikator für digitale Objekte wie beispielsweise wissenschaftliche Aufsätze, Publikationen, Forschungsdaten oder Videos. Ähnlich wie eine ISBN-Nummer, dienen DOI's dazu, Objekte im Internet dauerhaft auffindbar und zitierbar zu machen. Eine DOI besteht häufig aus einer Aneinanderreihung von Zahlen. Die Kennung beginnt immer mit 10, zum Beispiel: `doi:10.1000/199`.
+Die DOI sollte in der `CITATION.cff` angegeben werden. Viele Repositorien vergeben DOIs bei einer Publikation automatisch. Eine Übersicht für Repositorien mit DOI-Vergabe findet sich {ref}`hier <repositorien-doivergabe>`. 
 
 ```{admonition} DOI-Vergabe und GitHub
 :class: hinweis
@@ -396,3 +397,4 @@ Für die Vergabe von DOIs wird GitHub in der Regel mit einem Repositorium wie Ze
 * <a href="https://citation-file-format.github.io/" class="external-link" target="_blank">Citation File Format (CFF)</a>
 * Zenodo-Dokumentation: <a href="https://help.zenodo.org/docs/github/describe-software/" class="external-link" target="_blank">Describe software</a>
 ```
+Sind die Grundlagen zur Versionierung, Lizenzierung und Zitierfähigkeit geklärt, rückt die Veröffentlichung einen Schritt näher. Ein Aspekt, der im Vorfeld jedoch häufig unterschätzt wird, ist die Kuration und Organisation der Daten. Diesem Thema widmet sich das folgende Kapitel. 
