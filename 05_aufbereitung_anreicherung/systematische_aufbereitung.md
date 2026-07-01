@@ -437,6 +437,7 @@ $ = Ende des Wertes
 
 Werden eigene, abweichende Felder, verwendet, deren Werte ebenfalls einem bestimmten Muster folgen, kann mit Unterstützung von KI eine passende Regex-Regel erstellt werden. Hierfür genügt es, die gewünschte Pattern-Logik im Prompt zu beschreiben. Die KI kann diese Anforderungen anschließend in einen Regex-Ausdruck übersetzen.
 
+(yaml-schema)=
 ### Das YAML-SCHEMA 
 
 ```yaml
