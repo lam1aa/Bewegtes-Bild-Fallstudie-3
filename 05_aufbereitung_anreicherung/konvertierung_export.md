@@ -619,7 +619,10 @@ Python-Kernel wählen
 :class: danger
 In der Regel ist `pandas` über Anaconda bereits vorinstalliert. Sollte beim Ausführen des Codes ein Fehler wie `ModuleNotFoundError: No module named 'pandas'` erscheinen, dann direkt in der Notebook-Zelle folgenden Befehl ausführen: `!pip install pandas`
 ```
-Dieses Skript kann in dem geöffneten Notebook ausgeführt werden, die mit `#` gekennzeichneten Kommentare beeinträchtigen die Code-Funktionen nicht:
+Dieses Skript kann in dem geöffneten Notebook ausgeführt werden, die mit `#` gekennzeichneten Kommentare beeinträchtigen die Code-Funktionen nicht.
+
+Es müssen lediglich die Dateinamen, wie oben angemerkt, unter `input_datei = "annotation_metadata.csv"` (Eingabedatei), 
+`output_datei = "annotation_metadata.json"` (Ausgabedatei) für den eigenen Datensatz angepasst werden. Für den Beispieldatensatz kann folgender Titel der Eingabedatei eingegeben werden: `doc_k05_beispieldatensatz.csv`. Die Ausgabedatei kann entsprechend so benannt werden: `doc_k05_beispieldatensatz.json`. Der Rest des Codes funktioniert für jeden semikolon-getrennten CSV-Datensatz mit `TRUE`/`FALSE`-Werten und numerischen Feldern. Nach dem Ausführen sollte in dem gewählten Ordnerverzeichnis ein `json`-Export der `csv`-Datei vorliegen.
 
 ```python
 import pandas as pd
