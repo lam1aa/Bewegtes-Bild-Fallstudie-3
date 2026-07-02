@@ -67,7 +67,7 @@ multiple_choice1 = [{
     ]
 }]
 
-display_quiz(multiple_choice1, colors=colors.jupyterquiz)
+display_quiz(multiple_choice1, colors=colors.jupyterquiz, max_width=900)
 ```
 
 ## Aufgabe 2
@@ -128,7 +128,7 @@ true_false1 = [{
     ]
 }]
 
-display_quiz(true_false1, colors=colors.jupyterquiz)
+display_quiz(true_false1, colors=colors.jupyterquiz, max_width=900)
 ```
 
 ```{code-cell} ipython3
@@ -155,7 +155,7 @@ true_false2 = [{
     ]
 }]
 
-display_quiz(true_false2, colors=colors.jupyterquiz)
+display_quiz(true_false2, colors=colors.jupyterquiz, max_width=900)
 ```
 
 ```{code-cell} ipython3
@@ -182,7 +182,7 @@ true_false3 = [{
     ]
 }]
 
-display_quiz(true_false3, colors=colors.jupyterquiz)
+display_quiz(true_false3, colors=colors.jupyterquiz, max_width=900)
 ```
 
 ## Aufgabe 4
@@ -221,7 +221,7 @@ single_choice4 = [{
     ]
 }]
 
-display_quiz(single_choice4, colors=colors.jupyterquiz)
+display_quiz(single_choice4, colors=colors.jupyterquiz, max_width=900)
 ```
 
 ## Aufgabe 5
@@ -293,7 +293,7 @@ multiple_choice6 = [{
     ]
 }]
 
-display_quiz(multiple_choice6, colors=colors.jupyterquiz)
+display_quiz(multiple_choice6, colors=colors.jupyterquiz, max_width=900)
 ```
 ## Aufgabe 7
 
@@ -331,7 +331,7 @@ single_choice7 = [{
     ]
 }]
 
-display_quiz(single_choice7, colors=colors.jupyterquiz)
+display_quiz(single_choice7, colors=colors.jupyterquiz, max_width=900)
 ```
 
 ## Aufgabe 8
@@ -370,7 +370,7 @@ multiple_choice8 = [{
     ]
 }]
 
-display_quiz(multiple_choice8, colors=colors.jupyterquiz)
+display_quiz(multiple_choice8, colors=colors.jupyterquiz, max_width=900)
 ```
 
 ## Aufgabe 9
@@ -409,7 +409,7 @@ single_choice9 = [{
     ]
 }]
 
-display_quiz(single_choice9, colors=colors.jupyterquiz)
+display_quiz(single_choice9, colors=colors.jupyterquiz, max_width=900)
 ```
 
 ## Aufgabe 10
@@ -438,7 +438,7 @@ true_false4 = [{
     ]
 }]
 
-display_quiz(true_false4, colors=colors.jupyterquiz)
+display_quiz(true_false4, colors=colors.jupyterquiz, max_width=900)
 ```
 
 ```{code-cell} ipython3
@@ -465,7 +465,7 @@ true_false5 = [{
     ]
 }]
 
-display_quiz(true_false5, colors=colors.jupyterquiz)
+display_quiz(true_false5, colors=colors.jupyterquiz, max_width=900)
 ```
 
 ## Aufgabe 11
