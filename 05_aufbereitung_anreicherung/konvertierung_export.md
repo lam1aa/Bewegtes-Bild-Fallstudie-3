@@ -624,6 +624,8 @@ Dieses Skript kann in dem geöffneten Notebook ausgeführt werden, die mit `#` g
 Es müssen lediglich die Dateinamen, wie oben angemerkt, unter `input_datei = "annotation_metadata.csv"` (Eingabedatei), 
 `output_datei = "annotation_metadata.json"` (Ausgabedatei) für den eigenen Datensatz angepasst werden. Für den Beispieldatensatz kann folgender Titel der Eingabedatei eingegeben werden: `doc_k05_beispieldatensatz.csv`. Die Ausgabedatei kann entsprechend so benannt werden: `doc_k05_beispieldatensatz.json`. Der Rest des Codes funktioniert für jeden semikolon-getrennten CSV-Datensatz mit `TRUE`/`FALSE`-Werten und numerischen Feldern. Nach dem Ausführen sollte in dem gewählten Ordnerverzeichnis ein `json`-Export der `csv`-Datei vorliegen.
 
+Zum Ausführen des Skripts den Code in das Jupyter Notebook reinkopieren und mit `Shift` + `Enter` bestätigen.
+
 ```python
 import pandas as pd
 import json

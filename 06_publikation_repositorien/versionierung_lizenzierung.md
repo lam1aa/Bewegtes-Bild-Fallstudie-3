@@ -388,7 +388,7 @@ Die DOI sollte in der `CITATION.cff` angegeben werden. Viele Repositorien vergeb
 
 ```{admonition} DOI-Vergabe und GitHub
 :class: hinweis
-Für die Vergabe von DOIs wird GitHub in der Regel mit einem Repositorium wie Zenodo verknüpft. Das vorliegende Projekt nutzt ebenfalls diese Kombination.
+Für die Vergabe von DOIs wird GitHub in der Regel mit einem Repositorium wie Zenodo verknüpft. Das vorliegende Projekt nutzt ebenfalls diese Kombination. Nach der Publikation auf Zenodo wird die DOI für das Repositorium generiert und kann anschließend in der `CITATION.cff` ergänzt werden. Es empfiehlt sich im Vorfeld einen Platzhalter (Beispiel-DOI oder Ähnliches) für die DOI einzutragen, um ggf. Fehlermeldungen bei der Validierung der DOI zu vermeiden.
 ```
 
 ```{admonition} Weiterführende Links und Ressourcen zum Thema Datenzitation
@@ -397,4 +397,4 @@ Für die Vergabe von DOIs wird GitHub in der Regel mit einem Repositorium wie Ze
 * <a href="https://citation-file-format.github.io/" class="external-link" target="_blank">Citation File Format (CFF)</a>
 * Zenodo-Dokumentation: <a href="https://help.zenodo.org/docs/github/describe-software/" class="external-link" target="_blank">Describe software</a>
 ```
-Sind die Grundlagen zur Versionierung, Lizenzierung und Zitierfähigkeit geklärt, rückt die Veröffentlichung einen Schritt näher. Ein Aspekt, der im Vorfeld jedoch häufig unterschätzt wird, ist die Kuration und Organisation der Daten. Diesem Thema widmet sich das folgende Kapitel. 
+Sind die Grundlagen zur Versionierung, Lizenzierung und Zitierfähigkeit geklärt, rückt die Veröffentlichung einen Schritt näher. Ein Aspekt, der im Vorfeld jedoch häufig unterschätzt wird, ist die Kuratierung und Organisation der Daten. Diesem Thema widmet sich das folgende Kapitel. 
