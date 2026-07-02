@@ -19,6 +19,7 @@ Das filmwissenschaftliche Teilprojekt <a href="https://www.sfb-intervenierende-k
 Bevor die Daten auf GitHub hochgeladen werden, sollten zunächst Fragen der Versionierung, Lizenzvergabe und Zitierfähigkeit berücksichtigt werden. Die folgenden drei Abschnitte erläutern die dafür relevanten Grundlagen praxisnah und exemplarisch.
 `````
 
+(versionierung)=
 ## Versionierung
 
 Die Versionierung von Forschungsdaten ermöglicht eine eindeutige Referenzierung und Nachvollziehbarkeit bestimmter Veröffentlichungsstände eines Datensatzes. Sie trägt dazu bei, Änderungen transparent zu dokumentieren und unterschiedliche Versionen digitaler Forschungsartefakte voneinander abzugrenzen.

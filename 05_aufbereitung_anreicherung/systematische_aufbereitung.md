@@ -19,6 +19,7 @@ Von den Rohdaten zur Systematisierung (KI-generiert)
 ````
 `````
 
+(projekt-metadatenschema)=
 ## Das Projekt-Metadatenschema: Beschreibungen und DC/EN-Mapping
 
 ````{margin}
