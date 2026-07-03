@@ -5,7 +5,7 @@
 Werden Forschungsdaten in Repositorien veröffentlicht, so ist es wichtig, Dateiformate zu wählen, die einen langfristigen Zugang sichern und die Nachnutzbarkeit bzw. Wiederverwendung durch Dritte ermöglichen. Grundsätzlich empfiehlt es sich nach den 
 {ref}`FAIR-Prinzipien<leitlinien-fair>` **offene** und  **nicht-proprietäre Formate** zu wählen, darunter zählen beispielsweise Formate wie `csv` oder `json`, hierzu gleich mehr. Doch was bedeutet offen und nicht-proprietär genau?
 
-Nicht-proprietäre Formate sind Formate, die sich ohne den "dazugehörigen Anwendungs-, Hilfs- oder Systemprogrammen öffnen, bearbeiten und speichern lassen."  Das bedeutet, dass keine spezifische, ggf. kostenpflichtige Software zur Verarbeitung und Weiterverwendung der Daten notwendig ist. Dies ist eine Grundvoraussetzung dafür, dass Daten langfristig nutzbar sind und bleiben – unabhängig davon, ob eine bestimmte Software, Programme oder Tools in 10 oder 20 Jahren noch verfügbar sind. Für die Speicherung in nicht-proprietäre Formate ist es notwendig, die Daten zu exporten bzw. zu konvertieren. 
+Nicht-proprietäre Formate sind Formate, die sich ohne die "dazugehörigen Anwendungs-, Hilfs- oder Systemprogramme öffnen, bearbeiten und speichern lassen."  Das bedeutet, dass keine spezifische, ggf. kostenpflichtige Software zur Verarbeitung und Weiterverwendung der Daten notwendig ist. Dies ist eine Grundvoraussetzung dafür, dass Daten langfristig nutzbar sind und bleiben – unabhängig davon, ob eine bestimmte Software, Programme oder Tools in 10 oder 20 Jahren noch verfügbar sind. Für die Speicherung in nicht-proprietären Formate ist es notwendig, die Daten zu exportieren bzw. zu konvertieren. 
 
 ```{admonition} Datenverlust bedenken
 :class: danger
