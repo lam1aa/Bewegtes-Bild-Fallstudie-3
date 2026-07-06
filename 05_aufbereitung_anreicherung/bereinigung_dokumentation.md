@@ -85,6 +85,8 @@ name: validierung-mit-markierung
 Ordnerstruktur mit Notebook-Ablage
 ```
 
+Im nachfolgenden Python-Code müssen die Dateipfade CSV_FILE und SCHMA_FILE angepasst wurden. Für unseren Beispieldatensatz bedeutet das: Für die Eingabedatei kann eingegeben werden: `data/doc_k05_beispieldatensatz.csv`. Das YAML-Schema bennen wir: `schema/doc_k05_corpus_metadata_schema_climate_film_c05`.
+
 Anschließend kann folgender Python-Code in der Codezelle abgesetzt werden:
 
 ```python
