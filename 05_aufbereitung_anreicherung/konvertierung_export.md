@@ -71,7 +71,7 @@ In einer `csv`-Datei bestimmt die Position des Semikolons, welcher Wert in welch
 
 ## CSV zu HTML
 
-Eine `html`-Version der Korpusmetadaten wird für eine bessere Durchsuchbarkeit zur Verfügung gestellt `html`-Dokumente bestehen oft aus zwei Teilen: dem eigentlichen **Inhalt** (*„was soll da rein?"*, z.B. Tabellen, Überschriften, Text) in `html`-Syntax und den **Gestaltungsregeln** (*„wie soll es aussehen?"*, z.B. Farben, Abstände, Schriftgröße) in `css`-Syntax. Beide sind im bereitgestellten Code enthalten und kommentiert.
+Eine `html`-Version der Korpusmetadaten wird für eine bessere Durchsuchbarkeit zur Verfügung gestellt. `html`-Dokumente bestehen oft aus zwei Teilen: dem eigentlichen **Inhalt** (*„was soll da rein?"*, z.B. Tabellen, Überschriften, Text) in `html`-Syntax und den **Gestaltungsregeln** (*„wie soll es aussehen?"*, z.B. Farben, Abstände, Schriftgröße) in `css`-Syntax. Beide sind im bereitgestellten Code enthalten und kommentiert.
 
 ```{admonition} Kommentare im Code
 :class: hinweis
@@ -81,7 +81,7 @@ Kommentare sind in vielen Programmiersprachen sehr üblich. Sie beeinträchtigen
 * CSS: `/* Kommentar */`
 ```
 
-Um ein `html`-Dokument jedoch selbst zu schreiben, sind vertiefende Kenntnisse in `html` notwendig. Folgender hier bereitgestellter Code kann jedoch auch ohne vertiefende Kenntnisse als Vorlage genutzt und angepasst werden. 
+Um ein `html`-Dokument selbst zu schreiben, sind vertiefende Kenntnisse in `html` notwendig. Folgender hier bereitgestellter Code kann jedoch auch ohne vertiefende Kenntnisse als Vorlage genutzt und angepasst werden. 
 
 Zur Weiterverarbeitung wird das `html`-Dokument ebenfalls als [Download](../assets/05_aufbereitung_anreicherung/doc_k05_beispieldatensatz.html) bereitgestellt sowie nachfolgend als Code-Block angezeigt. Wie er verwendet und angepasst werden kann, zeigen wir Schritt für Schritt.
 
