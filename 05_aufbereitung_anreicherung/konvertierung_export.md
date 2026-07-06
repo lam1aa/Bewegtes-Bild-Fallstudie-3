@@ -574,11 +574,11 @@ Neben den oben genannten Datentypen gibt es noch folgende Grundkonzepte, die fü
 (python-umgebung)=
 #### Python-Umgebung einrichten
 
-Um das folgende Skript auszuführen, wird eine funktionierende Python-Umgebung mit der Bibliothek `pandas` benötigt. Nachfolgend wird die Variante vorgestellt, die für Einsteiger:innen am freundlichsten ist. Denn es gibt die Möglichkeit Python (und alle benötigten Bibliotheken und Editoren) über die Distribution (Zusammenstellung verschiedener Pakete und Software) <a href="https://www.anaconda.com/download" class="external-link" target="_blank">Anaconda</a> herunterzuladen. Für den Download bitte den Anweisungen auf der Seite folgen.
+Um das folgende Skript auszuführen, wird eine funktionierende Python-Umgebung mit der Bibliothek `pandas` benötigt. Nachfolgend wird die Variante vorgestellt, die für Einsteiger:innen am freundlichsten ist. Denn es gibt die Möglichkeit, Python (und alle benötigten Bibliotheken und Editoren) über die Distribution (Zusammenstellung verschiedener Pakete und Software) <a href="https://www.anaconda.com/download" class="external-link" target="_blank">Anaconda</a> herunterzuladen. Für den Download bitte den Anweisungen auf der Seite folgen.
 
 1. Anaconda Distribution herunterladen und installieren (**Achtung: die Installation benötigt mehrere GB Speicherplatz!**)
 2. Anaconda Navigator öffnen
-3. Bei → `Jupyter Notebook` auf → `Launch` klicken – es öffnet sich ein neuer Tab im Browser; parallel öffnet sich das Terminal, dieser kann vorerst einfach ignoriert werden
+3. Bei → `Jupyter Notebook` auf → `Launch` klicken – es öffnet sich ein neuer Tab im Browser; parallel öffnet sich das Terminal, dieses kann vorerst einfach ignoriert werden
 
 ```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_anaconda_launch_notebook.png
 ---
@@ -680,10 +680,8 @@ with open(output_datei, "w", encoding="utf-8") as f:
 
 print(f"Fertig. JSON gespeichert als: {output_datei}")
 ```
-Es müssen lediglich die Dateinamen, wie oben angemerkt, unter `input_datei = "annotation_metadata.csv"` (Eingabedatei), 
-`output_datei = "annotation_metadata.json"` (Ausgabedatei) für den eigenen Datensatz angepasst werden. Der Rest des Codes funktioniert für jeden semikolon-getrennten CSV-Datensatz mit `TRUE`/`FALSE`-Werten und numerischen Feldern. Nach dem Ausführen sollte in dem gewählten Ordnerverzeichnis ein `json`-Export der `csv`-Datei vorliegen.
 
-Anschließend kann der Browsertab geschlossen werden. Um den Jupyter Server sauber zu beenden, empfiehlt es sich in dem zuvor sich öffnendem Terminalfenster durch eingabe von `Control + C` bzw. `Strg + C` die Prozesse zu beenden.
+Anschließend kann der Browsertab geschlossen werden. Um den Jupyter Server sauber zu beenden, empfiehlt es sich, in dem zuvor automatisch geöffneten Terminalfenster durch eingabe von `Control + C` bzw. `Strg + C` die Prozesse zu beenden.
 
 
 ### Das Ergebnis
