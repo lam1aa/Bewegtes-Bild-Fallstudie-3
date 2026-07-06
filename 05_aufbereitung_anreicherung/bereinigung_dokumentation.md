@@ -19,7 +19,7 @@ Neben der Formatkonvertierung ist auch eine Bereinigung und Vereinheitlichung de
 
 3. Verwendung kontrollierter Vokabulare:
     * Normierte Felder und ISO-Standards
-    * Klare Klassifikationen zur Vermeidung von Fehlern (`feature film`, `documentary` usw.); keine Mischformen (`doc`oder `Doku`)
+    * Klare Klassifikationen zur Vermeidung von Fehlern (`feature film`, `documentary` usw.); keine Mischformen (`doc` oder `Doku`)
 
 4. Einheitliche Benennung von Spalten und Feldern: 
     * `snake_case` für maximale Kompatibilität mit anderen Datensystemen (`object_id`, `duration_iso8601`)
@@ -185,7 +185,7 @@ Im gewählten Ordnerverzeichnis sollte nun ein sogenanntes Markdown-Dokument mit
 
 ```{admonition} Was ist Markdown?
 :class: hinweis
-Markdown ist eine leichte Auszeichnungssprache, die mit einfachen Zeichen (bzw. einer schnell lesbaren und lernbaren Syntax) Formatierungen ausdrückt: *kursiv* oder **fett** zeigen Betonungen an, Listen sehen wie tatsächliche Listen aus. Markdown-Dateien sind also im Klartext geschrieben und werden beispielsweise von Plattformen wie GitHub, Zenodo oder Jupyter Book gerendered, es wird also eine menschenfreundliche Darstellung erzeugt.
+Markdown ist eine leichte Auszeichnungssprache, die mit einfachen Zeichen (bzw. einer schnell lesbaren und lernbaren Syntax) Formatierungen ausdrückt: *kursiv* oder **fett** zeigen Betonungen an, Listen sehen wie tatsächliche Listen aus. Markdown-Dateien sind also im Klartext geschrieben und werden beispielsweise von Plattformen wie GitHub, Zenodo oder Jupyter Book gerendered, d. h. es wird eine menschenfreundliche Darstellung erzeugt.
 ```
 
 Wenn in der Ausgabedatei alles korrekt ist und mit dem Schema übereinstimmt, dann steht im Report:
@@ -228,7 +228,7 @@ In diesem Projekt haben `README`-Dateien und Tutorials diese Funktion übernomme
 
 Eine `README` ist eine einfache Textdatei, üblicherweise im {ref}`Markdown-Format <ergebnis-interpretieren>`, die Informationen zu einem Datensatz, einem Repository oder einem Ordner enthält. 
 
-Markdown ist sehr beutzerfreundlich und kann schnell erlernt werden. Es werden dabei einfache Zeichen zur Formatierung von Text verwendet, die gängisten listen wir hier auf:
+Markdown ist sehr beutzerfreundlich und kann schnell erlernt werden. Es werden dabei einfache Zeichen zur Formatierung von Text verwendet, die gänigsten listen wir hier auf:
 
 <style>
 .table-clean {
@@ -348,7 +348,7 @@ Welche Methoden liegen der Datenerhebung zu Grunde? Welche Tools oder Skripte wu
 - Welche Dateiformate liegen vor, warum wurden sie gewählt?
 - Beschreibung der enthaltenen Tabellen/Dateien, ihrer Spalten und Datentypen.
 - Ggf. Verweis auf ein separates Datenschema oder Codebook.
-→ Empfehlung: damit die README nicht zu lang wird, sollten mehrere Dokumentationsdateien anlegt werden
+→ Empfehlung: damit die README nicht zu lang wird, sollten mehrere Dokumentationsdateien angelegt werden
 
 ## Lizenz
 
@@ -361,7 +361,7 @@ Verweis auf Zitationshinweis, zum Beispiel durch eine CITATION.cff
 Auflistung der beteiligten Autor:innen und Contributor 
 ```
 
-Neben der `README` kann es - je nach Projektkontext - auch sinnvoll sein weitere Anleitungen, Guides, Codebooks oder Dokumentationen bereitzustellen. Dies erleichtert die Nachnutzung der Daten und schafft mehr Transparenz für Nutzende. Die folgende Übersicht veranschaulicht klassische Dokumentationsebenen eines publizierten Datensets. `README`-Dateien sind dabei nur ein Bestandteil einer umfassenden Dokumentationsstruktur.
+Neben der `README` kann es - je nach Projektkontext - auch sinnvoll sein, weitere Anleitungen, Guides, Codebooks oder Dokumentationen bereitzustellen. Dies erleichtert die Nachnutzung der Daten und schafft mehr Transparenz für Nutzende. Die folgende Übersicht veranschaulicht klassische Dokumentationsebenen eines publizierten Datensets. `README`-Dateien sind dabei nur ein Bestandteil einer umfassenden Dokumentationsstruktur.
 
 ```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_datendokumentation.png
 ---
