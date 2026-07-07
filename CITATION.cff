@@ -13,10 +13,12 @@ authors: &id001
   family-names: Grotkopp
   orcid: https://orcid.org/0000-0002-0954-3111
   affiliation: Freie Universität Berlin
+repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3
+url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3
 keywords: &id002
 - Datenpublikation
 - TODO
-license: CC-BY-SA-4.0
+license: CC BY-SA 4.0
 references:
 - title: Jupyter Book
   type: software
@@ -28,14 +30,12 @@ preferred-citation:
   authors: *id001
   title: Anreicherung und Publikation von Annotationsdatensets auf Repositorien
   type: book
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3
   repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3
-  license: CC-BY-SA-4.0
+  license: CC BY-SA 4.0
   languages:
   - deu
-  copyright: CC-BY-SA-4.0
-  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3
-  version: 1.0.0
+  copyright: CC BY-SA 4.0
   keywords: *id002
-url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3
-repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3
+  version: 1.0.0
 version: 1.0.0
