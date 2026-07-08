@@ -18,7 +18,7 @@ url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3
 keywords: &id002
 - Datenpublikation
 - TODO
-license: CC BY-SA 4.0
+license: CC-BY-SA-4.0
 references:
 - title: Jupyter Book
   type: software
@@ -32,10 +32,10 @@ preferred-citation:
   type: book
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3
   repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3
-  license: CC BY-SA 4.0
+  license: CC-BY-SA-4.0
   languages:
   - deu
-  copyright: CC BY-SA 4.0
+  copyright: CC-BY-SA-4.0
   keywords: *id002
   version: 1.0.0
 version: 1.0.0
