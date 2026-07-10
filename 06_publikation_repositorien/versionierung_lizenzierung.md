@@ -51,7 +51,7 @@ alpha → beta → release candidate → finale Version
 
 * `alpha` steht für die frühe Entwicklungsphase, die Version ist also noch nicht vollständig bzw. in einem Rohbau und anfällig für Fehler - wird eher für interne Testungen genutzt
 * `beta` beschreibt eine weitestgehend fertige Entwicklungsstufe, die breiter getestet wird und in denen Fehler weiterhin auftreten können
-* `rc` ist die Abkürzung für "release candidate" und markiert einen quasi fertige, publikationsreife Version 
+* `rc` ist die Abkürzung für "release candidate" und markiert eine quasi fertige, publikationsreife Version 
 * Die finale Version entspricht dann einem `MAJOR` Release 
 
 ```{admonition} Schreibweise pre-release labels
@@ -235,7 +235,7 @@ nicht von der Hauptlizenz des Datensets erfasst.
 An diesen Visualisierungen werden keine Urheberrechte geltend gemacht.
 ```
 
-**Variante 2**: CCO - Public Domain Dedication
+**Variante 2**: CC0 - Public Domain Dedication
 
 ```{code-block} text
 
@@ -389,7 +389,7 @@ Die DOI sollte in der `CITATION.cff` angegeben werden. Viele Repositorien vergeb
 
 ```{admonition} DOI-Vergabe und GitHub
 :class: hinweis
-Für die Vergabe von DOIs wird GitHub in der Regel mit einem Repositorium wie Zenodo verknüpft. Das vorliegende Projekt nutzt ebenfalls diese Kombination. Nach der Publikation auf Zenodo wird die DOI für das Repositorium generiert und kann anschließend in der `CITATION.cff` ergänzt werden. Es empfiehlt sich im Vorfeld einen Platzhalter (Beispiel-DOI oder Ähnliches) für die DOI einzutragen, um ggf. Fehlermeldungen bei der Validierung der DOI zu vermeiden.
+Für die Vergabe von DOIs wird GitHub in der Regel mit einem Repositorium wie Zenodo verknüpft. Das vorliegende Projekt nutzt ebenfalls diese Kombination. Nach der Publikation auf Zenodo wird die DOI für das Repositorium generiert und kann anschließend in der `CITATION.cff` ergänzt werden. Es empfiehlt sich, im Vorfeld einen Platzhalter (Beispiel-DOI oder Ähnliches) für die DOI einzutragen, um ggf. Fehlermeldungen bei der Validierung der DOI zu vermeiden.
 ```
 
 ```{admonition} Weiterführende Links und Ressourcen zum Thema Datenzitation
