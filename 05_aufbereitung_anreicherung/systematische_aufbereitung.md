@@ -335,7 +335,8 @@ Zum Nachlesen finden sich ausführliche Definitionen der Modi in der <a href="ht
 auf Github.
 ```
 
- ### ISO-Standards
+(iso-standards)=
+### ISO-Standards
 
 Für zwei Felder werden sogenannte **ISO-Standards** als kontrollierte Vokabulare eingesetzt. 
 

@@ -127,10 +127,91 @@ Zeitspanne des Korpus abhängig gemacht werden.
 
 ## Visualisierung
 
-Nach der Auswertung können die Daten in Grafiken oder Diagrammen aufbereitet werden. Dazu eignen sich Excel (PivotCharts oder Diagramme) sowie andere Programme wie <a href="https://www.canva.com/" class="external-link" target="_blank">Canva</a>. Für die vorliegenden Darstellungen wurde Canva benutzt.
+````{margin}
+```{admonition} Datenvisualisierung
+:class: seealso
+Mehr Informationen zum Thema Datenvisualisierung gibt es in unserer <a href="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/auswertung/toc.html" class="external-link" target="_blank">QUADRIGA Fallstudie: "Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)"</a>.
+```
+````
+
+Nach der Auswertung können die Daten in Grafiken oder Diagrammen aufbereitet werden. Dazu eignen sich Excel (PivotCharts oder Diagramme) sowie andere Programme wie <a href="https://www.canva.com/" class="external-link" target="_blank">Canva</a>. Für die vorliegenden Darstellungen wurde Canva (kostenlose Version) benutzt.
 
 In beiden Programmen wird zunächst eine einfache Tabelle mit zwei Spalten angelegt: eine Spalte für die Kategorien (z.B. Länderkürzel nach ISO 3166) und eine für die zugehörigen Werte (absolute Vorkommen). Diese Tabelle bildet die Grundlage für das Diagramm.
 
+```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_canva_1.png
+---
+align: center
+width: 100%
+name: canva-1
+---
+Datentabelle in Canva: Spalten "Absolut" und "Land"
+```
+
+Nach dem Markieren der gesamten Tabelle lässt sich über die Diagrammschaltfläche in der Toolbar eine Darstellungsform auswählen. In Canva heißt diese Funktion "Magic Charts".
+
+```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_canva_2.png
+---
+align: center
+width: 100%
+name: canva-2
+---
+Auswahl der Diagrammform über "Magic Charts" in Canva
+```
+
+Im vorliegenden Fall wurde ein Säulendiagramm gewählt. Titel, Achsenbeschriftungen und Zahlenwerte über den Säulen lassen sich über das Menü oder durch direktes Klicken in das Diagramm anpassen.
+
+```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_canva_3.png
+---
+align: center
+width: 100%
+name: canva-3
+---
+Fertiges Säulendiagramm "Korpusmetadaten nach Ländern" in Canva
+```
+
+```{admonition} Wichtig: Aussagekraft quantitativer Auswertungen 
+:class: important
+Diagramme dieser Art geben eine relationale und quantitative Übersicht über Verhältnisse, sie sind jedoch kein Beleg und keine Erkenntnis in sich. Erst weiterführende Analysen und spezifische Untersuchungsmethoden können bei einer eingehenden Dateninterpretation helfen. 
+```
+
+## Metadaten und Begriffe
+
+01) **Diskriminierende Sprache**
+
+Bei der manuellen Überprüfung des Korpus auf rassifizierte und diskriminierende Begriffe konnten innerhalb der eigenen Metadaten keine diskriminierenden Formulierungen festgestellt werden.
+
+02) **IMDb als Datenquelle**
+
+Der Korpus nutzt als externen Identifier die IMDb-ID. Zum Stand der Veröffentlichung dieser OER finden sich dort vereinzelt diskriminierende Begriffe. Diese wurden nicht in den Korpus übernommen. Es wurden ebenso keine Daten von Webseiten gescraped und keine Nutzer:innenkommentare oder Tags übernommen.
+
+Die folgende Auflistung gibt Anhaltspunkte für die Überprüfung je nach Metadatenfeld. Sie 
+erhebt keinen Anspruch auf Vollständigkeit:
+
+* `title`: Gibt es explizit diskriminierende Begriffe?
+* Externe Datenbanken (z.B. IMDb): Gibt es diskriminierende Begriffe oder Narrative in Zusammenfassungen, Synopsen und Tags? Durch wen werden diese Daten erhoben? Wie werden die Datenbanken moderiert?
+* `country`: Welche politischen Umstände legitimieren oder delegitimieren ein Land? Können andere Kategorien präziser sein (z. B. indigene Ortsnamen, Palästina, Taiwan)?
+* Beteiligte Personen: Wurden Mitwirkende vertrauenswürdig notiert? Artikuliert sich eine produktionsästhetische Hierarchie durch die Metadaten? Reproduziert die Notation Formen sozialer Ungleichheit (z. B. Kollektive, Stellvertreter:innenschaft, nicht-regieführende Personen)?
+
+03) **Normdaten und Vokabulare**
+
+````{margin}
+```{admonition} Hinweis: ISO-Standards
+:class: hinweis
+Mehr Informationen zu ISO-Standards gibt es im Abschnitt {ref}`ISO-Standards <iso-standards>`.
+```
+````
+
+Der Korpus verwendet <a href="https://www.iso.org/iso-3166-country-codes.html" class="external-link" target="_blank">ISO 3166-1 alpha-2</a> für die Angabe von Produktionsländern. Dieser Standard ist in der Lage, viele Länder abzubilden (darunter auch solche, die in anderen Thesauri marginalisiert werden, z.B. Taiwan, Palästina). Gleichzeitig hält der Korpus durch die Verwendung dieses ISO-Standards am Konzept von Nationalstaaten fest. Durch die Kombination mehrerer Länderkürzel für denselben Titel lassen sich jedoch internationale Produktionen zumindest im Kontext eines Nationalstaatengefüges relativ unhierarchisch aufzeichnen. 
+
+Die Verwendung der Kategorie `director` folgt einer westlich-tradierten, hierarchisch organisierten Produktionsästhetik und assoziiert kollektiv hervorgebrachte ästhetische Arbeit mit wenigen Personen oder Werksurheber:innen. Dies ist bezeichnend für die westliche Ausrichtung des Korpus und sollte bei der Interpretation der Daten berücksichtigt werden. Das Feld `director` enthält ausschließlich Namen; Geschlechtsangaben sind kein Bestandteil des Schemas und wurden für diese Auswertung gesondert erhoben.
+
+04) **Historische Situiertheit**
+
+Es konnte kein direkter ideologischer Bezug zu diskriminierendem Vokabular aufgrund der historischen Situiertheit der Werke festgestellt werden.
+
+## Fazit
+
+Quantitative Auswertungen von Metadaten erlauben Aussagen über die Organisation oder Struktur eines Korpus, nicht jedoch über seine Diskursivität. Dass westliche Produktionen dominieren, sagt beispielsweise noch nichts darüber aus, wie diese Produktionen den Klimawandel filmisch verhandeln, welche Perspektiven und Machtgefälle sie reproduzieren oder unterlaufen oder welche narrativen und ästhetischen Strategien sie einsetzen. Die hier vorgestellten Auswertungen sind daher als methodisches Werkzeug einer diskriminierungssensiblen Überprüfung zu verstehen. Sie dienen dazu, strukturelle Tendenzen und mögliche Ungleichgewichte im Korpus (oder darüber hinaus) sichtbar und diskutierbar zu machen sowie Ansatzpunkte für weiterführende qualitative Analysen zu identifizieren. Aussagen über diskriminierende Darstellungsweisen hingegen erfordern weiterführende Untersuchungen der einzelnen Werke sowie ihrer konkreten ästhetischen, affektiven, narrativen sowie geschichtlichen Kontexte. 
 
 
 [^1]: Die hier verwendete Kategorie Geschlecht dient ausschließlich der exemplarischen Auswertung der Korpusmetadaten und stellt ausdrücklich keine gegebene Klassifikation dar. "Geschlecht" wird in den Gender Studies vielmehr als sozial und kulturell hervorgebrachte sowie historisch wandelbare Kategorie verstanden (vgl. hierzu: Simone de Beauvoir 1949; Judith Butler 1990). Die im Projekt verwendete binäre Codierung (m/w) geht aus der Verfügbarkeit der erhobenen Metadaten hervor und erhebt keinen normativen Anspruch. Je nach Forschungsfrage und Korpus kann eine differenziertere Erfassung erforderlich und methodisch angemessener sein.
