@@ -60,6 +60,7 @@ Die pre-release labels werden immer mit einem Bindestrich an die Versionsnummer 
 ```
 Für Forschungsdaten ist die Verwendung von pre-release version labels je nach Projektkontext abzuwägen. Bei abgeschlossenen Projekten mit gesetztem Laufzeitende liegen die Datensätze zur Publikation meist vollständig vor und können auf Version 1.0.0 publiziert werden, da oft keine wesentlichen Änderungen zu erwarten sind. Die Nutzung von pre-release tags ist insbesondere dann sinnvoll, wenn abzusehen ist, dass wesentliche Entwicklungen oder Änderungen eintreten werden. 
 
+(lizenzierung)=
 ## Lizenzierung
 
 Neben der Versionierung, ist weiterer zentraler Schritt der Publikation die Vergabe von Lizenzen. Forschende und Forschungsprojekte sollten sich frühzeitig mit der Frage der Lizenzierung auseinandersetzen, um etwaige lizenzrechtliche Unschlüssigkeiten oder Unsicherheiten bereits im Vorfeld zu klären. Denn Lizenzen legen fest, unter welchen Bedingungen andere Personen die Forschungsdaten **nutzen, bearbeiten oder weitergeben** dürfen.
@@ -331,6 +332,7 @@ Die vollständige Lizenzdokumentation ist in der <a href="https://github.com/SFB
 * GitHub-Dokumentation: <a href="https://docs.github.com/de/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository" class="external-link" target="_blank">Ein Repository lizenzieren</a>
 ```
 
+(daten-zitieren)=
 ## Daten zitierbar machen
 
 Im letzten Teil dieses Kapitels soll es nun um die Zitierfähigkeit der Daten gehen. Wie Publikationen, so sollten auch Forschungsdaten korrekt angegeben und zitiert werden. Um die eigenen Forschungsdaten zitierbar zu machen, gibt es unterschiedliche Wege. In dem Kapitel zu [allgemeinen Metadatenstandards](../03_metadaten/allgemeine_standards.md) sind wir bereits kurz auf {ref}`Dublin Core <dublin-core-header>` und {ref}`DataCite <data-cite-header>` eingegangen. Neben diesen Varianten, ist die Nutzung des sogenannten Citation File Format (CFF) für Daten und Software, insbesondere in Git-Repositorien, sehr verbreitet. 

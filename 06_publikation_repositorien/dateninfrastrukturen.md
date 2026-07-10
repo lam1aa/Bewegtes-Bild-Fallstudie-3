@@ -93,4 +93,81 @@ Die README-Datei sowie LICENSE können auch nachträglich hinzugefügt werden. E
 
 ### Schritt 2: Repository klonen mit GitHub Desktop
 
-1. GitHub Desktop öffnen und mit dem GitHub-Account einloggen
+1. GitHub Desktop öffnen und unter `Settings` mit dem GitHub-Account einloggen
+2. Anschließend auf `File` → `Clone Repository` gehen
+3. Unter dem Reiter **GitHub.com** das Repository auswählen (z.B. `SFB1512-C05-climate-film/intervening-world-projections-dataset`)
+4. Lokalen Speicherort wählen, z.B. `~/Documents/intervening-world-projections-dataset`
+5. Auf `Clone` klicken
+
+```{figure} ../assets/06_publikation_repositorien/abb_k06_clone_repository_git.png
+---
+align: center
+width: 65%
+name: clone-repository
+---
+Repository klonen mit GitHub Desktop
+```
+
+Mehr Informationen und erste Schritte mit GitHub Desktop gibt es in der <a href="https://docs.github.com/de/desktop" class="external-link" target="_blank">GitHub-Dokumentation</a>.
+
+### Schritt 3: Ordnerstruktur anlegen in VS Code und Dateien hochladen
+
+Nach dem Klonen das Repository in VS Code öffnen (`Open in Visual Studio Code` in GitHub Desktop):
+
+```{figure} ../assets/06_publikation_repositorien/abb_k06_open_vs_code.png
+---
+align: center
+width: 85%
+name: open-vs-code
+---
+Das Repository in VS Code öffnen
+```
+
+Dort sollte ebenfalls der GitHub-Account verknüpft werden. Hierzu links unten auf den Profil-Button klicken und einloggen.
+
+Die Ordnerstruktur kann jetzt lokal angelegt werden, entweder durch Drag und Drop bereits vorbereiteter Ordner/Dateien oder durch Neuanlage direkt im Editor (vgl. Kapitel [Kuratierung & Organisation](../06_publikation_repositorien/kuratierung_organisation.md) zur empfohlenen Ordnerstruktur).
+
+```{figure} ../assets/06_publikation_repositorien/abb_k06_ordner_anlegen_vs_code.png
+---
+align: center
+width: 100%
+name: ordner-vs-code
+---
+Ordner und Dateien anlegen in VS Code
+```
+
+```{admonition} Hinweis: Dateigrößen
+:class: important
+GitHub ist keine Plattform für große Datenmengen. Die Obergrenze pro Datei beträgt **50 MB**; Repositories sollten insgesamt 1 GB nicht überschreiten. Für größere Dateien (z.B. hochauflösende PNGs, Videos) gibt es zwei Alternativen:
+
+* **Zenodo**: Dateien direkt dort hochladen (max. 50 GB pro Record)
+* **Git LFS** (Large File Storage): Große Dateien über Git versionieren, ohne sie direkt im Repository zu speichern; erfordert jedoch zusätzliche Konfiguration!
+```
+
+Anschließend können die jeweiligen Dateien in ihre zugehörigen Ordner geladen werden. 
+
+```{admonition} Hinweis: Ordner für Bilder
+:class: hinweis
+Visualisierungen und Bilder, die Erklärungszwecken dienen, sollten in einen separaten Ordner, z.B. `\assets`, gelegt werden. So können sie von den eigentlichen Datensätzen getrennt werden. 
+```
+
+### Schritt 4: Dokumentationsdateien anlegen
+
+Einige Dateien werden von GitHub automatisch erkannt und besonders angezeigt, wenn sie im Wurzelverzeichnis (Root) des Repositories liegen und exakt so benannt sind:
+
+* `README.md` → wird als Startseite des Repositories gerendert (vgl. Abschnitt {ref}`Dokumentation <dokumentation>`)
+* `LICENSE` → wird als Lizenzinformation erkannt und verlinkt (vgl. Abschnitt {ref}`Lizenzierung <lizenzierung>`)
+* `CITATION.cff` → wird als Zitationshinweis angezeigt (vgl. Abschnitt {ref}`Daten zitierbar machen <daten-zitieren>`)
+
+Für Dokumentationsdateien wie `README.md` oder `LICENSE.md` empfiehlt sich bei der Bearbeitung eine Live Preview im Editor. In VS Code lässt sich diese mit `Cmd+Shift+V` (macOS) bzw. `Strg+Shift+V` (Windows/Linux) öffnen. So ist sofort 
+sichtbar, wie die Datei auf GitHub gerendert aussehen wird.
+
+### Schritt 5: Commit und Push
+
+Wenn alle Dateien bereit sind, werden die Änderungen in GitHub Desktop als Commit zusammengefasst und anschließend auf GitHub hochgeladen (Push).
+
+Der Commit kann entweder direkt über VS Code durchgeführt werden oder über GitHub Desktop. 
+
+Wie bereits erwähnt, ist ein **Commit** ist ein gespeicherter Schnappschuss des Repositories zu einem bestimmten 
+Zeitpunkt. Jeder Commit erhält eine kurze Beschreibung, die **Commit Message**, in der kurz und knapp dokumentiert werden sollte, was geändert wurde. In GitHub Desktop wird die Commit Message automatisch eingetragen, das Hinzufügen einer Beschreibung ist optional.
+
