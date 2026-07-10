@@ -80,7 +80,7 @@ Architektur des Datensatzes
 
 Die Metadaten wurden während des Projektverlaufs manuell erhoben und in einer tabellarischen Struktur dokumentiert. Aufgrund des überschaubaren Korpus konnte eine kuratierte und kontrollierte Erfassung somit auch manuell erfolgen. 
 
-Für größere Korpora und Datensätze und Projekte mit einem gewissen technischen Know How oder der Initiative sich einzuarbeiten, eignen sich alternativ auch automatisierte bzw. semi-automatisierte Verfahren der Extraktion von Metadaten. So etwa über API Keys, also Programmierschnittstellen, die Metadaten, beispielsweise mit einem `Python-Skript` aus externen Datenbanken abrufen und als `dataframe`, also eine strukturierte maschinenlesbare Tabelle, speichern. Der API Key der Seite <a href="https://www.omdbapi.com/apikey.aspx " class="external-link" target="_blank">OMDb</a> ist kostenlos, für andere Filmdatenbanken können Entgelte anfallen. 
+Für größere Korpora und Datensätze und Projekte mit einem gewissen technischen Know How oder der Initiative sich einzuarbeiten, eignen sich alternativ auch automatisierte bzw. semi-automatisierte Verfahren der Extraktion von Metadaten. So etwa über API Keys. API Keys sind Zugangsschlüssel, die Metadaten aus externen Datenbanken abrufen können. Diese Metadaten können dann anschließend beispielsweise mit einem `Python-Skript` als `DataFrame`, d. h. als eine strukturierte maschinenlesbare Tabelle, weiterverarbeitet und gespeichert werden. Der API Key der Seite <a href="https://www.omdbapi.com/apikey.aspx " class="external-link" target="_blank">OMDb</a> ist kostenlos, für andere Filmdatenbanken können Entgelte anfallen. 
 
 ```{admonition} Benötigte Kenntnisse
 :class: hinweis
