@@ -217,6 +217,7 @@ Für die Publikation von {ref}`Primär- und Sekundärdaten  <primär-sekundär>`
 * **Primärdaten** (z.B. Film-, Bild- und Videomaterial): Können aufgrund des Urheberrechts in der Regel nicht publiziert werden, es sei denn, die Rechte wurden ausdrücklich eingeholt oder das Material ist Public Domain. In diesem Fall gilt die **Ursprungslizenz** des Materials.
 * **Sekundärdaten** (z.B. Annotationen, Metadaten, Analysen, Transkripte, Dokumentationen usw.): Können unter CC-Lizenz publiziert werden, da sie eigenständige wissenschaftliche Werke darstellen.
 
+(sonderfall-moviebarcodes)=
 #### Sonderfall Moviebarcodes
 
 Moviebarcodes stellen einen Sonderfall dar und sind nicht lizenzierungspflichtig. Informationen zur konkreten rechtlichen Einordnung gibt es {ref}`hier <rechtliche-einordnung>`. Sofern keine projektspezifischen Anforderungen entgegenstehen, empfiehlt sich die Wahl einer der beiden hier vorgestellten Varianten:
