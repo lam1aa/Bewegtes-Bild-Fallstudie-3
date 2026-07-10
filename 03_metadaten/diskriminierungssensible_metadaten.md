@@ -98,6 +98,7 @@ Statement der University of Michigan Library
 
 Wie die genannten Methoden und Beispiele zeigen, gibt es unterschiedliche Wege im Umgang mit diskriminierenden Metadaten. Für die praktische Arbeit in film- und geisteswissenschaftlichen Projekten haben wir daher eine Entscheidungshilfe in Form eines Fragenkatalogs zusammengestellt, der als Orientierung und Impuls dienen soll.
 
+(fragenkatalog-metadaten)=
 ### Praxisnaher Fragenkatalog für Projekte
 
 *Diskriminierungssensible Daten und Metadaten*
