@@ -3,7 +3,7 @@
 ```{admonition} Story
 :class: story
 Die Forschungsdaten des Projekts wurden kuratiert, sinnvoll benannt und in einer passenden und nachvollziehbaren 
-Ordnerhierarchie strukturiert. (vgl. hierzu Kapitel [Kuratierung & Organisation](../06_publikation_repositorien/kuratierung_organisation.md. Diese Struktur kann direkt für den Upload der Daten in einem Repositorium übernommen werden. Der nächste Schritt ist die konkrete Publikation: Wie erstelle ich ein Repository? Wie lade ich die Daten hoch? Und wie stelle ich sicher, dass der Datensatz zitierfähig, versioniert und langzeitverfügbar ist?
+Ordnerhierarchie strukturiert. (vgl. hierzu Kapitel [Kuratierung & Organisation](../06_publikation_repositorien/kuratierung_organisation.md) ) Diese Struktur kann direkt für den Upload der Daten in einem Repositorium übernommen werden. Der nächste Schritt ist die konkrete Publikation: Wie erstelle ich ein Repository? Wie lade ich die Daten hoch? Und wie stelle ich sicher, dass der Datensatz zitierfähig, versioniert und langzeitverfügbar ist?
 
           Forschungsprojekt
                  │
@@ -64,7 +64,7 @@ Unsere Empfehlung: <a href="https://github.com/apps/desktop?locale=de-de" class=
 ### Schritt 1: GitHub-Account und Organisation einrichten
 
 1. GitHub-Account erstellen unter <a href="https://github.com/" class="external-link" target="_blank">GitHub</a>
-2. Eine Organisation anlegen (z.B. `SFB1512-C05-climate-film`) oder sich als Member einer bestehenden Organisation mit den entsprechenden Zugriffsrechten eintragen lassen; zum Erstellen einer neuen Organisation rechts auf den Profil-Button klicken und anschließend auf → `Organizations` → `New organization`
+2. Eine Organisation anlegen (z.B. `SFB1512-C05-climate-film`) oder sich als Member/Owner einer bestehenden Organisation mit den entsprechenden Zugriffsrechten eintragen lassen; zum Erstellen einer neuen Organisation rechts auf den Profil-Button klicken und anschließend auf → `Organizations` → `New organization`
 
 ```{figure} ../assets/06_publikation_repositorien/abb_k06_new_organization_git.png
 ---
@@ -164,10 +164,317 @@ sichtbar, wie die Datei auf GitHub gerendert aussehen wird.
 
 ### Schritt 5: Commit und Push
 
-Wenn alle Dateien bereit sind, werden die Änderungen in GitHub Desktop als Commit zusammengefasst und anschließend auf GitHub hochgeladen (Push).
+Wenn alle Dateien bereit sind, können die Änderungen als Commit zusammengefasst und anschließend auf GitHub hochgeladen (Push) werden.
 
-Der Commit kann entweder direkt über VS Code durchgeführt werden oder über GitHub Desktop. 
+Wie bereits erwähnt, ist ein **Commit** ein gespeicherter Schnappschuss des Repositories zu einem bestimmten 
+Zeitpunkt. Jeder Commit erhält eine kurze Beschreibung, die **Commit Message**, in der kurz und knapp dokumentiert werden sollte, was geändert wurde. 
 
-Wie bereits erwähnt, ist ein **Commit** ist ein gespeicherter Schnappschuss des Repositories zu einem bestimmten 
-Zeitpunkt. Jeder Commit erhält eine kurze Beschreibung, die **Commit Message**, in der kurz und knapp dokumentiert werden sollte, was geändert wurde. In GitHub Desktop wird die Commit Message automatisch eingetragen, das Hinzufügen einer Beschreibung ist optional.
+Der Commit kann entweder direkt über VS Code oder über GitHub Desktop durchgeführt werden. 
 
+Jeder Commit erhält eine kurze Beschreibung, die **Commit Message**, in der kurz und knapp dokumentiert werden sollte, was geändert wurde. In GitHub Desktop wird die Commit Message automatisch eingetragen, das Hinzufügen einer Beschreibung ist hier optional.
+
+```{figure} ../assets/06_publikation_repositorien/abb_k06_git_commit_message.png
+---
+align: center
+width: 100%
+name: github-desktop-commit-message
+---
+Commit Message über GitHub Desktop
+```
+
+Über `Commit to main` können die Änderungen anschließend in das Repository auf GitHub übertragen werden. 
+
+In VS Code werden in der Quellcodeverwaltung die Änderungen angezeigt. Dort kann in der Spalte `Änderungen` die Commit Message eingetragen und mit `Commit` ausgeführt werden.
+
+```{figure} ../assets/06_publikation_repositorien/abb_k06_git_commit_message_vs_code.png
+---
+align: center
+width: 50%
+name: vs-code-commit-message
+---
+Commit Message über VS Code
+```
+
+```{admonition} Hinweis: Commit Message Konventionen 
+:class: hinweis
+FÜr Commit Message empfiehlt sich die Verwendung oder Orientierung an <a href="https://www.conventionalcommits.org/en/v1.0.0/" class="external-link" target="_blank">Conventional Commits</a>. Conventional Commits sind ein standardisiertes Verfahren zur Erstellung von Git-Commits.
+
+Beispiele:
+* `feat: add corpus metadata CSV`
+* `fix: correct country code for Geostorm`
+* `update: README.md with dataset description`
+```
+
+#### Branches und Pull Requests
+
+Bei kollaborativer Arbeit an einem Repository, wenn also mehrere Personen gleichzeitig Änderungen vornehmen, empfiehlt sich die Arbeit mit sogenannten **Branches** und **Pull Requests**.
+
+Ein Branch ist eine parallele Version des Repositories (quasi eine Abzweigung), in der Änderungen vorgenommen werden können, ohne das Hauptrepository (also `main`) zu beeinflussen. Ist die Arbeit abgeschlossen, so kann der Branch über einen Pull Request in den Hauptzweig zurückgeführt werden, jeweils immer mit der Möglichkeit, die Änderungen vorher zu überprüfen und zu kommentieren. 
+
+Zum Erstellen eines Branches im Repository den Reiter `Branches` öffnen und anschließend `New branch` auswählen. Nach Abschluss der Arbeiten im neuen Branch kann ein Pull Request erstellt werden. Hierzu entweder den Button `Compare & pull request` nutzen (dieser wird angezeigt, sofern Änderungen gegenüber `main` vorliegen) oder über `Pull requests` → `New pull request` den entsprechenden Branch auswählen und den Pull Request anlegen.
+
+```{figure} ../assets/06_publikation_repositorien/abb_06_branch_pull_request.png
+---
+align: center
+width: 100%
+name: branch-pull-request-git
+---
+Ablauf: Branch und Pull Request erstellen auf GitHub
+```
+
+```{admonition} Achtung: Aktuellen Stand überprüfen
+:class: danger
+Insbesondere bei einer kollaborativen Arbeit am Repository ist es ratsam, vor Beginn einer neuen Arbeitssitzung sicherzustellen, dass das lokale Repository dem aktuellen Stand des sogenannten Remote-Repositorys, also dem Repository auf GitHub, entspricht. Über GitHub Desktop kann hierzu zunächst die aktuelle Branch (z.B. main) ausgewählt und anschließend über `Fetch origin` geprüft werden, ob zwischenzeitlich Änderungen veröffentlicht wurden. Liegen Aktualisierungen vor, können diese über `Pull origin` in das lokale Repository übernommen werden, bevor die weitere Bearbeitung in VS Code erfolgt.
+```
+
+
+```{admonition} Weiterführende Links
+:class: seealso
+Detaillierte Informationen zu Branches und Pull Requests gibt es auf den Dokumentationsseiten von GitHub:
+
+* <a href="https://docs.github.com/de/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches" class="external-link" target="_blank">Branches</a>
+* <a href="https://docs.github.com/de/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" class="external-link" target="_blank">Pull Requests</a>
+```
+
+### ​​Schritt 6: Release, Versionierung und DOI
+
+Wenn der Datensatz publikationsreif ist, wird ein **Release** erstellt, also eine benannte und getaggte Version des Repositories zu einem bestimmten Zeitpunkt. Releases folgen den Konventionen von <a href="https://semver.org/" class="external-link" target="_blank">Semantic Versioning</a> (SemVer): `MAJOR.MINOR.PATCH` (z.B. `v1.0.0`, vgl. hierzu den Abschnitt {ref}`Versionierung <versionierung>`).
+
+Anschließend kann über die **Zenodo-GitHub-Integration** auf Zenodo automatisch ein DOI für den Release vergeben werden.
+
+````{margin}
+```{admonition} Wichtig: Zugriffsrechte
+:class: important
+Das Repository wird in Zenodo nur angezeigt, wenn die notwendigen Zugriffsrechte hierfür vorhanden sind. Wer nur Member und nicht Owner einer Organisation ist, hat keine erforderlichen Zugriffsrechte. 
+```
+````
+
+1. Zenodo-Account mit GitHub verknüpfen (hierzu in Zenodo neben dem Profil auf den Drop-Down-Pfeil klicken und in dem sich öffnenden Menü `GitHub` auswählen)
+2. Repository in Zenodo aktivieren
+3. Auf GitHub einen Release erstellen:
+     * Im Repository `Tags` öffnen → `Create a new release` auswählen; dann bei `Select a tag` die Option `Create a new tag` wählen und einen Versions-Tag (z.B. v1.0.0) vergeben
+     * Einen aussagekräftigen Titel sowie Release Notes hinzufügen, denn diese dokumentieren die wichtigsten Änderungen gegenüber vorherigen Versionen; für die Strukturierung der Release notes können beispielsweise Empfehlungen wie <a href="https://keepachangelog.com/en/1.1.0/" class="external-link" target="_blank">Keep a Changelog</a> oder  <a href="https://www.conventionalcommits.org/en/v1.0.0/" class="external-link" target="_blank">Conventional Commits</a> herangezogen werden
+
+```{figure} ../assets/06_publikation_repositorien/abb_k06_new_release_git.png
+---
+align: center
+width: 100%
+name: new-release-git
+---
+Einen neuen Release auf GitHub erstellen und taggen
+```
+
+5. Den Release anschließend veröffentlichen. Ist das GitHub-Repository mit Zenodo verknüpft, wird für den Release automatisch ein DOI generiert
+6. Den DOI in `README.md`, `CITATION.cff` eintragen
+
+### Schritt 7: Langzeitarchivierung und Fachrepositorien
+
+Wie bereits erwähnt, empfehlen sich nach der Erstpublikation auf GitHub und Zenodo die Inanspruchnahme weiterer Publikationsorte für die fachspezifische Sichtbarkeit sowie die Langzeitverfügbarkeit nach den {ref}`FAIR-Prinzipien  <leitlinien-fair>` und den {ref}`DFG-Leitlinien <leitlinien-dfg>` (Aufbewahrung mind. 10 Jahre):
+
+1. Institutionelles Repositorium, sofern von der Hochschule eines zur Verfügung gestellt wird
+2. Für film- und medienwissenschaftliche Forschungsdaten kann auf FID Media (früher media/rep) verwiesen werden. Es ist geeignet für die fachspezifische Auffindbarkeit des Datensatzes. Was bei der Einreichung beachtet werden sollte und welche Schritte hierfür nötig sind, kann in der <a href="https://www.uni-marburg.de/de/fb09/medienwissenschaft/forschung/forschungsprojekte/mediarep/projektmitglieder" class="external-link" target="_blank">Handreichung für Autor:innen – in fünf Schritten zur Publikation auf FID Media Publish</a> eingesehen werden.
+
+Weitere fachspezifische Repositorien können auf Repositorien-Findern wie <a href="https://www.re3data.org/" class="external-link" target="_blank">re3data – Registry of Research Data Repositories</a> sowie <a href="https://risources.dfg.de/" class="external-link" target="_blank">RIsources – Portal für Forschungsinfrastrukturen der DFG</a> gesucht werden.
+Eine detailierte Auflistung von relevanten Repositorien und Repositorien-Findern in der Film- und Medienwissenschaft gibt es im Kapitel [Ressourcen und Entscheidungshilfen](../04_einführung_publikation/ressourcen_entscheidungshilfen.md).
+
+## Checkliste: Workflow Datenpublikation
+
+```{raw} html
+<div class="interactive-checklist" id="github-publication-checklist">
+  <p class="checklist-progress">
+    Fortschritt: <strong><span class="completed-count">0</span> von 16</strong>
+  </p>
+
+  <label>
+    <input type="checkbox" data-item="github-account">
+    GitHub-Account erstellt
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="software-installed">
+    VS Code und GitHub Desktop installiert
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="github-organisation">
+    Organisation auf GitHub angelegt oder Zugriffsrechte erhalten
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="repository-created">
+    Repository erstellt (Name, Beschreibung, Sichtbarkeit)
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="repository-cloned">
+    Repository lokal geklont (GitHub Desktop)
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="folder-structure">
+    Ordnerstruktur angelegt und Dateien eingepflegt (VS Code)
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="file-sizes">
+    Dateigrößen geprüft (max. 50 MB pro Datei)
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="readme">
+    <code>README.md</code> im Root-Verzeichnis vorhanden
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="license">
+    <code>LICENSE</code> im Root-Verzeichnis vorhanden
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="citation">
+    <code>CITATION.cff</code> vorhanden und ausgefüllt
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="commit-messages">
+    Commit Messages nach Conventional Commits verfasst
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="committed-pushed">
+    Änderungen committed und gepusht
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="release">
+    Release erstellt und getaggt (SemVer)
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="zenodo">
+    Zenodo mit GitHub verknüpft und DOI vergeben
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="doi-added">
+    DOI in <code>README.md</code> und <code>CITATION.cff</code> eingetragen
+  </label>
+
+  <label>
+    <input type="checkbox" data-item="archiving">
+    Langzeitarchivierung (Refubium / Fachrepositorium) angestoßen
+  </label>
+
+  <button type="button" class="reset-checklist">
+    Auswahl zurücksetzen
+  </button>
+</div>
+
+<style>
+.interactive-checklist {
+  margin: 1.25rem 0;
+  padding: 1rem 1.2rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.interactive-checklist label {
+  display: block;
+  padding: 0.4rem 0;
+  cursor: pointer;
+}
+
+.interactive-checklist input[type="checkbox"] {
+  margin-right: 0.55rem;
+  transform: scale(1.1);
+}
+
+.interactive-checklist label:has(input:checked) {
+  color: #666;
+  text-decoration: line-through;
+}
+
+.checklist-progress {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.reset-checklist {
+  margin-top: 1rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+}
+
+.reset-checklist:hover {
+  background: #f0f0f0;
+}
+</style>
+
+<script>
+(function () {
+  const checklist = document.getElementById("github-publication-checklist");
+
+  if (!checklist || checklist.dataset.initialized === "true") {
+    return;
+  }
+
+  checklist.dataset.initialized = "true";
+
+  const storageKey = "github-publication-checklist";
+  const checkboxes = checklist.querySelectorAll('input[type="checkbox"]');
+  const completedCount = checklist.querySelector(".completed-count");
+  const resetButton = checklist.querySelector(".reset-checklist");
+
+  function loadState() {
+    const savedState = JSON.parse(
+      localStorage.getItem(storageKey) || "{}"
+    );
+
+    checkboxes.forEach((checkbox) => {
+      checkbox.checked = savedState[checkbox.dataset.item] === true;
+    });
+  }
+
+  function saveState() {
+    const state = {};
+
+    checkboxes.forEach((checkbox) => {
+      state[checkbox.dataset.item] = checkbox.checked;
+    });
+
+    localStorage.setItem(storageKey, JSON.stringify(state));
+  }
+
+  function updateProgress() {
+    const checked = checklist.querySelectorAll(
+      'input[type="checkbox"]:checked'
+    ).length;
+
+    completedCount.textContent = checked;
+  }
+
+  checkboxes.forEach((checkbox) => {
+    checkbox.addEventListener("change", () => {
+      saveState();
+      updateProgress();
+    });
+  });
+
+  resetButton.addEventListener("click", () => {
+    checkboxes.forEach((checkbox) => {
+      checkbox.checked = false;
+    });
+
+    localStorage.removeItem(storageKey);
+    updateProgress();
+  });
+
+  loadState();
+  updateProgress();
+})();
+</script>
+```
