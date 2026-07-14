@@ -271,3 +271,15 @@ Darüber hinaus sollten folgende Maßnahmen ebenfalls mitbedacht werden:
 :class: important
 Ein Backup sichert den Arbeitsstand **während** des Projekts gegen Datenverlust. Es ersetzt keine langfristige Archivierung in einem Repositorium. Die Frage nach der Langzeitarchivierung ist Gegenstand des nächsten Kapitels.
 ```
+
+```{admonition} Weiterführende Links und Ressourcen
+:class: seealso
+* <a href="https://www.forschungsdaten-bildung.de/datenmanagement/organisieren/dateien-organisieren/" class="external-link" target="_blank">VerbundFDB: Dateien organisieren</a> – Praxistipps zu Ordnerstrukturen, Dateibenennung und Versionierung
+* <a href="https://mantra.ed.ac.uk/organisingdata/" class="external-link" target="_blank">MANTRA – Organising Data</a> – Interaktives Online-Training der University of Edinburgh
+* <a href="https://researchdata.org/organizing-data/" class="external-link" target="_blank">Support Your Data – Organizing Data</a> – Best Practices zur Organisation, Dokumentation und Strukturierung von Forschungsdaten
+```
+
+Die Kuratierung und Organisation von Forschungsdaten ist ein essentieller Bestandteil des Datenmanagements und der Projektarbeit insgesamt. Sie sollte nicht als abschließender Arbeitsschritt, sondern als kontinuierlicher Prozess verstanden werden. Mit diesen Vorarbeiten sind die Voraussetzungen für eine strukturierte Bereitstellung und Veröffentlichung des Datensets geschaffen. Die letzte Sektion dieser Fallstudie zeigt Schritt für Schritt, wie das Datenset über ausgewählte Dateninfrastrukturen publiziert werden kann. 
+
+... LOS GEHT'S 🚀 ➡️ ➡️ ➡️
+
