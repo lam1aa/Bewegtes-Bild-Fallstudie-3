@@ -29,7 +29,7 @@ Mehr Informationen zu Metadatenstandards gibt es im Kapitel [Metadaten & Metadat
 ```
 ````
 
-Das für das SFB-Projekt entwickelte Metadatenschema orientiert sich an den Basiselementen des [DC-Schemas](../03_metadaten/allgemeine_standards.md) und des [EN 15744](../03_metadaten/metadaten_filmwissenschaft.md). Zentrale Identifikationfelder wie `Titel`, `Identifier`, `Produktionsland`, `Jahr`, `Regie` und `Laufzeit` entsprechen standardnahen Metadatenelementen. Sie dienen einerseits der formalen Einordnung sowie Identifizierbarkeit, andererseits können durch die erfassten Elemente auch weitere Untersuchungen am Korpus ermöglicht werden, wie zum Beispiel Berechnungen von Länderanteilen oder Produktionszeiträumen. 
+Das für das SFB-Projekt entwickelte Metadatenschema orientiert sich an den Basiselementen des [DC-Schemas](../03_metadaten/allgemeine_standards.md) und des [EN 15744](../03_metadaten/metadaten_filmwissenschaft.md). Zentrale Identifikationsfelder wie `Titel`, `Identifier`, `Produktionsland`, `Jahr`, `Regie` und `Laufzeit` entsprechen standardnahen Metadatenelementen. Sie dienen einerseits der formalen Einordnung sowie Identifizierbarkeit, andererseits können durch die erfassten Elemente auch weitere Untersuchungen am Korpus ermöglicht werden, wie zum Beispiel Berechnungen von Länderanteilen oder Produktionszeiträumen. 
 
 ```{admonition} Wie können die Metadaten genutzt werden?
 :class: hinweis
@@ -207,7 +207,7 @@ Ein beispielhafter Metadatensatz für eine audiovisuelle Ressource im `json`-For
 
 Um die audiovisuellen Ressourcen und die Datensätze dauerhaft referenzierbar zu machen, braucht jedes Objekt (sowohl audiovisuelle Ressourcen als auch die Daten selbst) im Korpus einen stabilen, eindeutigen Identifier. Im Projekt wurden zwei Arten von Identifiern verwendet: ein projektspezifischer und ein externer.
 
-Für den **projektspezifischen Identifier**  wird die Bezeichtnung `object_id` verwendet. Die `object_id` folgt einem dreiteiligen Schema: 
+Für den **projektspezifischen Identifier**  wird die Bezeichnung `object_id` verwendet. Die `object_id` folgt einem dreiteiligen Schema: 
 
 <style>
 .table-clean {
@@ -267,7 +267,7 @@ So sieht ein vollständiger Identifier, beispielsweise für den Film *Anthropoce
 
 ```{admonition} Warum nicht die Variante Titel + Jahr verwenden?
 :class: important
-Identifier wie `avatar_2009` wirken auf den ersten Blick einfach und sind intuitiv, jedoch nicht sehr robust und sehr fehleranfällig. Denn Filmtitel können Sonderzeichen, Leerzeichen oder Umlaute enthalten, die die Maschinenlesbarkeit verhindern. Ebenso kann es mehrere Titel für einen Film geben, was eine stabile ID beeinträchtigt.
+Identifier wie `avatar_2009` wirken auf den ersten Blick einfach und sind intuitiv, jedoch nicht sehr robust und fehleranfällig. Denn Filmtitel können Sonderzeichen, Leerzeichen oder Umlaute enthalten, die die Maschinenlesbarkeit verhindern. Ebenso kann es mehrere Titel für einen Film geben, was eine stabile ID beeinträchtigt.
 ```
 
 ```{admonition} Fazit
@@ -277,7 +277,7 @@ Die Objekt-IDs setzen sich aus einem **Präfix**, einer **fortlaufenden numerisc
 
 Zusätzlich zu dem projektspezifischen Identifier wurde für jeden Film, wo möglich, ein IMDb-Identifer erfasst (z. B. `tt8399690`)- Dieser **externe Identifier** trägt die Bezeichtnung `imdb_id`. Er dient als stabile und öffentlich abrufbare Referenz und existiert unabhängig vom Projekt. So können Zusatzinformationen über die Filme von anderen Forschenden auch über die `imdb_id` eingesehen werden.
 
-Warum wurde IMDb als externe Referenz verwendet und nicht beispielsweise die ISAN? <a href="https://www.isan.org/de" class="external-link" target="_blank">ISAN</a> (International Standard Audiovisual Number, ISO 15706) ist der offizielle ISO-Standard zur Identifikation audiovisueller Werke, vergleichbar mit der ISBN für Bücher. In der Praxis sind ISANs allerdings sehr lückenhaft vergeben und ohne institutionellen Zugang nur schwer einsehbar. IMDb-IDs hingegen sind sehr etabliert und frei zugänglich. Die Datenbank enthält zudem eine umfangreiche Menge an katalogisierten Werken, wodurch das Auffinden von audiovisuellen Ressourcen verinfacht wird. Alternative größere Filmdatenbanken sind unter anderem <a href="https://www.themoviedb.org/?language=de-DE" class="external-link" target="_blank">The Movie Database (TMDb)</a> sowie <a href="https://www.omdb.org/de/de" class="external-link" target="_blank">The Open Movie Database (OMDb)</a>. Da IMDb eine kommerziell betriebene Datenbank ist, ist bei der Nachnutzung der Daten Vorsicht geboten. Hierzu mehr im Kapitel [Diskriminierungssensible Überprüfung](../05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung.md).
+Warum wurde IMDb als externe Referenz verwendet und nicht beispielsweise die ISAN? <a href="https://www.isan.org/de" class="external-link" target="_blank">ISAN</a> (International Standard Audiovisual Number, ISO 15706) ist der offizielle ISO-Standard zur Identifikation audiovisueller Werke, vergleichbar mit der ISBN für Bücher. In der Praxis sind ISANs allerdings sehr lückenhaft vergeben und ohne institutionellen Zugang nur schwer einsehbar. IMDb-IDs hingegen sind sehr etabliert und frei zugänglich. Die Datenbank enthält zudem eine umfangreiche Menge an katalogisierten Werken, wodurch das Auffinden von audiovisuellen Ressourcen vereinfacht wird. Alternative größere Filmdatenbanken sind unter anderem <a href="https://www.themoviedb.org/?language=de-DE" class="external-link" target="_blank">The Movie Database (TMDb)</a> sowie <a href="https://www.omdb.org/de/de" class="external-link" target="_blank">The Open Movie Database (OMDb)</a>. Da IMDb eine kommerziell betriebene Datenbank ist, ist bei der Nachnutzung der Daten Vorsicht geboten. Hierzu mehr im Kapitel [Diskriminierungssensible Überprüfung](../05_aufbereitung_anreicherung/diskriminierungssensible_überprüfung.md).
 
 
 Welche Anforderungen allgemein für die Entwicklung guter Identifer zu beachten sind, haben wir hier in übersichtlicher Form zusammengefasst:
@@ -335,7 +335,8 @@ Zum Nachlesen finden sich ausführliche Definitionen der Modi in der <a href="ht
 auf Github.
 ```
 
- ### ISO-Standards
+(iso-standards)=
+### ISO-Standards
 
 Für zwei Felder werden sogenannte **ISO-Standards** als kontrollierte Vokabulare eingesetzt. 
 
@@ -349,7 +350,7 @@ Durch die Verwendung von ISO-Standards wird sichergestellt, dass die Daten masch
 1. `country`: kodiert nach <a href="https://www.iso.org/iso-3166-country-codes.html" class="external-link" target="_blank">ISO 3166-1 alpha-2</a>, dem internationalen Standard für Ländercodes. Statt "Deutschland", “Germany”, "GER" oder "DEU" wird einheitlich "DE" verwendet. 
 2. `duration_iso8601`: kodiert nach <a href="https://www.iso.org/iso-8601-date-and-time-format.html" class="external-link" target="_blank">ISO 8601</a>, dem internationalen Standard für Datums- und Zeitangaben. Laufzeiten werden im Format `PT[Stunden]H[Minuten]M` angegeben, z.B. `PT1H32M` für 92 Minuten. Das Feld ergänzt `runtime_min` (`92. Min.`), welches für die menschliche Lesbarkeit im Arbeitskontext beibehalten wird. **Maschinenlesbar und interoperabel ist jedoch nur die ISO-kodierte Variante.**
 
-Beide Beispiele zeigen, wie kontrolliertes Vokabular durch externe Normen eingesetzt werden. Die Wertliste wird also folglich nicht selbst definiert, sondern von einem etablierten Standard übernommen.
+Beide Beispiele zeigen, wie kontrolliertes Vokabular durch externe Normen eingesetzt werden kann. Die Wertliste wird also folglich nicht selbst definiert, sondern von einem etablierten Standard übernommen.
 
 ```{admonition} Wo sind kontrollierte Vokabulare zu finden?
 :class: seealso
@@ -380,13 +381,13 @@ Alle hier beschriebenen Metadaten-Dateien stehen auf <a href="https://github.com
 (metadatenschema-template)=
 ## Das Metadatenschema als Template
 
-Das im Rahmen des Projekts entwickelte Metadatenschema steht als downloadbares [Template](../assets/05_aufbereitung_anreicherung/doc_k05_corpus_metadata_schema_climate_film_c05.yml) im sogenannten `yaml`-Format zur Verfügung. Das Template dient als nachnutzbare Vorlage für die strukturierte Beschreibung von filmographischen Metadatensätzen und definiert die relevanten Metadatenelemente in einem maschinenlesbaren Format. Somit kann es als Ausgangspunkt für eigene Metadatenschemata aber auch zur Dokumentation, Validierung oder zur automatisierten Weiterverarbeitung in andere Formate genutzt werden. Selbstverständlich kann die Vorlage an die Bedürfnisse des eigenen Forschungskontext angepasst werden. Im Abschnitt {ref}`Metadatenvalidierung <metadaten-validierung>` wird gezeigt, wie die Metadaten anhand des `yaml`-Schemas validiert werden.
+Das im Rahmen des Projekts entwickelte Metadatenschema steht als downloadbares [Template](../assets/05_aufbereitung_anreicherung/doc_k05_corpus_metadata_schema_climate_film_c05.yml) im sogenannten `yaml`-Format zur Verfügung. Das Template dient als nachnutzbare Vorlage für die strukturierte Beschreibung von filmographischen Metadatensätzen und definiert die relevanten Metadatenelemente in einem maschinenlesbaren Format. Somit kann es als Ausgangspunkt für eigene Metadatenschemata aber auch zur Dokumentation, Validierung oder zur automatisierten Weiterverarbeitung in andere Formate genutzt werden. Selbstverständlich kann die Vorlage an die Bedürfnisse des eigenen Forschungskontexts angepasst werden. Im Abschnitt {ref}`Metadatenvalidierung <metadaten-validierung>` wird gezeigt, wie die Metadaten anhand des `yaml`-Schemas validiert werden.
 
 ````{admonition} Was ist eine YAML-Datei und wie kann sie genutzt werden?
 :class: hinweis
 `yaml` (YAML Ain't Markup Language) ist ein menschenlesbares Datenformat zur strukturierten Speicherung von Informationen. Es ist besonders kompakt und gut lesbar, da es auf Einrückungen statt auf Klammern oder Tags setzt. Im Kontext von Forschungsdaten werden `yaml`-Dateien häufig für die Dokumentation von Metadatenschemata genutzt, da Felder, Datentypen aber auch Regeln für eine Nachnutzung beschrieben werden können.
 
-Zum Öffnen und Bearbeiten der `yaml`-Datei kann ein kostenloser Code-Editor genutzt werden. In dieser OER nutzen wir für alle Beispiele <a href="https://code.visualstudio.com/" class="external-link" target="_blank">Visual Studio Code (VS Code)</a> von Microsoft, da die Software kostenfrei verfügbar ist und auch für Einsteiger:innen leicht zugänglich. Alternativ können ebenso andere, auch nicht kommerziell betriebene Text- oder Code-Editoren verwendet werden.
+Zum Öffnen und Bearbeiten der `yaml`-Datei kann ein kostenloser Code-Editor genutzt werden. In dieser OER nutzen wir für alle Beispiele <a href="https://code.visualstudio.com/" class="external-link" target="_blank">Visual Studio Code (VS Code)</a> von Microsoft, da die Software kostenfrei verfügbar und auch für Einsteiger:innen leicht zugänglich ist. Alternativ können ebenso andere, auch nicht kommerziell betriebene Text- oder Code-Editoren verwendet werden.
 ````
 `````{dropdown} YAML im Detail erklärt
 Eine `yaml` besteht aus drei Grundbausteinen. 
@@ -436,7 +437,7 @@ $ = Ende des Wertes
 {4} = genau viermal
 ```
 
-Werden eigene, abweichende Felder, verwendet, deren Werte ebenfalls einem bestimmten Muster folgen, kann mit Unterstützung von KI eine passende Regex-Regel erstellt werden. Hierfür genügt es, die gewünschte Pattern-Logik im Prompt zu beschreiben. Die KI kann diese Anforderungen anschließend in einen Regex-Ausdruck übersetzen.
+Werden eigene, abweichende Felder verwendet, deren Werte ebenfalls einem bestimmten Muster folgen, kann mit Unterstützung von KI eine passende Regex-Regel erstellt werden. Hierfür genügt es, die gewünschte Pattern-Logik im Prompt zu beschreiben. Die KI kann diese Anforderungen anschließend in einen Regex-Ausdruck übersetzen.
 
 (yaml-schema)=
 ### Das YAML-SCHEMA 

@@ -51,7 +51,7 @@ alpha → beta → release candidate → finale Version
 
 * `alpha` steht für die frühe Entwicklungsphase, die Version ist also noch nicht vollständig bzw. in einem Rohbau und anfällig für Fehler - wird eher für interne Testungen genutzt
 * `beta` beschreibt eine weitestgehend fertige Entwicklungsstufe, die breiter getestet wird und in denen Fehler weiterhin auftreten können
-* `rc` ist die Abkürzung für "release candidate" und markiert einen quasi fertige, publikationsreife Version 
+* `rc` ist die Abkürzung für "release candidate" und markiert eine quasi fertige, publikationsreife Version 
 * Die finale Version entspricht dann einem `MAJOR` Release 
 
 ```{admonition} Schreibweise pre-release labels
@@ -60,6 +60,7 @@ Die pre-release labels werden immer mit einem Bindestrich an die Versionsnummer 
 ```
 Für Forschungsdaten ist die Verwendung von pre-release version labels je nach Projektkontext abzuwägen. Bei abgeschlossenen Projekten mit gesetztem Laufzeitende liegen die Datensätze zur Publikation meist vollständig vor und können auf Version 1.0.0 publiziert werden, da oft keine wesentlichen Änderungen zu erwarten sind. Die Nutzung von pre-release tags ist insbesondere dann sinnvoll, wenn abzusehen ist, dass wesentliche Entwicklungen oder Änderungen eintreten werden. 
 
+(lizenzierung)=
 ## Lizenzierung
 
 Neben der Versionierung, ist weiterer zentraler Schritt der Publikation die Vergabe von Lizenzen. Forschende und Forschungsprojekte sollten sich frühzeitig mit der Frage der Lizenzierung auseinandersetzen, um etwaige lizenzrechtliche Unschlüssigkeiten oder Unsicherheiten bereits im Vorfeld zu klären. Denn Lizenzen legen fest, unter welchen Bedingungen andere Personen die Forschungsdaten **nutzen, bearbeiten oder weitergeben** dürfen.
@@ -217,6 +218,7 @@ Für die Publikation von {ref}`Primär- und Sekundärdaten  <primär-sekundär>`
 * **Primärdaten** (z.B. Film-, Bild- und Videomaterial): Können aufgrund des Urheberrechts in der Regel nicht publiziert werden, es sei denn, die Rechte wurden ausdrücklich eingeholt oder das Material ist Public Domain. In diesem Fall gilt die **Ursprungslizenz** des Materials.
 * **Sekundärdaten** (z.B. Annotationen, Metadaten, Analysen, Transkripte, Dokumentationen usw.): Können unter CC-Lizenz publiziert werden, da sie eigenständige wissenschaftliche Werke darstellen.
 
+(sonderfall-moviebarcodes)=
 #### Sonderfall Moviebarcodes
 
 Moviebarcodes stellen einen Sonderfall dar und sind nicht lizenzierungspflichtig. Informationen zur konkreten rechtlichen Einordnung gibt es {ref}`hier <rechtliche-einordnung>`. Sofern keine projektspezifischen Anforderungen entgegenstehen, empfiehlt sich die Wahl einer der beiden hier vorgestellten Varianten:
@@ -235,7 +237,7 @@ nicht von der Hauptlizenz des Datensets erfasst.
 An diesen Visualisierungen werden keine Urheberrechte geltend gemacht.
 ```
 
-**Variante 2**: CCO - Public Domain Dedication
+**Variante 2**: CC0 - Public Domain Dedication
 
 ```{code-block} text
 
@@ -330,6 +332,7 @@ Die vollständige Lizenzdokumentation ist in der <a href="https://github.com/SFB
 * GitHub-Dokumentation: <a href="https://docs.github.com/de/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository" class="external-link" target="_blank">Ein Repository lizenzieren</a>
 ```
 
+(daten-zitieren)=
 ## Daten zitierbar machen
 
 Im letzten Teil dieses Kapitels soll es nun um die Zitierfähigkeit der Daten gehen. Wie Publikationen, so sollten auch Forschungsdaten korrekt angegeben und zitiert werden. Um die eigenen Forschungsdaten zitierbar zu machen, gibt es unterschiedliche Wege. In dem Kapitel zu [allgemeinen Metadatenstandards](../03_metadaten/allgemeine_standards.md) sind wir bereits kurz auf {ref}`Dublin Core <dublin-core-header>` und {ref}`DataCite <data-cite-header>` eingegangen. Neben diesen Varianten, ist die Nutzung des sogenannten Citation File Format (CFF) für Daten und Software, insbesondere in Git-Repositorien, sehr verbreitet. 
@@ -389,7 +392,7 @@ Die DOI sollte in der `CITATION.cff` angegeben werden. Viele Repositorien vergeb
 
 ```{admonition} DOI-Vergabe und GitHub
 :class: hinweis
-Für die Vergabe von DOIs wird GitHub in der Regel mit einem Repositorium wie Zenodo verknüpft. Das vorliegende Projekt nutzt ebenfalls diese Kombination. Nach der Publikation auf Zenodo wird die DOI für das Repositorium generiert und kann anschließend in der `CITATION.cff` ergänzt werden. Es empfiehlt sich im Vorfeld einen Platzhalter (Beispiel-DOI oder Ähnliches) für die DOI einzutragen, um ggf. Fehlermeldungen bei der Validierung der DOI zu vermeiden.
+Für die Vergabe von DOIs wird GitHub in der Regel mit einem Repositorium wie Zenodo verknüpft. Das vorliegende Projekt nutzt ebenfalls diese Kombination. Nach der Publikation auf Zenodo wird die DOI für das Repositorium generiert und kann anschließend in der `CITATION.cff` ergänzt werden. Es empfiehlt sich, im Vorfeld einen Platzhalter (Beispiel-DOI oder Ähnliches) für die DOI einzutragen, um ggf. Fehlermeldungen bei der Validierung der DOI zu vermeiden.
 ```
 
 ```{admonition} Weiterführende Links und Ressourcen zum Thema Datenzitation

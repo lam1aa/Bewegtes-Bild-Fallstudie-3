@@ -50,6 +50,7 @@ FAIR-Prinzipien
 ```
 Gleichsam sollten auch immer Validität und Reliabilität der Daten gewährleistet werden.
 
+(leitlinien-dfg)=
 ## DFG-Leitlinien
 
 ````{margin}

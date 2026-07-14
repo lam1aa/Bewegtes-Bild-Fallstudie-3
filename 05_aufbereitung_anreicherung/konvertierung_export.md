@@ -71,7 +71,7 @@ In einer `csv`-Datei bestimmt die Position des Semikolons, welcher Wert in welch
 
 ## CSV zu HTML
 
-Eine `html`-Version der Korpusmetadaten wird für eine bessere Durchsuchbarkeit zur Verfügung gestellt `html`-Dokumente bestehen oft aus zwei Teilen: dem eigentlichen **Inhalt** (*„was soll da rein?"*, z.B. Tabellen, Überschriften, Text) in `html`-Syntax und den **Gestaltungsregeln** (*„wie soll es aussehen?"*, z.B. Farben, Abstände, Schriftgröße) in `css`-Syntax. Beide sind im bereitgestellten Code enthalten und kommentiert.
+Eine `html`-Version der Korpusmetadaten wird für eine bessere Durchsuchbarkeit zur Verfügung gestellt. `html`-Dokumente bestehen oft aus zwei Teilen: dem eigentlichen **Inhalt** (*„was soll da rein?"*, z.B. Tabellen, Überschriften, Text) in `html`-Syntax und den **Gestaltungsregeln** (*„wie soll es aussehen?"*, z.B. Farben, Abstände, Schriftgröße) in `css`-Syntax. Beide sind im bereitgestellten Code enthalten und kommentiert.
 
 ```{admonition} Kommentare im Code
 :class: hinweis
@@ -81,7 +81,7 @@ Kommentare sind in vielen Programmiersprachen sehr üblich. Sie beeinträchtigen
 * CSS: `/* Kommentar */`
 ```
 
-Um ein `html`-Dokument jedoch selbst zu schreiben, sind vertiefende Kenntnisse in `html` notwendig. Folgender hier bereitgestellter Code kann jedoch auch ohne vertiefende Kenntnisse als Vorlage genutzt und angepasst werden. 
+Um ein `html`-Dokument selbst zu schreiben, sind vertiefende Kenntnisse in `html` notwendig. Folgender hier bereitgestellter Code kann jedoch auch ohne vertiefende Kenntnisse als Vorlage genutzt und angepasst werden. 
 
 Zur Weiterverarbeitung wird das `html`-Dokument ebenfalls als [Download](../assets/05_aufbereitung_anreicherung/doc_k05_beispieldatensatz.html) bereitgestellt sowie nachfolgend als Code-Block angezeigt. Wie er verwendet und angepasst werden kann, zeigen wir Schritt für Schritt.
 
@@ -574,11 +574,11 @@ Neben den oben genannten Datentypen gibt es noch folgende Grundkonzepte, die fü
 (python-umgebung)=
 #### Python-Umgebung einrichten
 
-Um das folgende Skript auszuführen, wird eine funktionierende Python-Umgebung mit der Bibliothek `pandas` benötigt. Nachfolgend wird die Variante vorgestellt, die für Einsteiger:innen am freundlichsten ist. Denn es gibt die Möglichkeit Python (und alle benötigten Bibliotheken und Editoren) über die Distribution (Zusammenstellung verschiedener Pakete und Software) <a href="https://www.anaconda.com/download" class="external-link" target="_blank">Anaconda</a> herunterzuladen. Für den Download bitte den Anweisungen auf der Seite folgen.
+Um das folgende Skript auszuführen, wird eine funktionierende Python-Umgebung mit der Bibliothek `pandas` benötigt. Nachfolgend wird die Variante vorgestellt, die für Einsteiger:innen am freundlichsten ist. Denn es gibt die Möglichkeit, Python (und alle benötigten Bibliotheken und Editoren) über die Distribution (Zusammenstellung verschiedener Pakete und Software) <a href="https://www.anaconda.com/download" class="external-link" target="_blank">Anaconda</a> herunterzuladen. Für den Download bitte den Anweisungen auf der Seite folgen.
 
 1. Anaconda Distribution herunterladen und installieren (**Achtung: die Installation benötigt mehrere GB Speicherplatz!**)
 2. Anaconda Navigator öffnen
-3. Bei → `Jupyter Notebook` auf → `Launch` klicken – es öffnet sich ein neuer Tab im Browser; parallel öffnet sich das Terminal, dieser kann vorerst einfach ignoriert werden
+3. Bei → `Jupyter Notebook` auf → `Launch` klicken – es öffnet sich ein neuer Tab im Browser; parallel öffnet sich das Terminal, dieses kann vorerst einfach ignoriert werden
 
 ```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_anaconda_launch_notebook.png
 ---
@@ -680,10 +680,8 @@ with open(output_datei, "w", encoding="utf-8") as f:
 
 print(f"Fertig. JSON gespeichert als: {output_datei}")
 ```
-Es müssen lediglich die Dateinamen, wie oben angemerkt, unter `input_datei = "annotation_metadata.csv"` (Eingabedatei), 
-`output_datei = "annotation_metadata.json"` (Ausgabedatei) für den eigenen Datensatz angepasst werden. Der Rest des Codes funktioniert für jeden semikolon-getrennten CSV-Datensatz mit `TRUE`/`FALSE`-Werten und numerischen Feldern. Nach dem Ausführen sollte in dem gewählten Ordnerverzeichnis ein `json`-Export der `csv`-Datei vorliegen.
 
-Anschließend kann der Browsertab geschlossen werden. Um den Jupyter Server sauber zu beenden, empfiehlt es sich in dem zuvor sich öffnendem Terminalfenster durch eingabe von `Control + C` bzw. `Strg + C` die Prozesse zu beenden.
+Anschließend kann der Browsertab geschlossen werden. Um den Jupyter Server sauber zu beenden, empfiehlt es sich, in dem zuvor automatisch geöffneten Terminalfenster durch eingabe von `Control + C` bzw. `Strg + C` die Prozesse zu beenden.
 
 
 ### Das Ergebnis

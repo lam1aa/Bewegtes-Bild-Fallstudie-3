@@ -17,7 +17,7 @@ Darüber hinaus eignen sich Moviebarcodes ebenso als Werkzeug für die Analyse z
 
 Neben der analytischen Auseinandersetzung mit einzelnen Filmen ermöglichen Moviebarcodes ferner auch eine einfache Methode des Vergleichs einer Vielzahl von Filmen auf einem hohen Abstraktionsniveau - etwa nach Genres, Enstehungszeiträumen oder stilistischen bzw. formal-ästhetischen Tendenzen. 
 
-Nicht zuletzt sind Moviebarcodes wichtige wissenschaftliche Argumentationsstützen und können zur Illustration und Darstellung von Hypothesen und Beobachtungen genutzt werden. Dabei können sie qualitative Analysen unterstützen, die die audiovisuelle Inszenierung, also die konkrete zeitliche Anordnung von Bild und Ton, als formale und ästhetische Grundlage von Wahrnehmung, Bedeutungskonstitution und affektivem Erleben im Film verstehen. In diesem Sinne sind Moviebarcodes nicht allein als Werkzeuge zu verstehen, sie sind Teil von Forschungsergebnissen, durch die Affektstrukturen und Bilddramaturgien aus der zeitlichen Organisation der Filme selbst verständlich gemacht werden können. 
+Nicht zuletzt sind Moviebarcodes wichtige wissenschaftliche Argumentationsstützen und können zur Illustration und Darstellung von Hypothesen und Beobachtungen genutzt werden. Dabei können sie qualitative Analysen unterstützen, die die audiovisuelle Inszenierung, also die konkrete zeitliche Anordnung von Bild und Ton, als formale und ästhetische Grundlage von Wahrnehmung, Bedeutungskonstitution und affektivem Erleben im Film verstehen. In diesem Sinne sind Moviebarcodes nicht allein als Werkzeuge zu verstehen. Sie sind Teil von Forschungsergebnissen, durch die Affektstrukturen und Bilddramaturgien aus der zeitlichen Organisation der Filme selbst verständlich gemacht werden können. 
 
 ## Technische Einordnung
 
@@ -45,7 +45,7 @@ Diese Einschätzung wird durch mehrere charakteristische Merkmale der Moviebarco
 
 Ergänzend sei darauf verwiesen, dass § 60d UrhG Text- und Data Mining zu wissenschaftlichen Zwecken ausdrücklich erlaubt.
 
-Da Moviebarcodes keinen Werkcharakter im urheberrechtlichen Sinne aufweisen, sind sie auch nicht lizenzierungspflichtig. Dies bedeutet streng genommen, dass es keine explizite Lizenz geben muss. Wie die konkrete Lizenzierung für Moviebarcodes aussehen kann, wird im Kapitel Lizenzierung [TODO: Verlinkung] besprochen.
+Da Moviebarcodes keinen Werkcharakter im urheberrechtlichen Sinne aufweisen, sind sie auch nicht lizenzierungspflichtig. Dies bedeutet streng genommen, dass es keine explizite Lizenz geben muss. Wie die konkrete Lizenzierung für Moviebarcodes aussehen kann, wird im Abschnitt zur {ref}`Lizenzierung <sonderfall-moviebarcodes>` besprochen.
 
 ## Moviebarcodes selbst erstellen: Guides
 
