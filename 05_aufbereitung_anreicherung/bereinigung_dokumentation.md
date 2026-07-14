@@ -61,6 +61,15 @@ Der Report zeigt:
 Welche Stellen abweichen und korrigiert werden müssen.
 ```
 
+### Python-Skript zur Validierung: Schritt-für-Schritt-Anleitung
+
+```{admonition} Hinweis: Worflow ohne Anaconda
+:class: hinweis
+Für Nutzende, die keine Anaconda-Distribution herunterladen möchten, wird im Folgenden ein alternativer Workflow mit VS Code und der offiziellen Python-Erweiterung bereitgestellt:
+
+[Python: Metadatenvalidierungsskript](../assets/05_aufbereitung_anreicherung/doc_python_workflow_metadata_validation_v001.md)
+```
+
 Bevor der Python-Code ausgeführt wird, sollte im Vorfeld folgende Ordnerstruktur lokal angelegt werden:
 
 ```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_ordnerstruktur_validation.png
