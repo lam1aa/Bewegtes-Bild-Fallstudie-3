@@ -1,1 +1,0 @@
-# 🏆 Abschließende Lernstandskontrolle & Selbsteinschätzung
