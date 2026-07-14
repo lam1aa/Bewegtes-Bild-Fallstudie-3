@@ -576,6 +576,13 @@ Neben den oben genannten Datentypen gibt es noch folgende Grundkonzepte, die fü
 
 Um das folgende Skript auszuführen, wird eine funktionierende Python-Umgebung mit der Bibliothek `pandas` benötigt. Nachfolgend wird die Variante vorgestellt, die für Einsteiger:innen am freundlichsten ist. Denn es gibt die Möglichkeit, Python (und alle benötigten Bibliotheken und Editoren) über die Distribution (Zusammenstellung verschiedener Pakete und Software) <a href="https://www.anaconda.com/download" class="external-link" target="_blank">Anaconda</a> herunterzuladen. Für den Download bitte den Anweisungen auf der Seite folgen.
 
+```{admonition} Hinweis: Worflow ohne Anaconda
+:class: hinweis
+Für Nutzende, die keine Anaconda-Distribution herunterladen möchten, wird im Folgenden ein alternativer Workflow mit VS Code und der offiziellen Python-Erweiterung bereitgestellt:
+
+[Python: CVS-to-JSON-Workflow ohne Anaconda](../assets/05_aufbereitung_anreicherung/doc_python_workflow_csv_to_json_v001.md)
+```
+
 1. Anaconda Distribution herunterladen und installieren (**Achtung: die Installation benötigt mehrere GB Speicherplatz!**)
 2. Anaconda Navigator öffnen
 3. Bei → `Jupyter Notebook` auf → `Launch` klicken – es öffnet sich ein neuer Tab im Browser; parallel öffnet sich das Terminal, dieses kann vorerst einfach ignoriert werden
