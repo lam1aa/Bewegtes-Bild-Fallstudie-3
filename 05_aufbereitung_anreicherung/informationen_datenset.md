@@ -17,7 +17,7 @@ Die primäre Forschungsfrage des Projektes lautet: <br>
 Wie modulieren audiovisuelle Darstellungsweisen in Film, Dokumentation und Social Media Wahrnehmungsszenarien des anthropogenen Klimawandels und wie zirkulieren diese Strategien durch Transfers verschiedener Formate der Bildproduktion zwischen Wissenschaft, Journalismus, Unterhaltung und Aktivismus?
 ````
 
-Zur Beantwortung der Frage nutzte das Projekt digitale Methoden der Filmanalyse. Die dabei entstandenen [Forschungsdaten](../02_forschungsdaten_fdm/forschungsdaten.md) wurden für die Publikation aufbereitet und auf Github sowie Zenodo publiziert. Welche Komponenten das Datenset genau enthält und wie es strukturiert ist, soll im Folgenden erläutert werden.
+Zur Beantwortung der Frage nutzte das Projekt digitale Methoden der Filmanalyse. Die dabei entstandenen [Forschungsdaten](../02_forschungsdaten_fdm/forschungsdaten.md) wurden für die Publikation aufbereitet und auf GitHub sowie Zenodo publiziert. Welche Komponenten das Datenset genau enthält und wie es strukturiert ist, soll im Folgenden erläutert werden.
 `````
 ## Das Projektrepository
 
@@ -36,7 +36,7 @@ align: center
 width: 100%
 name: sfb repository github
 ---
-Das Projektrepository *Intervening World Projections* auf <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset" class="external-link" target="_blank">Github</a>
+Das Projektrepository *Intervening World Projections* auf <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset" class="external-link" target="_blank">GitHub</a>
 ```
 ## Überblick über das Datenset
 
@@ -93,7 +93,7 @@ Alle Bestandteile des Datensets werden in offenen und langfristig nutzbaren Form
 
 ```{admonition} Langzeitarchivierung und facheigene Repositorien
 :class: important
-Neben der Veröffentlichung auf Github sowie Zenodo unter offenen Lizenzen ist für eine gesicherte Langzeitarchivierung die Publikation in hochschuleigenen Repositorien empfohlen. Ebenso ist die Publikation in facheigenen Repositorien wie beispielsweise media/rep/ für eine größere Öffentlichkeitswirksamkeit sinnvoll. Dazu auch mehr im Kapitel [Dateninfrastrukturen](../06_publikation_repositorien/dateninfrastrukturen.md).
+Neben der Veröffentlichung auf GitHub sowie Zenodo unter offenen Lizenzen ist für eine gesicherte Langzeitarchivierung die Publikation in hochschuleigenen Repositorien empfohlen. Ebenso ist die Publikation in facheigenen Repositorien wie beispielsweise media/rep/ für eine größere Öffentlichkeitswirksamkeit sinnvoll. Dazu auch mehr im Kapitel [Dateninfrastrukturen](../06_publikation_repositorien/dateninfrastrukturen.md).
 ```
 
 ## DMP

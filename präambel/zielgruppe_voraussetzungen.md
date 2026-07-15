@@ -37,11 +37,11 @@ Des weiteren hat Lisa Poggel von der Freien Universität Berlin eine seminarbegl
 
 ### Technische Voraussetzungen
 
-Für die Nachvollziehbarkeit und Reproduktion der Publikationsschritte wird sowohl ein Github-Account als auch Zenodo-Account benötigt. 
+Für die Nachvollziehbarkeit und Reproduktion der Publikationsschritte wird sowohl ein GitHub-Account als auch Zenodo-Account benötigt. 
 
-```{admonition} Wofür werden die Plattformen *Github* und *Zenodo* genutzt?
+```{admonition} Wofür werden die Plattformen *GitHub* und *Zenodo* genutzt?
 :class: hinweis
-<a href="https://github.com/" class="external-link" target="_blank">Github</a> ist eine cloudbasierte Plattform, die in erster Linie zur kollaborativen Verwaltung und Versionierung von Code genutzt. Es ermöglicht die Erstellung von Repositorien und Projekten, um sowohl Code als auch andere Daten, Dateiformate und Dokumentationen zu entwickeln und zu veröffentlichen. Mehr Infos sind auch auf der <a href="https://docs.github.com/de/get-started/start-your-journey/about-github-and-git" class="external-link" target="_blank">Github-Dokumentationsseite</a> zu finden.
+<a href="https://github.com/" class="external-link" target="_blank">GitHub</a> ist eine cloudbasierte Plattform, die in erster Linie zur kollaborativen Verwaltung und Versionierung von Code genutzt. Es ermöglicht die Erstellung von Repositorien und Projekten, um sowohl Code als auch andere Daten, Dateiformate und Dokumentationen zu entwickeln und zu veröffentlichen. Mehr Infos sind auch auf der <a href="https://docs.github.com/de/get-started/start-your-journey/about-github-and-git" class="external-link" target="_blank">GitHub-Dokumentationsseite</a> zu finden.
 
 <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> ist ein von CERN betreuter und verwalteter Online-Cloud-Dienst, der zur Veröffentlichung und Speicherung wissenschaftlicher Datensätze, wissenschaftsbezogener Software, Publikationen usw. verwendet wird. Es ermöglicht die Archivierung, Verwaltung und Versionierung von wissenschaftlichen Forschungsdaten. Mit der Vergabe einer DOI (*Digital Object Identifier*) wird sichergestellt, dass die Daten zitierbar und nachnutzbar sind. Weiterführende Informationen können auf der <a href="https://cernandsocietyfoundation.cern/meet-the-project-zenodo/" class="external-link" target="_blank">CERN-Projektseite</a> abgerufen werden. 
 ```

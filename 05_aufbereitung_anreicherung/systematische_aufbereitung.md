@@ -332,7 +332,7 @@ Das Feld ist optional und wird nur für annotierte Objekte befüllt.
 ```{admonition} Definitionen der Modi
 :class: hinweis
 Zum Nachlesen finden sich ausführliche Definitionen der Modi in der <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/blob/main/documentation/tables_README.md" class="external-link" target="_blank">Projektdokumentation </a>
-auf Github.
+auf GitHub.
 ```
 
 (iso-standards)=
@@ -376,7 +376,7 @@ Neben den Korpusmetadaten, die das Kernelement der Referenzierbarkeit und Dokume
 
 Wie in den [Informationen zum Datenset](../05_aufbereitung_anreicherung/informationen_datenset.md) ausgeführt, handelt es sich hier um ein relationales Prinzip der Datenverknüpfung. Hauptverknüpfungselement ist dabei der projektinterne Identifier, die `object_id`. Jedes `azp` File sowie jede `png` hat einen einzigen, eindeutigen Identifier, der sich aus der `object_id` ableitet und somit den einzelnen audiovisuellen Ressourcen zugeordnet werden kann. In den Metadaten finden sich zudem zusätzliche Informationen, wie beispielsweise das Datum der Erstellung oder technische Komponenten. 
 
-Alle hier beschriebenen Metadaten-Dateien stehen auf <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/data/metadata" class="external-link" target="_blank">Github </a> in den Exportformaten (`xlsx`, `csv`, `html`, `json`) zur Verfügung. Einzelheiten zu den einzelnen Formaten gibt es im nächsten Kapitel.
+Alle hier beschriebenen Metadaten-Dateien stehen auf <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset/tree/main/data/metadata" class="external-link" target="_blank">GitHub </a> in den Exportformaten (`xlsx`, `csv`, `html`, `json`) zur Verfügung. Einzelheiten zu den einzelnen Formaten gibt es im nächsten Kapitel.
 
 (metadatenschema-template)=
 ## Das Metadatenschema als Template

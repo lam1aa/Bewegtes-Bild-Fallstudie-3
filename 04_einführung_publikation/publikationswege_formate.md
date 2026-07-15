@@ -84,7 +84,7 @@ name: media-rep
 Startseite des film- und medienwissenschaftlichen Repositoriums <a href="https://mediarep.org/" class="external-link" target="_blank">media/rep/</a>
 ```
 
-Zu den etablierten generischen Repositorien zählen <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">Github</a> und <a href="https://figshare.com/" class="external-link" target="_blank"> Figshare</a>. Sie eignen sich insbesondere für disziplinübergreifende Datensätze, Code und Projektressourcen. Für die Datenpublikation sind persistente Identifikatoren (z.B. DOI) und Versionierungsmöglichkeiten entscheidend. Über Repositorien wie Zenodo oder Figshare werden bei der Publikation DOIs vergeben. GitHub hingegen wird dafür häufig mit einem DOI-fähigen Archivierungsdienst wie Zenodo kombiniert.
+Zu den etablierten generischen Repositorien zählen <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">GitHub</a> und <a href="https://figshare.com/" class="external-link" target="_blank"> Figshare</a>. Sie eignen sich insbesondere für disziplinübergreifende Datensätze, Code und Projektressourcen. Für die Datenpublikation sind persistente Identifikatoren (z.B. DOI) und Versionierungsmöglichkeiten entscheidend. Über Repositorien wie Zenodo oder Figshare werden bei der Publikation DOIs vergeben. GitHub hingegen wird dafür häufig mit einem DOI-fähigen Archivierungsdienst wie Zenodo kombiniert.
 
 ```{figure} ../assets/04_einführung_publikation/abb_k04_generische_repos.png
 ---
@@ -92,12 +92,12 @@ align: center
 width: 85%
 name: generische-repos
 ---
-Startseite der etablierten generischen Repositorien <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">Github</a> und <a href="https://figshare.com/" class="external-link" target="_blank"> Figshare</a>
+Startseite der etablierten generischen Repositorien <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">GitHub</a> und <a href="https://figshare.com/" class="external-link" target="_blank"> Figshare</a>
 ```
 
-```{admonition} Publikation auf Github und Zenodo
+```{admonition} Publikation auf GitHub und Zenodo
 :class: hinweis
-Im Kapitel [Dateninfrastrukturen](../06_publikation_repositorien/dateninfrastrukturen.md) werden die Schritte zur Publikation auf Github und Zenodo im Detail erläutert.
+Im Kapitel [Dateninfrastrukturen](../06_publikation_repositorien/dateninfrastrukturen.md) werden die Schritte zur Publikation auf GitHub und Zenodo im Detail erläutert.
 ```
 
 (repositorien-doivergabe)=
@@ -133,7 +133,7 @@ Im Kapitel [Dateninfrastrukturen](../06_publikation_repositorien/dateninfrastruk
       <td style="padding:10px 8px; border-bottom:1px solid #f0f0f0;">Code, Versionierung, Workflows, Releases</td>
       <td style="padding:10px 8px; border-bottom:1px solid #f0f0f0;">⚠️ Nein (DOI i. d. R. über Zenodo-Archivierung)</td>
       <td style="padding:10px 8px; border-bottom:1px solid #f0f0f0;">
-        <a href="https://github.com/" class="external-link" target="_blank">Github</a>
+        <a href="https://github.com/" class="external-link" target="_blank">GitHub</a>
       </td>
     </tr>
     <tr>
@@ -166,7 +166,7 @@ Im nächsten Kapitel [Ressourcen und Entscheidungshilfen](../04_einführung_publ
 
 ### Publizierte Daten in einem Repositorium: Fallbeispiel "Affektrhetoriken des Audiovisuellen"
 
-Das Forschungsprojekt <a href="https://www.ada.cinepoetics.fu-berlin.de/ " class="external-link" target="_blank">"Affektrhetoriken des Audiovisuellen"</a> (kurz: AdA) stellt seine filmanalytischen Annotationsdaten als ein öffentlich zugängliches Datenpaket zur Nachnutzung in einem <a href="https://github.com/ProjectAdA/public" class="external-link" target="_blank"> Github-Repositorum</a> zur Verfügung. Die Projektergebnisse und Forschungsartefakte umfassen: eine Filmontologie und das Vokabular <a href="https://github.com/ProjectAdA/public/tree/master/manuals" class="external-link" target="_blank">(AdA-Filmontology)</a>, ein projektspezifisches Template für die Annotation mit dem Tool Advene sowie die <a href="https://github.com/ProjectAdA/public/tree/master/annotations" class="external-link" target="_blank">Annotationsdatensätze</a> selbst. 
+Das Forschungsprojekt <a href="https://www.ada.cinepoetics.fu-berlin.de/ " class="external-link" target="_blank">"Affektrhetoriken des Audiovisuellen"</a> (kurz: AdA) stellt seine filmanalytischen Annotationsdaten als ein öffentlich zugängliches Datenpaket zur Nachnutzung in einem <a href="https://github.com/ProjectAdA/public" class="external-link" target="_blank"> GitHub-Repositorum</a> zur Verfügung. Die Projektergebnisse und Forschungsartefakte umfassen: eine Filmontologie und das Vokabular <a href="https://github.com/ProjectAdA/public/tree/master/manuals" class="external-link" target="_blank">(AdA-Filmontology)</a>, ein projektspezifisches Template für die Annotation mit dem Tool Advene sowie die <a href="https://github.com/ProjectAdA/public/tree/master/annotations" class="external-link" target="_blank">Annotationsdatensätze</a> selbst. 
 
 ```{figure} ../assets/04_einführung_publikation/abb_k04_ada_github.png
 ---

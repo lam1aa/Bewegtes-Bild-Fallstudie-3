@@ -12,7 +12,7 @@ title="ressourcen-uebersicht">
 
 ```{admonition} Orientung und erster Einstiegspunkt
 :class: important
- Die bereitgestellte Ressourcenübersicht dient als Orientierung und erhebt keinen Anspruch auf Vollständigkeit. Sie ist ausdrücklich offen für Ergänzungen. Über Github-Issues[TODO: Link]  können Sie uns gezielt Ergänzungsvorschläge
+ Die bereitgestellte Ressourcenübersicht dient als Orientierung und erhebt keinen Anspruch auf Vollständigkeit. Sie ist ausdrücklich offen für Ergänzungen. Über GitHub-Issues[TODO: Link]  können Sie uns gezielt Ergänzungsvorschläge
  zukommen lassen.
 ```
 
