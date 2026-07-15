@@ -1,7 +1,7 @@
 (lernziele)=
 # Lernziele
 
-Mit dem Durchlaufen dieses Jupyter Books die folgenden Lernziele erreicht werden:
+Mit dem Durchlaufen dieses Jupyter Books sollen die folgenden Lernziele erreicht werden:
 
 <!-- START: Forschungsdatenmanagement -->
 ```{admonition} [Lernziel: Anwendung zentraler Prinzipien und Methoden des Forschungsdatenmanagements auf film- und medienwissenschaftliche Forschungsdaten](../02_forschungsdaten_fdm/toc_02.md)
