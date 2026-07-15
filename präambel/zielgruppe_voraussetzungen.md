@@ -13,7 +13,7 @@ Zielgruppe unserer Fallstudie sind Wissenschaftler:innen in frühen Karrierephas
 ````{margin}
 ```{admonition} Hinweis: Filmwissenschaftliche Daten
 :class: hinweis
-Mehr Informationen darüber, was unter filmwissenschaftlichen Daten und Datensätzen verstanden werden kann, gibt es [hier](../02_forschungsdaten_fdm/forschungsdaten.md)
+Mehr Informationen darüber, was unter filmwissenschaftlichen Daten und Datensätzen verstanden werden kann, gibt es [hier](../02_forschungsdaten_fdm/forschungsdaten.md).
 ```
 ````
 
