@@ -25,7 +25,7 @@ Folgende Lernziele können erreicht werden:
 :end-before: "<!-- END: Aufbereitung und Anreicherung -->"
 ```
 
-## Technische Voraussetzungen
+<h2>Technische Voraussetzungen</h2>
 
 Zur Durchführung der einzelnen praktischen Schritte werden ein Code- und Texteditor sowie eine Python-Umgebung benötigt. Die hierfür erforderlichen Werkzeuge und Ressourcen werden an den entsprechenden Stellen des Kapitels vorgestellt.
 

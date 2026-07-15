@@ -23,7 +23,7 @@ Folgende Lernziele können erreicht werden:
 :end-before: "<!-- END: Publikation in Repositorien -->"
 ```
 
-## Technische Voraussetzungen
+<h2>Technische Voraussetzungen</h2>
 
 Zur Durchführung der einzelnen Publikationsschritte wird ein Code- und Texteditor sowie ein Account von <a href="https://github.com/" class="external-link" target="_blank">GitHub</a> und <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> benötigt. 
 
