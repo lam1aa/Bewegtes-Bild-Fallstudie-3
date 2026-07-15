@@ -43,6 +43,11 @@ Beim `csv`-Export aus Excel wird nur das aktuell aktive Tabellenblatt exportiert
 Beim Export aus Excel kann es vorkommen, dass sich Leerzeichen unbemerkt in Spaltenüberschriften einschleichen. Dies passiert insbesondere, wenn Felder bzw. Spalten nachträglich hinzugefügt werden. Im Tabellenblatt selbst bleiben diese Leerzeichen unsichtbar, führen aber beim Einlesen der `csv`-Datei in anderen Tools zu Problemen. Es empfiehlt sich daher, die exportierte `csv`-Datei in einem Text-Editor wie VS Code zu öffnen und die Kopfzeile manuell auf unerwünschte Leerzeichen zu überprüfen.
 ```
 
+```{admonition} Bug in macOS beim XLSX zu CSV Export 
+:class: danger
+Beim Export aus Microsoft Excel kann es in Einzelfällen vorkommen, dass ISO-8601-Dauerangaben, also das Feld `duration_iso8601` ohne Stundenanteil (z.B. `PT50M`) fälschlicherweise als `PTH50M` exportiert werden. In diesem Fall können die Werte nach dem Export durch Suchen und Ersetzen in der `csv`-Datei (PTH → PT) korrigiert werden.
+```
+
 ### Ergebnis
 
 So sehen die ersten 7 Einträge aus dem Datensatz als `csv`-Export aus:
