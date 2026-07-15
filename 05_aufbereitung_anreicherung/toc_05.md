@@ -25,6 +25,10 @@ Folgende Lernziele können erreicht werden:
 :end-before: "<!-- END: Aufbereitung und Anreicherung -->"
 ```
 
+## Technische Voraussetzungen
+
+Zur Durchführung der einzelnen praktischen Schritte werden ein Code- und Texteditor sowie eine Python-Umgebung benötigt. Die hierfür erforderlichen Werkzeuge und Ressourcen werden an den entsprechenden Stellen des Kapitels vorgestellt.
+
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
 Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 1 Stunde und 20 Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 

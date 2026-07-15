@@ -37,7 +37,7 @@ Des weiteren hat Lisa Poggel von der Freien Universität Berlin eine seminarbegl
 
 ### Technische Voraussetzungen
 
-Für die Nachvollziehbarkeit und Reproduktion der Publikationsschritte wird sowohl ein GitHub-Account als auch Zenodo-Account benötigt. 
+Für die Reproduktion der Publikationsschritte wird sowohl ein GitHub-Account als auch Zenodo-Account benötigt. 
 
 ```{admonition} Wofür werden die Plattformen *GitHub* und *Zenodo* genutzt?
 :class: hinweis
@@ -45,7 +45,10 @@ Für die Nachvollziehbarkeit und Reproduktion der Publikationsschritte wird sowo
 
 <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> ist ein von CERN betreuter und verwalteter Online-Cloud-Dienst, der zur Veröffentlichung und Speicherung wissenschaftlicher Datensätze, wissenschaftsbezogener Software, Publikationen usw. verwendet wird. Es ermöglicht die Archivierung, Verwaltung und Versionierung von wissenschaftlichen Forschungsdaten. Mit der Vergabe einer DOI (*Digital Object Identifier*) wird sichergestellt, dass die Daten zitierbar und nachnutzbar sind. Weiterführende Informationen können auf der <a href="https://cernandsocietyfoundation.cern/meet-the-project-zenodo/" class="external-link" target="_blank">CERN-Projektseite</a> abgerufen werden. 
 ```
-Darüber hinaus verweisen wir in entsprechenden Abschnitten auf Anwendungen, die wir zur Bearbeitung bestimmter Inhalte genutzt haben. Diese dienen als Empfehlungen. Selbstverständlich können auch alternative Programme genutzt werden.
+
+Ebenso werden zur Umsetzung und Reproduktion praktischer Schritte ein **Code- und Texteditor** sowie eine **Python-Umgebung** benötigt. Die hierfür erforderlichen Werkzeuge und Ressourcen werden an den entsprechenden Stellen der Kapitel vorgestellt.
+
+Als Code- und Texteditor kann <a href="https://code.visualstudio.com/" class="external-link" target="_blank">Visual Studio Code (VS Code)</a> von Microsoft empfohlen werden, da die Software kostenfrei verfügbar ist und auch für Einsteiger:innen leicht zugänglich. Alternativ können ebenso andere, auch nicht kommerziell betriebene Text- oder Code-Editoren verwendet werden.
 
 
 

@@ -23,6 +23,10 @@ Folgende Lernziele können erreicht werden:
 :end-before: "<!-- END: Publikation in Repositorien -->"
 ```
 
+## Technische Voraussetzungen
+
+Zur Durchführung der einzelnen Publikationsschritte wird ein Code- und Texteditor sowie ein Account von <a href="https://github.com/" class="external-link" target="_blank">GitHub</a> und <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> benötigt. 
+
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
 Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 1 Stunde und 20 Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
