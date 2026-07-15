@@ -41,6 +41,6 @@ name: aufbau-fallstudie
 
 ## Zugangsweg und Bearbeitungszeit
 
-Dieses interaktive Lehrbuch wird im “📘 Book Only Mode” bereitgestellt. Dies bedeutet, dass es im Browser mit eingeschränkten Interaktionsmöglichkeiten bearbeitet werden kann. Für diesen Zugangsweg werden keine Programmierkenntnisse oder Erfahrung mit Jupyter Notebooks benötigt. Einige Lernmodule erfordern ggf. die lokale Installation externer Anwendungen oder das Herunterladen und Verwenden von Dateien.
+Dieses interaktive Lehrbuch wird im 📘 Book Only Mode sowie  💻 Local Mode bereitgestellt. Dies bedeutet, dass es im Browser mit eingeschränkten Interaktionsmöglichkeiten bearbeitet werden kann. Einige Lernmodule erfordern die lokale Installation externer Anwendungen oder das Herunterladen und Verwenden von Dateien. Die hierfür erforderlichen Werkzeuge und Ressourcen werden an den entsprechenden Kapitelabschnitten vorgestellt. Mehr Informationen gibt es unter {ref}`Technische Voraussetzungen <technische-voraussetzungen>`.
 
-Zu Beginn jeder Lerneinheit wird die geschätzte Bearbeitungszeit angegeben. Dies hilft, Ihre Zeit effektiv zu planen und die Lernmodule strukturiert zu bearbeiten. Für das Self-Assessment am Ende jeder Lerneinheit wird die Bearbeitungsdauer separat angegeben und ist nicht in der geschätzten Dauer des Lernmoduls selbst enthalten.
+Zu Beginn jeder Lerneinheit wird die geschätzte Bearbeitungszeit angegeben. Dies hilft, die Zeit effektiv zu planen und die Lernmodule strukturiert zu bearbeiten. Für das Self-Assessment am Ende jeder Lerneinheit wird die Bearbeitungsdauer separat angegeben und ist nicht in der geschätzten Dauer des Lernmoduls selbst enthalten.

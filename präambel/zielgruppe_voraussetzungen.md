@@ -34,7 +34,7 @@ Datentyp Text Fallstudie II: <a href="https://quadriga-dk.github.io/Bewegtes-Bil
 
 Des weiteren hat Lisa Poggel von der Freien Universität Berlin eine seminarbegleitende umfangreiche OER zum Thema <a href="https://webscraping-sose25.netlify.app/intro.html" class="external-link" target="_blank">"Webscraping mit Python für Geisteswissenschaften"</a> erstellt. Diese ist besonders für den Einstieg in das Thema der Datenextraktion geeignet. 
 ```
-
+(technische-voraussetzungen)=
 ### Technische Voraussetzungen
 
 Für die Reproduktion der Publikationsschritte wird sowohl ein GitHub-Account als auch Zenodo-Account benötigt. 
