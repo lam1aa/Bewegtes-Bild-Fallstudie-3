@@ -13,7 +13,7 @@ Neben der Formatkonvertierung ist auch eine Bereinigung und Vereinheitlichung de
 2. Vereinheitlichung von Schreibweisen und Einträgen:
     * Einheitliche Groß- und Kleinschreibung
     * Entfernung von Leerzeichen, konsistente Verwendung von Sonderzeichen
-    * Einheitliche Werte wie z.B. `TRUE` / `FALSE`
+    * Einheitliche Werte wie z. B. `TRUE` / `FALSE`
     * Konventionen für Feldwerte durch konsistente Verwendung von Trennzeichen – empfohlen mit Semikolon (";") oder       Tabulator
     * Leere Felder statt beliebige Werte
 

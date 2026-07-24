@@ -62,7 +62,7 @@ name: daten-repositorien
 Daten publizieren in Repositorien
 ```
 
-Unterschieden wird zwischen institutionellen, disziplinären oder generischen Repositorien. (z.B. <a href="https://refubium.fu-berlin.de/" class="external-link" target="_blank">Refubium</a> der FU Berlin oder der <a href="https://edoc.hu-berlin.de/home" class="external-link" target="_blank">edoc-Server</a> der HU Berlin) betrieben und ermöglichen ihren Mitgliedern die digitale Publikation wissenschaftlicher Dokumente. 
+Unterschieden wird zwischen institutionellen, disziplinären oder generischen Repositorien. (z. B. <a href="https://refubium.fu-berlin.de/" class="external-link" target="_blank">Refubium</a> der FU Berlin oder der <a href="https://edoc.hu-berlin.de/home" class="external-link" target="_blank">edoc-Server</a> der HU Berlin) betrieben und ermöglichen ihren Mitgliedern die digitale Publikation wissenschaftlicher Dokumente. 
 
 ```{figure} ../assets/04_einführung_publikation/abb_k04_refubium_fu.png
 ---
@@ -84,7 +84,7 @@ name: media-rep
 Startseite des film- und medienwissenschaftlichen Repositoriums <a href="https://mediarep.org/" class="external-link" target="_blank">media/rep/</a>
 ```
 
-Zu den etablierten generischen Repositorien zählen <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">GitHub</a> und <a href="https://figshare.com/" class="external-link" target="_blank"> Figshare</a>. Sie eignen sich insbesondere für disziplinübergreifende Datensätze, Code und Projektressourcen. Für die Datenpublikation sind persistente Identifikatoren (z.B. DOI) und Versionierungsmöglichkeiten entscheidend. Über Repositorien wie Zenodo oder Figshare werden bei der Publikation DOIs vergeben. GitHub hingegen wird dafür häufig mit einem DOI-fähigen Archivierungsdienst wie Zenodo kombiniert.
+Zu den etablierten generischen Repositorien zählen <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a>, <a href="https://github.com/" class="external-link" target="_blank">GitHub</a> und <a href="https://figshare.com/" class="external-link" target="_blank"> Figshare</a>. Sie eignen sich insbesondere für disziplinübergreifende Datensätze, Code und Projektressourcen. Für die Datenpublikation sind persistente Identifikatoren (z. B. DOI) und Versionierungsmöglichkeiten entscheidend. Über Repositorien wie Zenodo oder Figshare werden bei der Publikation DOIs vergeben. GitHub hingegen wird dafür häufig mit einem DOI-fähigen Archivierungsdienst wie Zenodo kombiniert.
 
 ```{figure} ../assets/04_einführung_publikation/abb_k04_generische_repos.png
 ---
@@ -416,7 +416,7 @@ __________
 :class: important
 Sowohl die Bereitstellung als auch die Nutzung von APIs erfordern (fortgeschrittene) Programmierkenntnisse.
 ```
-Ergänzend zu den bisher genannten Publikationswegen und -formaten gibt es für technisch versierte Forschende und Projekte auch die Option, Forschungsdaten über API-Schnittstellen zugänglich zu machen. D.h., dass die Daten primär als ein Abfragedienst bereitgestellt werden. Dies ist allerdings nur dann sinnvoll, wenn es sich um komplexe, relationale und dynamische Datenstrukturen handelt (z.B. große Korpora, Distributionsnetzwerke oder Filmografien). 
+Ergänzend zu den bisher genannten Publikationswegen und -formaten gibt es für technisch versierte Forschende und Projekte auch die Option, Forschungsdaten über API-Schnittstellen zugänglich zu machen. D. h., dass die Daten primär als ein Abfragedienst bereitgestellt werden. Dies ist allerdings nur dann sinnvoll, wenn es sich um komplexe, relationale und dynamische Datenstrukturen handelt (z. B. große Korpora, Distributionsnetzwerke oder Filmografien). 
 
 ```{admonition} Was sind API-Schnittstellen?
 :class: hinweis, dropdown

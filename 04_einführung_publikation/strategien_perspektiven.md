@@ -17,13 +17,13 @@ In der Filmwissenschaft sind Daten einerseits häufig an Korpusentscheidungen ge
 
 Welche Publikationswege sinnvoll sind, hängt von verschiedenen Faktoren ab. Orientierung geben diese vier Leitfragen:
 
-1. **Datentyp**:Worum handelt es sich (z.B. Korpusliste, Annotationen, Transkriptionen, Extraktionsdateien)?
+1. **Datentyp**:Worum handelt es sich (z. B. Korpusliste, Annotationen, Transkriptionen, Extraktionsdateien)?
 
-2. **Zielgruppe**: Wen soll die Veröffentlichung primär erreichen (z.B. Fachcommunity, Lehre, Archive)?
+2. **Zielgruppe**: Wen soll die Veröffentlichung primär erreichen (z. B. Fachcommunity, Lehre, Archive)?
 
-3. **Nachnutzungsszenario**: Welche Weiterverwendung ist vorgesehen (z.B. Vergleichsstudien, Tool-Entwicklung, Lehre)?
+3. **Nachnutzungsszenario**: Welche Weiterverwendung ist vorgesehen (z. B. Vergleichsstudien, Tool-Entwicklung, Lehre)?
 
-4. **Rechte/Lizenzen**: Welche rechtlichen und lizenzrechtlichen Bedingungen gelten (z.B. Urheberrecht, Bildrechte, Persönlichkeitsrechte)?
+4. **Rechte/Lizenzen**: Welche rechtlichen und lizenzrechtlichen Bedingungen gelten (z. B. Urheberrecht, Bildrechte, Persönlichkeitsrechte)?
 
 Ein solides [Forschungsdatenmanagement](../02_forschungsdaten_fdm/forschungsdatenmanagement.md) (FDM) unter Einbehaltung der {ref}`FAIR-Prinzipien <leitlinien-fair>` und {ref}`Best Practices <fiwi-best-practices>`  erleichtern die Publikation.
 

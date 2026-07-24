@@ -47,7 +47,7 @@ Wie hier zu erkennen ist, werden die Feldtrennzeichen durch ein Semikolon `;` ge
 (json-format)=
 ### JSON (JavaScript Object Notation)
 
-`json` ist ein einfaches und kompaktes Format für strukturierte Daten, das ebenfalls in einer lesbaren Textform vorliegt und den Datenaustausch zwischen verschiedenen Anwendungen (z.B. Webanwendungen, APIs) ermöglicht. Informationen werden dabei in Form von Schlüssel-Wert-Paaren organisiert und können zu Objekten und Listen zusammengefasst werden. Im Gegensatz zu `csv` kann `json` hierarchische und verschachtelte Strukturen abbilden. 
+`json` ist ein einfaches und kompaktes Format für strukturierte Daten, das ebenfalls in einer lesbaren Textform vorliegt und den Datenaustausch zwischen verschiedenen Anwendungen (z. B. Webanwendungen, APIs) ermöglicht. Informationen werden dabei in Form von Schlüssel-Wert-Paaren organisiert und können zu Objekten und Listen zusammengefasst werden. Im Gegensatz zu `csv` kann `json` hierarchische und verschachtelte Strukturen abbilden. 
 
 Der generische Beispieldatensatz (gekürzt) als `json`-Eintrag sieht dann so aus:
 
@@ -105,7 +105,7 @@ Mehrere Objekte können in einer Liste zusammengefasst werden:
 
 Die eckigen Klammern markieren Listenanfang und -ende. Eine Liste kann mehrere Objekte enthalten. Dies entspricht mehreren Zeilen einer Tabelle.
 
-`json` kennt nur wenige grundlegende Datentypen, die in vielen Programmiersprachen ebenfalls zum Einsatz kommen (z.B. Python). Datentypen in Programmiersprachen legen fest, welche Art von Wert in einem Feld steht und wie der Wert verarbeitet werden kann:
+`json` kennt nur wenige grundlegende Datentypen, die in vielen Programmiersprachen ebenfalls zum Einsatz kommen (z. B. Python). Datentypen in Programmiersprachen legen fest, welche Art von Wert in einem Feld steht und wie der Wert verarbeitet werden kann:
 
 * String (Text): `"title": "Anthropocene"`
 * Number (Zahl): `"year": 2018`

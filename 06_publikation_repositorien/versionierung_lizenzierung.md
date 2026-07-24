@@ -32,11 +32,11 @@ Neben SemVer werden auch andere Versionierungsschemata verwendet, beispielsweise
 
 Das Schema folgt dem Prinzip eines dreistelligen Nummernsystems:
 
-1. `MAJOR`, z.B. **2**.0.0 → Es wurden grundlegende bzw. inkompatible Änderungen durchgeführt, bestehende Codes oder andere Programme aus vorigen Versionen funktionieren womöglich nicht mehr
+1. `MAJOR`, z. B. **2**.0.0 → Es wurden grundlegende bzw. inkompatible Änderungen durchgeführt, bestehende Codes oder andere Programme aus vorigen Versionen funktionieren womöglich nicht mehr
 
-2. `MINOR`: z.B. 2.**1**.0 → Neue Funktionen wurden hinzugefügt, alte Versionen funktionieren aber noch, sie sind also abwärtskompatibel
+2. `MINOR`: z. B. 2.**1**.0 → Neue Funktionen wurden hinzugefügt, alte Versionen funktionieren aber noch, sie sind also abwärtskompatibel
 
-3. `PATCH`: z.B.  2.1.**1** → Kleine Bugfixes oder Tippfehler, es wird nichts Strukturelles verändert, alles ist weiterhin abwärtskompatibel 
+3. `PATCH`: z. B.  2.1.**1** → Kleine Bugfixes oder Tippfehler, es wird nichts Strukturelles verändert, alles ist weiterhin abwärtskompatibel 
 
 
 Neben der dreistelligen Versionsnummerierung gibt es zusätzlich noch sogenannte "pre-realease version labels" bzw "pre-release tags". Sie kennzeichnen Entwicklungsstadien vor der offiziellen Veröffentlichung und signalisieren Nutzenden so, dass eine Version noch nicht vollständig oder stabil ist.
@@ -187,7 +187,7 @@ Fragebogen des CC License Choosers
 ```{admonition} Unwiderruflichkeit von CC-Lizenzen 
 :class: caution
 Eine einmal vergebene Lizenz kann nicht zurückgezogen werden. Ein Werk kann also auch dann noch weiterhin gemäß den ursprünglichen Lizenzbedingungen genutzt werden, wenn der/die Urheber:in die Lizenz nachträglich ändern möchte. Neue Versionen eines Datensatzes können jedoch unter einer anderen Lizenz veröffentlicht werden. 
-Für die Praxis bedeutet dies, dass die Lizenzvergabe **vor** der Publikation sorgfältig zu prüfen ist. Nachträgliche Änderungen (z.B. von CC BY zu CC BY-NC) gelten dann nur für neue Versionen, nicht für bereits veröffentlichte Stände.
+Für die Praxis bedeutet dies, dass die Lizenzvergabe **vor** der Publikation sorgfältig zu prüfen ist. Nachträgliche Änderungen (z. B. von CC BY zu CC BY-NC) gelten dann nur für neue Versionen, nicht für bereits veröffentlichte Stände.
 ```
 
 ### Lizenzen für Code und Software
@@ -197,7 +197,7 @@ Für Programmcode oder beispielsweise Pythonskripte und Software jeglicher Art g
 ````{margin}
 ```{admonition} Was bedeutet "Copyleft"
 :class: hinweis
-Das Copyleft Lizenzmodell erlaubt Nutzenden die freie Bearbeitung und Verbreitung eines Werkes (z.B. Erweiterung, Veränderung), sofern jegliche Bearbeitung unter die Lizenz des ursprünglichen Werkes gestellt wird.
+Das Copyleft Lizenzmodell erlaubt Nutzenden die freie Bearbeitung und Verbreitung eines Werkes (z. B. Erweiterung, Veränderung), sofern jegliche Bearbeitung unter die Lizenz des ursprünglichen Werkes gestellt wird.
 ```
 ````
 
@@ -215,8 +215,8 @@ Die Lizenzierung von Forschungsdaten und Forschungsmaterial ist durch das gelten
 
 Für die Publikation von {ref}`Primär- und Sekundärdaten  <primär-sekundär>` gelten folgende Empfehlungen:
 
-* **Primärdaten** (z.B. Film-, Bild- und Videomaterial): Können aufgrund des Urheberrechts in der Regel nicht publiziert werden, es sei denn, die Rechte wurden ausdrücklich eingeholt oder das Material ist Public Domain. In diesem Fall gilt die **Ursprungslizenz** des Materials.
-* **Sekundärdaten** (z.B. Annotationen, Metadaten, Analysen, Transkripte, Dokumentationen usw.): Können unter CC-Lizenz publiziert werden, da sie eigenständige wissenschaftliche Werke darstellen.
+* **Primärdaten** (z. B. Film-, Bild- und Videomaterial): Können aufgrund des Urheberrechts in der Regel nicht publiziert werden, es sei denn, die Rechte wurden ausdrücklich eingeholt oder das Material ist Public Domain. In diesem Fall gilt die **Ursprungslizenz** des Materials.
+* **Sekundärdaten** (z. B. Annotationen, Metadaten, Analysen, Transkripte, Dokumentationen usw.): Können unter CC-Lizenz publiziert werden, da sie eigenständige wissenschaftliche Werke darstellen.
 
 (sonderfall-moviebarcodes)=
 #### Sonderfall Moviebarcodes

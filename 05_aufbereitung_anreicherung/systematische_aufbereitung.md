@@ -293,7 +293,7 @@ Welche Anforderungen allgemein für die Entwicklung guter Identifer zu beachten 
 
 ### Kontrollierte Vokabulare
 
-Kontrollierte Vokabulare legen fest, welche Werte für ein Feld zulässig sind. Sie werden eingesetzt, um Inkonsistenzen (z.B. durch Tippfehler) oder unterschiedliche Schreibweisen zu verhindern (z.B. "Dokumentarfilm" vs. "Doku"). Dadurch ermöglichen sie eine präzisere Filterung, Suche und maschinelle Auswertung. 
+Kontrollierte Vokabulare legen fest, welche Werte für ein Feld zulässig sind. Sie werden eingesetzt, um Inkonsistenzen (z. B. durch Tippfehler) oder unterschiedliche Schreibweisen zu verhindern (z. B. "Dokumentarfilm" vs. "Doku"). Dadurch ermöglichen sie eine präzisere Filterung, Suche und maschinelle Auswertung. 
 
 In den Korpusmetadaten wurden für zwei Felder kontrollierte Vokabulare festgelegt:
 
@@ -348,7 +348,7 @@ ISO Normen sind weltweit anerkannte, konsensbasierte, schriftlich festgelegte St
 Durch die Verwendung von ISO-Standards wird sichergestellt, dass die Daten maschinenlesbar, interoperabel und unabhängig von Sprache, Kultur oder Konvention interpretierbar sind. 
 
 1. `country`: kodiert nach <a href="https://www.iso.org/iso-3166-country-codes.html" class="external-link" target="_blank">ISO 3166-1 alpha-2</a>, dem internationalen Standard für Ländercodes. Statt "Deutschland", “Germany”, "GER" oder "DEU" wird einheitlich "DE" verwendet. 
-2. `duration_iso8601`: kodiert nach <a href="https://www.iso.org/iso-8601-date-and-time-format.html" class="external-link" target="_blank">ISO 8601</a>, dem internationalen Standard für Datums- und Zeitangaben. Laufzeiten werden im Format `PT[Stunden]H[Minuten]M` angegeben, z.B. `PT1H32M` für 92 Minuten. Das Feld ergänzt `runtime_min` (`92. Min.`), welches für die menschliche Lesbarkeit im Arbeitskontext beibehalten wird. **Maschinenlesbar und interoperabel ist jedoch nur die ISO-kodierte Variante.**
+2. `duration_iso8601`: kodiert nach <a href="https://www.iso.org/iso-8601-date-and-time-format.html" class="external-link" target="_blank">ISO 8601</a>, dem internationalen Standard für Datums- und Zeitangaben. Laufzeiten werden im Format `PT[Stunden]H[Minuten]M` angegeben, z. B. `PT1H32M` für 92 Minuten. Das Feld ergänzt `runtime_min` (`92. Min.`), welches für die menschliche Lesbarkeit im Arbeitskontext beibehalten wird. **Maschinenlesbar und interoperabel ist jedoch nur die ISO-kodierte Variante.**
 
 Beide Beispiele zeigen, wie kontrolliertes Vokabular durch externe Normen eingesetzt werden kann. Die Wertliste wird also folglich nicht selbst definiert, sondern von einem etablierten Standard übernommen.
 

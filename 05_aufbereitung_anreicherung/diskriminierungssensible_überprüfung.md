@@ -38,7 +38,7 @@ Korpusdaten nach Ländern (anteilig, Treemap-Darstellung)
 
 ### Berechnung der Länderauswertung
 
-Die Spalte `country` der Korpusmetadaten wurde in ein Textprogramm kopiert. Mithilfe von `Strg + F` (Mac: `Command + F`) lässt sich nach dem jeweiligen Landeskürzel suchen, um die Trefferzahl im Datensatz zu ermitteln (z.B. ergibt DE 17 Treffer). Nach der Erfassung eines Länderkürzels können die gefundenen Treffer durch ein Leerzeichen ersetzt werden.Dadurch wird die Übersicht verbessert und bereits ausgewertete Kürzel werden bei der weiteren manuellen Auswertung nicht erneut berücksichtigt.
+Die Spalte `country` der Korpusmetadaten wurde in ein Textprogramm kopiert. Mithilfe von `Strg + F` (Mac: `Command + F`) lässt sich nach dem jeweiligen Landeskürzel suchen, um die Trefferzahl im Datensatz zu ermitteln (z. B. ergibt DE 17 Treffer). Nach der Erfassung eines Länderkürzels können die gefundenen Treffer durch ein Leerzeichen ersetzt werden.Dadurch wird die Übersicht verbessert und bereits ausgewertete Kürzel werden bei der weiteren manuellen Auswertung nicht erneut berücksichtigt.
 
 ```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_berechnung_laender_textprogramm.png
 ---
@@ -69,7 +69,7 @@ Ergebnistabelle: Länder und absolute Vorkommen im Korpus
 ```{admonition} Keypoint: Methodische Einordnung und Schwerpunktsetzung
 :class: keypoint
 Diese geographische Schwerpunktsetzung ist keine zufällige, sondern eine forschungsstrategische Entscheidung. Denn das Teilprojekt untersucht spezifische Logismen und Traditionen des Anthropozentrismus in westlichen filmischen Auseinandersetzungen zum Klimawandel. Eurozentristische Perspektiven und die strukturelle Dominanz westlicher Klimanarrative und ihrer ästhetischen Strategien sind dabei selbst Gegenstand der Analyse und stellen somit nicht einfach blinde Flecken der Korpuszusammenstellung dar. 
-Die Frage, wie marginalisierte Perspektiven (jenseits westlicher Blickregime) filmisch zum Ausdruck kommen und ob bzw. inwiefern sich die Imaginationen des menschlichen Zur-Welt-Seins in der Klimakrise hinsichtlich affektiver sowie formal-ästhetischer Gestaltungsformen in der Zirkulation medialer Bewegtbilder unterscheidet, kann und sollte Ausgangspunkt weiterer Untersuchungen sein (z.B. mit Schwerpunkt auf indigene Formen der Wissens- und Bildproduktion).
+Die Frage, wie marginalisierte Perspektiven (jenseits westlicher Blickregime) filmisch zum Ausdruck kommen und ob bzw. inwiefern sich die Imaginationen des menschlichen Zur-Welt-Seins in der Klimakrise hinsichtlich affektiver sowie formal-ästhetischer Gestaltungsformen in der Zirkulation medialer Bewegtbilder unterscheidet, kann und sollte Ausgangspunkt weiterer Untersuchungen sein (z. B. mit Schwerpunkt auf indigene Formen der Wissens- und Bildproduktion).
 ```
 
 ## Auswertung nach Geschlecht (Regie)
@@ -136,7 +136,7 @@ Mehr Informationen zum Thema Datenvisualisierung gibt es in unserer <a href="htt
 
 Nach der Auswertung können die Daten in Grafiken oder Diagrammen aufbereitet werden. Dazu eignen sich Excel (PivotCharts oder Diagramme) sowie andere Programme wie <a href="https://www.canva.com/" class="external-link" target="_blank">Canva</a>. Für die vorliegenden Darstellungen wurde Canva (kostenlose Version) benutzt.
 
-In beiden Programmen wird zunächst eine einfache Tabelle mit zwei Spalten angelegt: eine Spalte für die Kategorien (z.B. Länderkürzel nach ISO 3166) und eine für die zugehörigen Werte (absolute Vorkommen). Diese Tabelle bildet die Grundlage für das Diagramm.
+In beiden Programmen wird zunächst eine einfache Tabelle mit zwei Spalten angelegt: eine Spalte für die Kategorien (z. B. Länderkürzel nach ISO 3166) und eine für die zugehörigen Werte (absolute Vorkommen). Diese Tabelle bildet die Grundlage für das Diagramm.
 
 ```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_canva_1.png
 ---
@@ -188,7 +188,7 @@ Die folgende Auflistung gibt Anhaltspunkte für die Überprüfung je nach Metada
 erhebt keinen Anspruch auf Vollständigkeit:
 
 * `title`: Gibt es explizit diskriminierende Begriffe?
-* Externe Datenbanken (z.B. IMDb): Gibt es diskriminierende Begriffe oder Narrative in Zusammenfassungen, Synopsen und Tags? Durch wen werden diese Daten erhoben? Wie werden die Datenbanken moderiert?
+* Externe Datenbanken (z. B. IMDb): Gibt es diskriminierende Begriffe oder Narrative in Zusammenfassungen, Synopsen und Tags? Durch wen werden diese Daten erhoben? Wie werden die Datenbanken moderiert?
 * `country`: Welche politischen Umstände legitimieren oder delegitimieren ein Land? Können andere Kategorien präziser sein (z. B. indigene Ortsnamen, Palästina, Taiwan)?
 * Beteiligte Personen: Wurden Mitwirkende vertrauenswürdig notiert? Artikuliert sich eine produktionsästhetische Hierarchie durch die Metadaten? Reproduziert die Notation Formen sozialer Ungleichheit (z. B. Kollektive, Stellvertreter:innenschaft, nicht-regieführende Personen)?
 
@@ -201,7 +201,7 @@ Mehr Informationen zu ISO-Standards gibt es im Abschnitt {ref}`ISO-Standards <is
 ```
 ````
 
-Der Korpus verwendet <a href="https://www.iso.org/iso-3166-country-codes.html" class="external-link" target="_blank">ISO 3166-1 alpha-2</a> für die Angabe von Produktionsländern. Dieser Standard ist in der Lage, viele Länder abzubilden (darunter auch solche, die in anderen Thesauri marginalisiert werden, z.B. Taiwan, Palästina). Gleichzeitig hält der Korpus durch die Verwendung dieses ISO-Standards am Konzept von Nationalstaaten fest. Durch die Kombination mehrerer Länderkürzel für denselben Titel lassen sich jedoch internationale Produktionen zumindest im Kontext eines Nationalstaatengefüges relativ unhierarchisch aufzeichnen. 
+Der Korpus verwendet <a href="https://www.iso.org/iso-3166-country-codes.html" class="external-link" target="_blank">ISO 3166-1 alpha-2</a> für die Angabe von Produktionsländern. Dieser Standard ist in der Lage, viele Länder abzubilden (darunter auch solche, die in anderen Thesauri marginalisiert werden, z. B. Taiwan, Palästina). Gleichzeitig hält der Korpus durch die Verwendung dieses ISO-Standards am Konzept von Nationalstaaten fest. Durch die Kombination mehrerer Länderkürzel für denselben Titel lassen sich jedoch internationale Produktionen zumindest im Kontext eines Nationalstaatengefüges relativ unhierarchisch aufzeichnen. 
 
 Die Verwendung der Kategorie `director` folgt einer westlich-tradierten, hierarchisch organisierten Produktionsästhetik und assoziiert kollektiv hervorgebrachte ästhetische Arbeit mit wenigen Personen oder Werksurheber:innen. Dies ist bezeichnend für die westliche Ausrichtung des Korpus und sollte bei der Interpretation der Daten berücksichtigt werden. Das Feld `director` enthält ausschließlich Namen; Geschlechtsangaben sind kein Bestandteil des Schemas und wurden für diese Auswertung gesondert erhoben.
 

@@ -64,7 +64,7 @@ Unsere Empfehlung: <a href="https://github.com/apps/desktop?locale=de-de" class=
 ### Schritt 1: GitHub-Account und Organisation einrichten
 
 1. GitHub-Account erstellen unter <a href="https://github.com/" class="external-link" target="_blank">GitHub</a>
-2. Eine Organisation anlegen (z.B. `SFB1512-C05-climate-film`) oder sich als Member/Owner einer bestehenden Organisation mit den entsprechenden Zugriffsrechten eintragen lassen; zum Erstellen einer neuen Organisation rechts auf den Profil-Button klicken und anschließend auf → `Organizations` → `New organization`
+2. Eine Organisation anlegen (z. B. `SFB1512-C05-climate-film`) oder sich als Member/Owner einer bestehenden Organisation mit den entsprechenden Zugriffsrechten eintragen lassen; zum Erstellen einer neuen Organisation rechts auf den Profil-Button klicken und anschließend auf → `Organizations` → `New organization`
 
 ```{figure} ../assets/06_publikation_repositorien/abb_k06_new_organization_git.png
 ---
@@ -95,8 +95,8 @@ Die README-Datei sowie LICENSE können auch nachträglich hinzugefügt werden. E
 
 1. GitHub Desktop öffnen und unter `Settings` mit dem GitHub-Account einloggen
 2. Anschließend auf `File` → `Clone Repository` gehen
-3. Unter dem Reiter **GitHub.com** das Repository auswählen (z.B. `SFB1512-C05-climate-film/intervening-world-projections-dataset`)
-4. Lokalen Speicherort wählen, z.B. `~/Documents/intervening-world-projections-dataset`
+3. Unter dem Reiter **GitHub.com** das Repository auswählen (z. B. `SFB1512-C05-climate-film/intervening-world-projections-dataset`)
+4. Lokalen Speicherort wählen, z. B. `~/Documents/intervening-world-projections-dataset`
 5. Auf `Clone` klicken
 
 ```{figure} ../assets/06_publikation_repositorien/abb_k06_clone_repository_git.png
@@ -138,7 +138,7 @@ Ordner und Dateien anlegen in VS Code
 
 ```{admonition} Hinweis: Dateigrößen
 :class: important
-GitHub ist keine Plattform für große Datenmengen. Die Obergrenze pro Datei beträgt **50 MB**; Repositories sollten insgesamt 1 GB nicht überschreiten. Für größere Dateien (z.B. hochauflösende PNGs, Videos) gibt es zwei Alternativen:
+GitHub ist keine Plattform für große Datenmengen. Die Obergrenze pro Datei beträgt **50 MB**; Repositories sollten insgesamt 1 GB nicht überschreiten. Für größere Dateien (z. B. hochauflösende PNGs, Videos) gibt es zwei Alternativen:
 
 * **Zenodo**: Dateien direkt dort hochladen (max. 50 GB pro Record)
 * **Git LFS** (Large File Storage): Große Dateien über Git versionieren, ohne sie direkt im Repository zu speichern; erfordert jedoch zusätzliche Konfiguration!
@@ -148,7 +148,7 @@ Anschließend können die jeweiligen Dateien in ihre zugehörigen Ordner geladen
 
 ```{admonition} Hinweis: Ordner für Bilder
 :class: hinweis
-Visualisierungen und Bilder, die Erklärungszwecken dienen, sollten in einen separaten Ordner, z.B. `\assets`, gelegt werden. So können sie von den eigentlichen Datensätzen getrennt werden. 
+Visualisierungen und Bilder, die Erklärungszwecken dienen, sollten in einen separaten Ordner, z. B. `\assets`, gelegt werden. So können sie von den eigentlichen Datensätzen getrennt werden. 
 ```
 
 ### Schritt 4: Dokumentationsdateien anlegen
@@ -224,7 +224,7 @@ Ablauf: Branch und Pull Request erstellen auf GitHub
 
 ```{admonition} Achtung: Aktuellen Stand überprüfen
 :class: danger
-Insbesondere bei einer kollaborativen Arbeit am Repository ist es ratsam, vor Beginn einer neuen Arbeitssitzung sicherzustellen, dass das lokale Repository dem aktuellen Stand des sogenannten Remote-Repositorys, also dem Repository auf GitHub, entspricht. Über GitHub Desktop kann hierzu zunächst die aktuelle Branch (z.B. main) ausgewählt und anschließend über `Fetch origin` geprüft werden, ob zwischenzeitlich Änderungen veröffentlicht wurden. Liegen Aktualisierungen vor, können diese über `Pull origin` in das lokale Repository übernommen werden, bevor die weitere Bearbeitung in VS Code erfolgt.
+Insbesondere bei einer kollaborativen Arbeit am Repository ist es ratsam, vor Beginn einer neuen Arbeitssitzung sicherzustellen, dass das lokale Repository dem aktuellen Stand des sogenannten Remote-Repositorys, also dem Repository auf GitHub, entspricht. Über GitHub Desktop kann hierzu zunächst die aktuelle Branch (z. B. main) ausgewählt und anschließend über `Fetch origin` geprüft werden, ob zwischenzeitlich Änderungen veröffentlicht wurden. Liegen Aktualisierungen vor, können diese über `Pull origin` in das lokale Repository übernommen werden, bevor die weitere Bearbeitung in VS Code erfolgt.
 ```
 
 
@@ -238,7 +238,7 @@ Detaillierte Informationen zu Branches und Pull Requests gibt es auf den Dokumen
 
 ### ​​Schritt 6: Release, Versionierung und DOI
 
-Wenn der Datensatz publikationsreif ist, wird ein **Release** erstellt, also eine benannte und getaggte Version des Repositories zu einem bestimmten Zeitpunkt. Releases folgen den Konventionen von <a href="https://semver.org/" class="external-link" target="_blank">Semantic Versioning</a> (SemVer): `MAJOR.MINOR.PATCH` (z.B. `v1.0.0`, vgl. hierzu den Abschnitt {ref}`Versionierung <versionierung>`).
+Wenn der Datensatz publikationsreif ist, wird ein **Release** erstellt, also eine benannte und getaggte Version des Repositories zu einem bestimmten Zeitpunkt. Releases folgen den Konventionen von <a href="https://semver.org/" class="external-link" target="_blank">Semantic Versioning</a> (SemVer): `MAJOR.MINOR.PATCH` (z. B. `v1.0.0`, vgl. hierzu den Abschnitt {ref}`Versionierung <versionierung>`).
 
 Anschließend kann über die **Zenodo-GitHub-Integration** auf Zenodo automatisch ein DOI für den Release vergeben werden.
 
@@ -252,7 +252,7 @@ Das Repository wird in Zenodo nur angezeigt, wenn die notwendigen Zugriffsrechte
 1. Zenodo-Account mit GitHub verknüpfen (hierzu in Zenodo neben dem Profil auf den Drop-Down-Pfeil klicken und in dem sich öffnenden Menü `GitHub` auswählen)
 2. Repository in Zenodo aktivieren
 3. Auf GitHub einen Release erstellen:
-     * Im Repository `Tags` öffnen → `Create a new release` auswählen; dann bei `Select a tag` die Option `Create a new tag` wählen und einen Versions-Tag (z.B. v1.0.0) vergeben
+     * Im Repository `Tags` öffnen → `Create a new release` auswählen; dann bei `Select a tag` die Option `Create a new tag` wählen und einen Versions-Tag (z. B. v1.0.0) vergeben
      * Einen aussagekräftigen Titel sowie Release Notes hinzufügen, denn diese dokumentieren die wichtigsten Änderungen gegenüber vorherigen Versionen; für die Strukturierung der Release notes können beispielsweise Empfehlungen wie <a href="https://keepachangelog.com/en/1.1.0/" class="external-link" target="_blank">Keep a Changelog</a> oder  <a href="https://www.conventionalcommits.org/en/v1.0.0/" class="external-link" target="_blank">Conventional Commits</a> herangezogen werden
 
 ```{figure} ../assets/06_publikation_repositorien/abb_k06_new_release_git.png

@@ -20,7 +20,7 @@ Bevor der `csv`-Export durchgeführt wird, müssen einige Punkte in der Ausgangs
 
 ```{admonition} Überprüfung der Ausgangsdatei
 :class: keypoint
-* **Spaltennamen in `snake_case`**: Alle Spaltennamen sollten in `snake_case` formatiert sein, d.h. ausschließlich Kleinbuchstaben und Unterstriche statt Leerzeichen (z.B. `object_id`, `runtime_min` usw.); Leerzeichen können bei der maschinellen Verarbeitung zu Fehlern oder Problemen führen!
+* **Spaltennamen in `snake_case`**: Alle Spaltennamen sollten in `snake_case` formatiert sein, d. h. ausschließlich Kleinbuchstaben und Unterstriche statt Leerzeichen (z. B. `object_id`, `runtime_min` usw.); Leerzeichen können bei der maschinellen Verarbeitung zu Fehlern oder Problemen führen!
 * **Trennzeichen: Semikolon statt Komma**: Standardmäßig verwenden `csv`-Dateien ein Komma (`,`) als Trennzeichen (daher der Name *Comma-Separated Values*). In einem Datensatz, der Filmtitel mit Kommas enthält (z. B. *Good bye, Lenin!*), führt ein Komma als Trennzeichen jedoch zu Fehlinterpretationen, da Kommas in Titeln als Spaltentrenner erkannt werden. Wir verwenden daher durchgängig das **Semikolon (`;`)** als Trennzeichen. Dies entspricht bereits dem Standard-Exportverhalten von Excel in einer deutschsprachigen Systemumgebung.
 ```
 
@@ -45,7 +45,7 @@ Beim Export aus Excel kann es vorkommen, dass sich Leerzeichen unbemerkt in Spal
 
 ```{admonition} Bug in macOS beim XLSX zu CSV Export 
 :class: danger
-Beim Export aus Microsoft Excel kann es in Einzelfällen vorkommen, dass ISO-8601-Dauerangaben, also das Feld `duration_iso8601` ohne Stundenanteil (z.B. `PT50M`) fälschlicherweise als `PTH50M` exportiert werden. In diesem Fall können die Werte nach dem Export durch Suchen und Ersetzen in der `csv`-Datei (PTH → PT) korrigiert werden.
+Beim Export aus Microsoft Excel kann es in Einzelfällen vorkommen, dass ISO-8601-Dauerangaben, also das Feld `duration_iso8601` ohne Stundenanteil (z. B. `PT50M`) fälschlicherweise als `PTH50M` exportiert werden. In diesem Fall können die Werte nach dem Export durch Suchen und Ersetzen in der `csv`-Datei (PTH → PT) korrigiert werden.
 ```
 
 ### Ergebnis
@@ -65,18 +65,18 @@ Another Earth;f040a;tt1549572;feature film;US;2011;Mike Cahill;92 Min.;PT1H32M;;
 Der Beispieldatensatz als `csv`-Datei kann ebenfalls [hier](../assets/05_aufbereitung_anreicherung/doc_k05_beispieldatensatz.csv) gedownloaded werden.
 
 Was es zu beachten gilt:
-* Felder mit Mehrfachwerten (z.B. `country`, `director`) werden in Anführungszeichen gesetzt
+* Felder mit Mehrfachwerten (z. B. `country`, `director`) werden in Anführungszeichen gesetzt
 * Leere Felder (z. B. `season_episode`, `episode_title` bei Spielfilmen) bleiben leer, die Semikolons als *Positionsmarker* bleiben aber erhalten
 * `TRUE`/`FALSE` kennzeichnet, ob Annotationsdaten bzw. Moviebarcodes vorliegen
 
 ```{admonition}  Warum in leeren Feldern die Semikolons beibehalten werden müssen
 :class: caution
-In einer `csv`-Datei bestimmt die Position des Semikolons, welcher Wert in welche Spalte gehört. Wird ein Semikolon aus einem Leeren Feld gelöscht,verschieben sich alle nachfolgenden Werte um eine Spalte, d.h, dass die Tabelle logisch auseinanderbricht. Leere Felder dürfen also nicht einfach weggelassen werden, sondern müssen als leere Positionen (`;;`) erhalten bleiben.
+In einer `csv`-Datei bestimmt die Position des Semikolons, welcher Wert in welche Spalte gehört. Wird ein Semikolon aus einem Leeren Feld gelöscht,verschieben sich alle nachfolgenden Werte um eine Spalte, d. h., dass die Tabelle logisch auseinanderbricht. Leere Felder dürfen also nicht einfach weggelassen werden, sondern müssen als leere Positionen (`;;`) erhalten bleiben.
 ```
 
 ## CSV zu HTML
 
-Eine `html`-Version der Korpusmetadaten wird für eine bessere Durchsuchbarkeit zur Verfügung gestellt. `html`-Dokumente bestehen oft aus zwei Teilen: dem eigentlichen **Inhalt** (*„was soll da rein?"*, z.B. Tabellen, Überschriften, Text) in `html`-Syntax und den **Gestaltungsregeln** (*„wie soll es aussehen?"*, z.B. Farben, Abstände, Schriftgröße) in `css`-Syntax. Beide sind im bereitgestellten Code enthalten und kommentiert.
+Eine `html`-Version der Korpusmetadaten wird für eine bessere Durchsuchbarkeit zur Verfügung gestellt. `html`-Dokumente bestehen oft aus zwei Teilen: dem eigentlichen **Inhalt** (*„was soll da rein?"*, z. B. Tabellen, Überschriften, Text) in `html`-Syntax und den **Gestaltungsregeln** (*„wie soll es aussehen?"*, z. B. Farben, Abstände, Schriftgröße) in `css`-Syntax. Beide sind im bereitgestellten Code enthalten und kommentiert.
 
 ```{admonition} Kommentare im Code
 :class: hinweis
@@ -483,21 +483,21 @@ function updateEntryCount() {
 
 ### Nachnutzung und Anpassung
 
-Für das eigene Projekt sind folgende Stellen anzupassen, dafür muss die Datei in einem Text- und Code-Editor (z.B. VS Code) geöffnet werden. 
+Für das eigene Projekt sind folgende Stellen anzupassen, dafür muss die Datei in einem Text- und Code-Editor (z. B. VS Code) geöffnet werden. 
 
 1. Seitentitel (Browser-Tab): **Zeile 8**
 
 ```html
 <title>QUADRIGA FS3 Korpusmetadaten</title>
 ```
-→ Ersetzen durch den eigenen Projekttitel, z.B. `<title>Mein Datensatz</title>`
+→ Ersetzen durch den eigenen Projekttitel, z. B. `<title>Mein Datensatz</title>`
 
 2. Hauptüberschrift (sichtbar auf der Seite): **Zeile 82**
 
 ```html
 <h1>QUADRIGA FS3 Korpusmetadaten</h1>
 ```
-→ Ersetzen durch die gewünschte Überschrift, z.B. `<h1>Titel meines Datensatzes</h1>`
+→ Ersetzen durch die gewünschte Überschrift, z. B. `<h1>Titel meines Datensatzes</h1>`
 
 3. `csv`-Daten einbetten: **Zeile 110**
 
@@ -517,7 +517,7 @@ Weiter unten im Code wird das Semikolon als Trennzeichen definiert:
 const rows = parseCSV(csv.trim(), ';');
 ```
 
-Falls der eigene `csv`-Datensatz ein anderes Trennzeichen verwendet (z.B. Komma), muss hier das Semikolon `';'` durch ein Komma `','` ersetzt werden.
+Falls der eigene `csv`-Datensatz ein anderes Trennzeichen verwendet (z. B. Komma), muss hier das Semikolon `';'` durch ein Komma `','` ersetzt werden.
 `````
 4. Leerzeichen in Spaltenüberschriften prüfen
 
@@ -525,7 +525,7 @@ Wenn die `html`-Tabelle nach dem Anpassen der `csv`-Daten nicht korrekt dargeste
 
 5. Semikolons in leeren Feldern erhalten
 
-Wie bereits im Abschnitt {ref}`XLSX zu CSV <xlsx-zu-csv>` beschrieben: Die Semikolons zwischen leeren Feldern sind *Positionsmarker* und dürfen nicht entfernt werden. Wenn z.B. `season_episode` und `episode_title` für einen Spielfilm leer sind, muss die Zeile trotzdem so aussehen:
+Wie bereits im Abschnitt {ref}`XLSX zu CSV <xlsx-zu-csv>` beschrieben: Die Semikolons zwischen leeren Feldern sind *Positionsmarker* und dürfen nicht entfernt werden. Wenn z. B. `season_episode` und `episode_title` für einen Spielfilm leer sind, muss die Zeile trotzdem so aussehen:
 
 ```text
 Annihilation;f049a;tt2798920;feature film;"US;GB";2018;Alex Garland;115 Min.;PT1H55M;;;;FALSE;TRUE
@@ -550,10 +550,10 @@ Alternativ gibt es auch die Möglichkeit, sich mit Generativen-KI-Tools `html`-S
 :class: hinweis
 Datentypen in Programmiersprachen legen fest, welche Art von Wert in einem Feld steht und wie der Wert verarbeitet werden kann. Die Grundtypen sind:
 
-* String (Text) – z.B. `"Anthropocene"`, immer in Anführungszeichen
-* Integer (Ganzzahl) – z.B. `2018`, ohne Anführungszeichen und ohne Nachkommastellen
-* Float (Gleitkommazahl) – z.B. `1.5`, für Werte mit Nachkommastellen
-* Boolean (Wahrheitswert) – nur `true` oder `false`, z.B. ob eine Annotation vorhanden ist
+* String (Text) – z. B. `"Anthropocene"`, immer in Anführungszeichen
+* Integer (Ganzzahl) – z. B. `2018`, ohne Anführungszeichen und ohne Nachkommastellen
+* Float (Gleitkommazahl) – z. B. `1.5`, für Werte mit Nachkommastellen
+* Boolean (Wahrheitswert) – nur `true` oder `false`, z. B. ob eine Annotation vorhanden ist
 
 `csv` kennt diese Unterscheidung nicht. Rein technisch gesehen ist dort alles Text – auch Zahlen oder Wahrheitswerte. 
 ```
@@ -671,7 +671,7 @@ def konvertiere_wert(wert):
         return True
     if wert == "FALSE":
         return False
-    # Ganzzahlen in int umwandeln (z.B. Jahreszahlen, Laufzeiten)
+    # Ganzzahlen in int umwandeln (z. B. Jahreszahlen, Laufzeiten)
     if re.fullmatch(r"-?\d+", wert):
         return int(wert)
     # Alles andere bleibt Text

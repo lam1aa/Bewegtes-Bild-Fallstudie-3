@@ -25,7 +25,7 @@
 * Unterschiedliche Formate erfüllen unterschiedliche Funktionen: `xlsx` eignet sich als Arbeitsformat, `csv` für tabellarischen Datenaustausch, `json` für strukturierte und maschinenlesbare Daten sowie `html` für eine browserbasierte, nutzerfreundliche Durchsuchbarkeit.
 * Bei Formatkonvertierungen müssen Zeichencodierung, Trennzeichen, leere Felder, Spaltennamen und Datentypen kontrolliert werden, um Struktur- und Informationsverluste zu vermeiden.
 * Die parallele Veröffentlichung des ursprünglichen Arbeitsformats und offener Exportformate erhöht Nachvollziehbarkeit, Zugänglichkeit und langfristige Nachnutzbarkeit.
-* Automatisierte Workflows mit (z.B. `html`-Skript und Python) ermöglichen reproduzierbare Exporte und anpassbare Darstellungsformen für eigene Forschungsdatensätze.
+* Automatisierte Workflows mit (z. B. `html`-Skript und Python) ermöglichen reproduzierbare Exporte und anpassbare Darstellungsformen für eigene Forschungsdatensätze.
 ```
 
 ```{admonition} Keypoints:  Datenbereinigung und Dokumentation
@@ -34,7 +34,7 @@
 * Datenbereinigung umfasst die Vereinheitlichung von Strukturen, Schreibweisen, Feldnamen, Trennzeichen, Identifikatoren und kontrollierten Vokabularen, damit Datensätze konsistent und maschinenlesbar vorliegen.
 * Ein maschinenlesbares `yaml`-Schema kann als Regelwerk dienen, um Pflichtfelder, Muster und zulässige Werte automatisiert gegen eine `csv`-Datei zu prüfen.
     * Ein Python-basiertes Validierungsverfahren identifiziert Abweichungen und dokumentiert sie in einem nachvollziehbaren Validation Report.
-* Offene Dokumentationsformate im Markdown-Format wie z.B. `README`-Dateien erläutern Herkunft, Struktur, Methoden, Formate, Lizenzen und Zitationshinweise eines Datensatzes.
+* Offene Dokumentationsformate im Markdown-Format wie z. B. `README`-Dateien erläutern Herkunft, Struktur, Methoden, Formate, Lizenzen und Zitationshinweise eines Datensatzes.
 ```
 
 ```{admonition} Keypoints: Diskriminierungssensible Überprüfung 

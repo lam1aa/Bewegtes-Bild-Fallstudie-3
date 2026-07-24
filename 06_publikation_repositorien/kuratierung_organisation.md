@@ -61,7 +61,7 @@ Neben der Ordnerstruktur ist ein konsistentes **Dateibenennungssystem** entschei
 
 ```{admonition} Definieren von Regeln
 :class: important
-Es sollten klare Regeln definiert werden. Die Benennungsregeln sollten in einem projektinternen Dokument (z.B. einer README "Dateibenennungssystem/Dateibenennungsregeln"), festgehalten und für alle Projektmitglieder zugänglich gemacht werden. Dabei sollte zwischen der projektinternen Dateibenennung und der Benennung der zu publizierenden Daten unterschieden und diese gegebenenfalls klar voneinander getrennt werden, sollte es konkrete Abweichungen geben.
+Es sollten klare Regeln definiert werden. Die Benennungsregeln sollten in einem projektinternen Dokument (z. B. einer README "Dateibenennungssystem/Dateibenennungsregeln"), festgehalten und für alle Projektmitglieder zugänglich gemacht werden. Dabei sollte zwischen der projektinternen Dateibenennung und der Benennung der zu publizierenden Daten unterschieden und diese gegebenenfalls klar voneinander getrennt werden, sollte es konkrete Abweichungen geben.
 ```
 
 ### Richtlinien für Dateinamen 
@@ -161,7 +161,7 @@ corpus_metadata_v1-0.csv   →   corpus_metadata_v2-0.csv   (größere Änderung
 corpus_metadata_v1-0.csv   →   corpus_metadata_v1-1.csv   (kleinere Änderung)
 ```
 
-In einer gesonderten Versionstabelle,  z.B. in einer Dokumentationsdatei oder in einem eigenen sogennanten `CHANGELOG.md`, kann der Änderungsverlauf zusätzlich dokumentiert werden:
+In einer gesonderten Versionstabelle,  z. B. in einer Dokumentationsdatei oder in einem eigenen sogennanten `CHANGELOG.md`, kann der Änderungsverlauf zusätzlich dokumentiert werden:
 
 <table class="table-clean">
   <thead>
