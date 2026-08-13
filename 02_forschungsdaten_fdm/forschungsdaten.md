@@ -1,16 +1,16 @@
 # Forschungsdaten
 
-```{image} ../assets/02_forschungsdaten_fdm/abb_k02_forschungsdaten_visualiserung.png
+```{figure} ../assets/02_forschungsdaten_fdm/abb_k02_forschungsdaten_visualiserung.png
 ---
 align: center
 width: 60%
 name: forschungsdaten-generisch
 ---
+Visualiserung von Forschungsdaten, © <a href="https://forschungsdaten.info/fdm-allgemein/was-sind-forschungsdaten" class="external-link" target="_blank">forschungsdaten.info</a> CC0
 ```
-__________
 
 Was sind Forschungsdaten? Eine einheitliche Definition des Begriffes gibt es bisher nicht, denn von Fachdisziplin zu Fachdisziplin kann sich die Kategorisierung unterscheiden. 
-Grundsätzlich können jedoch Artefakte und Objekte als Forschungsdaten bezeichnet werden, die 1) **Gegenstand** eines Forschungsprozesses sind, 2) **während** eines Forschungsprozesses entstehen oder 3) sein **Ergebnis** sind.
+Grundsätzlich können jedoch Artefakte und Objekte als Forschungsdaten bezeichnet werden, die 1) **Gegenstand** eines Forschungsprozesses sind, 2) **während** eines Forschungsprozesses entstehen oder 3) sein **Ergebnis** sind {cite}`{vgl.}einwaechter_forschungsdaten_2019`.
 
 Darunter zählen beispielsweise:
 
@@ -109,7 +109,7 @@ Darunter zählen beispielsweise:
   </tbody>
 </table>
 
-Diese Daten können bereits von Grund auf, also in ihrem Ursprung, digital sein. Jedoch werden auch jene Materialien als Forschungsdaten betrachtet, die analog vorliegen und in späteren Stufen digital gespeichert und verarbeitet werden, wie beispielsweise handschriftliche Notizen oder Filmrollen. Die digitale “Re-mediatisierung” analogen Forschungsmaterials beschreibt Johanna Drucker als “practice of datafication”, also als computergestützte Prozessierung von analogem Material. Objekte und Artefakte, die bereits digital entstanden sind, bezeichnet sie als "born digital materials". Diese Unterscheidung spielt hinsichtlich Verarbeitung und Kontextualisierung der Daten eine wichtige Rolle. 
+Diese Daten können bereits von Grund auf, also in ihrem Ursprung, digital sein. Jedoch werden auch jene Materialien als Forschungsdaten betrachtet, die analog vorliegen und in späteren Stufen digital gespeichert und verarbeitet werden, wie beispielsweise handschriftliche Notizen oder Filmrollen. Die digitale “Re-mediatisierung” analogen Forschungsmaterials beschreibt Johanna Drucker als “practice of datafication”, also als computergestützte Prozessierung von analogem Material. Objekte und Artefakte, die bereits digital entstanden sind, bezeichnet sie als "born digital materials" {cite}`{vgl.}drucker_digital_humanities_2021`. Diese Unterscheidung spielt hinsichtlich Verarbeitung und Kontextualisierung der Daten eine wichtige Rolle. 
 
 (primär-sekundär)=
 ## Primär- und Sekundärdaten
@@ -117,12 +117,12 @@ Diese Daten können bereits von Grund auf, also in ihrem Ursprung, digital sein.
 Neben der Unterscheidung verschiedener Datentypen werden Forschungsdaten in Primär- oder Sekundärdaten unterteilt. Hier kann allgemein festgehalten werden: 
 
 1. **Primärdaten** sind "Rohdaten oder Urdaten", die in direktem Bezug zum Untersuchungsgegenstand erhoben werden und unverarbeitet vorliegen, d. h. noch unprozessiert sind. Beispiele wären Messwerte oder Fotografien aus eigenen Erhebungen. 
-````{margin}
-```{admonition} Metadaten
-:class: hinweis
-Mehr zum Thema Metadaten gibt es in Kapitel [Metadaten & Metadatenstandards](../03_metadaten/einführung_metadaten.md)
-```
-````
-2. **Sekundärdaten** hingegen sind Daten, die auf Basis vorhandener Primärdaten und Quellen analysiert und aggregiert, d. h. prozessiert werden. Typische Beispiele sind Transkriptionen von Audio- oder Videomaterial, Film- und Textkorpora oder Metadaten.
+2. **Sekundärdaten** gehen durch Verarbeitungsschritte aus Primärdaten hervor, etwa durch Auswertung, Aggregation oder Anonymisierung. Dazu können beispielsweise Transkriptionen oder Annotationen von Audio- und Videomaterial gehören {cite}`forschungsdateninfo_glossar_2026`.
 
 Doch wie sieht es mit dieser Unterscheidung in der Film- und Medienwissenschaft aus? Welche fachspezifischen Datentypen und Kategorisierungen können hier ausgemacht werden? Und wie kann die Frage nach der Erhebung oder Nachnutzung bereits bestehender Daten unter kritischen Gesichtspunkten beleuchtet werden?
+
+## Literatur
+
+```{bibliography}
+:filter: docname in docnames
+```
