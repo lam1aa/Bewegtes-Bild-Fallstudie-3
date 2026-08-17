@@ -1,8 +1,8 @@
 # Management von Forschungsdaten
 
-Um die Anforderungen guter wissenschaftlicher Praxis zu erfüllen, ist ein "planvoller Umgang" mit Forschungsdaten entscheidend. Im Sinne der Projektumsetzung beinhaltet dies ein umfassend dokumentiertes und nachvollziehbares Forschungsdatenmanagement (FDM). Doch was beinhaltet das **FDM**? 
+Um die Anforderungen guter wissenschaftlicher Praxis zu erfüllen, ist ein "planvoller Umgang" {cite}`Dierkes_2021` mit Forschungsdaten entscheidend. Im Sinne der Projektumsetzung beinhaltet dies ein umfassend dokumentiertes und nachvollziehbares Forschungsdatenmanagement (FDM). Doch was beinhaltet das **FDM**? 
 Laut dem RatSWD umfasst das FDM 
-> "[...] den gesamten Prozess, den Forschungsdaten in einem Forschungsprojekt durchlaufen – angefangen mit der Planung der Studie, über die Datengewinnung, die Datenaufbereitung und -analyse, die Speicherung der Daten und Metadaten, deren Archivierung und eventuellen Bereitstellung – bis hin zur Wiederverwendung und ggf. Löschung der Daten".
+> "[...] den gesamten Prozess, den Forschungsdaten in einem Forschungsprojekt durchlaufen – angefangen mit der Planung der Studie, über die Datengewinnung, die Datenaufbereitung und -analyse, die Speicherung der Daten und Metadaten, deren Archivierung und eventuellen Bereitstellung – bis hin zur Wiederverwendung und ggf. Löschung der Daten" {cite}`RatSWD_2023`.
 
 Dieser Prozess – also das Durchlaufen der einzelnen Schritte und Phasen der Forschungsdaten während der Projektumsetzung – wird oft auch als Forschungsdatenlebenszyklus bezeichnet.
 
@@ -14,13 +14,13 @@ name: forschungsdatenzyklus
 ---
 Forschungsdatenlebenszyklus
 ```
-Dieser Zyklus orientiert sich vorrangig am Management quantitativer Daten. Eine an die jeweilige Disziplin (oder gar an das spezifische Projekt) gerichtete Anpassung dieses Datenlebenszyklus ist jedoch notwendig. Denn Forschungsprozesse sind nicht linear, also keine "Aneinanderreihung von kategorisierbaren Aktivitäten". 
+Dieser Zyklus orientiert sich vorrangig am Management quantitativer Daten. Eine an die jeweilige Disziplin (oder gar an das spezifische Projekt) gerichtete Anpassung dieses Datenlebenszyklus ist jedoch notwendig. Denn Forschungsprozesse sind nicht linear, also keine "Aneinanderreihung von kategorisierbaren Aktivitäten" {cite}`Dierkes_2021`. 
 
 ```{admonition} Anpassung des Zyklus-Modells
 :class: important
-Sophie Einwächter weist darauf hin, dass eine Orientierung des FDMs an diesem Zyklus-Modell auch nicht bei jedem Projekt sinnvoll sein muss; es gibt beispielsweise auch Projekte, die mit der planmäßigen Löschung der Daten enden. Ebenso muss der Umgang mit personenbezogenen Daten hinsichtlich der Archivierung und Nachnutzung der Daten mitgedacht werden.
+Sophie Einwächter weist darauf hin, dass eine Orientierung des FDMs an diesem Zyklus-Modell auch nicht bei jedem Projekt sinnvoll sein muss; es gibt beispielsweise auch Projekte, die mit der planmäßigen Löschung der Daten enden {cite}`einwaechter_forschungsdaten_2019`. Ebenso muss der Umgang mit personenbezogenen Daten hinsichtlich der Archivierung und Nachnutzung der Daten mitgedacht werden.
 ```
- Wichtig ist also die kontextbezogene Auslegung und das Miteinbeziehen der projekteigenen Beschaffenheiten der Daten. Grundsätzlich bietet der Zyklus aber eine gute erste Basis für die Planung, da die Phasenhaftigkeit bzw. Prozesshaftigkeit der Arbeitsschritte adressiert wird.
+ Wichtig ist also die kontextbezogene Auslegung und das Miteinbeziehen der projekteigenen Beschaffenheiten der Daten. Grundsätzlich bietet der Zyklus aber eine gute erste Basis für die Planung, da die Phasenhaftigkeit bzw. Prozesshaftigkeit der Arbeitsschritte adressiert wird {cite}`Dierkes_2021`.
 
 (leitlinien-fair)=
  ## Leitlinien und FAIR-Prinzipien
@@ -33,7 +33,7 @@ Mehr Informationen zu den **FAIR-Prinzipien** gibt es in unserer <a href="https:
 ````
 
  Allgemeine Anforderungen und Leitlinien guter wissenschaftlicher Praxis helfen, das FDM zu strukturieren und wesentliche Aspekte zu berücksichtigen. Die Behandlung der Forschungsdaten nach den sogenannten **FAIR-Prinzipien** ist dabei ein zentraler Bestandteil.
- FAIR steht für **F**indable, **A**ccessible, **I**nteroperable und **R**eusable, zusammengefasst heißt das:
+ FAIR steht für **F**indable, **A**ccessible, **I**nteroperable und **R**eusable, zusammengefasst heißt das {cite:p}`GOFAIR_oJ`:
 
  1. **F** = Die Daten sollten auffindbar und identifizierbar sein (DOI, Metadaten)
  2. **A** = Die Daten sollten so offen und zugänglich wie möglich sein (offene Protokolle, APIs, Repositorien)
@@ -48,7 +48,7 @@ name: fair-prinzipien
 ---
 FAIR-Prinzipien
 ```
-Gleichsam sollten auch immer Validität und Reliabilität der Daten gewährleistet werden.
+Gleichsam sollten auch immer Validität und Reliabilität der Daten gewährleistet werden {cite}`dang_forschungsdatenmanagement_2020`.
 
 (leitlinien-dfg)=
 ## DFG-Leitlinien
@@ -59,7 +59,7 @@ Gleichsam sollten auch immer Validität und Reliabilität der Daten gewährleist
 Die Leitlinien richten sich insbesondere an Antragstellende für Forschungsprojekte.
 ```
 ````
-Neben der Berücksichtigung der FAIR-Prinzipien hat die DFG disziplinübergreifende [Leitlinien](../assets/02_forschungsdaten_fdm/doc_k02_dfg_leitlinien.pdf) zum Umgang mit Forschungsdaten formuliert. Kernpunkte dieser Empfehlungen sind die langfristige Sicherung und Bereitstellung der Forschungsdaten. Indem die Transparenz und Qualität wissenschaftlicher Arbeit gestärkt werden, können wichtige Anschlussmöglichkeiten (ganz im Sinne des wissenschaftlichen Austauschs und der Nachnutzung) geschaffen werden.
+Neben der Berücksichtigung der FAIR-Prinzipien hat die DFG disziplinübergreifende [Leitlinien](../assets/02_forschungsdaten_fdm/doc_k02_dfg_leitlinien.pdf) zum Umgang mit Forschungsdaten formuliert. Kernpunkte dieser Empfehlungen sind die langfristige Sicherung und Bereitstellung der Forschungsdaten. Indem die Transparenz und Qualität wissenschaftlicher Arbeit gestärkt werden, können wichtige Anschlussmöglichkeiten (ganz im Sinne des wissenschaftlichen Austauschs und der Nachnutzung) geschaffen werden {cite:p}`DFG_2015`.
 
 Die drei Kernpunkte fassen wir hier kurz zusammen:
 
@@ -83,6 +83,10 @@ Die drei Kernpunkte fassen wir hier kurz zusammen:
 * <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">QUADRIGA Fallstudie: "Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht"</a>
 ```
 
+## Literatur
 
+```{bibliography}
+:filter: docname in docnames
+```
 
 
