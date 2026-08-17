@@ -10,7 +10,7 @@ Visualiserung von Forschungsdaten, © <a href="https://forschungsdaten.info/fdm-
 ```
 
 Was sind Forschungsdaten? Eine einheitliche Definition des Begriffes gibt es bisher nicht, denn von Fachdisziplin zu Fachdisziplin kann sich die Kategorisierung unterscheiden. 
-Grundsätzlich können jedoch Artefakte und Objekte als Forschungsdaten bezeichnet werden, die 1) **Gegenstand** eines Forschungsprozesses sind, 2) **während** eines Forschungsprozesses entstehen oder 3) sein **Ergebnis** sind {cite}`{vgl.}einwaechter_forschungsdaten_2019`.
+Grundsätzlich können jedoch Artefakte und Objekte als Forschungsdaten bezeichnet werden, die 1) **Gegenstand** eines Forschungsprozesses sind, 2) **während** eines Forschungsprozesses entstehen oder 3) sein **Ergebnis** sind {cite}`einwaechter_forschungsdaten_2019`.
 
 Darunter zählen beispielsweise:
 
@@ -109,7 +109,7 @@ Darunter zählen beispielsweise:
   </tbody>
 </table>
 
-Diese Daten können bereits von Grund auf, also in ihrem Ursprung, digital sein. Jedoch werden auch jene Materialien als Forschungsdaten betrachtet, die analog vorliegen und in späteren Stufen digital gespeichert und verarbeitet werden, wie beispielsweise handschriftliche Notizen oder Filmrollen. Die digitale “Re-mediatisierung” analogen Forschungsmaterials beschreibt Johanna Drucker als “practice of datafication”, also als computergestützte Prozessierung von analogem Material. Objekte und Artefakte, die bereits digital entstanden sind, bezeichnet sie als "born digital materials" {cite}`{vgl.}drucker_digital_humanities_2021`. Diese Unterscheidung spielt hinsichtlich Verarbeitung und Kontextualisierung der Daten eine wichtige Rolle. 
+Diese Daten können bereits von Grund auf, also in ihrem Ursprung, digital sein. Jedoch werden auch jene Materialien als Forschungsdaten betrachtet, die analog vorliegen und in späteren Stufen digital gespeichert und verarbeitet werden, wie beispielsweise handschriftliche Notizen oder Filmrollen. Die digitale “Re-mediatisierung” analogen Forschungsmaterials beschreibt Johanna Drucker als “practice of datafication”, also als computergestützte Prozessierung von analogem Material. Objekte und Artefakte, die bereits digital entstanden sind, bezeichnet sie als "born digital materials" {cite}`drucker_digital_humanities_2021`. Diese Unterscheidung spielt hinsichtlich Verarbeitung und Kontextualisierung der Daten eine wichtige Rolle. 
 
 (primär-sekundär)=
 ## Primär- und Sekundärdaten

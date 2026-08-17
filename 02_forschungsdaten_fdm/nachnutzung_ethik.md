@@ -2,7 +2,7 @@
 
 Ergänzend zur eigenen Datenerhebung besteht ebenso die Möglichkeit, auf bereits vorhandene oder veröffentlichte Forschungsdaten anderer Projekte zurückzugreifen.
 
-Die Nachnutzung solcher Daten kann den Forschungsprozess erheblich bereichern, neue kreative Wissensdynamiken entstehen lassen und den Austausch zwischen verschiedenen Institutionen und Akteur:innen anregen. Der Prozess wissenschaftlicher Erkenntnisgewinnung erweist sich als umso stabiler und nachhaltiger, je mehr auf dem vorhandenen Wissen der Fachdisziplin aufgebaut wird; dies schließt die Miteinbeziehung oder gar Neuperspektivierung bereits existierender Daten ein.
+Die Nachnutzung solcher Daten kann den Forschungsprozess erheblich bereichern, neue kreative Wissensdynamiken entstehen lassen und den Austausch zwischen verschiedenen Institutionen und Akteur:innen anregen {cite}`dang_forschungsdatenmanagement_2020`. Der Prozess wissenschaftlicher Erkenntnisgewinnung erweist sich als umso stabiler und nachhaltiger, je mehr auf dem vorhandenen Wissen der Fachdisziplin aufgebaut wird; dies schließt die Miteinbeziehung oder gar Neuperspektivierung bereits existierender Daten ein.
 So können etwa vergleichende Analysen durchgeführt werden, Annotationspraktiken angeeignet, übernommen und erweitert oder bestehende Datensätze weiterentwickelt werden. Voraussetzung für eine “kreative und inklusive Wissensproduktion” ist die uneingeschränkte Verfügbarmachung von Daten, so Dang. Welche Prinzipien hierbei eine Rolle spielen, werden wir im Kapitel [Forschungsdatenmanagement](../02_forschungsdaten_fdm/forschungsdatenmanagement.md) diskutieren.
 
 ## Arten der Nachnutzung
@@ -44,4 +44,8 @@ Wie bei anderen Datentypen gilt auch hier: Nachgenutzte Daten sind nie **neutral
 
 Neben der Betrachtung der Relevanz und des Umgangs mit nachgenutztem Datenmaterial richtet sich der Fokus im nächsten Abschnitt auf das Forschungsdatenmanagement selbst.
 
+## Literatur
 
+```{bibliography}
+:filter: docname in docnames
+```
