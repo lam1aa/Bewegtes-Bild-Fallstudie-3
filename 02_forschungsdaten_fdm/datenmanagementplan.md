@@ -1,12 +1,12 @@
 # Datenmanagementplan
 
 Um einerseits die Organisation des FDMs zu bewerkstelligen und andererseits klare, nachvollziehbare Strukturen zu etablieren, empfiehlt es sich, einen sogenannten **Datenmanagementplan** (kurz: DMP) zu erstellen. In einem DMP können die bisher weitestgehend grob bzw. abstrakt zusammengefassten Phasen des Datenlebenszyklus systematisch dokumentiert und organisiert werden. 
-Der DMP muss hierbei als ein "living document", also ein lebendiges Dokument, verstanden werden, denn sowohl die eigentliche Forschung selbst als auch das FDM sind komplex und (besonders bei Langzeitprojekten) hochdynamisch; selten verlaufen diese Prozesse linear. 
+Der DMP muss hierbei als ein "living document", also ein lebendiges Dokument, verstanden werden, denn sowohl die eigentliche Forschung selbst als auch das FDM sind komplex und (besonders bei Langzeitprojekten) hochdynamisch; selten verlaufen diese Prozesse linear {cite}`RatSWD_2023`. 
 Im Wesentlichen sind DMPs von Menschen lesbare Dokumente, wobei es mittlerweile auch eine Reihe von Entwicklungen hin zu automatisierten und maschinenlesbaren Formaten gibt. 
 
 ## Inhalte eines DMPs
 
-Die konkreten Inhalte eines DMPs sind nicht normiert. Es gibt sowohl eine Reihe institutioneller Handreichungen und Vorlagen als auch digitale Werkzeuge, mit denen DMPs erstellt werden können. Für einen ersten Überblick fassen wir die wichtigsten Inhalte hier kurz zusammen:
+Die konkreten Inhalte eines DMPs sind nicht normiert. Es gibt sowohl eine Reihe institutioneller Handreichungen und Vorlagen als auch digitale Werkzeuge, mit denen DMPs erstellt werden können. Für einen ersten Überblick fassen wir die wichtigsten Inhalte hier kurz zusammen {cite:p}`{vgl. für einen Überblick auch }Dierkes_2021,RatSWD_2023`:
 
 ```{figure} ../assets/02_forschungsdaten_fdm/abb_k02_dmp.png
 ---
@@ -130,4 +130,10 @@ Ein Beispiel dafür, wie ein ausgearbeiteter DMP aussehen kann, findet sich im K
 * <a href="https://forschungsdaten.info/themen/informieren-und-planen/datenmanagementplan/" class="external-link" target="_blank">forschungsdaten.info</a>
 * <a href="https://www.tu.berlin/ub/szf/nachrichtendetails/leitfaden-zur-erstellung-eines-datenmanagementplans-verfuegbar" class="external-link" target="_blank">Leitfaden TU Berlin</a>
 * <a href="https://libereurope.eu/working-group/research-data-management/plans/" class="external-link" target="_blank">LIBER Research Data Management Working Group</a>
+```
+
+## Literatur
+
+```{bibliography}
+:filter: docname in docnames
 ```
