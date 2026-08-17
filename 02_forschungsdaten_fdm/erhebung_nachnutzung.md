@@ -35,12 +35,12 @@ Hierzu zählen insbesondere:
 * Sogenannte **Data Dumps** offener Filmdatenbanken wie <a href="https://www.omdb.org/en/us/content/Help:DataDownload" class="external-link" target="_blank">OMDB</a> oder <a href="https://grouplens.org/datasets/movielens/" class="external-link" target="_blank">Movielens</a>.
 ```{admonition} Was sind Data Dumps?
 :class: hinweis, dropdown
-Data Dumps sind große bereitgestellte Datenmengen, die von einem Computersystem, einer Datei oder einem Gerät auf ein anderes übertragen werden.
+Data Dumps sind große bereitgestellte Datenmengen, die von einem Computersystem, einer Datei oder einem Gerät auf ein anderes übertragen werden {cite}`{vgl.}Cambridge_Dictionary_Data_Dump`.
 ```
 * Technisch versierte Nutzer:innen können **API-Schnittstellen** kommerzieller und nicht-kommerzieller Dienste nutzen –  z. B. <a href="https://developer.imdb.com/non-commercial-datasets/" class="external-link" target="_blank">IMDb Non-Commercial Datasets</a>, <a href="https://developer.themoviedb.org/docs/getting-started" class="external-link" target="_blank">The Movie Database</a> (TMDb –  für nicht-kommerzielle Nutzung) oder die <a href="https://opensubtitles.stoplight.io/docs/opensubtitles-api/e3750fd63a100-getting-started)" class="external-link" target="_blank">OpenSubtitles</a> REST API.
 ```{admonition} Was sind API-Schnittstellen?
 :class: hinweis, dropdown
-Eine API (Application Programming Interface) ist eine Programmierschnittstelle zwischen verschiedenen Softwareanwendungen. Sie ermöglicht die automatisierte Kommunikation zwischen Programmen, um Daten oder Funktionen auszutauschen, also eine Form der "Maschine-zu-Maschine"-Kommunikation. Über APIs können Entwickler:innen auf Inhalte, Daten oder Dienste anderer Systeme zugreifen und diese in eigene Anwendungen integrieren.
+Eine API (Application Programming Interface) ist eine Programmierschnittstelle zwischen verschiedenen Softwareanwendungen. Sie ermöglicht die automatisierte Kommunikation zwischen Programmen, um Daten oder Funktionen auszutauschen, also eine Form der "Maschine-zu-Maschine"-Kommunikation. Über APIs können Entwickler:innen auf Inhalte, Daten oder Dienste anderer Systeme zugreifen und diese in eigene Anwendungen integrieren {cite}`{vgl.}Poggel_2025`.
 ```
 * Ebenso bietet beispielsweise das Portal <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" class="external-link" target="_blank">Wikidata</a> mittes eines <a href="https://query.wikidata.org/" class="external-link" target="_blank">SPARQL-Endpoints</a> semantische Abfragen an. Anleitungen und Abfragebeispiele sind in den Dokumentationen der Seite zu finden. 
 
@@ -54,7 +54,7 @@ Beispiel einer SPARQL-Abfrage mit dem Schlagwort "climate change"
 ```
 ```{admonition} Was ist ein SPARQL-Endpoint?
 :class: hinweis, dropdown
-SPARQL ist eine "graphenbasierte Abfragesprache", durch die Daten aus der webbasierten Beschreibungssprache RDF (Resource Description Framework) abgefragt werden können. Ein SPARQL-Endpoint ist eine URL, über die Benutzer:innen diese Abfragen stellen können. Aus großen Datenmengen, die im RDF-Format vorliegen, können mit SPARQL-Abfragen also gezielt Informationen abgerufen werden.
+SPARQL ist eine "graphenbasierte Abfragesprache", durch die Daten aus der webbasierten Beschreibungssprache RDF (Resource Description Framework) abgefragt werden können. Ein SPARQL-Endpoint ist eine URL, über die Benutzer:innen diese Abfragen stellen können. Aus großen Datenmengen, die im RDF-Format vorliegen, können mit SPARQL-Abfragen also gezielt Informationen abgerufen werden {cite}`{vgl.}Wikipedia_SPARQL_2026`.
 ```
 ### Erhebung mit Webscrapingverfahren
 ⟶ <span style="background-color:#FF7F7F;">**Niveau: Expert:in**</span> <br>
@@ -66,7 +66,7 @@ In jedem Fall sind **Lizenzbedingungen**, **Nutzungsrechte** und **Datenschutz**
 
 ```{admonition} Was ist eine "robots.txt"?
 :class: hinweis, dropdown
-Eine `robots.txt` ist eine einfache Textdatei in dem Hauptverzeichnis einer Website, in der vorgegeben wird, aus welchen Bereichen der Website Daten extrahiert werden dürfen und aus welchen nicht. Dort wird ebenfalls das Verhalten der Datenextraktion selbst festgelegt - insbesondere in welchen zeitlichen Abständen das Scraping erlaubt ist, um den Server nicht zu überlasten.
+Eine `robots.txt` ist eine einfache Textdatei in dem Hauptverzeichnis einer Website. Darin können Websiterbetreiber:innen vorgegeben, aus welchen Bereichen automatisierte Programme Daten auslesen können und aus welchen nicht. Teilweise enthält sie auch Angaben dazu, wie viel Zeit zwischen einzelnen Anfragen liegen soll, damit der Server nicht überlastet wird {cite}`{vgl.}Koster_et_al_2022,Poggel_2025`.
 ```
 
 ```{figure} ../assets/02_forschungsdaten_fdm/abb_k02_webscraping.png
@@ -83,3 +83,10 @@ Illustratives Beispiel eines Webscraping-Skripts
 Detaillierte Informationen zum Thema Webscraping gibt es in unserer
  <a href="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/intro.html" class="external-link" target="_blank">QUADRIGA Fallstudie: "Quantitative Analyse der kommunikativen Barrierearmut des Berliner Senats (2011-2024). Eine Fallstudie"</a>
  ```
+
+## Literatur
+
+```{bibliography}
+:filter: docname in docnames
+```
+
