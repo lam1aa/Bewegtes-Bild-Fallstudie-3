@@ -1,17 +1,18 @@
 #  Strategien, Perspektiven, Publikationswege
 
-Unter Datenpublikation wird die "referenzierbare Beschreibung von Datensätzen" verstanden, über die Daten allgemein zugänglich gemacht werden. Neben den Forschungsdaten selbst sind auch deren Beschreibungen (deskriptive Metadaten), Dokumentationen, Codes oder Workflows ein wichtiger Bestandteil der Datenpublikation.
+Unter Datenpublikation wird die "referenzierbare Beschreibung von Datensätzen" verstanden, über die Daten allgemein zugänglich gemacht werden {cite}`dang_forschungsdatenmanagement_2020`. Neben den Forschungsdaten selbst sind auch deren Beschreibungen (deskriptive Metadaten), Dokumentationen, Codes oder Workflows ein wichtiger Bestandteil der Datenpublikation {cite}`Forschungsdatenorg_2015`.
 
-```{image} ../assets/04_einführung_publikation/abb_k04_dataset.png
+```{figure} ../assets/04_einführung_publikation/abb_k04_dataset.png
 ---
 align: center
 width: 87%
-name: dataset
+name: dataset-generische-visualisierung
 ---
+Dataset - alles was es für die Publikation braucht
 ```
 ```{admonition} Daten als Forschungsergebnisse
 :class: important
-Daten sind Forschungsergebnisse und sollten daher, wenn möglich, publiziert werden. Denn sie fördern den Austausch zwischen Institutionen, Projekten und Forschenden und können zu einer heterogenen und kreativen Wissensproduktion beitragen.
+Daten sind Forschungsergebnisse und sollten daher, wenn möglich, publiziert werden. Denn sie fördern den Austausch zwischen Institutionen, Projekten und Forschenden und können zu einer heterogenen und kreativen Wissensproduktion beitragen {cite}`CRDA_2025`.
 ```
 In der Filmwissenschaft sind Daten einerseits häufig an Korpusentscheidungen gebunden (Auswahl der Filme und ihre Beziehung zueinander), andererseits sind sowohl Annotations- oder Kodierarbeiten als auch bereits Extraktionen (Shotlisten, Transkripte) Forschungsergebnisse. Eine ausführliche Beschreibung und Auflistung filmwissenschaftlicher Forschungsdaten findet sich in Kapitel [Forschungsdaten in der Film- & Medienwissenschaft](../02_forschungsdaten_fdm/forschungsdaten_fiwi.md).
 
@@ -28,3 +29,9 @@ Welche Publikationswege sinnvoll sind, hängt von verschiedenen Faktoren ab. Ori
 Ein solides [Forschungsdatenmanagement](../02_forschungsdaten_fdm/forschungsdatenmanagement.md) (FDM) unter Einbehaltung der {ref}`FAIR-Prinzipien <leitlinien-fair>` und {ref}`Best Practices <fiwi-best-practices>`  erleichtern die Publikation.
 
 In dieser Lerneinheit werden Publikationswege, -orte und -formate anhand konkreter Praxisbeispiele skizziert und anschließend durch eine Übersicht an Ressourcen sowie Orientierungshilfen zur Publikation ergänzt.
+
+## Literatur
+
+```{bibliography}
+:filter: docname in docnames
+```
