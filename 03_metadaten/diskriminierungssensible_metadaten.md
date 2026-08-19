@@ -279,3 +279,9 @@ F: Rollen, Gewerke
 
 [^1]: Wir haben uns dazu entschieden, auf die Ausschreibung des N-Wortes zu verzichten.
 [^2]: J*d Süß ist ein antisemitischer Hetzfilm, dessen Titel eine antisemitische Fremdbezeichnung verwendet. Auch hier verzichten wir auf die Ausschreibung des ursprünglichen Titels.
+
+## Literatur
+
+```{bibliography}
+:filter: docname in docnames
+```

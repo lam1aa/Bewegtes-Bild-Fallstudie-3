@@ -16,20 +16,20 @@ Mehr Infos zum Thema `XML` gibt es im {ref}`vorigem Kapitel <markup-sprachen>`.
 ````
 <br>
 
-Das System der Strukturierung von Metadaten wird als **Metadatenstandard** bezeichnet. Metadatenstandards sind also Klassifizierungssysteme. Häufig liegen diese Standards in `XML` vor und legen bereits eine Struktur fest, wobei der Einsatz von kontrolliertem Vokabular bei der Standardisierung der Inhalte hilft (z. B. <a href="https://www.getty.edu/research/tools/vocabularies/" class="external-link" target="_blank">Getty Thesaurus</a>).
+Das System der Strukturierung von Metadaten wird als **Metadatenstandard** bezeichnet {cite}`Drucker_2021`. Metadatenstandards sind also Klassifizierungssysteme. Häufig liegen diese Standards in `XML` vor und legen bereits eine Struktur fest, wobei der Einsatz von kontrolliertem Vokabular bei der Standardisierung der Inhalte hilft (z. B. <a href="https://www.getty.edu/research/tools/vocabularies/" class="external-link" target="_blank">Getty Thesaurus</a>).
 
-> "Dies reicht von kontrollierten Wortlisten, die fehlerhafte oder unterschiedliche Schreibweisen von Konzepten vereinheitlichen, über Taxonomien und Thesauri, die Über- und Unterbegriffe wie auch Synonyme zu Konzepten enthalten, bis hin zu Ontologien, die Eigenschaften und Relationen zwischen Konzepten modellieren."
+> "Dies reicht von kontrollierten Wortlisten, die fehlerhafte oder unterschiedliche Schreibweisen von Konzepten vereinheitlichen, über Taxonomien und Thesauri, die Über- und Unterbegriffe wie auch Synonyme zu Konzepten enthalten, bis hin zu Ontologien, die Eigenschaften und Relationen zwischen Konzepten modellieren." {cite}`ForschungsdatenInfo_2026`
 
 ```{admonition} Was sind Taxonomien und Ontologien?
 :class: hinweis, dropdown
-Taxonomien sind Benennungssysteme, bestehend aus kontrolliertem Vokabular, um Dinge und Objekte zu bezeichnen. Ontologien sind Wissensmodelle, die Informationen als relationale Strukturen organisieren und Konzepte systematisieren.
+Taxonomien sind Benennungssysteme, bestehend aus kontrolliertem Vokabular, um Dinge und Objekte zu bezeichnen. Ontologien sind Wissensmodelle, die Informationen als relationale Strukturen organisieren und Konzepte systematisieren {cite}`Drucker_2021`.
 ```
 Es gibt eine Vielzahl von fächerübergreifenden, generischen Metadatenstandards. Zwei der bekanntesten stellen wir kurz vor. 
 
 (dublin-core-header)=
 ## Dublin Core
 
-Ein weit verbreiteter, generischer Standard zur Beschreibung von Dokumenten und anderen Objekten ist der sogenannte <a href="https://www.dublincore.org/" class="external-link" target="_blank">Dublin Core</a>. Er besteht aus einem Set aus 15 allgemeinen, weit verbreiteten <a href="https://www.dublincore.org/specifications/dublin-core/usageguide/elements/" class="external-link" target="_blank">Elementen </a> (siehe auch <a href="https://www.ietf.org/rfc/rfc2413.txt" class="external-link" target="_blank">hier</a>), darunter beispielsweise `title`, `creator`, `subject` oder `description`, und wird vielseitig für verschiedenste Ressourcen eingesetzt  – von digitalen Objekten in Repositorien über Webseiten bis hin zu Bibliotheksbeständen.
+Ein weit verbreiteter, generischer Standard zur Beschreibung von Dokumenten und anderen Objekten ist der sogenannte <a href="https://www.dublincore.org/" class="external-link" target="_blank">Dublin Core</a>. Er besteht aus einem Set aus 15 allgemeinen, weit verbreiteten <a href="https://www.dublincore.org/specifications/dublin-core/usageguide/elements/" class="external-link" target="_blank">Elementen </a> (siehe auch <a href="https://www.ietf.org/rfc/rfc2413.txt" class="external-link" target="_blank">hier</a>), darunter beispielsweise `title`, `creator`, `subject` oder `description`, und wird vielseitig für verschiedenste Ressourcen eingesetzt  – von digitalen Objekten in Repositorien über Webseiten bis hin zu Bibliotheksbeständen {cite}`Dierkes_2021`.
 
 ```{figure} ../assets/03_metadaten/abb_k03_dublin_core.png
 ---
@@ -142,7 +142,7 @@ Dublin Core und die 15 Elemente
 (data-cite-header)=
 ## DataCite 
 
-Das <a href="https://schema.datacite.org/" class="external-link" target="_blank">DataCite</a> Schema ist eine strukturierte Liste bestehend aus Kern-Metadaten und ihren Eigenschaften. Es wird insbesondere für die bibliographische Beschreibung von Forschungsdaten, für Publikation, Zitation sowie die Registrierung von DOIs genutzt. Bestimmte Elemente, wie z. B. `Autor` oder `Titel`, sind verpflichtende Bestandteile, andere Elemente, wie z. B. `Fachbereich` oder `Beschreibung`, werden empfohlen oder sind optional. Das Metadatenschema sowie praxisnahe <a href="https://schema.datacite.org/meta/kernel-4.6/" class="external-link" target="_blank">Anwendungsbeispiele </a> werden in `xml` und `json` zur Verfügung gestellt. 
+Das <a href="https://schema.datacite.org/" class="external-link" target="_blank">DataCite</a> Schema ist eine strukturierte Liste bestehend aus Kern-Metadaten und ihren Eigenschaften. Es wird insbesondere für die bibliographische Beschreibung von Forschungsdaten, für Publikation, Zitation sowie die Registrierung von DOIs genutzt. Bestimmte Elemente, wie z. B. `Autor` oder `Titel`, sind verpflichtende Bestandteile, andere Elemente, wie z. B. `Fachbereich` oder `Beschreibung`, werden empfohlen oder sind optional. Das Metadatenschema sowie praxisnahe <a href="https://schema.datacite.org/meta/kernel-4.6/" class="external-link" target="_blank">Anwendungsbeispiele </a> werden in `xml` und `json` zur Verfügung gestellt {cite}`DataCite_2024`. 
 Ein DataCite <a href="https://dhvlab.gwi.uni-muenchen.de/datacite-generator/" class="external-link" target="_blank">Metadatengenerator </a> (aktuell für die Schema Version 4.6.) der Ludwig-Maximilians-Universität München generiert durch Eingabe der Metadatenfelder automatisch ein DataCite-`xml`-Schema. Dieses kann heruntergeladen und in einem Repositorium der Wahl den Forschungsdaten beigefügt werden. Mehr Informationen zur Anwendung gibt es auf der 
 <a href="https://github.com/UB-LMU/datacite-metadata-generator" class="external-link" target="_blank">GitHub-Page</a>.
 
@@ -229,7 +229,7 @@ Beide Metadatenstandards sind auch in den Digital Humanities etabliert und biete
 
 </div>
 
-Allgemeine, generische Schemata sind ein guter Einstieg für Projektanfänge. Häufig decken sie jedoch die Erfordernisse des jeweiligen Fachs nicht genügend ab. In der Praxis werden Metadatenschemata daher konfiguriert oder angepasst, um die Fach- bzw. Projektspezifika zu adressieren. Daran anknüpfend rückt im nächsten Kapitel die Filmwissenschaft in den Fokus, um fachspezifische Metadatenstandards exemplarisch zu vertiefen.
+Allgemeine, generische Schemata sind ein guter Einstieg für Projektanfänge. Häufig decken sie jedoch die Erfordernisse des jeweiligen Fachs nicht genügend ab. In der Praxis werden Metadatenschemata daher konfiguriert oder angepasst, um die Fach- bzw. Projektspezifika zu adressieren {cite}`Drucker_2021`. Daran anknüpfend rückt im nächsten Kapitel die Filmwissenschaft in den Fokus, um fachspezifische Metadatenstandards exemplarisch zu vertiefen.
 
 ```{admonition} Weiterführende Links
 :class: seealso
@@ -238,4 +238,10 @@ Allgemeine, generische Schemata sind ein guter Einstieg für Projektanfänge. H�
 * <a href="https://www.fu-berlin.de/sites/forschungsdatenmanagement/in-der-praxis/durchfuehrung/metadaten.html" class="external-link" target="_blank">Metadaten (FU Berlin)</a>
 * <a href="https://www.cms.hu-berlin.de/de/dl/dataman/teilen/dokumentation" class="external-link" target="_blank">Dokumentation und Metadaten (HU Berlin)</a>
 * <a href="https://www.zedif.uni-jena.de/en/210/metadata-and-metadata-standards" class="external-link" target="_blank">Metadata and Metadata Standards (Friedrich-Schiller-Universität Jena)</a>
+```
+
+## Literatur
+
+```{bibliography}
+:filter: docname in docnames
 ```

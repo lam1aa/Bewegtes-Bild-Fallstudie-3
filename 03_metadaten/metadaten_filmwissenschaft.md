@@ -16,7 +16,7 @@ Wie ein Filmkorpus und zugehörige Datensätze am konkreten Projektbeispiel durc
 ```
 ````
 
-Metadatenstandards in der Filmwissenschaft werden vor allem von Filmarchiven, Kinematheken, Fernsehanstalten und Bibliotheken genutzt, um Filme, Fassungen und Materialien (dazu zählen auch die physischen Trägermedien wie z. B. DVD oder Blu Ray) beschreibbar und auffindbar zu machen. Aber auch Forschungsprojekte greifen auf die Fachstandards zurück, um beispielsweise Filmkorpora durch Metadaten zu charakterisieren.
+Metadatenstandards in der Filmwissenschaft werden vor allem von Filmarchiven, Kinematheken, Fernsehanstalten und Bibliotheken genutzt, um Filme, Fassungen und Materialien (dazu zählen auch die physischen Trägermedien wie z. B. DVD oder Blu Ray) beschreibbar und auffindbar zu machen {cite}`Schild_2017`. Aber auch Forschungsprojekte greifen auf die Fachstandards zurück, um beispielsweise Filmkorpora durch Metadaten zu charakterisieren.
 
 Gleichzeitig sind Metadateninformationen zu Filmen auch für die Filmrecherche nicht unerheblich. Dabei können die Recherchegründe variieren – von der Suche nach filmbegleitendem Material, Angaben zu beteiligten Personen und Gewerken bis zur Suche nach Aufführungsrechten, historischen Informationen oder Nutzungsrechten. Online-Kataloge und Filmdatenbanken, wie beispielsweise die der <a href="https://www.deutsche-kinemathek.de/de" class="external-link" target="_blank">Deutschen Kinemathek</a> oder dem <a href="https://www.bfi.org.uk/" class="external-link" target="_blank">BFI</a> (British Film Institute), ermöglichen einen mehrdimensionalen Zugriff auf diese Informationen.
 
@@ -29,7 +29,7 @@ name: bfi-katalog
 Ergebnisansicht mit der Schlagwortsuche "climate change" aus dem Katalog des <a href="https://www.bfi.org.uk/" class="external-link" target="_blank">BFI</a>
 ```
 
-Dabei spielen Normdaten und Standardisierungen eine wichtige Rolle. Zwei (insbesondere in der EU) sehr bekannte Metadatenstandards für Filme sind das <a href="https://www.fiafnet.org/pages/e-resources/cataloguing-manual.html" class="external-link" target="_blank">FIAF Cataloguing Rules & Moving Image Cataloguing Manual</a> sowie die beiden Metadatenstandards <a href="https://filmstandards.org/fsc/index.php/EN_15744" class="external-link" target="_blank">EN 15744</a> und <a href="https://filmstandards.org/fsc/index.php?title=EN_15907" class="external-link" target="_blank">EN 15907</a>. Ziel der Standardisierung ist es, den Austausch von filmographischen Informationen zu fördern und einen normierten Datenaustausch zwischen Institutionen, aber auch Nutzenden zu ermöglichen.
+Dabei spielen Normdaten und Standardisierungen eine wichtige Rolle. Zwei (insbesondere in der EU) sehr bekannte Metadatenstandards für Filme sind das <a href="https://www.fiafnet.org/pages/e-resources/cataloguing-manual.html" class="external-link" target="_blank">FIAF Cataloguing Rules & Moving Image Cataloguing Manual</a> sowie die beiden Metadatenstandards <a href="https://filmstandards.org/fsc/index.php/EN_15744" class="external-link" target="_blank">EN 15744</a> und <a href="https://filmstandards.org/fsc/index.php?title=EN_15907" class="external-link" target="_blank">EN 15907</a>. Ziel der Standardisierung ist es, den Austausch von filmographischen Informationen zu fördern und einen normierten Datenaustausch zwischen Institutionen, aber auch Nutzenden zu ermöglichen {cite}`Schild_2017`.
 
 ## EN 15744 & EN 15907
 
@@ -73,7 +73,7 @@ Für eine klare Identifizierung filmischer Werke sind [persistente Identifikator
 ```
 ```{admonition} Exkurs: Werk – Variante – Manifestation – Exemplar
 :class: hinweis
-Die vier Begriffe `Werk`, `Variante`, `Manifestation` und `Exemplar` stammen aus dem <a href="https://repository.ifla.org/items/ffb50f46-46ab-4ec4-8970-b00e2b0d2811" class="external-link" target="_blank">FRBR-Modell </a> (Functional Requirements for Bibliographic Records) und wurden für die Filmarchivierung im EN 15907-Standard übernommen. Sie ermöglichen Filmarchiven, Kinematheken und Mediatheken die komplexen und mehrschichtigen Ebenen zwischen der künstlerischen bzw. schöpferischen Idee (Werk), seinen verschiedenen inhaltlichen Fassungen (Variante), den technischen Ausgabeformaten (Manifestation) und physischen und digitalen Kopien (Exemplar) zu erfassen.
+Die vier Begriffe `Werk`, `Variante`, `Manifestation` und `Exemplar` stammen aus dem <a href="https://repository.ifla.org/items/ffb50f46-46ab-4ec4-8970-b00e2b0d2811" class="external-link" target="_blank">FRBR-Modell </a> (Functional Requirements for Bibliographic Records) und wurden für die Filmarchivierung im EN 15907-Standard übernommen. Sie ermöglichen Filmarchiven, Kinematheken und Mediatheken die komplexen und mehrschichtigen Ebenen zwischen der künstlerischen bzw. schöpferischen Idee (Werk), seinen verschiedenen inhaltlichen Fassungen (Variante), den technischen Ausgabeformaten (Manifestation) und physischen und digitalen Kopien (Exemplar) zu erfassen {cite}`IFLA_2009`.
 
 **Beispiel**:
 
@@ -87,7 +87,7 @@ Für kleinere filmwissenschaftliche Projekte mit überschaubaren Korpora kann ei
 
 ## FIAF 
 
-Die <a href="https://www.fiafnet.org/" class="external-link" target="_blank">FIAF</a> (International Federation of Film Archives) hat umfassende Katalogisierungsregeln aufgestellt und diese als <a href="https://www.fiafnet.org/pages/e-resources/cataloguing-manual.html" class="external-link" target="_blank">Manual</a> in verschiedenen Sprachen zur Verfügung gestellt. Die Regeln orientieren sich dabei explizit am FBRB-Modell und den EN-Standards zur Erschließung von Filmwerken und sind insbesondere in vielen Filmarchiven die praktische Arbeitsgrundlage. 
+Die <a href="https://www.fiafnet.org/" class="external-link" target="_blank">FIAF</a> (International Federation of Film Archives) hat umfassende Katalogisierungsregeln aufgestellt und diese als <a href="https://www.fiafnet.org/pages/e-resources/cataloguing-manual.html" class="external-link" target="_blank">Manual</a> in verschiedenen Sprachen zur Verfügung gestellt. Die Regeln orientieren sich dabei explizit am FBRB-Modell und den EN-Standards zur Erschließung von Filmwerken und sind insbesondere in vielen Filmarchiven die praktische Arbeitsgrundlage {cite}`Fairbairn_2022`. 
 
 ````{margin}
 ➡️ Zum Vergrößern bitte draufklicken!
@@ -135,6 +135,12 @@ Die hier sichtbare Trennung von Werksebene (Titel, Regie), inhaltlichen Angaben,
 Während solche Modellierungen jedoch vor allem auf **offenen und zugänglichen Datenaustausch**, **Interoperabilität** sowie auf **Referenzierbarkeit** von Daten zielen, bleiben ihre historischen Entstehungskontexte, normativen Annahmen und Begriffsbestimmungen häufig unsichtbar:
 > "Metadata standards are essential in all disciplines. But they are often highly
 contested and even controversial because they embody value judgments
-either implicitly or explicitly."
+either implicitly or explicitly." {cite}`Drucker_2021`
 
 Für wen bleiben die Standards anschlussfähig? Und auf welcher Grundlage können kritische Perspektiven mitgedacht werden? Im nächsten Kapitel befassen wir uns daher mit der Frage nach diskriminierungssensiblen Metadaten.
+
+## Literatur
+
+```{bibliography}
+:filter: docname in docnames
+```

@@ -6,9 +6,9 @@ align: left
 width: 100%
 name: metadata
 ---
-Metadata, © @Markus Winkler via Unsplash
+Metadata, © Markus Winkler via <a href="https://unsplash.com/de/fotos/ein-holzklotz-mit-der-aufschrift-metadaten-der-auf-einem-tisch-liegt-9DZsVF-qLaY" class="external-link" target="_blank">Unsplash</a>
 ```
-Metadaten sind Daten über Daten. Oder wie Johanna Drucker es treffend formuliert: "Think of metadata as the information about a resource or digital asset". Die Bandbreite der Erscheinungsformen von Metadaten reicht von sehr einfachen Beschreibungen, wie etwa den grundlegenden "Get Info"-Angaben zu einem digitalen Objekt, bis hin zu hochkomplexen Metadatenstrukturen mit mehreren Ebenen, Feldern und Hierarchien, wie sie insbesondere in Museen, kulturellen Einrichtungen und Archiven zur Erschließung und Verwaltung von Beständen genutzt werden.
+Metadaten sind Daten über Daten. Oder wie Johanna Drucker es treffend formuliert: "Think of metadata as the information about a resource or digital asset" {cite}`Drucker_2021`. Die Bandbreite der Erscheinungsformen von Metadaten reicht von sehr einfachen Beschreibungen, wie etwa den grundlegenden "Get Info"-Angaben zu einem digitalen Objekt, bis hin zu hochkomplexen Metadatenstrukturen mit mehreren Ebenen, Feldern und Hierarchien, wie sie insbesondere in Museen, kulturellen Einrichtungen und Archiven zur Erschließung und Verwaltung von Beständen genutzt werden {cite}`Drucker_2021`.
 
 ```{image} ../assets/03_metadaten/abb_k03_bandbreite_metadaten.png
 ---
@@ -19,7 +19,7 @@ name: bandbreite-metadaten
 ```
 <br>
 
-Als Bestandteil von Dateien und Dokumenten geben Metadaten im Kern zusätzliche, strukturierte Informationen an, die den eigentlichen (Forschungs-)Daten, Ressourcen oder Objekten, die sie beschreiben, beigefügt werden.  Häufig stehen die Metadaten aber auch als Platzhalter für das Objekt selbst, wie es beispielsweise in Bibliothekskatalogen der Fall ist. Hier wird das ursprüngliche Objekt (z. B. ein Buch oder Film) über Metadaten definiert und identifiziert, um Materialien zu lokalisieren und Informationen einzugrenzen. Auf diese Weise ermöglichen Metadaten die Beschreibung, Identifizierung und Klassifizierung von (digitalen) Objekten und kulturellen Artefakten.
+Als Bestandteil von Dateien und Dokumenten geben Metadaten im Kern zusätzliche, strukturierte Informationen an, die den eigentlichen (Forschungs-)Daten, Ressourcen oder Objekten, die sie beschreiben, beigefügt werden {cite}`Drucker_2021,FUBerlin_oJ`. Häufig stehen die Metadaten aber auch als Platzhalter für das Objekt selbst, wie es beispielsweise in Bibliothekskatalogen der Fall ist. Hier wird das ursprüngliche Objekt (z. B. ein Buch oder Film) über Metadaten definiert und identifiziert, um Materialien zu lokalisieren und Informationen einzugrenzen. Auf diese Weise ermöglichen Metadaten die Beschreibung, Identifizierung und Klassifizierung von (digitalen) Objekten und kulturellen Artefakten.
 
 ```{figure} ../assets/03_metadaten/abb_k03_kinemathek_katalog.png
 ---
@@ -30,13 +30,13 @@ name: kinemathek-katalog
 Ergebnisansicht eines Bestandeintrags im Katalog der <a href="https://deutsche-kinemathek.bsz-bw.de/cgi-bin/koha/opac-detail.pl?biblionumber=21039" class="external-link" target="_blank">Deutschen Kinemathek Bibliothek</a>
 ```
 Für die Publikation von Forschungsdaten sind Metadaten unerlässlich, da erst durch die ergänzenden Informationen Daten zuverlässig auffindbar, eindeutig identifizierbar und damit zitierfähig werden. Die zentrale Bedeutung von Metadaten in der digitalen Forschungspraxis hebt auch Drucker hervor: 
-> "Metadata is an essential aspect of any digital scholarship or research. Data have to be described and identified in order to be useful." 
+> "Metadata is an essential aspect of any digital scholarship or research. Data have to be described and identified in order to be useful." {cite}`Drucker_2021`
 
-Die Charakterisierung von Daten über Metadaten ermöglicht es Forschenden somit, Daten in ihre jeweiligen Kontexte einzuordnen, ihre Herkunft und Struktur nachzuvollziehen und ihre Qualität zu bewerten.
+Die Charakterisierung von Daten über Metadaten ermöglicht es Forschenden somit, Daten in ihre jeweiligen Kontexte einzuordnen, ihre Herkunft und Struktur nachzuvollziehen und ihre Qualität zu bewerten {cite}`Dierkes_2021`.
 
 ## Arten von Metadaten
 
-Es gibt verschiedene Typen von Metadaten, die hinsichtlich ihrer Art und Funktion unterschieden werden:
+Es gibt verschiedene Typen von Metadaten, die hinsichtlich ihrer Art und Funktion unterschieden werden (vgl. hierzu auch {cite:alp}`ForschungsdatenInfo_2026,Riley_2017`):
 <style>
 .table-clean {
   border-collapse: collapse;
@@ -106,7 +106,7 @@ Metadaten liegen oft in maschinenlesbarer Form vor – in sogenannten Markup-Spr
 
 ```{admonition} Was sind Markup-Sprachen?
 :class: hinweis
-Markup-Sprachen (dt. Auszeichnungssprache) sind maschinenlesbare Sprachen. Sie strukturieren und formatieren Texte und Dateien, indem sie ihnen Eigenschaften - sogenannte `tags` - hinzufügen. Die bekannteste Markup-Sprache ist `html`.
+Markup-Sprachen (dt. Auszeichnungssprache) sind maschinenlesbare Sprachen. Sie strukturieren und formatieren Texte und Dateien, indem sie ihnen Eigenschaften - sogenannte `tags` - hinzufügen. Die bekannteste Markup-Sprache ist `html` {cite}`Wikipedia_Auszeichnungssprache_2026`.
 ```
 Am häufigsten wird dabei die Markup-Sprache `xml` verwendet. Metadaten liegen dann als Datensatz in einem `xml`-Dokument vor.
 
@@ -116,12 +116,12 @@ align: center
 width: 90%
 name: xml-beispiel
 ---
-`xml`-Beispiel, © NISO
+`xml`-Beispiel, © <a href="https://www.niso.org/" class="external-link" target="_blank">NISO</a> CC BY-NC 4.0 
 ```
 
 ```{admonition} Wie funktioniert XML?
 :class: hinweis, dropdown
-`xml` nutzt definierte Elemente bzw. Tags, um anzugeben, welche Bedeutung den jeweils enthaltenen Werten zukommt. Elemente können auch andere Elemente enthalten. Ein `xml`-Dokument ist ähnlich aufgebaut wie eine Baumstruktur, beginnend mit einem Stammelement.
+`xml` nutzt definierte Elemente bzw. Tags, um anzugeben, welche Bedeutung den jeweils enthaltenen Werten zukommt. Elemente können auch andere Elemente enthalten. Ein `xml`-Dokument ist ähnlich aufgebaut wie eine Baumstruktur, beginnend mit einem Stammelement {cite}`Riley_2017`.
 ```
 In den Digital Humanities hat sich die auf `xml` basierte Markup-Sprache `tei` als gängiger Standard etabliert. `tei` wurde gezielt an die Bedürfnisse geisteswissenschaftlicher Forschung angepasst.
 
@@ -133,7 +133,10 @@ In den Digital Humanities hat sich die auf `xml` basierte Markup-Sprache `tei` a
 ```
 Neben solchen spezifischen, auf Markup-Sprachen basierenden Strukturierungen von Metadaten, die in erster Linie für die Auszeichnung von Texten genutzt werden, spielen auch **allgemeine Metadatenstandards** eine wichtige Rolle. Im nächsten Kapitel gehen wir auf zwei gängige Standards ein. 
 
+## Literatur
 
-
+```{bibliography}
+:filter: docname in docnames
+```
 
 
