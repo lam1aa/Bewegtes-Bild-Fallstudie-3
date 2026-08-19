@@ -2,11 +2,11 @@
 
 Klassifizierungssysteme wie Metadatenstandards, Taxonomien oder Ontologien sind, wie zuvor erwähnt, zur Identifizierung und Organisation von Daten essentiell. Gleichsam sind sie aber auch immer Wissensmodelle, d. h., dass Wissen über festgelegte Strukturen und Beschreibungspraktiken modelliert wird. Dazu gehören die Auswahl eines kontrollierten Vokabulars sowie bereits die Auswahl der zu beschreibenden Elemente selbst. 
 Klassifizierungssysteme sind dahingehend weder wertneutral oder "objektiv" noch selbsterklärend. Sie sind historisch situiert und stellen eine spezifische Sichtweise von Welt- und Wissensordnungen her. Hierzu schreibt Drucker: 
-> "All classification systems bear within the ideological imprint of their production."
+> "All classification systems bear within the ideological imprint of their production." {cite}`Drucker_2021`
 
-Sichtbar wird solche Kritik an häufig vorzufindenden Begriffen wie beispielsweise "creator". Kunstproduktion ist nicht zwangsweise in jeder Community an eine konkrete "schöpfende" Person gebunden. Oft entstehen Werke und Arbeiten in kollektiven Herstellungsdynamiken, die explizit versuchen gesellschaftlich verfestigte Hierarchien zu überwinden. Kollektive Arbeitsweisen können so im schlimmsten Fall ungenannt und entsprechend ungewürdigt bleiben ("uncredited").
+Sichtbar wird solche Kritik an häufig vorzufindenden Begriffen wie beispielsweise "creator". Kunstproduktion ist nicht zwangsweise in jeder Community an eine konkrete "schöpfende" Person gebunden. Oft entstehen Werke und Arbeiten in kollektiven Herstellungsdynamiken, die explizit versuchen gesellschaftlich verfestigte Hierarchien zu überwinden. Kollektive Arbeitsweisen können so im schlimmsten Fall ungenannt und entsprechend ungewürdigt bleiben ("uncredited") {cite}`Drucker_2021`.
 
-Wie bereits das Beispiel des generischen Metadatenfeldes "creator" zeigt, ist die Frage nach dem Umgang mit diskriminierenden Metadaten sehr komplex. Dabei müssen einerseits wissenschaftliche Zuschreibungs- und Erschließungspraktiken selbst hinterfragt werden, andererseits geht es aber auch um die konkrete Erfassung von sensiblen Daten, wie beispielsweise rassistische oder sexistische Titel oder Inhalte in Metadaten.
+Wie bereits das Beispiel des generischen Metadatenfeldes "creator" zeigt, ist die Frage nach dem Umgang mit diskriminierenden Metadaten sehr komplex. Dabei müssen einerseits wissenschaftliche Zuschreibungs- und Erschließungspraktiken selbst hinterfragt werden, andererseits geht es aber auch um die konkrete Erfassung von sensiblen Daten, wie beispielsweise rassistische oder sexistische Titel oder Inhalte in Metadaten {cite}`Dogtas_2022`.
 
 Dieser kurze Exkurs soll dazu anregen, eine diskriminierungssensible Überprüfung von Metadaten – wo sinnvoll – in die eigenen Projektabläufe zu integrieren. 
 
@@ -28,9 +28,9 @@ Screenshot aus dem Eintrag von <a href="https://www.filmportal.de/film/der-schat
 ```
 
 Genauer heißt es in einem Ausschnitt der Beschreibung:
-> "Unterstützung im Kampf gegen die skrupellose Bande erhalten die tapferen Westmänner durch den Apachen-Häuptling Winnetou. Auf der Jagd nach dem Schatz im Silbersee gelingt es Brinkley, die Utah-Indianer aufzuwiegeln."
+> "Unterstützung im Kampf gegen die skrupellose Bande erhalten die tapferen Westmänner durch den Apachen-Häuptling Winnetou. Auf der Jagd nach dem Schatz im Silbersee gelingt es Brinkley, die Utah-Indianer aufzuwiegeln." {cite}`Filmportal_oJ`
 
-Dabei sind nicht nur die Begriffe "Häuptling" oder "Indianer" aufgrund ihrer kolonialen Prägung aus heutiger Sicht problematisch, ferner wird in der Inhaltsbeschreibung das koloniale Narrativ des Films ungebrochen reproduziert und übernommen: von "tapferen Westmännern" bis zu "aufgewiegelten Indianern".
+Dabei sind nicht nur die Begriffe "Häuptling" oder "Indianer" aufgrund ihrer kolonialen Prägung aus heutiger Sicht problematisch {cite}`{vgl. hierzu auch das postkoloniale Wörterbuch der}UniversitaetKoeln_2023`, ferner wird in der Inhaltsbeschreibung das koloniale Narrativ des Films ungebrochen reproduziert und übernommen: von "tapferen Westmännern" bis zu "aufgewiegelten Indianern".
 
 Zusätzlich verstärkt das im obigen Screenshot sichtbare Filmstill diese Fortschreibung. Die ausgewählte Darstellung verfestigt die kolonialen Verhältnisse des Beschreibungstextes. Dadurch wird deutlich, inwiefern durch textuelle und visuelle Metadatenelemente filmische Narrative und Ideologien nicht nur dokumentiert, sondern impliziert stabilisiert werden.
 
@@ -49,7 +49,7 @@ name: dnb-buchtitel-einstein
 Screenshot aus dem Eintrag des <a href="https://d-nb.info/1022343017" class="external-link" target="_blank">Datensatzes</a> zum Buchtitel "N*plastik" von Carl Einstein
 ```
 
-Für Dogtas et. al. führt die Ausschreibung des N-Wortes zur kontinuierlichen Fortschreibung seiner rassistischen Implikationen sowie zur Verfestigung der dem Begriff immanenten “komplementären Fiktion der Überlegenheit *weisser*” (Herv. i. O.).
+Für Dogtas et. al. führt die Ausschreibung des N-Wortes zur kontinuierlichen Fortschreibung seiner rassistischen Implikationen sowie zur Verfestigung der dem Begriff immanenten "komplementären Fiktion der Überlegenheit *weisser*" {cite}`Dogtas_2022{Herv. i. O.}`.
 Die unhinterfragte Übernahme diskriminierender Praktiken und Sprache führe also dazu, dass exklusive und diskriminierende Seiten der Gesellschaft weiter Einzug in unsere Systeme und Strukturen erhalten – so das Argument.
 Das Sammeln, Bewahren und Erforschen von Ressourcen ist jedoch darauf ausgelegt, die Entstehungsmerkmale zu erhalten und sie so abzubilden, wie sie sich in ihren historischen und gesellschaftlichen Kontexten präsentierten/präsentieren. 
 
@@ -85,7 +85,7 @@ name: murnau-stiftung
 Screenshot aus dem Eintrag der <a href="https://www.murnau-stiftung.de/movie/454" class="external-link" target="_blank">Murnaustiftung</a> zu *J\*d Süß* (R: Veit Harlan, DEU 1940)
 ```
 
-Zum anderen möchten wir noch auf das <a href="https://www.lib.umich.edu/about-us/policies/remediation-harmful-language-descriptions-collection-material" class="external-link" target="_blank">Statement</a> der <a href="https://www.lib.umich.edu/" class="external-link" target="_blank">University of Michigan Library</a> verweisen. Einerseits wird festgehalten, dass beschreibende Metadaten grundsätzlich nicht neutral sind, andererseits reagiert die Bibliothek direkt auf diesen Umstand und benennt Maßnahmen zur Identifizierung, Kontextualisierung und deren Überarbeitung.
+Zum anderen möchten wir noch auf das <a href="https://www.lib.umich.edu/about-us/policies/remediation-harmful-language-descriptions-collection-material" class="external-link" target="_blank">Statement</a> der <a href="https://www.lib.umich.edu/" class="external-link" target="_blank">University of Michigan Library</a> verweisen. Einerseits wird festgehalten, dass beschreibende Metadaten grundsätzlich nicht neutral sind, andererseits reagiert die Bibliothek direkt auf diesen Umstand und benennt Maßnahmen zur Identifizierung, Kontextualisierung und deren Überarbeitung {cite}`UniversityMichiganLibrary_oJ`.
 
 ```{figure} ../assets/03_metadaten/abb_k03_michigan_library.png
 ---
