@@ -21,13 +21,13 @@ Zur Beantwortung der Frage nutzte das Projekt digitale Methoden der Filmanalyse.
 `````
 ## Das Projektrepository
 
-Das Ergebnis der Datenaufbereitung, Bereinigung sowie Anreicherung ist ein öffentlich zugängliches <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset" class="external-link" target="_blank">Datenset</a> mit dem Titel: *Intervening World Projections: Audiovisuality of Climate Change – Dataset*
+Das Ergebnis der Datenaufbereitung, Bereinigung sowie Anreicherung ist ein öffentlich zugängliches <a href="https://github.com/SFB1512-C05-climate-film/intervening-world-projections-dataset" class="external-link" target="_blank">Datenset</a> mit dem Titel: *Intervening World Projections: Audiovisuality of Climate Change – Dataset* {cite}`Grotkopp_2026`.
 
 `````{margin}
 ````{admonition} Zitierhinweis
 :class: citation-information
 
-> Grotkopp, M., Pfeilschifter, Y., & Demir, D. (2026). Intervening World Projections: Audiovisuality of Climate Change – Dataset (Version 1.0.0) [Data set]. https://github.com/SFB1512-C05-climate-film
+> Grotkopp, M., Pfeilschifter, Y., & Demir, D. (2026). Intervening World Projections: Audiovisuality of Climate Change – Dataset (Version v1.0.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.21371288
 `````
 
 ```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_sfb_repository_github.png
@@ -110,7 +110,11 @@ Die hier überblicksartig skizzierten Informationen zum Datenset sind im Prinzip
 Die Erstellung eines DMPs ist der erste Schritt, um das Fundament für eine nachhaltige Datenpublikation zu ermöglichen. In den nächsten Kapiteln gehen wir die weiteren Schritte zur systematischen Aufbereitung der Forschungsdaten für die Publikation auf Repositorien durch. Doch zunächst möchten wir eine schnell erlernbare und gut reproduzierte Methode zur Anreicherung von Filmannotationsdaten anhand von Moviebarcodes vorstellen. 
 
 
+## Literatur
 
+```{bibliography}
+:filter: docname in docnames
+```
 
 
 
