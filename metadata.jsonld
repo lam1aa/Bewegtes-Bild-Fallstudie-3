@@ -127,7 +127,7 @@
       ]
     }
   ],
-  "dcterms:tableOfContents": "- Einstieg\n- Forschungsdaten & Datenmanagement in der Filmwissenschaft\n- Metadaten & Metadatenstandards\n- Datenpublikation in der Filmwissenschaft\n- Aufbereitung & Anreicherung filmwissenschaftlicher Daten\n- Publikation von Datensets in einem Repositorium\n- Reflexion & Resümee\n- Abschluss",
+  "dcterms:tableOfContents": "- Einstieg\n- Forschungsdaten und Datenmanagement in der Filmwissenschaft\n- Metadaten und Metadatenstandards\n- Datenpublikation in der Filmwissenschaft\n- Aufbereitung und Anreicherung filmwissenschaftlicher Daten\n- Publikation von Datensets in einem Repositorium\n- Reflexion und Resümee\n- Abschluss",
   "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034",
   "learningResourceType": "Jupyter Book",
   "lrmi:learningResourceType": "Jupyter Book",
