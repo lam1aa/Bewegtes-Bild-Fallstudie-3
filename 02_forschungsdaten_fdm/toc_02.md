@@ -1,4 +1,4 @@
-# Forschungsdaten & Datenmanagement in der Filmwissenschaft
+# Forschungsdaten und Datenmanagement in der Filmwissenschaft
 
 * [Einführung](../02_forschungsdaten_fdm/einführung_forschungsdaten.md)
 * [Teilprojekt](../02_forschungsdaten_fdm/teilprojektbeschreibung.md)

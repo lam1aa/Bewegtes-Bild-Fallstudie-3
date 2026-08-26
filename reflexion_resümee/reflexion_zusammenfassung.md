@@ -1,1 +1,1 @@
-# Reflexion & Resümee
+# Reflexion und Resümee

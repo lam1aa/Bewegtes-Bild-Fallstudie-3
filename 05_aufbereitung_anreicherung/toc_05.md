@@ -1,4 +1,4 @@
-# Aufbereitung & Anreicherung filmwissenschaftlicher Daten
+# Aufbereitung und Anreicherung filmwissenschaftlicher Daten
 
 * [Informationen zum Datenset](../05_aufbereitung_anreicherung/informationen_datenset.md)
 * [Annotationsdaten anreichern: Moviebarcodes](../05_aufbereitung_anreicherung/moviebarcodes.md)

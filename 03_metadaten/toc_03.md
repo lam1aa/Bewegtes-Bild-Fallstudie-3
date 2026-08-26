@@ -1,4 +1,4 @@
-# Metadaten & Metadatenstandards 
+# Metadaten und Metadatenstandards 
 
 * [Einführung Metadaten](../03_metadaten/einführung_metadaten.md)
 * [Metadaten in der Filmwissenschaft](../03_metadaten/metadaten_filmwissenschaft.md)
