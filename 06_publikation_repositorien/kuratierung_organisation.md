@@ -8,12 +8,12 @@ Doch bevor das Datenset und alle notwendigen Dateien tatsächlich in das Reposit
 
 ## Ordnerstrukturen
 
-Eine durchdachte Ordnerstruktur bildet die Basis eines nachnutzbaren Datensets. Sie erleichtert dabei nicht nur den eigenen Arbeitsprozess, sondern sorgt dafür, dass externe Nutzer:innen die publizierten Daten erschließen können. Grundsätzlich gilt: Eine Ordnerstruktur ist dann gut, wenn sie einer außenstehenden Person deutlich macht, wo welche Daten zu finden sind und wie sie zusammenhängen.
+Eine durchdachte Ordnerstruktur bildet die Basis eines nachnutzbaren Datensets. Sie erleichtert dabei nicht nur den eigenen Arbeitsprozess, sondern sorgt dafür, dass externe Nutzer:innen die publizierten Daten erschließen können. Grundsätzlich gilt: Eine Ordnerstruktur ist dann gut, wenn sie einer außenstehenden Person deutlich macht, wo welche Daten zu finden sind und wie sie zusammenhängen {cite}`RatSWD_2023`.
 
 ### Richtlinien für Ordnerstrukturen
 
 
-Die folgenden Empfehlungen haben sich nach dem <a href="https://www.konsortswd.de/ueber-uns/" class="external-link" target="_blank">Rat für Sozial- und Wirtschaftsdaten</a> sowie dem <a href="https://www.forschungsdaten-bildung.de/" class="external-link" target="_blank">Verbund Forschungsdaten Bildung</a> als Best Practice etabliert:
+Die folgenden Empfehlungen haben sich nach dem <a href="https://www.konsortswd.de/ueber-uns/" class="external-link" target="_blank">Rat für Sozial- und Wirtschaftsdaten</a> sowie dem <a href="https://www.forschungsdaten-bildung.de/" class="external-link" target="_blank">Verbund Forschungsdaten Bildung</a> als Best Practice etabliert {cite}`VerbundFDB_Dateien_oJ,RatSWD_2023`:
 
 * Die Struktur ist **hierarchisch** gegliedert und umfasst **maximal drei Unterordner-Ebenen**
 * Die Benennung ist **klar, konsistent und selbsterklärend**
@@ -61,12 +61,12 @@ Neben der Ordnerstruktur ist ein konsistentes **Dateibenennungssystem** entschei
 
 ```{admonition} Definieren von Regeln
 :class: important
-Es sollten klare Regeln definiert werden. Die Benennungsregeln sollten in einem projektinternen Dokument (z. B. einer README "Dateibenennungssystem/Dateibenennungsregeln"), festgehalten und für alle Projektmitglieder zugänglich gemacht werden. Dabei sollte zwischen der projektinternen Dateibenennung und der Benennung der zu publizierenden Daten unterschieden und diese gegebenenfalls klar voneinander getrennt werden, sollte es konkrete Abweichungen geben.
+Es sollten klare Regeln definiert werden. Die Benennungsregeln sollten in einem projektinternen Dokument (z. B. einer README "Dateibenennungssystem/Dateibenennungsregeln"), festgehalten und für alle Projektmitglieder zugänglich gemacht werden {cite}`RatSWD_2023`. Dabei sollte zwischen der projektinternen Dateibenennung und der Benennung der zu publizierenden Daten unterschieden und diese gegebenenfalls klar voneinander getrennt werden, sollte es konkrete Abweichungen geben.
 ```
 
 ### Richtlinien für Dateinamen 
 
-Die folgenden Konventionen gelten laut dem Verbund Forschungsdaten Bildung und dem <a href="https://mantra.ed.ac.uk/organisingdata/" class="external-link" target="_blank">Research Data Management Training (MANTRA)</a> der University of Edinburgh als Standard: 
+Die folgenden Konventionen gelten laut dem Verbund Forschungsdaten Bildung und dem <a href="https://mantra.ed.ac.uk/organisingdata/" class="external-link" target="_blank">Research Data Management Training (MANTRA)</a> der University of Edinburgh als Standard {cite}`UniversityEdinburgh_2022,VerbundFDB_Dateien_oJ`: 
 
 ```{admonition} Dateinamen - die wichtigsten Aspekte
 :class: keypoint
@@ -78,7 +78,7 @@ Die folgenden Konventionen gelten laut dem Verbund Forschungsdaten Bildung und d
 
 ### Schreibweisen für zusammengesetzte Namen
 
-Für zusammengesetzte Datei- und Ordnernamen haben sich diese vier Konventionen als Best Practice gezeigt:
+Für zusammengesetzte Datei- und Ordnernamen haben sich diese vier Konventionen als Best Practice gezeigt {cite}`RatSWD_2023`:
 
 <style>
 .table-clean {
@@ -136,12 +136,12 @@ Für zusammengesetzte Datei- und Ordnernamen haben sich diese vier Konventionen 
 </table>
 <br>
 
-Die Namen sollten den *Inhalt* beschreiben und dabei "so kurz wie möglich, aber so lange wie nötig" sein, um die Dateien oder Ordner verständlich zu machen.
+Die Namen sollten den *Inhalt* beschreiben und dabei "so kurz wie möglich, aber so lange wie nötig" sein, um die Dateien oder Ordner verständlich zu machen {cite}`RatSWD_2023`.
 
 
 Für Forschungsdaten und Dokumentationsdateien hat sich `snake_case` als gut lesbare und weitverbreitete Konvention etabliert. Sie wird auch im {ref}`Metadatenschema <projekt-metadatenschema>` dieses Projekts verwendet. 
 
- **Nicht empfohlen** sind Dateibenennungen wie `Beispieldatei_final`, `Beispieldatei_final2`, `Beispieldatei_FINAL_wirklich` `Beispieldatei_Bearbeitung_neu`. Sie lassen keine sinnvolle Sortierung zu, signalisieren keinen klar definierten Versionsstand und sind für andere unverständlich und nicht interpretierbar. 
+ **Nicht empfohlen** sind Dateibenennungen wie `Beispieldatei_final`, `Beispieldatei_final2`, `Beispieldatei_FINAL_wirklich` `Beispieldatei_Bearbeitung_neu`. Sie lassen keine sinnvolle Sortierung zu, signalisieren keinen klar definierten Versionsstand und sind für andere unverständlich und nicht interpretierbar {cite}`VerbundFDB_Dateien_oJ`. 
 
 ```{admonition} Dateibenennung im Projektrepository
 :class: hinweis
@@ -154,7 +154,7 @@ Alle weiteren Dateien (Metadaten und Dokumentationen) sind kleingeschrieben und 
 
 ## Versionierung ohne Git
 
-Im Abschnitt zur {ref}`Versionierung <versionierung>` im vorigen Kapitel wurde <a href="https://semver.org/" class="external-link" target="_blank">Semantic Versioning</a> (SemVer) für Git-basierte Workflows vorgestellt. Wenn keine Versionskontrolle mit Git verwendet wird, etwa in frühen Projektphasen oder bei der Zusammenarbeit über Cloud-Dienste, lässt sich folgendes, überschaubares Versionierungssystem übernehmen, das sich aus SemVer ableiten lässt. **Im Dateinamen** kann zwischen größeren und kleineren Änderungen unterschieden werden:
+Im Abschnitt zur {ref}`Versionierung <versionierung>` im vorigen Kapitel wurde <a href="https://semver.org/" class="external-link" target="_blank">Semantic Versioning</a> (SemVer) für Git-basierte Workflows vorgestellt. Wenn keine Versionskontrolle mit Git verwendet wird, etwa in frühen Projektphasen oder bei der Zusammenarbeit über Cloud-Dienste, lässt sich folgendes, überschaubares Versionierungssystem übernehmen, das sich aus SemVer ableiten lässt. **Im Dateinamen** kann zwischen größeren und kleineren Änderungen unterschieden werden {cite}`VerbundFDB_Dateien_oJ`:
 
 ```
 corpus_metadata_v1-0.csv   →   corpus_metadata_v2-0.csv   (größere Änderung)
@@ -196,7 +196,7 @@ In einer gesonderten Versionstabelle,  z. B. in einer Dokumentationsdatei oder i
 
 ```{admonition} Was ist ein Changelog?
 :class: hinweis
-Ein Changelog ist ein Änderungsprotokoll, zumeist angelegt als reine Textdatei, die wesentliche Änderungen einer Software oder einer Website dokumentiert. Sie kann ebenfalls für Forschungsdaten eingesetzt werden und ist Teil einer guten Dokumentationspraxis. Changelogs werden nicht nur intern verwendet, sie können ebenfalls im Repositorium mit publiziert werden. Vor allem bei Projekten mit größeren Datenmengen sowie vielen Änderungsverläufen lohnt sich ein öffentlich zugängliches Änderungsprotokoll. Für Git-basierte Workflows kann jedoch auch die Versionskontrolle von GitHub genutzt werden, so wie es das Projektrepository handhabt. Wie ein Changelog aufgebaut ist und worauf es zu achten gilt, kann auf <a href="https://keepachangelog.com/en/1.1.0/" class="external-link" target="_blank">Keep a Changelog</a> abgerufen werden
+Ein Changelog ist ein Änderungsprotokoll, zumeist angelegt als reine Textdatei, die wesentliche Änderungen einer Software oder einer Website dokumentiert. Sie kann ebenfalls für Forschungsdaten eingesetzt werden und ist Teil einer guten Dokumentationspraxis. Changelogs werden nicht nur intern verwendet, sie können ebenfalls im Repositorium mit publiziert werden. Vor allem bei Projekten mit größeren Datenmengen sowie vielen Änderungsverläufen lohnt sich ein öffentlich zugängliches Änderungsprotokoll. Für Git-basierte Workflows kann jedoch auch die Versionskontrolle von GitHub genutzt werden, so wie es das Projektrepository handhabt. Wie ein Changelog aufgebaut ist und worauf es zu achten gilt, kann auf <a href="https://keepachangelog.com/en/1.1.0/" class="external-link" target="_blank">Keep a Changelog</a> abgerufen werden {cite}`Lacan_2019`.
 ```
 
 ## Datensicherung und Backup
@@ -205,7 +205,7 @@ Wie kann Datenverlust minimiert oder vermieden werden? Datensicherung ist, wie d
 
 ### Speicherorte und Speicherlösungen
 
-Vor der Festlegung einer geeigneten Backup-Strategie ist es ratsam, die Wahl des Speicherortes zu klären. Nach dem Rat für Sozial- und Wirtschaftsdaten sind dabei relevante Kriterien:
+Vor der Festlegung einer geeigneten Backup-Strategie ist es ratsam, die Wahl des Speicherortes zu klären. Nach dem Rat für Sozial- und Wirtschaftsdaten sind dabei relevante Kriterien {cite}`RatSWD_2023`:
 
 * Speicherplatz: Wie groß ist das Datenvolumen insgesamt?
 * Datenzugang: Wer braucht Zugang?
@@ -220,7 +220,7 @@ Neben institutionellen Server- und Clouddiensten stehen diese weiteren Speicherl
 
 ### Backup-Strategie
 
-Als Faustregel für Backups hat sich die **3-2-1-Regel** bewährt:
+Als Faustregel für Backups hat sich die **3-2-1-Regel** bewährt {cite}`RatSWD_2023`:
 
 ```{figure} ../assets/06_publikation_repositorien/abb_k06_3-2-1_regel.png
 ---
@@ -283,3 +283,8 @@ Die Kuratierung und Organisation von Forschungsdaten ist ein essentieller Bestan
 
 ... LOS GEHT'S 🚀 ➡️ ➡️ ➡️
 
+## Literatur
+
+```{bibliography}
+:filter: docname in docnames
+```
