@@ -342,7 +342,7 @@ Für zwei Felder werden sogenannte **ISO-Standards** als kontrollierte Vokabular
 
 ```{admonition} Was sind ISO-Standards bzw. Normen?
 :class: hinweis
-ISO Normen sind weltweit anerkannte, konsensbasierte, schriftlich festgelegte Standards zur Definition für Materialien, Produkte, Dienstleistungen oder Verfahren. Sie werden von der <a href="https://www.iso.org/home.html" class="external-link" target="_blank">International Organization for Standardization</a> herausgebracht und sind nicht bindend, jedoch aber in vielen Kontexten zur Qualitätssteigerung, Sicherung und Effizienz etabliert.
+ISO Normen sind weltweit anerkannte, konsensbasierte, schriftlich festgelegte Standards zur Definition für Materialien, Produkte, Dienstleistungen oder Verfahren. Sie werden von der <a href="https://www.iso.org/home.html" class="external-link" target="_blank">International Organization for Standardization</a> herausgebracht und sind nicht bindend, jedoch aber in vielen Kontexten zur Qualitätssteigerung, Sicherung und Effizienz etabliert {cite}`BPB_2017`.
 ```
 
 Durch die Verwendung von ISO-Standards wird sichergestellt, dass die Daten maschinenlesbar, interoperabel und unabhängig von Sprache, Kultur oder Konvention interpretierbar sind. 
@@ -385,7 +385,7 @@ Das im Rahmen des Projekts entwickelte Metadatenschema steht als downloadbares [
 
 ````{admonition} Was ist eine YAML-Datei und wie kann sie genutzt werden?
 :class: hinweis
-`yaml` (YAML Ain't Markup Language) ist ein menschenlesbares Datenformat zur strukturierten Speicherung von Informationen. Es ist besonders kompakt und gut lesbar, da es auf Einrückungen statt auf Klammern oder Tags setzt. Im Kontext von Forschungsdaten werden `yaml`-Dateien häufig für die Dokumentation von Metadatenschemata genutzt, da Felder, Datentypen aber auch Regeln für eine Nachnutzung beschrieben werden können.
+`yaml` (YAML Ain't Markup Language) ist ein menschenlesbares Datenformat zur strukturierten Speicherung von Informationen. Es ist besonders kompakt und gut lesbar, da es auf Einrückungen statt auf Klammern oder Tags setzt {cite}`GitLabTeam_2025`. Im Kontext von Forschungsdaten werden `yaml`-Dateien häufig für die Dokumentation von Metadatenschemata genutzt, da Felder, Datentypen aber auch Regeln für eine Nachnutzung beschrieben werden können.
 
 Zum Öffnen und Bearbeiten der `yaml`-Datei kann ein kostenloser Code-Editor genutzt werden. In dieser OER nutzen wir für alle Beispiele <a href="https://code.visualstudio.com/" class="external-link" target="_blank">Visual Studio Code (VS Code)</a> von Microsoft, da die Software kostenfrei verfügbar und auch für Einsteiger:innen leicht zugänglich ist. Alternativ können ebenso andere, auch nicht kommerziell betriebene Text- oder Code-Editoren verwendet werden.
 ````
@@ -579,4 +579,10 @@ schema:
       - Unintended Consequences
       - Collisions
       description: "Project-specific analysis categories"
+```
+
+## Literatur
+
+```{bibliography}
+:filter: docname in docnames
 ```
