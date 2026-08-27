@@ -24,7 +24,7 @@ Bevor die Daten auf GitHub hochgeladen werden, sollten zunächst Fragen der Vers
 
 Die Versionierung von Forschungsdaten ermöglicht eine eindeutige Referenzierung und Nachvollziehbarkeit bestimmter Veröffentlichungsstände eines Datensatzes. Sie trägt dazu bei, Änderungen transparent zu dokumentieren und unterschiedliche Versionen digitaler Forschungsartefakte voneinander abzugrenzen.
 
-Für die Versionierung existieren unterschiedliche Ansätze. Ein besonders verbreitetes System zur Versionierung ist <a href="https://semver.org/" class="external-link" target="_blank">Semantic Versioning</a>: kurz "SemVer". Ursprünglich in der Softwareentwicklung etabliert, wird es heute auch für Forschungsdaten aller Art angewandt. SemVer dokumentiert kleinteilig alle Versionsnummern und Änderungsverläufe publizierter oder publikationsreifer Software und Daten bzw. Datensätze. 
+Für die Versionierung existieren unterschiedliche Ansätze. Ein besonders verbreitetes System zur Versionierung ist <a href="https://semver.org/" class="external-link" target="_blank">Semantic Versioning</a>: kurz "SemVer". Ursprünglich in der Softwareentwicklung etabliert, wird es heute auch für Forschungsdaten aller Art angewandt. SemVer dokumentiert kleinteilig alle Versionsnummern und Änderungsverläufe publizierter oder publikationsreifer Software und Daten bzw. Datensätze {cite}`PrestonWerner_2013`. 
 
 Neben SemVer werden auch andere Versionierungsschemata verwendet, beispielsweise fortlaufende Versionsnummern (v1, v2...) oder datumsbasierte Versionierungen (siehe: <a href="https://calver.org/)" class="external-link" target="_blank">CalVer</a>). Für GitHub-basierte Workflows hat sich SemVer jedoch als Standard etabliert. Da das vorliegende Projekt die Daten auf GitHub/Zenodo publiziert, soll das Schema hier vorgestellt werden. 
 
@@ -70,9 +70,9 @@ Neben der Versionierung, ist weiterer zentraler Schritt der Publikation die Verg
 Insbesondere für kreative Werke und Texte, aber auch für Forschungsdaten oder Annotationen haben sich die <a href="https://creativecommons.org/" class="external-link" target="_blank">Creative-Commons-Lizenzen </a> als übergreifender, internationaler Standard etabliert. 
 
 #### Was ist CC?
-> Creative Commons (CC) ist eine Non-Profit-Organisation, die in Form vorgefertigter Lizenzverträge eine Hilfestellung für Urheber zur Freigabe rechtlich geschützter Inhalte anbietet.
+> "Creative Commons (CC) ist eine Non-Profit-Organisation, die in Form vorgefertigter Lizenzverträge eine Hilfestellung für Urheber zur Freigabe rechtlich geschützter Inhalte anbietet" {cite}`CreativeCommonsDeutschland_2020`.
 
-Es werden sechs Standards-Lizenzverträge angeboten, die für die Publikation und Verbreitung kreativer Inhalte oder Ressourcen genutzt werden können, um die rechtlichen Bedingungen zu definieren. Sie bestehen aus kombinierbaren Modulen, die unterschiedliche Nutzungsrechte festlegen.
+Es werden sechs Standards-Lizenzverträge angeboten, die für die Publikation und Verbreitung kreativer Inhalte oder Ressourcen genutzt werden können, um die rechtlichen Bedingungen zu definieren. Sie bestehen aus kombinierbaren Modulen, die unterschiedliche Nutzungsrechte festlegen {cite}`Forschungsdateninfo_CC_oJ`.
 
 ````{margin}
 ```{admonition} Siehe auch:
@@ -149,16 +149,17 @@ Daraus ergeben sich sechs Lizenzkombinationen sowie zusätzlich die Lizenz <a hr
 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" class="external-link" target="_blank">CC BY-NC-ND</a> ·
 <a href="https://creativecommons.org/publicdomain/zero/1.0/" class="external-link" target="_blank">CC0</a>
 
-Wer im Sinne der {ref}`FAIR-Prinzipien <leitlinien-fair>` handelt will, sollte für Forschungsdaten die möglichst offene Lizenz <a href="https://creativecommons.org/licenses/by/4.0/" class="external-link" target="_blank">CC BY 4.0</a> wählen, da sie die Nachnutzung und Zitierbarkeit unter Namensnennung sicherstellt.
+Wer im Sinne der {ref}`FAIR-Prinzipien <leitlinien-fair>` handelt will, sollte für Forschungsdaten die möglichst offene Lizenz <a href="https://creativecommons.org/licenses/by/4.0/" class="external-link" target="_blank">CC BY 4.0</a> wählen, da sie die Nachnutzung und Zitierbarkeit unter Namensnennung sicherstellt {cite}`Forschungsdateninfo_CC_oJ`.
 
 ```{admonition} Keine Lizenzangabe
 :class: caution
-Ohne explizite Lizenzangabe gilt automatisch das Urheberrecht, das heißt, dass eine Nachnutzung ohne Rückfrage rechtlich nicht erlaubt ist.
+Ohne explizite Lizenzangabe gilt automatisch das Urheberrecht, das heißt, dass eine Nachnutzung ohne Rückfrage rechtlich nicht erlaubt ist. Andere Forschende sind: 
+> "...nur im Rahmen der gesetzlichen Schranken zur Nutzung von urheberrechtlich geschützten Materialien berechtigt, z. B. durch das Zitatrecht (§ 51 UrhG) oder für eigene bzw. gemeinschaftliche, nicht-kommerzielle, wissenschaftliche Forschung (§ 60c UrhG)" {cite}`Brettschneider_2021`.
 ```
 
 #### Was ist der Unterschied zwischen 4.0 und 3.0?
 
-Die CC-Versionen 4.0 sind die aktuellen und überarbeiteten Lizenzverträge, welche ausdrücklich empfohlen werden. Ab Version 4.0 decken die CC-Lizenzen ebenfalls Datenbankrechte ab. Insofern sind die Lizenzen auch explizit für Forschungsdaten geeignet. Forschungsdateninfo weist darauf hin, dass bei früheren Versionen die Schutzwirkung fraglich ist.
+Die CC-Versionen 4.0 sind die aktuellen und überarbeiteten Lizenzverträge, welche ausdrücklich empfohlen werden {cite}`UniversityMinnesota_oJ`. Ab Version 4.0 decken die CC-Lizenzen ebenfalls Datenbankrechte ab. Insofern sind die Lizenzen auch explizit für Forschungsdaten geeignet. forschungsdaten\.info weist darauf hin, dass bei früheren Versionen die Schutzwirkung fraglich ist {cite}`Forschungsdateninfo_CC_oJ`.
 
 #### Welche Lizenz passt zu meinen Daten?
 
@@ -187,7 +188,7 @@ Fragebogen des CC License Choosers
 ```{admonition} Unwiderruflichkeit von CC-Lizenzen 
 :class: caution
 Eine einmal vergebene Lizenz kann nicht zurückgezogen werden. Ein Werk kann also auch dann noch weiterhin gemäß den ursprünglichen Lizenzbedingungen genutzt werden, wenn der/die Urheber:in die Lizenz nachträglich ändern möchte. Neue Versionen eines Datensatzes können jedoch unter einer anderen Lizenz veröffentlicht werden. 
-Für die Praxis bedeutet dies, dass die Lizenzvergabe **vor** der Publikation sorgfältig zu prüfen ist. Nachträgliche Änderungen (z. B. von CC BY zu CC BY-NC) gelten dann nur für neue Versionen, nicht für bereits veröffentlichte Stände.
+Für die Praxis bedeutet dies, dass die Lizenzvergabe **vor** der Publikation sorgfältig zu prüfen ist. Nachträgliche Änderungen (z. B. von CC BY zu CC BY-NC) gelten dann nur für neue Versionen, nicht für bereits veröffentlichte Stände {cite}`Kreutzer_2016`. 
 ```
 
 ### Lizenzen für Code und Software
@@ -197,7 +198,7 @@ Für Programmcode oder beispielsweise Pythonskripte und Software jeglicher Art g
 ````{margin}
 ```{admonition} Was bedeutet "Copyleft"
 :class: hinweis
-Das Copyleft Lizenzmodell erlaubt Nutzenden die freie Bearbeitung und Verbreitung eines Werkes (z. B. Erweiterung, Veränderung), sofern jegliche Bearbeitung unter die Lizenz des ursprünglichen Werkes gestellt wird.
+Das Copyleft Lizenzmodell erlaubt Nutzenden die freie Bearbeitung und Verbreitung eines Werkes (z. B. Erweiterung, Veränderung), sofern jegliche Bearbeitung unter die Lizenz des ursprünglichen Werkes gestellt wird {cite}`Wikipedia_Copyleft_2024`.
 ```
 ````
 
@@ -211,7 +212,7 @@ Das Copyleft Lizenzmodell erlaubt Nutzenden die freie Bearbeitung und Verbreitun
 
 ### Lizenzierung in der Filmwissenschaft
 
-Die Lizenzierung von Forschungsdaten und Forschungsmaterial ist durch das geltende Urheberrecht an audiovisuellem Material recht komplex. Primärdaten wie Filme, Filmausschnitte, Screenshots oder Videomaterial sind urheberrechtlich geschützt und können in der Regel **nicht offen publiziert werden**. Eine Ausnahme ist das Bildzitatrecht, das unter bestimmten Bedingungen greift.
+Die Lizenzierung von Forschungsdaten und Forschungsmaterial ist durch das geltende Urheberrecht an audiovisuellem Material recht komplex. Primärdaten wie Filme, Filmausschnitte, Screenshots oder Videomaterial sind urheberrechtlich geschützt und können in der Regel **nicht offen publiziert werden**. Eine Ausnahme ist das Bildzitatrecht, das unter bestimmten Bedingungen greift (in Deutschland geregelt in §51 des Urheberrechtsgesetzes (UrhG)).
 
 Für die Publikation von {ref}`Primär- und Sekundärdaten  <primär-sekundär>` gelten folgende Empfehlungen:
 
@@ -387,7 +388,7 @@ Mehr Informationen zu **persistenten Identifikatoren** gibt es in unserer  <a hr
 ```
 ````
 
-Wichtig für die Zitierfähigkeit der Daten ist in jedem Fall ein **persistenter Identifikator** (kurz: PID). Dies ist für Forschungsdaten häufig eine DOI (**D**igital **O**bject **I**dentifier), also ein eindeutiger und permanenter Identifikator für digitale Objekte wie beispielsweise wissenschaftliche Aufsätze, Publikationen, Forschungsdaten oder Videos. Ähnlich wie eine ISBN-Nummer, dienen DOI's dazu, Objekte im Internet dauerhaft auffindbar und zitierbar zu machen. Eine DOI besteht häufig aus einer Aneinanderreihung von Zahlen. Die Kennung beginnt immer mit 10, zum Beispiel: `doi:10.1000/199`.
+Wichtig für die Zitierfähigkeit der Daten ist in jedem Fall ein **persistenter Identifikator** (kurz: PID). Dies ist für Forschungsdaten häufig eine DOI (**D**igital **O**bject **I**dentifier), also ein eindeutiger und permanenter Identifikator für digitale Objekte wie beispielsweise wissenschaftliche Aufsätze, Publikationen, Forschungsdaten oder Videos. Ähnlich wie eine ISBN-Nummer, dienen DOI's dazu, Objekte im Internet dauerhaft auffindbar und zitierbar zu machen. Eine DOI besteht häufig aus einer Aneinanderreihung von Zahlen. Die Kennung beginnt immer mit 10, zum Beispiel: `doi:10.1000/199` {cite}`FUBerlin_DOI_oJ`.
 Die DOI sollte in der `CITATION.cff` angegeben werden. Viele Repositorien vergeben DOIs bei einer Publikation automatisch. Eine Übersicht für Repositorien mit DOI-Vergabe findet sich {ref}`hier <repositorien-doivergabe>`. 
 
 ```{admonition} DOI-Vergabe und GitHub
@@ -402,3 +403,9 @@ Für die Vergabe von DOIs wird GitHub in der Regel mit einem Repositorium wie Ze
 * Zenodo-Dokumentation: <a href="https://help.zenodo.org/docs/github/describe-software/" class="external-link" target="_blank">Describe software</a>
 ```
 Sind die Grundlagen zur Versionierung, Lizenzierung und Zitierfähigkeit geklärt, rückt die Veröffentlichung einen Schritt näher. Ein Aspekt, der im Vorfeld jedoch häufig unterschätzt wird, ist die Kuratierung und Organisation der Daten. Diesem Thema widmet sich das folgende Kapitel. 
+
+## Literatur
+
+```{bibliography}
+:filter: docname in docnames
+```
