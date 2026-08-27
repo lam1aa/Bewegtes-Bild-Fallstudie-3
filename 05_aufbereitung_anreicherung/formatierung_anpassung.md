@@ -1,16 +1,16 @@
 # Dateiformate und Dokumentation
 
-Werden Forschungsdaten in Repositorien veröffentlicht, so ist es wichtig, Dateiformate zu wählen, die einen langfristigen Zugang sichern und die Nachnutzbarkeit bzw. Wiederverwendung durch Dritte ermöglichen. Grundsätzlich empfiehlt es sich nach den 
+Werden Forschungsdaten in Repositorien veröffentlicht, so ist es wichtig, Dateiformate zu wählen, die einen langfristigen Zugang sichern und die Nachnutzbarkeit bzw. Wiederverwendung durch Dritte ermöglichen {cite}`Forschungsdateninfo_Dateiformate_2026`. Grundsätzlich empfiehlt es sich nach den 
 {ref}`FAIR-Prinzipien<leitlinien-fair>` **offene** und  **nicht-proprietäre Formate** zu wählen, darunter zählen beispielsweise Formate wie `csv` oder `json`, hierzu gleich mehr. Doch was bedeutet offen und nicht-proprietär genau?
 
-Nicht-proprietäre Formate sind Formate, die sich ohne die "dazugehörigen Anwendungs-, Hilfs- oder Systemprogramme öffnen, bearbeiten und speichern lassen."  Das bedeutet, dass keine spezifische, ggf. kostenpflichtige Software zur Verarbeitung und Weiterverwendung der Daten notwendig ist. Dies ist eine Grundvoraussetzung dafür, dass Daten langfristig nutzbar sind und bleiben – unabhängig davon, ob eine bestimmte Software, Programme oder Tools in 10 oder 20 Jahren noch verfügbar sind. Für die Speicherung in nicht-proprietären Formate ist es notwendig, die Daten zu exportieren bzw. zu konvertieren. 
+Nicht-proprietäre Formate sind Formate, die sich ohne die "dazugehörigen Anwendungs-, Hilfs- oder Systemprogramme öffnen, bearbeiten und speichern lassen" {cite}`Forschungsdateninfo_Dateiformate_2026`. Das bedeutet, dass keine spezifische, ggf. kostenpflichtige Software zur Verarbeitung und Weiterverwendung der Daten notwendig ist. Dies ist eine Grundvoraussetzung dafür, dass Daten langfristig nutzbar sind und bleiben – unabhängig davon, ob eine bestimmte Software, Programme oder Tools in 10 oder 20 Jahren noch verfügbar sind. Für die Speicherung in nicht-proprietären Formate ist es notwendig, die Daten zu exportieren bzw. zu konvertieren. 
 
 ```{admonition} Datenverlust bedenken
 :class: danger
-<a href="https://forschungsdaten.info/fdm-allgemein/veroeffentlichen-und-archivieren/dateiformate" class="external-link" target="_blank">forschungsdaten.info</a> empfiehlt, möglichst beide Formate, also das Original sowie die konvertierte Version, parallel zu veröffentlichen, da es bei der Konvertierung ggf. zu Datenverlust kommen kann.
+forschungsdaten\.info empfiehlt, möglichst beide Formate, also das Original sowie die konvertierte Version, parallel zu veröffentlichen, da es bei der Konvertierung ggf. zu Datenverlust kommen kann.
 ```
 
-Neben der Notwendigkeit der Langzeitsicherung spielen auch andere Prinzipien dabei eine wichtige Rolle: **Maschinenlesbarkeit** und **Interoperabilität**. Maschinenlesbare Formate ermöglichen es, die Daten automatisiert zu verarbeiten, zu filtern und in andere Systeme zu importieren. Interoperabilität heißt, dass Daten mit unterschiedlichen Tools und in unterschiedlichen Kontexten genutzt werden können, ohne an ein bestimmtes System gebunden zu sein.
+Neben der Notwendigkeit der Langzeitsicherung spielen auch andere Prinzipien dabei eine wichtige Rolle: **Maschinenlesbarkeit** und **Interoperabilität**. Maschinenlesbare Formate ermöglichen es, die Daten automatisiert zu verarbeiten, zu filtern und in andere Systeme zu importieren {cite}`FUBerlin_2021`. Interoperabilität heißt, dass Daten mit unterschiedlichen Tools und in unterschiedlichen Kontexten genutzt werden können, ohne an ein bestimmtes System gebunden zu sein {cite}`Wilkinson_2016`.
 
 Im Rahmen des Projekt-Repositoriums stellen wir die Korpus,- Annotations- und Moviebarcodemetadaten in den Formaten `xlsx`, `csv`, `html` und `json` zur Verfügung.
 
@@ -23,12 +23,12 @@ Im Folgenden werden die (Export-)Formate kurz vorgestellt.
 ## XLSX (Microsoft Excel Open XML)
 
 `xlsx` ist das native Dateiformat für Tabellenkalkulationen von Microsoft Excel. Im Projektkontext dient es als **primäres Arbeitsformat**. Die Masterdatei der Korpusmetadaten wird in Excel gepflegt, da das Format mehrere Tabellenblätter, Kommentarfunktionen, bedingte Formatierungen, Listen uvm. ermöglicht. Diese Funktionen sind im Laufe von kontinuierlichen Arbeitsprozessen sehr hilfreich. 
-`xlsx` wird jedoch nicht als primäres Publikationsformat verwendet, da es ein proprietäres Format ist. Wie von forschungsdaten.info empfohlen, wird es jedoch parallel mit publiziert.
+`xlsx` wird jedoch nicht als primäres Publikationsformat verwendet, da es ein proprietäres Format ist. Wie von forschungsdaten\.info empfohlen, wird es jedoch parallel mit publiziert {cite}`Forschungsdateninfo_Dateiformate_2026`.
 
 ## CSV (Comma-Separated Values)
 
-`csv` ist ein einfaches, textbasiertes Format für tabellarische Daten. Gespeichert werden die Werte üblicherweise durch ein Komma `,` als Trennzeichen. Es ist das am weitesten verbreitete offene Formate für strukturierte Daten und kann von nahezu jeder Software gelesen werden (Texteditor, Python, R).
-`csv` eignet sich gut für den Datenaustausch und maschinelle Verwertbarkeit, hat aber auch einige Nachteile. Es unterstützt beispielsweise keine komplexeren oder verschachtelten Datenstrukturen.
+`csv` ist ein einfaches, textbasiertes Format für tabellarische Daten. Gespeichert werden die Werte üblicherweise durch ein Komma `,` als Trennzeichen {cite}`Shafranovich_2005`. Es ist ein weit verbreitetes offenes Format für strukturierte Daten und kann von nahezu jeder Software gelesen werden (Texteditor, Python, R).
+`csv` eignet sich gut für den Datenaustausch und maschinelle Verwertbarkeit, hat aber auch einige Nachteile. Es unterstützt beispielsweise keine komplexeren oder verschachtelten Datenstrukturen {cite}`LibraryOfCongress_2024`.
 
 Für eine bessere Übersichtlichkeit wird hier zur Demonstrierung ein (verkürzter) generischer Beispieldatensatz mit Filmmetadaten verwendet:
 
@@ -45,7 +45,7 @@ Wie hier zu erkennen ist, werden die Feldtrennzeichen durch ein Semikolon `;` ge
 (json-format)=
 ## JSON (JavaScript Object Notation)
 
-`json` ist ein einfaches und kompaktes Format für strukturierte Daten, das ebenfalls in einer lesbaren Textform vorliegt und den Datenaustausch zwischen verschiedenen Anwendungen (z. B. Webanwendungen, APIs) ermöglicht. Informationen werden dabei in Form von Schlüssel-Wert-Paaren organisiert und können zu Objekten und Listen zusammengefasst werden. Im Gegensatz zu `csv` kann `json` hierarchische und verschachtelte Strukturen abbilden. 
+`json` ist ein einfaches und kompaktes Format für strukturierte Daten, das ebenfalls in einer lesbaren Textform vorliegt und den Datenaustausch zwischen verschiedenen Anwendungen (z. B. Webanwendungen, APIs) ermöglicht. Informationen werden dabei in Form von Schlüssel-Wert-Paaren organisiert und können zu Objekten und Listen zusammengefasst werden. Im Gegensatz zu `csv` kann `json` hierarchische und verschachtelte Strukturen abbilden {cite}`Bray_2017`. 
 
 Der generische Beispieldatensatz (gekürzt) als `json`-Eintrag sieht dann so aus:
 
@@ -126,7 +126,7 @@ Als viertes Format wird ein interaktives, durchsuchbares `html`-Dokument bereitg
 ```
 
 Was ist `html`? `html` ist eine Auszeichnungssprache (Markup-Language) zur Strukturierung und Darstellung von Inhalten im Web. Anders als `csv` oder `json` dient `html` nicht primär dem Datenaustausch, sondern der Beschreibung von Inhalten wie Texte mit Hyperlinks, Bildern, Überschriften, Absätzen usw. 
-`html` basiert auf sogenannten Tags, die den Inhalt eines Dokuments (semantisch) gliedern. Jedes Element besteht aus einem öffnenden Tag, dem Inhalt und einem schließenden Tag:
+`html` basiert auf sogenannten Tags, die den Inhalt eines Dokuments (semantisch) gliedern. Jedes Element besteht aus einem öffnenden Tag, dem Inhalt und einem schließenden Tag {cite}`MDN_HTML_2026`:
 
 ```{figure} ../assets/05_aufbereitung_anreicherung/abb_k05_html_tags_elemente.png
 ---
@@ -264,3 +264,9 @@ Die folgende Tabelle fasst alle wichtigsten Informationen der bereitgestellten D
 <br>
 
 Im nachfolgenden Abschnitt wird Schritt für Schritt demonstriert, wie die Metadaten aus dem primären Arbeitsformat `xlsx` in die anderen Formate überführt werden können.  
+
+## Literatur
+
+```{bibliography}
+:filter: docname in docnames
+```
