@@ -1,4 +1,4 @@
-# Formatkonvertierungen und -exporte
+# Formatkonvertierungen
 
 Dieser Abschnitt dokumentiert, wie die Metadaten aus dem Projektkorpus aus dem primären Arbeitsformat `xlsx` in die offenen Publikationsformate `cvs`, `html` und `json` exportiert bzw. überführt wurden. Die Schritte sind so aufbereitet, dass sie für eigene Datenprojekte reproduziert werden können. Für die Ver- und Bearbeitung der Dateien kann ein kostenloser Code-Editor genutzt werden. In dieser OER nutzen wir für alle Beispiele <a href="https://code.visualstudio.com/" class="external-link" target="_blank">Visual Studio Code (VS Code)</a> von Microsoft, da die Software kostenfrei verfügbar ist und auch für Einsteiger:innen leicht zugänglich. Alternativ können ebenso andere, auch nicht kommerziell betriebene Text- oder Code-Editoren verwendet werden.
 

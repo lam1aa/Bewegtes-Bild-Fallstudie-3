@@ -1,6 +1,4 @@
-# Formate, Konvertierung, Dokumentation
-
-## Dateiformate
+# Dateiformate und Dokumentation
 
 Werden Forschungsdaten in Repositorien veröffentlicht, so ist es wichtig, Dateiformate zu wählen, die einen langfristigen Zugang sichern und die Nachnutzbarkeit bzw. Wiederverwendung durch Dritte ermöglichen. Grundsätzlich empfiehlt es sich nach den 
 {ref}`FAIR-Prinzipien<leitlinien-fair>` **offene** und  **nicht-proprietäre Formate** zu wählen, darunter zählen beispielsweise Formate wie `csv` oder `json`, hierzu gleich mehr. Doch was bedeutet offen und nicht-proprietär genau?
@@ -22,12 +20,12 @@ Neben den Metadaten, werden die Annotationspakete ebenfalls als `json`-Export be
 ```
 Im Folgenden werden die (Export-)Formate kurz vorgestellt.
 
-### XLSX (Microsoft Excel Open XML)
+## XLSX (Microsoft Excel Open XML)
 
 `xlsx` ist das native Dateiformat für Tabellenkalkulationen von Microsoft Excel. Im Projektkontext dient es als **primäres Arbeitsformat**. Die Masterdatei der Korpusmetadaten wird in Excel gepflegt, da das Format mehrere Tabellenblätter, Kommentarfunktionen, bedingte Formatierungen, Listen uvm. ermöglicht. Diese Funktionen sind im Laufe von kontinuierlichen Arbeitsprozessen sehr hilfreich. 
 `xlsx` wird jedoch nicht als primäres Publikationsformat verwendet, da es ein proprietäres Format ist. Wie von forschungsdaten.info empfohlen, wird es jedoch parallel mit publiziert.
 
-### CSV (Comma-Separated Values)
+## CSV (Comma-Separated Values)
 
 `csv` ist ein einfaches, textbasiertes Format für tabellarische Daten. Gespeichert werden die Werte üblicherweise durch ein Komma `,` als Trennzeichen. Es ist das am weitesten verbreitete offene Formate für strukturierte Daten und kann von nahezu jeder Software gelesen werden (Texteditor, Python, R).
 `csv` eignet sich gut für den Datenaustausch und maschinelle Verwertbarkeit, hat aber auch einige Nachteile. Es unterstützt beispielsweise keine komplexeren oder verschachtelten Datenstrukturen.
@@ -45,7 +43,7 @@ The Zone of Interest;2023;GB;Jonathan Glazer;Drama
 Wie hier zu erkennen ist, werden die Feldtrennzeichen durch ein Semikolon `;` getrennt. **Warum ist das so?** Im deutschsprachigen Raum entspricht das Semikolon als Trennzeichen den verbreiteten Standardkonventionen von Tabellenkalkulationsprogrammen wie Microsoft Excel, da das Komma üblicherweise als Dezimaltrennzeichen genutzt wird. International ist jedoch das Komma das etablierte Trennzeichen. Beide Varianten sind möglich und erfordern etwaiige Abwegungen von Vor- und Nachteilen. 
 
 (json-format)=
-### JSON (JavaScript Object Notation)
+## JSON (JavaScript Object Notation)
 
 `json` ist ein einfaches und kompaktes Format für strukturierte Daten, das ebenfalls in einer lesbaren Textform vorliegt und den Datenaustausch zwischen verschiedenen Anwendungen (z. B. Webanwendungen, APIs) ermöglicht. Informationen werden dabei in Form von Schlüssel-Wert-Paaren organisiert und können zu Objekten und Listen zusammengefasst werden. Im Gegensatz zu `csv` kann `json` hierarchische und verschachtelte Strukturen abbilden. 
 
@@ -118,7 +116,7 @@ Die eckigen Klammern markieren Listenanfang und -ende. Eine Liste kann mehrere O
 
 Im Projekt wird `json` als ein alternatives Publikationsformat zur Verfügung gestellt, da es eine direkte Einbindung in digitale Anwendungen ermöglicht und somit das Nachnutzungspotenzial stärkt.
 
-### HTML (HyperText Markup Language)
+## HTML (HyperText Markup Language)
 
 Als viertes Format wird ein interaktives, durchsuchbares `html`-Dokument bereitgestellt. Dies erlaubt Nutzenden, die Metadaten direkt im Browser zu durchsuchen und zu filtern – ohne zusätzliche Software- oder Programmierkenntnisse. Die `html`-Variante richtet sich also vornehmlich an Nutzende, die unkomplizierte Recherchen am Datensatz vornehmen wollen. 
 
