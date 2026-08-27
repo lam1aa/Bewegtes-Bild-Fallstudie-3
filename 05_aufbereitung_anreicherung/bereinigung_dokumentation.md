@@ -196,7 +196,7 @@ Im gewählten Ordnerverzeichnis sollte nun ein sogenanntes Markdown-Dokument mit
 
 ```{admonition} Was ist Markdown?
 :class: hinweis
-Markdown ist eine leichte Auszeichnungssprache, die mit einfachen Zeichen (bzw. einer schnell lesbaren und lernbaren Syntax) Formatierungen ausdrückt: *kursiv* oder **fett** zeigen Betonungen an, Listen sehen wie tatsächliche Listen aus. Markdown-Dateien sind also im Klartext geschrieben und werden beispielsweise von Plattformen wie GitHub, Zenodo oder Jupyter Book gerendered, d. h. es wird eine menschenfreundliche Darstellung erzeugt.
+Markdown ist eine leichte Auszeichnungssprache, die mit einfachen Zeichen (bzw. einer schnell lesbaren und lernbaren Syntax) Formatierungen ausdrückt: *kursiv* oder **fett** zeigen Betonungen an, Listen sehen wie tatsächliche Listen aus. Markdown-Dateien sind also im Klartext geschrieben und werden beispielsweise von Plattformen wie GitHub, Zenodo oder Jupyter Book gerendered, d. h. es wird eine menschenfreundliche Darstellung erzeugt {cite}`Gruber_2004`.
 ```
 
 Wenn in der Ausgabedatei alles korrekt ist und mit dem Schema übereinstimmt, dann steht im Report:
@@ -384,3 +384,9 @@ Dokumentationsebenen für die Datenpublikation
 ```
 
 Mit der Aufbereitung, Bereinigung und Dokumentation der Forschungsdaten sind die wesentlichen Voraussetzungen für die Publikation geschaffen. Bevor im sechsten Lernmodul [Publikation von Datensets in einem Repositorium](../06_publikation_repositorien/toc_06.md) die konkreten Schritte der Veröffentlichung behandelt werden, greift der folgende Exkurs die vorgestellten Überlegungen und Impulse aus dem zweiten Lernmodul zu [diskriminierungssensiblen Metadaten](../03_metadaten/diskriminierungssensible_metadaten.md) wieder auf und führt eine punktuelle exemplarische Überprüfung anhand der Korpusmetadaten des Projektes durch.
+
+## Literatur
+
+```{bibliography}
+:filter: docname in docnames
+```

@@ -213,5 +213,11 @@ Es konnte kein direkter ideologischer Bezug zu diskriminierendem Vokabular aufgr
 
 Quantitative Auswertungen von Metadaten erlauben Aussagen über die Organisation oder Struktur eines Korpus, nicht jedoch über seine Diskursivität. Dass westliche Produktionen dominieren, sagt beispielsweise noch nichts darüber aus, wie diese Produktionen den Klimawandel filmisch verhandeln, welche Perspektiven und Machtgefälle sie reproduzieren oder unterlaufen oder welche narrativen und ästhetischen Strategien sie einsetzen. Die hier vorgestellten Auswertungen sind daher als methodisches Werkzeug einer diskriminierungssensiblen Überprüfung zu verstehen. Sie dienen dazu, strukturelle Tendenzen und mögliche Ungleichgewichte im Korpus (oder darüber hinaus) sichtbar und diskutierbar zu machen sowie Ansatzpunkte für weiterführende qualitative Analysen zu identifizieren. Aussagen über diskriminierende Darstellungsweisen hingegen erfordern weiterführende Untersuchungen der einzelnen Werke sowie ihrer konkreten ästhetischen, affektiven, narrativen sowie geschichtlichen Kontexte. 
 
+[^1]: Die hier verwendete Kategorie Geschlecht dient ausschließlich der exemplarischen Auswertung der Korpusmetadaten und stellt ausdrücklich keine gegebene Klassifikation dar. "Geschlecht" wird in den Gender Studies vielmehr als sozial und kulturell hervorgebrachte sowie historisch wandelbare Kategorie verstanden {cite}`{vgl. hierzu }Beauvoir_2000,Butler_2006`. Die im Projekt verwendete binäre Codierung (m/w) geht aus der Verfügbarkeit der erhobenen Metadaten hervor und erhebt keinen normativen Anspruch. Je nach Forschungsfrage und Korpus kann eine differenziertere Erfassung erforderlich und methodisch angemessener sein.
 
-[^1]: Die hier verwendete Kategorie Geschlecht dient ausschließlich der exemplarischen Auswertung der Korpusmetadaten und stellt ausdrücklich keine gegebene Klassifikation dar. "Geschlecht" wird in den Gender Studies vielmehr als sozial und kulturell hervorgebrachte sowie historisch wandelbare Kategorie verstanden (vgl. hierzu: Simone de Beauvoir 1949; Judith Butler 1990). Die im Projekt verwendete binäre Codierung (m/w) geht aus der Verfügbarkeit der erhobenen Metadaten hervor und erhebt keinen normativen Anspruch. Je nach Forschungsfrage und Korpus kann eine differenziertere Erfassung erforderlich und methodisch angemessener sein.
+## Literatur
+
+```{bibliography}
+:filter: docname in docnames
+```
+
