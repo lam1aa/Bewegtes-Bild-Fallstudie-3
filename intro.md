@@ -3,6 +3,28 @@ lang: de-DE
 ---
 # Anreicherung und Publikation von Annotationsdatensets auf Repositorien
 
+````{margin}
+```{admonition} Fragen oder Feedback 
+:class: frage-feedback
+
+Fragen, Anregungen oder Hinweise zur OER können gerne geteilt werden:
+1. <a href="https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3/issues/new?template=frage.yml" class="external-link" target="_blank">Eine Frage stellen</a> 
+2. <a href="https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-3/issues/new?template=feedback.yml" class="external-link" target="_blank">Feedback geben</a>
+3. [Quadriga-Helpdesk](mailto:d.demir@fu-berlin.de?subject=[GitHub]%20Feedback%20Bewegtes-Bild-Fallstudie-3) (E-Mail)
+```
+````
+
+`````{margin}
+````{admonition} Zitierhinweis
+:class: citation-information
+```{literalinclude} /CITATION.bib
+:language: bibtex
+```
+Demir, D. & Grotkopp, M. (2026). _Anreicherung und Publikation von Annotationsdatensets auf Repositorien._ https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-3/intro.html
+````
+`````
+
+
 ```{figure} ./assets/intro/abb_intro_mb_e110t_0.png
 :name: moviebarcode-blue-planet-seasonal-seas
 
