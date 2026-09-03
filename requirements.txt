@@ -5,3 +5,4 @@ jupyterquiz==2.8.*
 matplotlib
 numpy
 ipywidgets==8.1.7
+sphinxcontrib-mermaid

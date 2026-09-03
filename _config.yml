@@ -78,6 +78,7 @@ html:
 sphinx:
   extra_extensions:
     - sphinx_apa_references
+    - sphinxcontrib.mermaid
   config:
     bibtex_reference_style: author_year
     suppress_warnings:
